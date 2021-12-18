@@ -8,7 +8,7 @@
 
 根据 React Native 的官方文件，它用于:
 
-```
+```jsx
 “Build native mobile apps using JavaScript and React”.
 ```
 
@@ -31,7 +31,7 @@ React Native 是一个帮助我们使用单一 javascript 代码库构建应用�
 
 根据世博会官方文件，
 
-```
+```jsx
 “Expo let you build native iOS and Android apps by writing JavaScript”.
 ```
 
@@ -41,7 +41,7 @@ React Native 是一个帮助我们使用单一 javascript 代码库构建应用�
 
 现在，你可能想知道为什么我要从“反应原生”开始我的旅程。我会利用世博会。但是布罗姆引用了一句话
 
-```
+```jsx
 “Everything comes with a price”.
 ```
 
@@ -67,7 +67,7 @@ React Native 是一个帮助我们使用单一 javascript 代码库构建应用�
 
 假设你已经安装了 NodeJS(如果没有，按照这个[链接](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04#installing-using-nvm))。现在，使用 npm 安装 **expo-cli** 命令行实用程序:
 
-```
+```jsx
 npm install -g expo-cli
 ```
 
@@ -79,13 +79,13 @@ npm install -g expo-cli
 
 安装 expo-cli 后，让我们使用以下命令创建您的项目:
 
-```
+```jsx
 expo init myApp
 ```
 
 它会询问选择模板的问题。按回车键选择空白。你也可以用例子来探讨第二个问题。现在，使用 blank，然后按照下面两个命令运行您的项目。
 
-```
+```jsx
 cd myApp 
 expo start
 

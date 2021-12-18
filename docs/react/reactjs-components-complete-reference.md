@@ -12,7 +12,7 @@ React 中的组件基本上返回一段 JSX 代码，它告诉应该在屏幕上
 
 ## Javascript
 
-```
+```jsx
 function Democomponent()
 
 {

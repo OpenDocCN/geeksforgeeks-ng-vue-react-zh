@@ -9,19 +9,19 @@
 
 在发布 react 15.5.0 版本之前，propTypes 在 React 包中可用，但是在 React 的更高版本中，必须在项目中添加依赖项。您可以使用下面给出的命令在项目中添加依赖项:
 
-```
+```jsx
 npm install prop-types --save
 ```
 
 我们可以使用*道具类型*来验证我们从道具接收的任何数据。但是在使用它之前，我们必须导入它。在你的 index.js 文件的顶部添加下面一行:
 
-```
+```jsx
 import PropTypes from 'prop-types';
 ```
 
 一旦我们导入了 propTypes，我们就可以使用它们了。就像 defaultProps 一样，propTypes 也是对象，其中键是 prop 名称，值是它们的类型。下面的语法显示了如何使用 propTypes:
 
-```
+```jsx
 *ComponentClassName*.propTypes{
 
     propName1 : PropTypes.string,
@@ -39,7 +39,7 @@ import PropTypes from 'prop-types';
 
 ## java 描述语言
 
-```
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';

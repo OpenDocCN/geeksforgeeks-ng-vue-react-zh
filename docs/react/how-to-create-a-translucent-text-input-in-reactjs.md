@@ -23,19 +23,19 @@
 
 *   **步骤 1:** 现在，您将使用 create-react-app 启动一个新项目，因此请打开您的终端并键入:
 
-    ```
+    ```jsx
     npx create-react-app translucent-input-box
     ```
 
 *   **步骤 2:** 创建项目文件夹(即半透明输入框)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd translucent-input-box
     ```
 
 *   **步骤 3:** 添加项目期间需要的 npm 包:
 
-    ```
+    ```jsx
     npm install framer-motion styled-components
     ```
 
@@ -71,7 +71,7 @@
 
 ## App.js
 
-```
+```jsx
 import React, { useState } from "react";
 import "./App.css";
 
@@ -104,7 +104,7 @@ export default App;
 
 ## index.js
 
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -121,7 +121,7 @@ ReactDOM.render(
 
 ## App.css
 
-```
+```jsx
 .App {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -172,7 +172,7 @@ Input {
 
 ## Component.jsx
 
-```
+```jsx
 import React from "react";
 import { Wrapper, Input, Label, Underline } from "./Component.styles";
 import { motionLabel, motionUnderline } from "./Component.motion";
@@ -215,7 +215,7 @@ export default ({ label, value, onChange, id, errors }) => {
 
 ## Component.motion.js
 
-```
+```jsx
 const variantsWrapper = {
   initial: {},
   in: {},
@@ -275,7 +275,7 @@ export const animationWrapper = {
 
 ## component . style . js
 
-```
+```jsx
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -340,7 +340,7 @@ export const Underline = styled(motion.div)`
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

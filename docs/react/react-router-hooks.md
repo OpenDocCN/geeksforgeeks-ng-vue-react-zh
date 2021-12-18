@@ -24,7 +24,7 @@
 
 **语法**:
 
-```
+```jsx
 import { useHistory } from "react-router-dom";
 
 // Inside a functional component
@@ -60,7 +60,7 @@ useHistory()返回的 history 对象有各种属性和方法。
 
 **项目结构:**
 
-```
+```jsx
 react-router-hooks-tutorial/
   |--public/
   |--src/
@@ -82,7 +82,7 @@ react-router-hooks-tutorial/
 
 ## log in . js-登入
 
-```
+```jsx
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
 
@@ -154,7 +154,7 @@ export default function Login(props) {
 
 **语法:**
 
-```
+```jsx
 import { useParams } from "react-router-dom";
 
 // Inside a functional component
@@ -165,13 +165,13 @@ export default function SomeComponent(props){
 
 这些网址参数在路由网址中定义。例如，
 
-```
+```jsx
 <Route path="/profile/:userName" component={Profile} />
 ```
 
 "/profile/"后面的冒号(":")指定" userName "实际上是一个动态变量或参数。例如，在 URL/profile/johndoe 中，“johndoe”是参数“userName”的值。因此，在本例中，useParams()返回的对象是:
 
-```
+```jsx
 {
    userName: "johndoe"
 }
@@ -181,7 +181,7 @@ export default function SomeComponent(props){
 
 ## App.js
 
-```
+```jsx
 import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import ContactUs from "./components/ContactUs";

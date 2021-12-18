@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```jsx
 shouldComponentUpdate(nextProps, nextState)
 ```
 
@@ -20,7 +20,7 @@ shouldComponentUpdate(nextProps, nextState)
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 import Counter1 from "./Counter1";
 import Counter2 from "./Counter2";
@@ -60,7 +60,7 @@ export default App;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
 
     class Counter1 extends Component {
@@ -83,7 +83,7 @@ export default App;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
 
     class Counter2 extends Component {
@@ -111,7 +111,7 @@ export default App;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
 
     class Counter1 extends Component {
@@ -144,7 +144,7 @@ export default App;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
 
     class Counter2 extends Component {

@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 class App extends Component {
   render() {
@@ -34,7 +34,7 @@ react 中状态的存在允许定义组件自身的变量。在我们的应用�
 
 ## java 描述语言
 
-```
+```jsx
 class Parent extends Component{
  constructor(props){
   super(props);
@@ -63,7 +63,7 @@ class Parent extends Component{
 
 ## java 描述语言
 
-```
+```jsx
 export const increment = (num) => {
     return{
         type: 'INCREMENT',
@@ -84,7 +84,7 @@ export const decrement = () => {
 
 ## java 描述语言
 
-```
+```jsx
 const counterReducer = (state=0, action) => {
  switch(action.type)
  {
@@ -102,7 +102,7 @@ const counterReducer = (state=0, action) => {
 
 ## java 描述语言
 
-```
+```jsx
 import {createStore} from 'react-redux';
 
 const store = createStore(
@@ -121,7 +121,7 @@ const store = createStore(
 
 **安装:**要在您的 react 应用程序中安装 react-redux，请在终端中运行以下命令:
 
-```
+```jsx
 npm install react-redux
 ```
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```jsx
 var array = [1,2,3,4,5]
 var PlusOne= array.map((e)=>{
    return (e+1);
@@ -22,7 +22,7 @@ var PlusOne= array.map((e)=>{
 
 ## java 描述语言
 
-```
+```jsx
 const Users=[
   {
     name:"Deepak",
@@ -60,7 +60,7 @@ export default Users;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 function Info (props){
@@ -85,7 +85,7 @@ export default Info;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import Users from './list';
@@ -119,7 +119,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import Users from './list';

@@ -25,13 +25,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-```
+```jsx
 cd foldername
 ```
 
@@ -49,7 +49,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import "./App.css";
 import CovidData from "./CovidData";
 
@@ -70,7 +70,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useEffect, useState } from "react";
 import "./CovidData.css";
 
@@ -163,7 +163,7 @@ export default CovidData;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 body {
   background-color: rgb(102, 226, 102);
 }
@@ -222,7 +222,7 @@ body {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

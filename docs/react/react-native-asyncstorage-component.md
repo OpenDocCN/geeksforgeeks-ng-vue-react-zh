@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 AsyncStorage.method();
 ```
 
@@ -28,19 +28,19 @@ AsyncStorage.method();
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -50,7 +50,7 @@ AsyncStorage.method();
 
 对于 AsyncStorage，我们在 react-native 中有一个 AsyncStorage 组件，但是这个组件现在已经被**弃用了**，所以作为替代，我们将使用一个名为*@ react-native-async-storage/async-storage*的外部包。使用以下命令安装该软件包。
 
-```
+```jsx
 npm install @react-native-async-storage/async-storage
 ```
 
@@ -60,7 +60,7 @@ npm install @react-native-async-storage/async-storage
 
 ## App.js
 
-```
+```jsx
 import React , {useState} from 'react';
 import { StyleSheet, Text, View , Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

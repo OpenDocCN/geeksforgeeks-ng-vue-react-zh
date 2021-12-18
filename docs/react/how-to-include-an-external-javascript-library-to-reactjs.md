@@ -14,13 +14,13 @@ JavaScript 库是一个预先编写的 JavaScript 文件，其中包含一些非
 
 *   **步骤 1:** 在终端或命令提示符下使用以下命令创建一个 React 应用程序:
 
-    ```
+    ```jsx
     npx create-react-app name_of_the_app
     ```
 
 *   **步骤 2:** 创建 react 应用程序后，使用以下命令根据您的应用程序名称移动到目录:
 
-    ```
+    ```jsx
     cd name_of_the_app
     ```
 
@@ -36,13 +36,13 @@ JavaScript 库是一个预先编写的 JavaScript 文件，其中包含一些非
 
 **安装:**在你的 ReactJS 项目文件夹里面打开一个终端，写下面的代码安装 *react-script-tag* 包。
 
-```
+```jsx
 npm install --save react-script-tag
 ```
 
 **导入‘script tag’组件:**从我们要添加脚本标签的文件顶部的 *react-script-tag* 库中导入内置的‘script tag’组件。
 
-```
+```jsx
 import ScriptTag from 'react-script-tag';
 ```
 
@@ -54,7 +54,7 @@ import ScriptTag from 'react-script-tag';
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import ScriptTag from 'react-script-tag';
@@ -77,7 +77,7 @@ export default App;
 
 **运行应用程序:**打开终端，在终端中写下以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -91,13 +91,13 @@ npm start
 
 **安装:**打开 ReactJS 项目文件夹内的终端，编写以下代码安装*react-头盔*包。
 
-```
+```jsx
 npm install --save react-helmet
 ```
 
 **导入‘头盔’组件:**从源代码文件顶部的*react-头盔*包导入‘头盔’组件。
 
-```
+```jsx
 import {Helmet} from "react-helmet";
 ```
 
@@ -109,7 +109,7 @@ import {Helmet} from "react-helmet";
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
@@ -134,7 +134,7 @@ export default App;
 
 **运行应用:**打开终端，在你的终端写下以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -159,7 +159,7 @@ npm start
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 
@@ -189,7 +189,7 @@ export default App;
 
 ****运行应用程序:**打开终端，在终端中写下以下命令。**
 
-```
+```jsx
 npm start
 ```
 

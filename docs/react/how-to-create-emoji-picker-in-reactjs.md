@@ -8,13 +8,13 @@
 
 **创建 reatjs 应用程序:**您可以使用以下命令创建一个新的 reatjs 项目:
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **模块安装:**使用以下命令安装表情识别器反应包:
 
-```
+```jsx
 npm i emoji-picker-react
 ```
 
@@ -26,7 +26,7 @@ npm i emoji-picker-react
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 import Picker from 'emoji-picker-react';
 
@@ -55,7 +55,7 @@ export default function Emoji(){
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 

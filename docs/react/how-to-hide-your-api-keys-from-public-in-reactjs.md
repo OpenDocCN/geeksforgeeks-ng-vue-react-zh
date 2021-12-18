@@ -8,7 +8,7 @@
 
 使用 ReactJS 时保护 API 密钥的最常见做法之一是使用 **env** 变量隐藏 API 密钥。创造一个**。env** 文件，并使用前缀 **REACT_APP** 创建一个 **env** 变量。例如，如下所示:
 
-```
+```jsx
 REACT_APP_KEY = hello_world
 ```
 
@@ -24,7 +24,7 @@ REACT_APP_KEY = hello_world
 
     **文件名:。env**
 
-    ```
+    ```jsx
     REACT_APP_API_KEY = Your_api_key
 
     // Example
@@ -36,7 +36,7 @@ REACT_APP_KEY = hello_world
 3.  **添加。env 文件到您的。gitignore 文件:**这样可以防止 Github 推**。env** 文件到远程存储库。避免在公共存储库中推送应用编程接口密钥。
     **文件名:。gitignore**
 
-    ```
+    ```jsx
     # API keys
     .env
 
@@ -52,7 +52,7 @@ REACT_APP_KEY = hello_world
 
     **文件名:App.js**
 
-    ```
+    ```jsx
     import React, { Component } from 'react';
     import './App.css';
 

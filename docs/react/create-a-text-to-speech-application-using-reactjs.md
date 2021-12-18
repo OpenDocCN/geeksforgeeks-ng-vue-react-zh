@@ -10,13 +10,13 @@
 
 **步骤 1:** 创建反应项目
 
-```
+```jsx
 npx create-react-app my-app
 ```
 
 **步骤 2:** 更改您的目录并输入您的主文件夹图表如下
 
-```
+```jsx
 cd my-app
 ```
 
@@ -26,7 +26,7 @@ cd my-app
 
 **步骤 2:** 通过以下命令安装反应语音套件:
 
-```
+```jsx
 npm i react-speech-kit
 ```
 
@@ -34,7 +34,7 @@ npm i react-speech-kit
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 import Speech from './speech';
 function App() {
@@ -51,7 +51,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import { useSpeechSynthesis } from "react-speech-kit";
 const Speech = () => {
@@ -84,7 +84,7 @@ export default Speech;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 * {
   margin: 0;
   padding: 20px;
@@ -124,7 +124,7 @@ h2 {
 
 **第 6 步:运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

@@ -13,7 +13,7 @@
 
 **项目设置–**我们可以使用下面命令行中提到的命令创建 React 应用程序。
 
-```
+```jsx
 npx create-react-app name_of_the_app
 ```
 
@@ -23,7 +23,7 @@ npx create-react-app name_of_the_app
 
 **语法:**将内联样式分配给 CSS 元素的语法如下。
 
-```
+```jsx
 <div style={{backgroundColor: 'red'}}></div>
 ```
 
@@ -31,7 +31,7 @@ npx create-react-app name_of_the_app
 
 ## App.js
 
-```
+```jsx
 const App = () => {
   return (
     <div
@@ -54,7 +54,7 @@ export default App;
 
 **运行应用程序的步骤:**使用以下命令启动应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -68,7 +68,7 @@ npm start
 
 **语法:**将类分配给类名道具的语法如下。
 
-```
+```jsx
 <div className="name_of_the_class"></div>
 ```
 
@@ -76,7 +76,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import './App.css';
 
 const App = () => {
@@ -92,7 +92,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 .container-div {
     display: flex;
     align-items: center;
@@ -111,13 +111,13 @@ export default App;
 
 **语法:**
 
-```
+```jsx
 import styles from './App.module.css';
 ```
 
 现在，我们可以轻松地将类分配给下面提到的类名属性。
 
-```
+```jsx
 <div className={styles['container-div']}> 
     <h1 className={styles.heading}>GeeksForGeeks</h1>
 </div>
@@ -129,7 +129,7 @@ import styles from './App.module.css';
 
 ## App.js
 
-```
+```jsx
 import styles from './App.module.css';
 
 const App = () => {
@@ -145,7 +145,7 @@ export default App;
 
 ## App.modules.css
 
-```
+```jsx
 .container-div {
     display: flex;
     align-items: center;
@@ -164,13 +164,13 @@ export default App;
 
 **模块安装:**为了使用样式化组件，您必须首先使用命令行中的以下命令将其作为依赖项安装。
 
-```
+```jsx
 npm install styled-components
 ```
 
 **语法:**要创建样式化的组件，可以使用下面提到的语法。
 
-```
+```jsx
 import styled from 'styled-components';
 const GeeksHeading = styled.h1`
   color: white;
@@ -181,7 +181,7 @@ const GeeksHeading = styled.h1`
 
 ## App.js
 
-```
+```jsx
 import styled from 'styled-components';
 
 const PageDiv = styled.div`

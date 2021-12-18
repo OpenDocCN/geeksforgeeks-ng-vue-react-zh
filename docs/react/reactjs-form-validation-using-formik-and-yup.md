@@ -10,7 +10,7 @@
 
 **步骤 1:** 创建 React 应用程序并安装模块:
 
-```
+```jsx
 npx create-react-app react-form
 ```
 
@@ -18,13 +18,13 @@ npx create-react-app react-form
 
 **步骤 2:** 创建项目文件夹(即 react-form)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd react-form
 ```
 
 **第 3 步:**然后添加引导(如果你想可以创建自己的样式，这是可选的)。
 
-```
+```jsx
 yarn add bootstrap
 ```
 
@@ -32,7 +32,7 @@ yarn add bootstrap
 
 **第四步:**我们可以继续添加 Formik 和 Yep。
 
-```
+```jsx
 yarn add formik yup
 ```
 
@@ -50,7 +50,7 @@ yarn add formik yup
 
 ## java 描述语言
 
-```
+```jsx
 <Formik
       initialValues={{
         email: "",
@@ -63,7 +63,7 @@ yarn add formik yup
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import { Formik, Form, Field } from "formik";
 
@@ -134,7 +134,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 <Formik
     initialValues={{ email: "", password: "" }}
     onSubmit={(values) => {
@@ -155,7 +155,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 const LoginSchema = Yup.object().shape({
   email: Yup.string()
 
@@ -176,7 +176,7 @@ const LoginSchema = Yup.object().shape({
 
 ## java 描述语言
 
-```
+```jsx
 <Formik
     initialValues={{ email: "", password: "" }}
     validationSchema={LoginSchema}
@@ -200,7 +200,7 @@ const LoginSchema = Yup.object().shape({
 
 ## java 描述语言
 
-```
+```jsx
 <label htmlFor="email">Email</label>
 
 <Field
@@ -225,7 +225,7 @@ const LoginSchema = Yup.object().shape({
 
 ## java 描述语言
 
-```
+```jsx
 isSubmitting ? (<h1>Login Page</h1>) : (<h1>Confirmation of Login</h1>)
 // (condition) ? (if true this component gets displayed) :
                  (else this component gets displayed)
@@ -235,7 +235,7 @@ isSubmitting ? (<h1>Login Page</h1>) : (<h1>Confirmation of Login</h1>)
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -351,7 +351,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -8,7 +8,7 @@ componentWillMount()方法在 React 的最新版本中已被弃用，具体见�
 
 <u>**语法:**</u>
 
-```
+```jsx
 class App extends Component {
 
   UNSAFE_componentWillMount() {
@@ -23,12 +23,12 @@ class App extends Component {
 
 *   <u>**步骤 1:** 使用以下命令创建一个 [**<u>React 应用程序</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 。</u>
 
-     <u>```
+     <u>```jsx
     npx create-react-app foldername
     ```</u> 
 *   <u>**步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。</u>
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -40,7 +40,7 @@ class App extends Component {
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React from 'react'; 
 class App extends React.Component { 
 
@@ -61,7 +61,7 @@ export default App;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。</u>
 
-```
+```jsx
 npm start
 ```
 

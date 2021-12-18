@@ -15,7 +15,7 @@
 
 *   **第 1 步:**在继续之前，首先我们必须安装 react-toastify 模块，通过在项目目录中运行以下命令，借助 src 文件夹中的终端，或者您也可以在项目文件夹中的 Visual Studio Code 的终端中运行该命令。
 
-```
+```jsx
 npm add react-toastify
 ```
 
@@ -24,7 +24,7 @@ npm add react-toastify
 *   **第四步:**在你的 **app.js** 文件中，通过在你的 **app.js**
     中添加下面的代码，添加这个代码来导入烤面包机模块
 
-```
+```jsx
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 toast.configure()
@@ -36,7 +36,7 @@ toast.configure()
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 // Importing toastify module

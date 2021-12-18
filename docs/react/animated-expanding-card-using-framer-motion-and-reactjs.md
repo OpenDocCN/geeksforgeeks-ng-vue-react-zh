@@ -30,19 +30,19 @@
 
 *   **步骤 1:** 现在，您将使用 create-react-app 启动一个新项目，因此请打开您的终端并键入。
 
-    ```
+    ```jsx
     $ npx create-react-app animated-card
     ```
 
 *   **步骤 2:** 创建项目文件夹(即动画卡片)后，使用以下命令移动到它。
 
-    ```
+    ```jsx
     $ cd animated-card
     ```
 
 *   **步骤 3:** 添加项目期间需要的 npm 包。
 
-    ```
+    ```jsx
     $ npm install framer react-icons
     // For yarn
     $ yarn add framer react-icons
@@ -69,7 +69,7 @@
 
 ## index.js
 
-```
+```jsx
 import React from "react";
 import { Frame, Scroll } from "framer";
 import Card from "./Card";
@@ -106,7 +106,7 @@ ReactDOM.render(<App />, rootElement);
 
 ## index.css
 
-```
+```jsx
 body {
   margin: 0;
   cursor: pointer;
@@ -115,7 +115,7 @@ body {
 
 ## Card.js
 
-```
+```jsx
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
 import { Frame, Scroll, useAnimation } from "framer";
@@ -254,7 +254,7 @@ export default Card;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

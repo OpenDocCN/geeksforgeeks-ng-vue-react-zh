@@ -7,7 +7,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 // simple component
 class FakeComponent extends React.component{
  render(){
@@ -28,7 +28,7 @@ const FakeFunction = () => console.log('Hello World!');
 
 ## java 描述语言
 
-```
+```jsx
 // component
 class FakeComponent extends React.component{
   state = {

@@ -12,7 +12,7 @@
 
 ****语法:****
 
-```
+```jsx
 function Component(){
  doSomething(e){
    e.preventDefault();
@@ -30,13 +30,13 @@ return (
 
 *   ****步骤 1:** 使用以下命令创建一个反应应用程序:**
 
-    ```
+    ```jsx
     npx create-react-app name_of_the_app
     ```
 
 *   ****步骤 2:** 创建 react 应用程序后，使用以下命令根据您的应用程序名称移动到目录:**
 
-    ```
+    ```jsx
     cd name_of_the_app
     ```
 
@@ -56,7 +56,7 @@ return (
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react';
 
 function App() {
@@ -77,7 +77,7 @@ export default App;
 
 ****运行应用程序的步骤:**打开终端，在终端中写下以下命令。**
 
-```
+```jsx
 npm start
 ```
 

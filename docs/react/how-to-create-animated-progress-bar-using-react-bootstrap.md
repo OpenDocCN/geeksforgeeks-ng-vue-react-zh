@@ -13,25 +13,25 @@
 
 **步骤 1:** 使用以下命令创建一个 react 应用程序
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 完成后，使用以下命令将目录更改为新创建的应用程序
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 安装引导依赖项
 
-```
+```jsx
 npm install bootstrap
 ```
 
 **运行应用程序的步骤:**输入以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -41,7 +41,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import Progress from "./Progress";
 function App() {
 return (
@@ -56,7 +56,7 @@ export default App;
 
 ## Progress.jsx
 
-```
+```jsx
 import React from "react";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 function Progress() {

@@ -10,13 +10,13 @@ React 中的[组件](https://www.geeksforgeeks.org/reactjs-components/)提供了
 
 **步骤 1:** 创建反应应用程序
 
-```
+```jsx
 npx create-react-app state-demo
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd state-demo
 ```
 
@@ -32,7 +32,7 @@ cd state-demo
 
 *   **初始化构造函数内的状态对象**
 
-    ```
+    ```jsx
     constructor() {
         super();  // Don’t Forget to pass props if received
         this.state = {
@@ -43,7 +43,7 @@ cd state-demo
 
 *   **使用类属性**
 
-    ```
+    ```jsx
     class MyComponent extends React.Component {
         state = {
             // any object
@@ -59,7 +59,7 @@ cd state-demo
 
 *   调用 setState 时，用提供的对象作为参数更改状态对象。
 
-    ```
+    ```jsx
     this.setState({
         // anyobject
     });
@@ -67,7 +67,7 @@ cd state-demo
 
 *   当我们必须基于先前的状态进行更新时，我们传递一个函数，该函数获取先前的状态作为参数。
 
-    ```
+    ```jsx
     this.setState((prevState) => {
         // Do return a new state object 
         // after some manipulations 
@@ -80,7 +80,7 @@ cd state-demo
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -134,7 +134,7 @@ ReactDOM.render(
 
 **1。初始化状态:**我们有 useState 钩子来处理功能组件中的状态， [useState](https://www.geeksforgeeks.org/reactjs-usestate-hook/) 接收初始状态作为参数，并返回状态变量和一个函数，该函数稍后可以用来设置与之相关的状态。
 
-```
+```jsx
 const [state, setState] = useState(intialState);
 
 // Note:- You are not restricted to name state variable
@@ -147,13 +147,13 @@ const [state, setState] = useState(intialState);
 
 *   调用时用提供的对象作为参数更改状态对象。
 
-```
+```jsx
 setState(arg);
 ```
 
 *   当我们必须基于先前的状态进行更新时，我们传递一个函数，该函数获取先前的状态作为参数。
 
-```
+```jsx
 setState((prevState)=>{
     // Do return a new state object after some manipulations 
 });
@@ -165,7 +165,7 @@ setState((prevState)=>{
 
 ## App.js
 
-```
+```jsx
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -202,7 +202,7 @@ ReactDOM.render(
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

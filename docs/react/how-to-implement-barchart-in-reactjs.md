@@ -6,19 +6,19 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app BARCHART_REACT
 ```
 
 **第 2 步:**创建项目文件夹，即 *BARCHART_REACT* 后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd BARCHART_REACT
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 ***react-chartjs-2*** 和***chartjs***模块。
 
-```
+```jsx
 npm install --save react-chartjs-2 chart.js
 ```
 
@@ -30,7 +30,7 @@ npm install --save react-chartjs-2 chart.js
 
 ## App.js
 
-```
+```jsx
 import { Bar } from "react-chartjs-2";
 
 function App() {
@@ -87,7 +87,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

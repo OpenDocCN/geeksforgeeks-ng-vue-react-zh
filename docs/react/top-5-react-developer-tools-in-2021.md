@@ -47,7 +47,7 @@
 
 ******语法:******
 
-```
+```jsx
 **npm install -g rekit  # Install Rekit CLI
 npm install -g rekit-studio  # Install Rekit Studio**
 ```

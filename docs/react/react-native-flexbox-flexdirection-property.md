@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 flexDirection: 'column|row|column-reverse|row-reverse'
 ```
 
@@ -21,17 +21,17 @@ flexDirection: 'column|row|column-reverse|row-reverse'
 
 *   ****第一步:**打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```** 
 *   ****步骤 2:** 现在使用以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```** 
 *   ****第三步:**现在进入你的项目文件夹，即 myapp。
 
-    ```
+    ```jsx
      cd myapp
     ```** 
 
@@ -43,7 +43,7 @@ flexDirection: 'column|row|column-reverse|row-reverse'
 
 ## **App.js**
 
-```
+```jsx
 import React,{Component} from 'react';
 import { View, StyleSheet } from 'react-native';
 
@@ -73,7 +73,7 @@ const styles = StyleSheet.create ({
 
 **使用以下命令启动**服务器**。**
 
-```
+```jsx
 npm run android
 ```
 
@@ -85,21 +85,21 @@ npm run android
 
 *   **Property row illustration, use the following syntax:
 
-    ```
+    ```jsx
     flexDirection: 'row'
     ```
 
     ![](img/13d1d54b7cbb3667c00abe7e8062cf72.png)** 
 *   **Property column-reverse illustration, use the following syntax:
 
-    ```
+    ```jsx
     flexDirection: 'column-reverse'
     ```
 
     ![](img/e0b0b76b103107590a51f5c55ce58324.png)** 
 *   **Property row-reverse illustration, use the following syntax:
 
-    ```
+    ```jsx
     flexDirection: 'row-reverse'
     ```
 

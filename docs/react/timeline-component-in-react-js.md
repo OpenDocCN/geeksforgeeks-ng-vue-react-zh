@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app gfg
     ```
 
 *   **第 2 步:**创建项目文件夹后，即 gfg **，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd gfg
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 **material-ui** 模块:
 
-    ```
+    ```jsx
     npm install @material-ui/core
     npm install @material-ui/lab
     ```
@@ -40,7 +40,7 @@ Material UI 实验室中的时间轴组件按时间顺序显示项目，并允�
 
 ## stages.js
 
-```
+```jsx
 import React from 'react';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -108,7 +108,7 @@ export default function Stages() {
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
@@ -147,7 +147,7 @@ export default GFG;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

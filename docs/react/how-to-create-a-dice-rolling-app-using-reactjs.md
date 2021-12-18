@@ -16,7 +16,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'
@@ -28,7 +28,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     import RollDice from './RollDice'
 
@@ -47,7 +47,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React,{ Component } from 'react'
     import './RollDice.css'
     import Die from './Die'
@@ -115,7 +115,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, {Component} from 'react'
     import './Die.css'
 
@@ -137,7 +137,7 @@
 
     ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-    ```
+    ```jsx
     .RollDice{
       display: flex;
       flex-flow: column nowrap;
@@ -179,7 +179,7 @@
 
     ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-    ```
+    ```jsx
     /* Styling each Die */
     .Die{
       font-size:10em;

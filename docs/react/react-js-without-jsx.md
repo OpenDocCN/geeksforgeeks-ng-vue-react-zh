@@ -4,7 +4,7 @@
 
 **[JSX](https://www.geeksforgeeks.org/reactjs-introduction-jsx/) :** 考虑以下代码片段，
 
-```
+```jsx
 const sample = <h2>Greetings</h2>;
 ```
 
@@ -18,7 +18,7 @@ const sample = <h2>Greetings</h2>;
 
 ## index.html
 
-```
+```jsx
 <!DOCTYPE html>
 <html>
   <head>
@@ -55,13 +55,13 @@ const sample = <h2>Greetings</h2>;
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app rwjsx
     ```
 
 *   **步骤 2:** 创建项目文件夹，即 *rwjsx* 后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd rwjsx
     ```
 
@@ -75,7 +75,7 @@ const sample = <h2>Greetings</h2>;
 
 ## **index.js**
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -93,7 +93,7 @@ ReactDOM.render(
 
 ****运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:**
 
-```
+```jsx
 npm start
 ```
 

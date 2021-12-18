@@ -10,7 +10,7 @@
 
     由于构造函数的性质，*this.props*对象不能直接从 GATE 访问，这可能会导致错误。 此构造函数将引发错误：
 
-    ```
+    ```jsx
     constructor() {
      console.log(this.props);
     }
@@ -18,7 +18,7 @@
 
     相反，我们将道具的值从构造函数()传递给 Super()函数：
 
-    ```
+    ```jsx
     constructor(props) {
      super(props);
      console.log(this.props);
@@ -31,7 +31,7 @@
 
     组件的构造函数是设置组件初始状态的理想位置。 必须直接设置初始状态，而不是像在类中的其他方法中那样使用 setState()：
 
-    ```
+    ```jsx
     constructor(props) {
      super(props);
 
@@ -48,7 +48,7 @@
 
     在构造函数中设置初始组件状态时，应尽量避免设置属性中的值。 我们可以做到以下几点：
 
-    ```
+    ```jsx
     constructor(props) {
      super(props);
 
@@ -64,7 +64,7 @@
 
     我们可以很容易地在构造函数中绑定您的事件处理程序：
 
-    ```
+    ```jsx
     constructor(props) {
      super(props);
 
@@ -83,13 +83,13 @@
 
 *   **步骤 1：**使用以下命令创建 Reaction 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2：**创建项目文件夹(即 Foldername)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -101,7 +101,7 @@
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -140,7 +140,7 @@ export default App;
 
 **运行应用程序的步骤：**从项目的根目录运行应用程序，使用以下命令
 
-```
+```jsx
 npm start
 ```
 

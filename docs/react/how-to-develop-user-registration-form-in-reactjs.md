@@ -16,7 +16,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React,{useState} from 'react'
 
 export default function test() {
@@ -40,7 +40,7 @@ export default function test() {
 
 **创建反应应用程序:**使用以下命令创建反应应用程序。
 
-```
+```jsx
 npx create-react-app yourappname
 ```
 
@@ -54,7 +54,7 @@ npx create-react-app yourappname
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .App {
   text-align: center;
   background-color:green;
@@ -111,7 +111,7 @@ npx create-react-app yourappname
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 import Form from "./Form"
 
@@ -139,7 +139,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import { useState } from 'react';
 
 export default function Form() {
@@ -245,7 +245,7 @@ export default function Form() {
 
 使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -31,19 +31,19 @@
 **先决条件：**下载[与代码](https://code.visualstudio.com/download)和[节点包](https://nodejs.org/en/download/)。
 **步骤 1：**通过运行以下给定命令创建一个名为 Counter-app 的新 Reaction 项目。
 
-```
+```jsx
 npx create-react-app counter-app
 ```
 
 **第二步：**安装完成后，可以打开项目文件夹，如下图所示。
 
-```
+```jsx
 cd counter-app     
 ```
 
 **步骤 3：**创建 Reaction JS 应用程序后，通过运行以下给定命令安装所需的模块。
 
-```
+```jsx
 npm install react-desktop
 ```
 
@@ -73,7 +73,7 @@ App.js 文件将包含以下内容：
 
 ## JavaScript
 
-```
+```jsx
 import { useState } from 'react';
 import './Style.css';         // CSS file for style
 import Child from './Child';  // Child Component
@@ -116,7 +116,7 @@ Child.js 将具有以下内容：
 
 ## JavaScript
 
-```
+```jsx
 function Child(props){
     console.log("Child Rendered");
     return(
@@ -131,7 +131,7 @@ export default Child;
 
 **运行应用程序的步骤：**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -149,7 +149,7 @@ npm start
 
 ## JavaScript
 
-```
+```jsx
 import React from 'react';    
 
 function Child(props){

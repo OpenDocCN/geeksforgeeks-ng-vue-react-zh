@@ -6,7 +6,7 @@ react 元素描述了实际的[文档对象模型(DOM)](https://www.geeksforgeek
 
 #### **语法:**
 
-```
+```jsx
 React.createElement(type,{props},children); 
 ```
 
@@ -18,7 +18,7 @@ React.createElement()接受三个参数。它们是:
 
 **React DOM:** React DOM 包含在浏览器中呈现 React 元素所需的参数。
 
-```
+```jsx
 ReactDOM.render(element,containerElement);
 ```
 
@@ -31,7 +31,7 @@ ReactDOM.render()接受两个参数:
 
 **步骤 1:** 使用以下命令创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
@@ -39,7 +39,7 @@ npx create-react-app foldername
 
 **步骤 2:** 创建文件夹后，使用下面提到的命令将目录更改为新创建的文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
@@ -53,7 +53,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -68,7 +68,7 @@ ReactDOM.render(
 
 **步骤 4:** 使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

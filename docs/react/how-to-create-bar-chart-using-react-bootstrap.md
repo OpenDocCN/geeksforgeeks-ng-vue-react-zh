@@ -8,25 +8,25 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的模块。
 
-    ```
+    ```jsx
     npm install --save mdbreact react-chartjs-2
     ```
 
 *   **第四步:**在 index.js 中添加 Bootstrap CSS 和 fontawesome CSS。
 
-    ```
+    ```jsx
     import '@fortawesome/fontawesome-free/css/all.min.css';  
     import 'bootstrap-css-only/css/bootstrap.min.css';  
     import 'mdbreact/dist/css/mdb.css';
@@ -42,7 +42,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import { MDBContainer } from "mdbreact";
 import { Bar } from "react-chartjs-2";
@@ -78,7 +78,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

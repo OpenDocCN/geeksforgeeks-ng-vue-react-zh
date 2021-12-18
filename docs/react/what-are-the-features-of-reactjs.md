@@ -19,7 +19,7 @@ React 是一个由脸书创建的 JavaScript 库，用于创建动态和交互�
 
 **1。JSX(JavaScript 语法扩展):**JSX 是 HTML 和 JavaScript 的结合体。您可以在 HTML 元素中嵌入 JavaScript 对象。浏览器不支持 JSX，因此[巴贝尔编译](https://www.geeksforgeeks.org/reactjs-using-babel/) r 将代码转换成 JavaScript 代码。JSX 让代码变得简单易懂。如果你知道 HTML 和 JavaScript，那就很容易学会了。
 
-```
+```jsx
 const name="GeekforGeeks";
 const ele = <h1>Welcome to {name}</h1>;
 ```
@@ -46,7 +46,7 @@ const ele = <h1>Welcome to {name}</h1>;
 
 **语法:**
 
-```
+```jsx
 const age = 12;
 if (age >= 10)
 { 
@@ -72,13 +72,13 @@ else
 
 **步骤 1:** 使用以下命令创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 将您的目录更改为新创建的文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
@@ -90,7 +90,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import App from './App';
 
@@ -114,7 +114,7 @@ export default PassMessage
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import App from './App'
 
@@ -136,7 +136,7 @@ export default FailMessage
 
 ## java 描述语言
 
-```
+```jsx
 import PassMessage from './PassMessage';
 import FailMessage from './FailMessage';
 
@@ -155,7 +155,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

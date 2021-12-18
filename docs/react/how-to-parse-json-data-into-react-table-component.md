@@ -10,13 +10,13 @@ React JS 是一个用于构建 UI 组件的前端库。在本文中，我们将�
 
 **第一步:**打开终端，创建 react app。
 
-```
+```jsx
 npx create-react-app my-first-app
 ```
 
 **步骤 2:** 通过执行命令将目录更改为该文件夹。
 
-```
+```jsx
 cd my-first-app
 ```
 
@@ -32,7 +32,7 @@ cd my-first-app
 
 ***文件名** : **数据***
 
-```
+```jsx
 [
 
     {
@@ -96,7 +96,7 @@ cd my-first-app
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import JsonData from './data.json'
  function JsonDataDisplay(){
@@ -142,7 +142,7 @@ import JsonData from './data.json'
 
 ## java 描述语言
 
-```
+```jsx
 import JsonDataDisplay from './MyPractice/GeekTable'
 function App() {
   return (

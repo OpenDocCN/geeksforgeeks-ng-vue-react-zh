@@ -5,7 +5,7 @@
 在上一篇关于[介绍 JSX](https://www.geeksforgeeks.org/reactjs-introduction-jsx/) 的文章中，我们看到了如何创建一个 React 元素。“反应”元素是“反应”中可用的最小可渲染单位。我们可以使用上一篇文章中描述的 [ReactDOM](https://www.geeksforgeeks.org/reactjs-reactdom/) 来渲染这些元素。React 元素不同于 DOM 元素，因为 React 元素是简单的 javascript 对象，创建起来很高效。React 元素是任何 React 应用程序的构建模块，不应与 React 组件混淆，后者将在后续文章中讨论。
 **在 React 中渲染元素:**为了将任何元素渲染到 Browser DOM 中，我们需要一个容器或根 DOM 元素。使用 id="root "或 id="app "的 div 元素作为根 DOM 元素几乎是一种惯例。假设我们的 index.html 文件中包含以下语句。
 
-```
+```jsx
 <div id="root"></div>
 ```
 
@@ -13,7 +13,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component }  from 'react';
 
 class App extends Component {
@@ -40,7 +40,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

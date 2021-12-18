@@ -18,19 +18,19 @@
 
 **步骤 1:** 通过运行命令创建一个新的**反应原生**项目
 
-```
+```jsx
 npx react-native init languageDemo
 ```
 
 **第二步:**现在进入你的项目文件夹，即语言演示。
 
-```
+```jsx
 cd languageDemo
 ```
 
 **第三步:**安装 **i18next** 和 **react-i18next** 库。
 
-```
+```jsx
 npm install i18next --save
 npm i react-i18next
 ```
@@ -47,7 +47,7 @@ npm i react-i18next
 
 **1。en.json:** 包含**英语**的翻译。
 
-```
+```jsx
 {
     "translation": {
       "hello":"Hello",
@@ -58,7 +58,7 @@ npm i react-i18next
 
 **2。hi.json:** 包含**印地语**的翻译。
 
-```
+```jsx
 {
     "translation": {
       "hello":"नमस्ते",
@@ -75,7 +75,7 @@ npm i react-i18next
 
 init()函数将{lng，fallbacklng，resources}的对象作为参数。
 
-```
+```jsx
 lng - default language
 fallbackLng - Fallback language in case key is not found for any translation.
 resources - JSON file for various languages.
@@ -85,7 +85,7 @@ resources - JSON file for various languages.
 
 ## java 描述语言
 
-```
+```jsx
 import i18n from 'i18next';
 import {initReactI18next} from 'react-i18next';
 import en from './en.json';
@@ -108,7 +108,7 @@ export default i18n;
 
 **第 6 步:**我们现在将导入 **App.js** 文件中的 **i18n.js** ，该文件将初始化 **i18next** 。然后我们将从 **react-i18next** 导入 **useTranslation** Hook，这给了我们 **t** 和 **i18n** 。
 
-```
+```jsx
 t - function which accepts key as parameter and returns the 
     appropriate text based on current language selected.
 i18n - object containing function like changeLanguage  
@@ -117,13 +117,13 @@ i18n - object containing function like changeLanguage
 
 在我们的屏幕上，我们有两个改变语言的按钮。当我们按下两个按钮中的一个时，有一个文本将根据当前设置的语言进行更改。要更改语言，我们将使用 **changeLanguage** 函数，该函数接受语言资源名称作为参数，并在语言更改完成后执行回调函数。
 
-```
+```jsx
 We can check current language by doing console.log(i18n.language)
 ```
 
 ## App.js
 
-```
+```jsx
 import React,{useState} from 'react';
 import './i18n/i18n';
 import {View, Text,Pressable} from 'react-native';
@@ -183,7 +183,7 @@ export default App;
 
 **运行应用程序的步骤:**使用以下命令启动应用程序:
 
-```
+```jsx
 npx react-native run-android
 ```
 

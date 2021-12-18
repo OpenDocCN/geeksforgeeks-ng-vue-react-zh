@@ -23,7 +23,7 @@ React 是一个用于构建用户界面的 JavaScript 库。React 使创建交�
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -35,7 +35,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import StudentList from './StudentList'
 
@@ -77,7 +77,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class StudentList extends Component{
@@ -111,7 +111,7 @@ export default StudentList
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -123,7 +123,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import Lottery from './Lottery'
 
@@ -143,7 +143,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class Ball extends Component{
@@ -177,7 +177,7 @@ export default Ball
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component } from 'react'
 import Ball from './Ball'
 
@@ -226,7 +226,7 @@ export default Lottery
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -238,7 +238,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import StudentList from './StudentList'
 
@@ -280,7 +280,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class StudentList extends Component{
@@ -304,7 +304,7 @@ export default StudentList
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .StudentList{
     border: 2px solid green;
     width: 40%:
@@ -327,7 +327,7 @@ export default StudentList
 
 安装第三方 react-jss 包的命令
 
-```
+```jsx
 npm install react-jss
 ```
 
@@ -337,7 +337,7 @@ npm install react-jss
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -349,7 +349,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import StudentList from './StudentList'
 
@@ -391,7 +391,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import {createUseStyles} from 'react-jss'
 
@@ -434,7 +434,7 @@ export default StudentList
 
 安装第三方样式组件包的命令
 
-```
+```jsx
 npm install --save styled-components
 ```
 
@@ -444,7 +444,7 @@ npm install --save styled-components
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -456,7 +456,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import StudentList from './StudentList'
 
@@ -498,7 +498,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
@@ -540,7 +540,7 @@ export default StudentList
 
 要使用 CSS 模块创建一个普通的 CSS 文件，请使用以下语法从组件中导入您创建的模块
 
-```
+```jsx
 import styles from './filename.module.css
 ```
 
@@ -550,7 +550,7 @@ import styles from './filename.module.css
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -562,7 +562,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import StudentList from './StudentList'
 
@@ -604,7 +604,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import style from './StudentList.module.css'
 
@@ -627,7 +627,7 @@ export default StudentList
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .list{
     border: 2px solid green;
     width: 40%:

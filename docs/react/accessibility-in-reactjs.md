@@ -14,7 +14,7 @@ React 完全支持构建可访问的网站，通常使用标准的 HTML 技术�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Fragment } from 'react';
 function studentList() {
   return (
@@ -33,7 +33,7 @@ function studentList() {
 
 ## Javascript
 
-```
+```jsx
 // Using htmlFor in label of form 
 // Remember the camelCase writing
 
@@ -51,7 +51,7 @@ function studentList() {
 
 ## Javascript
 
-```
+```jsx
 class MyComponent extends React.Component {  
   constructor(props) {  
     super(props);  
@@ -69,7 +69,7 @@ class MyComponent extends React.Component {  
 
 ## Javascript
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -88,7 +88,7 @@ ReactDOM.render(clickFun, document.getElementById('root'));
 
 ## Javascript
 
-```
+```jsx
 function App() {
   const [fieldValue, setFieldValue] = React.useState('');
 

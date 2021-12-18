@@ -22,7 +22,7 @@
 
 这是在您的 React 应用程序中使用引导的最简单方法之一。bootstrap CDN 最大的优点是不需要安装或下载。你只需要在你的应用的头部复制并粘贴一个链接就可以了。下面是你需要的链接。
 
-```
+```jsx
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
 integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
 crossorigin="anonymous">
@@ -30,7 +30,7 @@ crossorigin="anonymous">
 
 如果您的应用程序需要 JavaScript 组件和引导程序，那么在页面底部放置
 
-```
+```jsx
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
 crossorigin="anonymous"></script>
@@ -50,13 +50,13 @@ crossorigin="anonymous"></script>
 
 您可能在应用程序中使用过一些模块捆绑器或 webpack，或者您可能听过这些名称。这是向您的 React 应用程序添加引导的另一个选项。您可以运行下面给出的命令，并在应用程序中作为依赖项安装引导。
 
-```
+```jsx
 npm install bootstrap
 ```
 
 安装后，将它添加到应用程序条目的 JavaScript 文件中。下面是 src 文件夹中的 index.js 文件。
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -70,13 +70,13 @@ registerServiceWorker();
 
 在上面第一行的代码中，我们已经导入了 Bootstrap 缩小的 CSS 作为第一个依赖项。有了这个，我们可以在我们的 React 组件中使用 Bootstrap 类。您还需要安装 **jQuery** 和 **popper.js** 以及这个。下面是安装它们的命令。
 
-```
+```jsx
 npm install jquery popper.js
 ```
 
 在 **index.js** 文件中进行以下更改，以添加新的依赖关系。
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
@@ -104,13 +104,13 @@ registerServiceWorker();
 
 使用下面给出的命令在您的机器上创建一个反应应用程序。
 
-```
+```jsx
 create-react-app my-app
 ```
 
 现在，运行下面给出的命令来安装下面给出的依赖项。
 
-```
+```jsx
 yarn add axios bootstrap reactstrap
 ```
 
@@ -118,7 +118,7 @@ yarn add axios bootstrap reactstrap
 
 现在使用这个 Bootstrap 精简的 CSS 文件。您需要对 **src/index.js** 文件进行一些修改，使其包含如下内容…
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -132,7 +132,7 @@ registerServiceWorker();
 
 现在在项目的 src 目录中创建一个文件夹组件。在其中创建一个新文件 **Header.js，**，并编写下面给出的代码。
 
-```
+```jsx
 import React from 'react';
 import logo from '../logo.svg';
 
@@ -207,7 +207,7 @@ export default Header;
 
 在上面的代码中，我们包含了导航菜单。现在我们在组件目录中创建一个文件 **LeftCard.js** 文件，内容如下:
 
-```
+```jsx
 import React, { Fragment } from 'react';
 
 import {
@@ -242,7 +242,7 @@ export default LeftCard;
 
 现在在**组件的**目录中创建一个文件 **Post.js** ，并添加下面给出的片段…
 
-```
+```jsx
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import { Badge } from 'reactstrap';
@@ -284,7 +284,7 @@ export default Post;
 
 在 **src/App.js** 文件中进行最终修改，如下所示…
 
-```
+```jsx
 import React, { Fragment } from 'react';
 import axios from 'axios';
 import { Container, Row, Col } from 'reactstrap';

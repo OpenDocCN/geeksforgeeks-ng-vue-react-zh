@@ -12,7 +12,7 @@ React 是一个用于构建用户界面的 JavaScript 库。React 使创建交�
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -24,7 +24,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 class App extends Component{
   constructor(props){

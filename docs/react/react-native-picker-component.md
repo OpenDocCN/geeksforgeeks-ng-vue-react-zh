@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 <Picker>
     <Picker.Item />
     <Picker.Item />
@@ -29,25 +29,25 @@
 
 **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-```
+```jsx
 npm install -g expo-cli
 ```
 
 **步骤 2:** 现在通过以下命令创建一个项目。
 
-```
+```jsx
 expo init myapp
 ```
 
 **第三步:**现在进入你的项目文件夹，即 myapp
 
-```
+```jsx
 cd myapp
 ```
 
 **第 4 步:**对于 picker，我们在 React Native 中有一个 picker 组件，但是该组件现在已经被**弃用了**，所以作为替代，我们将使用一个名为 react-native-picker 的外部包。使用以下命令安装该软件包。
 
-```
+```jsx
 npm install @react-native-picker/picker
 ```
 
@@ -61,7 +61,7 @@ npm install @react-native-picker/picker
 
 ## java 描述语言
 
-```
+```jsx
 import React , {useState} from 'react';
 import { StyleSheet, View} from 'react-native';
 import {Picker} from "@react-native-picker/picker";
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

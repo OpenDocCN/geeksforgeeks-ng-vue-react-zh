@@ -15,13 +15,13 @@
 
 *   **步骤 1:** 在终端/命令提示符下使用以下命令创建 React 应用程序:
 
-    ```
+    ```jsx
     create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -37,7 +37,7 @@
 
 ## App.js
 
-```
+```jsx
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
@@ -66,7 +66,7 @@ export default App;
 
 ## ChildComponent.js
 
-```
+```jsx
 import React from "react";
 
 class ChildComponent extends React.Component {
@@ -85,7 +85,7 @@ export default ChildComponent;
 
 **运行应用程序的步骤**:从项目根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

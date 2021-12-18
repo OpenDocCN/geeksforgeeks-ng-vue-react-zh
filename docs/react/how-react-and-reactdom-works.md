@@ -8,7 +8,7 @@
 
 **包括脚本:**以下是 React 和 ReactDOM 的 CDN 链接:
 
-```
+```jsx
 React: https://cdnjs.com/libraries/react
 ReactDOM: https://cdnjs.com/libraries/react-dom
 ```
@@ -17,7 +17,7 @@ ReactDOM: https://cdnjs.com/libraries/react-dom
 
 ## HTML
 
-```
+```jsx
 <!DOCTYPE html>
 <html lang="en">
 <head>

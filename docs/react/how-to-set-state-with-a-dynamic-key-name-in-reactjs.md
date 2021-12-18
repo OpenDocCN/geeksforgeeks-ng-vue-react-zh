@@ -10,13 +10,13 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序。
 
-```
+```jsx
 npx create-react-app project_name
 ```
 
 **第二步**:现在运行以下命令，进入项目文件夹即 project_name。
 
-```
+```jsx
 cd project_name
 ```
 
@@ -32,7 +32,7 @@ cd project_name
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component {
@@ -87,7 +87,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -27,7 +27,7 @@
 2.  **选择主题后，点击**下载**按钮，下载 **bootstrap.min.css** 文件。**
 3.  **在你的 react.js 文件夹中打开**终端**，写**命令，**这将在你的应用程序中安装 react-bootstrap。
 
-    ```
+    ```jsx
     npm install react-bootstrap bootstrap
     ```** 
 4.  **举个例子，我们选择半机械人或者 https://bootswatch.com/cyborg/作为主题。现在在 **src** 文件夹中添加下载的 **bootstrap.min.css** 文件**。****
@@ -36,7 +36,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
     import './index.css';
@@ -61,7 +61,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     import {Image , Row} from 'react-bootstrap';
 
@@ -90,7 +90,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import './App.css';
     // Importing Home component
     import Home from './component/Home';
@@ -108,7 +108,7 @@
 
 ******启动服务器:**运行以下命令启动服务器。****
 
-```
+```jsx
 **npm start**
 ```
 

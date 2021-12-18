@@ -14,13 +14,13 @@
 
 **基本设置:**通过以下命令启动项目:
 
-```
+```jsx
 npx create-react-app avatarApp
 ```
 
 现在，转到项目文件夹，即 avatarApp:
 
-```
+```jsx
 cd avatarApp
 ```
 
@@ -32,7 +32,7 @@ cd avatarApp
 
 *   现在，打开控制台，安装 [Axios](https://www.npmjs.com/package/axios) npm 包:
 
-```
+```jsx
 npm install axios
 ```
 
@@ -40,7 +40,7 @@ npm install axios
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -58,7 +58,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 import Avatar from './Components/Avatar';
 
@@ -74,7 +74,7 @@ export default App;
 
 *   **App.css:** 这将我们应用的背景设置为一个不错的 css 渐变
 
-```
+```jsx
 .App {
   margin: 0;
   padding: 0;
@@ -87,7 +87,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 import '../Styles/Avatar.css';
 import Axios from 'axios';
@@ -174,7 +174,7 @@ export default Avatar;
 
 *   **Avatar.css:** 用这个文件来装饰我们的 app
 
-```
+```jsx
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 
@@ -244,7 +244,7 @@ button:active{
 
 *   **保存所有文件，启动服务器:**
 
-```
+```jsx
 npm start
 ```
 

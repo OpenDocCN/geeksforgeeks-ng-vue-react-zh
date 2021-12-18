@@ -11,7 +11,7 @@
 *   创建一个功能来处理歌曲的播放/暂停。
 *   使用音频类的 **play()** 和 **pause()** 功能进行这些操作。
 
-```
+```jsx
 let song = new Audio(my_song);
 song.play();
 song.pause();
@@ -21,13 +21,13 @@ song.pause();
 
 **步骤 1:** 创建反应应用程序命令
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹，即文件夹名称后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -41,7 +41,7 @@ cd foldername
 
 App.js
 
-```
+```jsx
 import React, { Component } from "react";
 
 // Import your audio file

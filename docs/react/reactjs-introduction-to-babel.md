@@ -20,7 +20,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 // sample new version javascript code
 const fun = (x) => {x*2};
 
@@ -35,7 +35,7 @@ const b = (x) => x;
 
 ## java 描述语言
 
-```
+```jsx
 // after transpiling
 "use strict";
 

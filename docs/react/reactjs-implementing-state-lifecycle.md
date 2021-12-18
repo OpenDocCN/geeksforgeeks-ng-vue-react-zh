@@ -11,7 +11,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -41,7 +41,7 @@ setInterval(showTime, 1000)
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -53,7 +53,7 @@ class Clock extends React.Component {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -86,7 +86,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

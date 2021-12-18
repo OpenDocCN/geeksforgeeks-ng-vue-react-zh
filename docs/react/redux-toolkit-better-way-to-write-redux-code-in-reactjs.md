@@ -12,7 +12,7 @@
 
 *   **第 1 步:**使用支持类型脚本的以下命令创建一个 react 应用程序:
 
-```
+```jsx
 // NPM
 npx create-react-app my-app --template typescrip
 
@@ -22,13 +22,13 @@ yarn create react-app my-app --template typescrip
 
 *   **步骤 2:** 项目创建后，使用以下命令进入项目文件夹:
 
-```
+```jsx
 cd my-app
 ```
 
 *   **步骤 3:** 现在使用以下命令，在我们创建的项目中通过 npm 或纱线安装 Redux Toolkit:
 
-```
+```jsx
 // NPM
 npm install @reduxjs/toolkit react-redux
 
@@ -44,7 +44,7 @@ yarn add @reduxjs/toolkit react-redux
 
 ## store.js
 
-```
+```jsx
 import { configureStore } from '@reduxjs/toolkit'
 
 export const store = configureStore({
@@ -56,7 +56,7 @@ export const store = configureStore({
 
 ## App.js
 
-```
+```jsx
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import App from './App';
@@ -74,7 +74,7 @@ ReactDOM.render(
 
 ## slice.js
 
-```
+```jsx
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
@@ -115,7 +115,7 @@ export default customerSlice.reducer;
 
 ## store.js
 
-```
+```jsx
 import { configureStore } from '@reduxjs/toolkit';
 import reducer from './slice.js';
 
@@ -130,7 +130,7 @@ export default configureStore({
 
 ## 组件. js
 
-```
+```jsx
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { orderFood } from './slice.js';
@@ -173,7 +173,7 @@ export default CustomerCard;
 
 **运行应用程序的步骤**:从项目根目录使用以下命令运行应用程序。
 
-```
+```jsx
 // NPM
 npm start
 

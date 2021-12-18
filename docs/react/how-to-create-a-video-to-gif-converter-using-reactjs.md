@@ -20,13 +20,13 @@
 
 *   安装完成后，上述命令通过以下命令安装另一个名为 FFMPEG 的包:
 
-    ```
+    ```jsx
     npm install @ffmpeg/ffmpeg  @ffmpeg/core
     ```
 
 *   为了我们的造型目的，您可以通过以下命令安装造型组件。它很可能是 CSS，但当我们使用 JavaScript 时，它会创建用户定义的变量，在该变量中，我们可以编写 CSS 属性，它也用于制作组件，而无需制作新的 JSX 文件。
 
-    ```
+    ```jsx
     npm i styled-components
     ```
 
@@ -36,7 +36,7 @@
 
 现在打开命令提示符，键入以下命令，通过运行以下命令启动服务器。然后你的浏览器在运行你的应用的端口号 **8080** 中打开，如果你的浏览器看起来像这样，那么你就来对地方了。
 
-```
+```jsx
 cd gifconverter
 npm start
 ```
@@ -60,7 +60,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -91,7 +91,7 @@ export const Button = ({ convertToGif }) => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -133,7 +133,7 @@ export const Dbutton = ({ gif, download }) => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -159,7 +159,7 @@ export const Header = () => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -187,7 +187,7 @@ export const Inputfile = ({ setVideo }) => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import styled from "styled-components";
 

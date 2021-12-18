@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```jsx
 <page scale = {value} />
 ```
 
 **例 1:** 当你想传递一个整数值来缩放时。
 
-```
+```jsx
 <Page width={900} scale={30.0} className="page" pageNumber={1} />
 ```
 
 **例 2** :当你想通过十进制数值来缩放时。
 
-```
+```jsx
 <Page width={300} scale={0.5} className="page" pageNumber={1} />
 ```
 
@@ -26,19 +26,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app pdfapp
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 pdfapp)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd pdfapp
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的****模块:****
 
-    ```
+    ```jsx
     **npm install react-pdf**
     ```
 
@@ -52,7 +52,7 @@
 
 ## ****App.js****
 
-```
+```jsx
 **import React from 'react';
 import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
 
@@ -78,7 +78,7 @@ export default App**
 
 ******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:****
 
-```
+```jsx
 **npm start**
 ```
 

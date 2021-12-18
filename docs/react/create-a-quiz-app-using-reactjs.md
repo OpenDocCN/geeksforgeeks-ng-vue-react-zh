@@ -12,7 +12,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 *   [反应](https://www.geeksforgeeks.org/react-js-introduction-working/)
 *   反应自举
 
-    ```
+    ```jsx
     npm install react-bootstrap bootstrap
     ```
 
@@ -20,7 +20,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 通过以下命令启动项目–
 
-```
+```jsx
 npx create-react-app quiz
 ```
 
@@ -28,7 +28,7 @@ npx create-react-app quiz
 
 现在，转到文件夹创建
 
-```
+```jsx
 cd quiz
 ```
 
@@ -36,7 +36,7 @@ cd quiz
 
 启动服务器-通过在终端中键入以下命令启动服务器–
 
-```
+```jsx
 npm start
 ```
 
@@ -45,29 +45,29 @@ npm start
 
 将目录更改为 src–
 
-```
+```jsx
 cd src
 ```
 
 删除目录中的所有内容
 
-```
+```jsx
 rm *
 ```
 
 现在创建`index.js`文件
 
-```
+```jsx
 touch index.js 
 ```
 
 这个文件将把我们的应用程序呈现为 html 文件，该文件位于*公共文件夹*中。现在，用文件*src/components/question box . js*和*src/components/resultbox . js*创建一个文件夹名组件，用文件 *src/question/index.js* 保存我们的问题。
 
-```
+```jsx
 mkdir components && cd components && touch app.js
 ```
 
-```
+```jsx
 mkdir question && cd question && index.js
 ```
 
@@ -76,7 +76,7 @@ mkdir question && cd question && index.js
 **编辑 src/index.js 文件**
 这个文件包含了我们的 app 逻辑。
 
-```
+```jsx
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import "./style.css";
@@ -155,7 +155,7 @@ ReactDOM.render(<Quiz/>, document.getElementById("root"));
 
 **编辑 src/question/index.js 文件:**该文件包含将要显示的所有问题。
 
-```
+```jsx
 const qBank = [
   {
     question:
@@ -286,7 +286,7 @@ export default (n = 5) =>
 
 **编辑 src/components/QuestionBox.js 文件:**该文件制作带按钮的问题框。
 
-```
+```jsx
 import React, {useState} from "react";
 import "../style.css";
 
@@ -315,7 +315,7 @@ export default QuestionBox;
 
 **编辑 src/components/ResultBox.js 文件:**该文件显示结果。
 
-```
+```jsx
 import React from 'react';
 import "../style.css";
 
@@ -331,7 +331,7 @@ export default Result;
 
 **保存所有文件并启动服务器:**
 
-```
+```jsx
 npm start
 ```
 

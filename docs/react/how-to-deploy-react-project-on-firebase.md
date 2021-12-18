@@ -24,13 +24,13 @@
 
     *   **步骤 1** :使用以下命令创建一个反应应用程序:
 
-        ```
+        ```jsx
         npx create-react-app react_hosting
         ```
 
         **第二步**:安装火基工具:
 
-    *   ```
+    *   ```jsx
         npm install -g firebase-tools
         ```
 
@@ -44,7 +44,7 @@
 
 *   **步骤 1:** 首先，我们将通过在根目录的控制台中运行以下命令来初始化 React 应用程序中的 firebase 项目。
 
-    ```
+    ```jsx
     firebase init
     ```
 
@@ -74,13 +74,13 @@
 
 *   **Step 6: **Now we will run the following command to build our react app.
 
-    ```
+    ```jsx
     npm run build
     ```
 
 *   **Step 7: **Now we just need to run the last command and our application will be deployed.
 
-    ```
+    ```jsx
     firebase deploy
     ```
 

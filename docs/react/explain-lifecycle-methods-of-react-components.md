@@ -20,7 +20,7 @@ React 为开发人员提供了一组预定义的函数，如果有的话，这�
 
 ## java 描述语言
 
-```
+```jsx
 class Clock extends React.Component {
   constructor(props) {
 
@@ -42,7 +42,7 @@ class Clock extends React.Component {
 
 ## java 描述语言
 
-```
+```jsx
 componentWillRecieveProps(newProps)
 {
     if(this.props !== newProps)
@@ -64,7 +64,7 @@ componentWillRecieveProps(newProps)
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

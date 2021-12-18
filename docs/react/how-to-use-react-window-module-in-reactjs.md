@@ -8,19 +8,19 @@ React window 仅通过渲染大数据集 的部分来工作。这个模块非常
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹。**
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装**材料界面**和**反应窗口**模块。
 
-```
+```jsx
 npm install @material-ui/core
 npm install react-window
 ```
@@ -35,7 +35,7 @@ npm install react-window
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -68,7 +68,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

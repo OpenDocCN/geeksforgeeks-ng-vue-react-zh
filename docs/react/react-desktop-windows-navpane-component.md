@@ -33,19 +33,19 @@ Reaction Desktop 是一个将原生桌面体验带到 Web 上的受欢迎的库�
 
 *   **步骤 1：**使用以下命令创建 Reaction 应用程序：
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2：**创建项目文件夹(即 foldername**)后，**使用以下命令移动到该文件夹：
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 **步骤 3：**创建 ReactJS 应用程序后，使用以下命令安装所需的****模块：****
 
-```
+```jsx
 **npm install react-desktop**
 ```
 
@@ -59,7 +59,7 @@ Reaction Desktop 是一个将原生桌面体验带到 Web 上的受欢迎的库�
 
 ## ****App.js****
 
-```
+```jsx
 **import React from 'react'
 import { NavPane, NavPaneItem } from 'react-desktop/windows';
 
@@ -94,7 +94,7 @@ export default function App() {
 
 ******运行应用程序的步骤：**使用以下命令从项目根目录运行应用程序：****
 
-```
+```jsx
 **npm start**
 ```
 

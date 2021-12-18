@@ -14,7 +14,7 @@ Reactstrap 是一个基于引导的 react UI 库，通过其无缝且易于使�
 
 **语法:**
 
-```
+```jsx
 <Jumbotron>
   content
 </Jumbotron>
@@ -24,19 +24,19 @@ Reactstrap 是一个基于引导的 react UI 库，通过其无缝且易于使�
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 在给定的目录中安装 Reactstrap。
 
-```
+```jsx
  npm install --save reactstrap react react-dom
 ```
 
@@ -48,7 +48,7 @@ Reactstrap 是一个基于引导的 react UI 库，通过其无缝且易于使�
 
 **运行应用程序的步骤:**使用以下命令从项目的根目录运行应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -56,7 +56,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Jumbotron } from "reactstrap";
 const gfg = (props) => {
@@ -104,7 +104,7 @@ export default gfg;
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
 

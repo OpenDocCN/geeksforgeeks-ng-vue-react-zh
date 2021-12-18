@@ -10,7 +10,7 @@ React 是一个免费的开源前端 JavaScript 库，用于构建用户界面�
 
 **创建 reatjs 应用程序:**您可以使用以下命令创建一个新的 reatjs 项目:
 
-```
+```jsx
 npx create-react-app gfg  
 ```
 
@@ -20,7 +20,7 @@ npx create-react-app gfg
 
 **示例 1:** 在本例中，我们将创建一个非常简单的日历，没有任何样式。为此，我们将安装一个新的 npm 包。在您的终端中运行以下代码来安装软件包。
 
-```
+```jsx
 npm i @natscale/react-calendar
 ```
 
@@ -28,7 +28,7 @@ npm i @natscale/react-calendar
 
 ## App.js
 
-```
+```jsx
 import React, { useState, useCallback } from 'react';
 import { Calendar } from '@natscale/react-calendar';
 
@@ -55,7 +55,7 @@ export default function CalendarGfg() {
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 
@@ -65,7 +65,7 @@ npm start
 
 **示例 2:** 在本例中，我们将创建一个带有一些样式的非常日历。为此，我们将安装一个新的 npm 包。在您的终端中运行以下代码来安装软件包。
 
-```
+```jsx
 npm i react-calendar
 ```
 
@@ -73,7 +73,7 @@ npm i react-calendar
 
 ## App.js
 
-```
+```jsx
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -95,7 +95,7 @@ export default function CalendarGfg() {
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 

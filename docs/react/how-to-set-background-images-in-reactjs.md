@@ -14,13 +14,13 @@
 
 **步骤 1:** 用户可以使用下面的命令创建一个新的 react 项目。
 
-```
+```jsx
 npx create-react-app testapp
 ```
 
 **步骤 2:** 接下来，用户需要使用下面的命令从终端移动到测试 app 项目文件夹。
 
-```
+```jsx
 cd testapp
 ```
 
@@ -36,7 +36,7 @@ cd testapp
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -73,7 +73,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import './App.css';
 
@@ -96,7 +96,7 @@ export default App;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .GeeksForGeeks {
   background-image: 
   url(
@@ -121,7 +121,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -157,7 +157,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -193,7 +193,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import background from "./image.png";
 
@@ -220,7 +220,7 @@ export default App;
 
 **运行反应应用程序的步骤:**您可以使用以下命令*运行*反应应用程序。
 
-```
+```jsx
 npm start
 ```
 

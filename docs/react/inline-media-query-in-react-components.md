@@ -8,13 +8,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -30,7 +30,7 @@
 
 *   **步骤 5:** 现在使用命令从 my-app 的根目录安装**镭**模块。
 
-*   ```
+*   ```jsx
     $ npm install --save radium
     ```
 
@@ -44,7 +44,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import Radium, { StyleRoot } from 'radium';
 
@@ -72,7 +72,7 @@ export default Radium(App);
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 import Radium, { StyleRoot } from 'radium';
 class App extends Component {
@@ -101,7 +101,7 @@ export default Radium(App);
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

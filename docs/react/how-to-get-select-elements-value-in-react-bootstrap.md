@@ -6,7 +6,7 @@
 
 **使用 Ref:** 获取元素更新值的第一种方法是使用 Ref。使用 ref，我们可以获得元素的引用，并且可以通过现有的组件访问它的值。
 
-```
+```jsx
 import React, { Component } from "react";
 import { Form } from "react-bootstrap";
 
@@ -51,7 +51,7 @@ export default GeeksForGeeks;
 
 *   第一步是在反应组件
 
-    ```
+    ```jsx
     constructor() {
         super();
         this.myRef = React.createRef();
@@ -60,7 +60,7 @@ export default GeeksForGeeks;
 
     中创建参考*   接下来，使用添加的 ref 属性实现 react-bootstrap select 元素，后跟之前创建的引用的名称。
 
-    ```
+    ```jsx
     render() {
             return (
               <div>
@@ -87,7 +87,7 @@ export default GeeksForGeeks;
 
     *   This statement access the selected option from the select element by extracting the current referenced element from the DOM, then it fetches value.
 
-    ```
+    ```jsx
     onButtonClick() {
         console.log(this.myRef.current.value);
     }
@@ -96,7 +96,7 @@ export default GeeksForGeeks;
 
     **使用表单控件:**当选择元素是表单元素的一部分时，也可以使用表单元素，通过使用附加到选择元素的事件处理程序来获取选择元素的值。
 
-    ```
+    ```jsx
     import React, { Component } from "react";
     import { Form } from "react-bootstrap";
 
@@ -140,7 +140,7 @@ export default GeeksForGeeks;
 
     *   this.onSubmitForm()方法用于在用户单击提交按钮时提交表单。
 
-    ```
+    ```jsx
     onFormSubmit(event) {
         event.preventDefault();
         console.log("Color value is :", this.state.color);
@@ -150,7 +150,7 @@ export default GeeksForGeeks;
 
     *   this.onChangeColor()用于检查选择元素的更改事件
 
-    ```
+    ```jsx
     onChangeColor() {
         this.setState({ color: event.target.value })
     }

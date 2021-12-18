@@ -38,7 +38,7 @@ render()，**componentdimount()，componentdupdate()componentdilunmount()所有�
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, { useState, useEffect } from 'react';  
 
 function CounterExample() {  
@@ -71,7 +71,7 @@ export default CounterExample;
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, { useContext } from 'react';
 const ExampleContext = React.createContext();
 function Display() {
@@ -93,7 +93,7 @@ function App() {
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, { useReducer } from 'react';
 const initialState = {count: 0};
 
@@ -123,7 +123,7 @@ function App() {
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, { useRef } from 'react';
 function App() {
   const newElement = useRef(null);

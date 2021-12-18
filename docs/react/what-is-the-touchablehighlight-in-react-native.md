@@ -8,7 +8,7 @@ TouchableHighlight 是一个组件，用于为视图提供包装，以使它们�
 
 **语法:**
 
-```
+```jsx
 <TouchableHighlight>
     // Child Component
 </TouchableHighlight>
@@ -26,19 +26,19 @@ TouchableHighlight 是一个组件，用于为视图提供包装，以使它们�
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init TouchableHighlightDemo
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 TouchableHighlightDemo
 
-    ```
+    ```jsx
     cd TouchableHighlightDemo
     ```
 
@@ -50,7 +50,7 @@ TouchableHighlight 是一个组件，用于为视图提供包装，以使它们�
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import { StyleSheet,
          Text, 
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
 
 使用以下命令启动**服务器**。
 
-```
+```jsx
 npm run android
 ```
 

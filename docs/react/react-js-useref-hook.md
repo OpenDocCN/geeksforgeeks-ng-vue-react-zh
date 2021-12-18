@@ -7,7 +7,7 @@ useRef 是一个钩子，允许在功能组件中直接创建对 DOM 元素的�
 
 **语法:**
 
-```
+```jsx
 const refContainer = useRef(initialValue);
 ```
 
@@ -17,7 +17,7 @@ useRef 返回一个可变的 Ref 对象。此对象有一个名为. current 的�
 
 ## java 描述语言
 
-```
+```jsx
 import React, {Fragment, useRef} from 'react';
 
 function App() {

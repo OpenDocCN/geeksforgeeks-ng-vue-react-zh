@@ -15,11 +15,11 @@
 
 *   **第一步:**在继续之前，首先我们必须安装打字机效果，通过在项目目录中运行以下命令，借助 src 文件夹中的终端，或者您也可以在项目文件夹中的 Visual Studio Code 终端中运行该命令。
 
-    ```
+    ```jsx
     npm install --save typewriter-effect
     ```
 
-    ```
+    ```jsx
     yarn add typewriter-effect
     ```
 
@@ -27,7 +27,7 @@
 *   **第三步:**现在导入 React 和打字机效果包。
 *   **第四步:**在你的 app.js 文件中，添加这个代码片段来导入 React 和打字机效果包。
 
-    ```
+    ```jsx
     import React from 'react';
     import Typewriter from "typewriter-effect";
     ```
@@ -38,7 +38,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 //importing typewriter-effect
@@ -73,7 +73,7 @@ export default App;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .App {
   font-family: sans-serif;
   font-weight:800;

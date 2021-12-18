@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 **material-ui** 模块:
 
-    ```
+    ```jsx
     npm install @material-ui/core
     npm install @material-ui/icons
     npm install @material-ui/lab
@@ -36,7 +36,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import SpeedDial from '@material-ui/lab/SpeedDial';
 import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
@@ -88,7 +88,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

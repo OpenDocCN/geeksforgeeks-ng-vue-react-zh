@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 alignItems: stretch|center|flex-start|flex-end|baseline;
 ```
 
@@ -22,19 +22,19 @@ alignItems: stretch|center|flex-start|flex-end|baseline;
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -46,7 +46,7 @@ alignItems: stretch|center|flex-start|flex-end|baseline;
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 
@@ -75,7 +75,7 @@ const styles = StyleSheet.create ({
 
 **使用以下命令启动服务器。**
 
-```
+```jsx
 npm run android
 ```
 
@@ -89,7 +89,7 @@ npm run android
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 
@@ -127,7 +127,7 @@ const styles = StyleSheet.create ({
 
 *   属性 flex-start 插图，请使用以下语法:
 
-    ```
+    ```jsx
     alignItems : 'flex-start',
     ```
 
@@ -137,7 +137,7 @@ const styles = StyleSheet.create ({
 
 *   属性**灵活结束**图示，使用以下语法:
 
-    ```
+    ```jsx
     alignItems:'flex-end',
     ```
 
@@ -147,7 +147,7 @@ const styles = StyleSheet.create ({
 
 *   属性**基线**图示，使用以下语法:
 
-    ```
+    ```jsx
     alignItems:'baseline',
     ```
 

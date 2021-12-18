@@ -16,19 +16,19 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app location-finder
 ```
 
 **第 2 步:**现在，运行以下命令进入项目文件夹，即位置查找器:
 
-```
+```jsx
 cd location-finder
 ```
 
 **第三步:**我们来安装这个项目需要的一些 npm 包:
 
-```
+```jsx
 npm install react-map-gl
 npm install axios
 npm install react-icons
@@ -53,7 +53,7 @@ npm install react-icons
 
 ## App.js
 
-```
+```jsx
 import { useEffect, useState } from "react";
 import ReactMapGL, { Marker, FlyToInterpolator }
       from "react-map-gl";
@@ -119,7 +119,7 @@ export default App;
 
 ## 飞，jsx
 
-```
+```jsx
 import React, { useState } from "react";
 import Axios from "axios";
 
@@ -171,7 +171,7 @@ export default Fly;
 
 ## App.css
 
-```
+```jsx
 .fly {
   display: flex;
   align-items: center;
@@ -198,7 +198,7 @@ export default Fly;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

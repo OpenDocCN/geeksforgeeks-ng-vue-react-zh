@@ -10,7 +10,7 @@ React **基于类的组件**是大多数内置于 ReactJS 中的现代网络应�
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 class App extends React.Component {

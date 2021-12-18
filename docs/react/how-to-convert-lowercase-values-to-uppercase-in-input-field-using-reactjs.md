@@ -14,7 +14,7 @@
 
 **使用的功能:**
 
-```
+```jsx
 toUpperCase()
 ```
 
@@ -24,19 +24,19 @@ toUpperCase()
 
 **步骤 1:** 使用以下命令执行 Create react app。
 
-```
+```jsx
 npx create-react-app my-first-app
 ```
 
 **步骤 2:** 通过执行以下命令将目录更改为该文件夹:
 
-```
+```jsx
 cd my-first-app
 ```
 
 **步骤 3:** 安装以下依赖项。
 
-```
+```jsx
 npm install react
 npm install useState
 ```
@@ -51,7 +51,7 @@ npm install useState
 
 ## java 描述语言
 
-```
+```jsx
 function App() {
   return (
 
@@ -71,7 +71,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react'
 function CapitalLetter()
 {
@@ -114,7 +114,7 @@ export default CapitalLetter;
 
 **运行应用程序的步骤:**在终端运行以下命令。
 
-```
+```jsx
 npm start
 ```
 

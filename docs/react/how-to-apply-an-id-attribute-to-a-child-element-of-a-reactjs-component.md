@@ -4,13 +4,13 @@
 
 我们可以从 ReactJS 组件的道具中获取 ReactJS 组件的 ID 属性。当我们在 ReactJS 组件中时，我们将使用 *this.props* 代替 props。如果 id 属性已经作为 ID 传递给了 ReactJS 组件，那么我们可以使用下面的方法来传递 ID 属性:
 
-```
+```jsx
 this.props.id
 ```
 
 一旦我们获得了 ID 属性，我们就可以很容易地将它传递给我们希望传递给它的任何子元素，如下所示。
 
-```
+```jsx
 <child_element_name id = {this.props.id}>
 ```
 
@@ -18,13 +18,13 @@ this.props.id
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -36,7 +36,7 @@ this.props.id
 
 ## App.js
 
-```
+```jsx
 import BodyComponent from './Bodycomponent.js';
 
 function App() {
@@ -53,7 +53,7 @@ export default App;
 
 ## Bodycomponent.js
 
-```
+```jsx
 import React from 'react';
 
 function BodyComponent(props) {
@@ -72,7 +72,7 @@ export default BodyComponent;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

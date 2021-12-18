@@ -5,13 +5,13 @@
 本文的目的是通过开发一个简单的扫描仪应用程序，了解 Expo 对**条形码扫描仪**组件的使用。
 在进入开发部分之前，我们需要初始化项目并安装依赖项。因此，打开终端并输入以下命令:
 
-```
+```jsx
 expo init // Choose the Blank template when prompted
 ```
 
 移动到项目文件夹中，然后运行以下命令:
 
-```
+```jsx
 expo install expo-barcode-scanner
 ```
 

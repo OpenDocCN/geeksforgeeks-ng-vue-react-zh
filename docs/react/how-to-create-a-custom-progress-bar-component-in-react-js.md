@@ -28,13 +28,13 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序
 
-```
+```jsx
 npx create-react-app progress_bar
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd Progress_bar
 ```
 
@@ -50,7 +50,7 @@ cd Progress_bar
 
 ## 进度条. js
 
-```
+```jsx
 import React from 'react'
 
 const Progress_bar = ({bgcolor,progress,height}) => {
@@ -93,7 +93,7 @@ export default Progress_bar;
 
 ## App.js
 
-```
+```jsx
 import './App.css';
 import Progressbar from './Component/Progress_bar';
 
@@ -117,7 +117,7 @@ export default App;
 
 **运行应用程序的步骤**:从项目根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

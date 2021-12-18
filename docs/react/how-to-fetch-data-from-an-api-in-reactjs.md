@@ -12,19 +12,19 @@
 
 *   **步骤 1:** 创建反应项目
 
-    ```
+    ```jsx
     npm create-react-app MY-APP 
     ```
 
 *   **步骤 2:** 更改您的目录并输入您的主文件夹图表如下
 
-    ```
+    ```jsx
     cd MY-APP
     ```
 
 *   **步骤 3:** 原料药终点
 
-    ```
+    ```jsx
     https://jsonplaceholder.typicode.com/users
     ```
 
@@ -44,7 +44,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import './App.css';
 class App extends React.Component {
@@ -100,7 +100,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 .App {
     text-align: center;
     color: Green;
@@ -131,7 +131,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

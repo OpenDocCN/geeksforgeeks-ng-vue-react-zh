@@ -16,13 +16,13 @@
 
 *   **步骤 1:** 打开终端，运行以下命令，创建 react 应用程序的项目文件夹:
 
-    ```
+    ```jsx
     npx create-react-app myapp
     ```
 
 *   **第二步:**进入项目文件夹:
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -36,7 +36,7 @@
 
 ## App.js
 
-```
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -59,7 +59,7 @@ export default App;
 
 **运行应用程序的步骤:**转到项目文件夹的根目录，运行以下命令之一:
 
-```
+```jsx
 npm start
 ```
 
@@ -71,7 +71,7 @@ npm start
 
 **步骤 4:** 现在创建应用程序的生产构建。React App 使生产中的构建变得非常简单。如果您的项目是使用 create-react-app 构建的，请转到项目的根目录并运行:
 
-```
+```jsx
 npm run build
 ```
 
@@ -89,7 +89,7 @@ npm run build
 
 **步骤 5:** 在生产模式下运行应用。我们将为构建版本提供静态服务器:在生产模式下，react 应用程序将在端口 5000 上运行。
 
-```
+```jsx
 serve -s build
 ```
 

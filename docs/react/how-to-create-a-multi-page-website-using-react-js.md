@@ -23,19 +23,19 @@
 
 **第一步:**我们将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 启动一个新项目，因此打开您的终端并键入:
 
-```
+```jsx
 npx create-react-app react-website
 ```
 
 **第 2 步:**现在，通过在终端中键入给定的命令进入您的文件夹:
 
-```
+```jsx
 cd react-website
 ```
 
 **步骤 3:** 通过在终端中键入给定的命令，安装本项目所需的依赖项。
 
-```
+```jsx
 npm install react-router-dom 
 npm install --save styled-components
 ```
@@ -50,7 +50,7 @@ npm install --save styled-components
 
 ## index.js
 
-```
+```jsx
 import React from "react";
 import { Nav, NavLink, NavMenu } 
     from "./NavbarElements";
@@ -83,7 +83,7 @@ export default Navbar;
 
 ## navbarelements . js
 
-```
+```jsx
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
@@ -143,7 +143,7 @@ white-space: nowrap; */
 
 ## about.js
 
-```
+```jsx
 import React from "react";
 
 const About = () => {
@@ -162,7 +162,7 @@ export default About;
 
 ## blogs.js
 
-```
+```jsx
 import React from 'react';
 
 const Blogs = () => {
@@ -176,7 +176,7 @@ export default Blogs;
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 
 const Home = () => {
@@ -192,7 +192,7 @@ export default Home;
 
 ## 注册. js
 
-```
+```jsx
 import React from 'react';
 
 const SignUp = () => {
@@ -208,7 +208,7 @@ export default SignUp;
 
 ## contact.js
 
-```
+```jsx
 import React from 'react';
 
 const Contact = () => {
@@ -224,7 +224,7 @@ export default Contact;
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -239,7 +239,7 @@ document.getElementById('root')
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -271,7 +271,7 @@ export default App;
 
 **运行应用程序的步骤:**现在要运行上述代码，请打开终端并键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

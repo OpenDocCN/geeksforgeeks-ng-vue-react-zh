@@ -20,13 +20,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -42,7 +42,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import React, { useEffect, useState } from "react";
 import PokemonThumbnail from "./Components/PokemonThumbnail";
 

@@ -8,7 +8,7 @@ componentDidUpdate()是在 componentDidMount()之后调用的，当组件的状�
 
 **语法:**
 
-```
+```jsx
 componentDidUpdate(prevProps, prevState, snapshot)
 ```
 
@@ -20,7 +20,7 @@ componentDidUpdate(prevProps, prevState, snapshot)
 
 **提示:**为了避免无限循环，所有网络请求都需要在条件语句中，如下所示:
 
-```
+```jsx
 componentDidUpdate(prevProps, prevState) {
   if (prevState.data !== this.state.data) {
     // Now fetch the new data here.
@@ -32,13 +32,13 @@ componentDidUpdate(prevProps, prevState) {
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app functiondemo
 ```
 
 **步骤 2:** 创建项目文件夹(即 functiondemo)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd functiondemo
 ```
 
@@ -54,7 +54,7 @@ cd functiondemo
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 class App extends React.Component {
@@ -103,7 +103,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

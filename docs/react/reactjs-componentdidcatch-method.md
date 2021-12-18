@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 componentDidCatch(error, info)
 ```
 
@@ -19,13 +19,13 @@ componentDidCatch(error, info)
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -41,7 +41,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 export default class App extends Component {
@@ -82,7 +82,7 @@ class GFGComponent extends Component {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

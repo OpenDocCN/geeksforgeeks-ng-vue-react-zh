@@ -46,19 +46,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的****模块:****
 
-```
+```jsx
 **npm install @blueprintjs/core**
 ```
 
@@ -72,7 +72,7 @@ cd foldername
 
 ## ****java 描述语言****
 
-```
+```jsx
 **import React from 'react'
 import '@blueprintjs/core/lib/css/blueprint.css';
 import { Tree, Classes } from "@blueprintjs/core";

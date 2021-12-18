@@ -10,7 +10,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'
@@ -22,7 +22,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from 'react'
 
     class App extends Component {
@@ -95,7 +95,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'
@@ -107,7 +107,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from 'react'
 
     class App extends Component{

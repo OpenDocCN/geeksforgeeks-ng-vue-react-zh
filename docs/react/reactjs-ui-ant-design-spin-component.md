@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```jsx
 <Spin />
 ```
 
@@ -25,19 +25,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app demo
 ```
 
 **步骤 2:** 创建反应应用程序后，使用以下命令进入该应用程序:
 
-```
+```jsx
 cd demo
 ```
 
 **步骤 3** :现在使用以下命令安装 **antd** 库:
 
-```
+```jsx
 npm install antd
 ```
 
@@ -49,7 +49,7 @@ npm install antd
 
 ## App.js
 
-```
+```jsx
 import { Spin } from "antd";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -72,7 +72,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

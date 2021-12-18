@@ -12,7 +12,7 @@
 
 **Babel:** 浏览器对 JavaScript 现代特性的支持最近变得更好了，但它永远不会完美。我们可以修补聚合文件，或者使用一个小的 shell 脚本来重写我们的代码，但是这些代码很容易被破坏，导致死代码。Babel 是解决这个问题的一种方法，它采用现代的 JavaScript，并将其编译成一种可以在不同环境中理解的形式。Babel 建立在一个插件系统上，该插件系统将我们现代的 JavaScript 解析成抽象语法树或 AST，并将其重写为我们的浏览器可以解释的版本。要进行设置，请安装 babel CLI 包，并将其保存为开发依赖项。
 
-```
+```jsx
 npm install --save-dev babel-cli
 ```
 
@@ -34,7 +34,7 @@ Webpack 用于捆绑。
 
 ![](img/7b7ea7f2558dcdec7e62e47b7b37eb3f.png)
 
-```
+```jsx
 {
 "name": "my-project",
 "version": "0.1.0",

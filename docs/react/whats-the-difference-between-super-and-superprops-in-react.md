@@ -13,13 +13,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令将**移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -35,7 +35,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 
 class MyComponent extends React.Component {
@@ -55,7 +55,7 @@ export default MyComponent;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -71,7 +71,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 
 class MyComponent extends React.Component {
@@ -90,7 +90,7 @@ export default MyComponent;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -100,6 +100,6 @@ npm start
 
 **说明:**如果要在构造函数中使用*这个*，需要传递给 super。如果我们想在构造函数中使用 *this.props* ，我们需要用 super()函数传递它。否则，我们不想因为看到*这个就把道具传给 super()。道具*在渲染功能内部可用。
 
-```
+```jsx
 Note: Outside Constructor() Both will display same value for 'this.props'
 ```

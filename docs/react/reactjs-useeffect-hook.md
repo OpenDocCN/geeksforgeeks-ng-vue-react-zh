@@ -6,7 +6,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 componentDidMount(){
     document.title = `you clicked ${this.state.count} times`;
 }
@@ -20,7 +20,7 @@ componentDidUpdate(){
 
 ## java 描述语言
 
-```
+```jsx
 componentDidMount(){
     this.interval = setInterval(this.tick, 1000)
 }
@@ -34,7 +34,7 @@ componentWillUnmount(){
 
 ## java 描述语言
 
-```
+```jsx
 componentDidMount(){
     document.title = `you clicked ${this.state.count} times`;
     this.interval = setInterval(this.tick, 1000)
@@ -58,7 +58,7 @@ componentDidUpdate(){
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class ClassCounterOne extends Component {
@@ -97,7 +97,7 @@ export default ClassCounterOne
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import './App.css'
 import ClassCounterOne from './components/classCounterOne'
@@ -129,7 +129,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState, useEffect } from 'react'
 
 function HookCounterOne() {
@@ -154,7 +154,7 @@ export default HookCounterOne
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import './App.css'
 import ClassCounterOne from './components/classCounterOne'

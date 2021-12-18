@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 React.js 应用程序后，使用以下命令安装 material-UI 模块。
 
-    ```
+    ```jsx
     npm install @material-ui/core
     npm install @material-ui/icons
     ```
@@ -29,13 +29,13 @@
 
 **步骤 1:** 导入主题提供者并创建多个主题
 
-```
+```jsx
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 ```
 
 **步骤 2:** 在 App.js 中设置切换逻辑
 
-```
+```jsx
 const [toggleDark, settoggleDark] = useState(false);
 const myTheme=createMuiTheme({
 
@@ -48,7 +48,7 @@ const myTheme=createMuiTheme({
 
 **第 3 步:**这里我正在创建一个新的 SmallComponent，这将是我们在 App 中导入的新组件。(您可以根据自己的组件对其进行自定义。在这里，我专注于在已经存在的代码中实现黑暗模式)。传递暗模式的状态(切换暗模式和设置暗模式)，这将用于在亮模式和暗模式之间切换。将您的组件包装在主题提供程序中，并传递您定制的主题。
 
-```
+```jsx
 <ThemeProvider theme={myTheme}>
     <SmallComponent toggleDark={toggleDark} settoggleDark={settoggleDark}/>
 </ThemeProvider>
@@ -56,13 +56,13 @@ const myTheme=createMuiTheme({
 
 **第 4 步:**使用 SmallComponent.js 中的 onChange 开关触发切换
 
-```
+```jsx
 const handleModeChange = () => {
     settoggleDark(!toggleDark)
 };
 ```
 
-```
+```jsx
 <Switch
     checked={toggleDark}
     onChange={handleModeChange}
@@ -75,7 +75,7 @@ const handleModeChange = () => {
 
 ## App.js
 
-```
+```jsx
 import React, { useState } from "react";
 import SmallComponent from "./SmallComponent";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
@@ -105,7 +105,7 @@ export default App;
 
 ## 狭窄组件. js
 
-```
+```jsx
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";

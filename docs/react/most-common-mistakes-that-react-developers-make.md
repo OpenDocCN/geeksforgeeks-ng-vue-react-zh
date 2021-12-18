@@ -18,7 +18,7 @@ React 最重要的特性之一是组件。根据设计，React 应用程序被�
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 function MyComponent() {
@@ -49,7 +49,7 @@ function MyComponent() {
 
     ## Header.js
 
-    ```
+    ```jsx
     import React, { Component } from 'react';
 
     class Header extends Component {
@@ -69,7 +69,7 @@ function MyComponent() {
 
     ## 图表. js
 
-    ```
+    ```jsx
     import React, { Component } from 'react';
 
     class Chart extends Component {
@@ -89,7 +89,7 @@ function MyComponent() {
 
     ## 页脚. js
 
-    ```
+    ```jsx
     import React, { Component } from 'react';
 
     class Footer extends Component {
@@ -109,7 +109,7 @@ function MyComponent() {
 
 ## java 描述语言
 
-```
+```jsx
 // MyComponent.js
 import React from "react";
 import Header from "./Header"
@@ -146,7 +146,7 @@ function MyComponent() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 function MyComponent() {
@@ -170,7 +170,7 @@ React 提供了很多钩子，比如 useEffect、useState、useRef 等等。但�
 
 ## java 描述语言
 
-```
+```jsx
 import React,{Component} from 'react';
 
 class MyComponent extends Component {
@@ -197,7 +197,7 @@ export default MyComponent
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 function MyComponent() {
@@ -220,7 +220,7 @@ export MyComponent
 
 ## java 描述语言
 
-```
+```jsx
 const lists = ['obj1', 'obj2', 'obj3'];
 
 render() {
@@ -239,7 +239,7 @@ render() {
 
 ## java 描述语言
 
-```
+```jsx
 const lists = ['obj1', 'obj2', 'obj3'];
 
 render() {

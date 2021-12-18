@@ -12,20 +12,20 @@ React 使用与上述相同的功能，您可以将每个 React 组件视为一�
 
 *   **导入默认导出:**每个模块据说最多有一个默认导出。为了从文件导入默认导出，我们可以只使用地址，并在它之前使用关键字 import，或者我们可以给导入命名，使语法如下。
 
-```
+```jsx
 import GIVEN_NAME from ADDRESS
 ```
 
 *   **导入命名值:**每个模块可以有几个命名参数，为了导入一个，我们应该使用如下语法。
 
-```
+```jsx
 import { PARA_NAME } from ADDRESS
 ```
 
 *   同样，对于多个这样的导入，我们可以使用逗号来分隔花括号中的两个参数名称。
 *   **导入默认导出和命名值的组合:**标题明确了我们需要看到的是相同的语法。为了导入组合，我们应该使用以下语法。
 
-```
+```jsx
 import GIVEN_NAME, { PARA_NAME, ... } from ADDRESS
 ```
 
@@ -35,13 +35,13 @@ import GIVEN_NAME, { PARA_NAME, ... } from ADDRESS
 
 *   **导出默认导出:**我们已经了解到每个模块据说最多有一个默认导出。为了从文件导出默认导出，我们需要遵循下面描述的语法。
 
-```
+```jsx
 export default GIVEN_NAME
 ```
 
 *   **导出命名值:**每个模块可以有几个命名参数，为了导出一个，我们应该使用如下语法。
 
-```
+```jsx
 export { PARA_NAME }
 ```
 
@@ -53,7 +53,7 @@ export { PARA_NAME }
 
 ## java 描述语言
 
-```
+```jsx
 // Importing combination
 import React, {Component} from 'react';
 // Importing Module
@@ -80,7 +80,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 // Importing combination
 import React, {Component} from 'react';
 

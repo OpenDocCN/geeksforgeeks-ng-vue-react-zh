@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 const EnhancedComponent = higherOrderComponent(OriginalComponent);
 ```
 
@@ -20,13 +20,13 @@ const EnhancedComponent = higherOrderComponent(OriginalComponent);
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -38,7 +38,7 @@ const EnhancedComponent = higherOrderComponent(OriginalComponent);
 
 ## Name.js
 
-```
+```jsx
 import React from 'react'
 
 const EnhancedComponent = (OriginalComponent) => {
@@ -60,7 +60,7 @@ export default EnhancedComponent;
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import "./App.css"
 import EnhancedComponent from './Name'
@@ -88,7 +88,7 @@ export default EnhancedComponent(App);
 
 ## HighOrder.js
 
-```
+```jsx
 import React from 'react'
 
 const EnhancedComponent = (OriginalComponent) => {
@@ -123,7 +123,7 @@ export default EnhancedComponent 
 
 ## App.js
 
-```
+```jsx
 import React from 'react'
 import "./App.css"
 // importing HighOrder file

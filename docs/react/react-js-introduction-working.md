@@ -14,7 +14,7 @@ React 使用声明性范例，使您更容易对应用程序进行推理，并�
 
 **示例:**使用以下命令创建一个新的 React 项目:
 
-```
+```jsx
 npx create-react-app myapp
 ```
 
@@ -22,7 +22,7 @@ npx create-react-app myapp
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component }  from 'react';
 
 class App extends Component {

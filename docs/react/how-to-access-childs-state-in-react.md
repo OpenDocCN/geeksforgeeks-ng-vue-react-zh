@@ -6,7 +6,7 @@
 
 **创建参照**参照是使用 React.createRef()创建的，并通过 Ref 属性附着到 React 元素。
 
-```
+```jsx
 class App extends React.Component {
 constructor(props) {
  super(props);
@@ -24,7 +24,7 @@ render() {
 
 **访问引用**当我们在渲染中将引用分配给元素或子组件时，我们可以使用引用的当前属性来访问该元素。
 
-```
+```jsx
 const element = this.myRef.current;
 ```
 
@@ -36,7 +36,7 @@ const element = this.myRef.current;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import Child from './Child'
 
@@ -69,7 +69,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 class Child extends React.Component {
   state = {

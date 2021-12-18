@@ -18,27 +18,27 @@
 
 *   **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-    ```
+    ```jsx
     npx create-react-app currency-converter
     ```
 
 *   **步骤 2:** 现在，通过运行以下命令进入项目文件夹，即货币转换器:
 
-    ```
+    ```jsx
     cd currency-converter
     ```
 
 *   **第三步:**我们来安装这个项目需要的一些 npm 包:
 
-    ```
+    ```jsx
     npm install axios
     ```
 
-    ```
+    ```jsx
     npm install react-dropdown
     ```
 
-    ```
+    ```jsx
     npm install react-icons
     ```
 
@@ -52,7 +52,7 @@
 
 ## App.js
 
-```
+```jsx
 import { useEffect, useState } from 'react';
 import Axios from 'axios';
 import Dropdown from 'react-dropdown';
@@ -145,7 +145,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .App {
@@ -207,7 +207,7 @@ p{
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

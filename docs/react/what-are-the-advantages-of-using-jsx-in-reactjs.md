@@ -18,13 +18,13 @@ JavaScript XML 或 JSX 是 JavaScript 语言语法的扩展。React 库是为元
 
 *   ****步骤 1:** 使用以下命令创建一个反应应用程序:**
 
-    ```
+    ```jsx
     npx create-react-app example
     ```
 
 *   ****步骤 2:** 创建项目文件夹后，例如**，**使用以下命令移动到该文件夹:**
 
-    ```
+    ```jsx
     cd example
     ```
 
@@ -38,7 +38,7 @@ JavaScript XML 或 JSX 是 JavaScript 语言语法的扩展。React 库是为元
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react';
 
 import Jsx from './Components/Jsx' 
@@ -56,7 +56,7 @@ export default function App() {
 
 ## **诺 jsx.js**
 
-```
+```jsx
 import React from 'react'
 
 const Nojsx = () => {
@@ -72,7 +72,7 @@ export default Nojsx
 
 ## **Jsx.js(联合王国)**
 
-```
+```jsx
 import React from 'react'
 
 const Jsx = () => {
@@ -88,7 +88,7 @@ export default Jsx
 
 ****运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:**
 
-```
+```jsx
 npm start
 ```
 

@@ -28,7 +28,7 @@
 
 ## ****java 描述语言****
 
-```
+```jsx
 **var STATIC_CACHE_NAME = "gfg-pwa";
 var DYNAMIC_CACHE_NAME = "dynamic-gfg-pwa";
 
@@ -88,7 +88,7 @@ self.addEventListener("activate", (event) => {
 
 ## ****java 描述语言****
 
-```
+```jsx
 **<script>
   if ("serviceWorker" in navigator) {
 
@@ -118,13 +118,13 @@ self.addEventListener("activate", (event) => {
 
 ******步骤 5:** 现在，我们有了服务人员基本功能的代码。我们需要注册它。为此，请将 src 文件夹中的 index.js 中的一行( **src/index.js** )从****
 
-```
+```jsx
 **service-worker.unregister()**
 ```
 
 ****到****
 
-```
+```jsx
 **serviceWorker.register()**
 ```
 
@@ -132,7 +132,7 @@ self.addEventListener("activate", (event) => {
 
 ******运行应用程序的步骤:**现在，在文本编辑器的终端输入以下命令。****
 
-```
+```jsx
 **npm start**
 ```
 
@@ -148,7 +148,7 @@ self.addEventListener("activate", (event) => {
 
 ****要生成应用编程接口密钥，请在终端中键入以下内容:****
 
-```
+```jsx
 **./node_modules/.bin/web-push generate-vapid-keys**
 ```
 
@@ -158,7 +158,7 @@ self.addEventListener("activate", (event) => {
 
 ## ****java 描述语言****
 
-```
+```jsx
 **<script>
   if ("serviceWorker" in navigator) {
     function urlBase64ToUint8Array(base64String) {
@@ -219,7 +219,7 @@ self.addEventListener("activate", (event) => {
 
 ## ****java 描述语言****
 
-```
+```jsx
 **self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then((cacheRes) => {
@@ -263,7 +263,7 @@ self.addEventListener("activate", (event) => {
 
 ## ****java 描述语言****
 
-```
+```jsx
 **import React from "react";
 import { InputGroup, Button, Container } 
         from "react-bootstrap";
@@ -325,7 +325,7 @@ export default Profile;**
 
 ## ****java 描述语言****
 
-```
+```jsx
 **window.onload = function () {
   var photo = document.getElementById("photoBtn");
   var locationBtn = document.getElementById("locationBtn");

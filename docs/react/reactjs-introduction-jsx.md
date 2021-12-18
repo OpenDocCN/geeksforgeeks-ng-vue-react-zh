@@ -5,7 +5,7 @@
 我们已经在关于 ReactJS 简介的文章中声明 React 是一个声明性的、高效的、灵活的 JavaScript 库，用于构建用户界面。但是，与其使用常规的 JavaScript，React 代码应该用一种叫做 JSX 的东西来编写。
 T3】我们来看一个 JSX 代码示例:
 
-```
+```jsx
 const ele = <h1>This is sample JSX</h1>;
 ```
 
@@ -20,7 +20,7 @@ const ele = <h1>This is sample JSX</h1>;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -43,7 +43,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -67,7 +67,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

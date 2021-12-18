@@ -12,25 +12,25 @@
 
 1.  **导入默认导出**:reactions native 中的每个模块至少需要一个默认导出。为了从文件导入默认导出，我们可以使用文件的位置，并在它之前使用关键字 import，或者我们可以给导入指定一个特定的名称，即 COMP_NAME，这样语法如下。
 
-    ```
+    ```jsx
     import COMP_NAME from LOCATION
     ```
 
 2.  **导入命名值:**每个模块都可以没有命名参数，如果我们需要导入一个，我们应该使用如下语法。
 
-    ```
+    ```jsx
     import { COMP_NAME } from LOCATION
     ```
 
     同样，对于多个导入，我们可以使用逗号(**、**)分隔符来分隔花括号内的双参数名称。如下图所示。
 
-    ```
+    ```jsx
     import { COMP_NAME1, COMP_NAME2, ... , COMP_NAMEn } from LOCATION
     ```
 
 3.  **导入默认导出和命名值的组合:**标题明确了我们需要看到的是相同的语法。为了导入组合，我们应该使用以下语法。
 
-    ```
+    ```jsx
     import GIVEN_NAME, { PARA_NAME, ... } from ADDRESS
     ```
 
@@ -43,19 +43,19 @@
 
 *   **步骤 1:** 安装 React 原生 App。
 
-    ```
+    ```jsx
     npm install -g create-react-native-app
     ```
 
 *   **步骤 2:** 创建反应原生项目。
 
-    ```
+    ```jsx
     create-react-native-app myReactNativeApp
     ```
 
 *   **步骤 3:** 使用以下命令启动服务器。
 
-    ```
+    ```jsx
     npm run android
     ```
 
@@ -67,7 +67,7 @@
 
 ## App.js
 
-```
+```jsx
 import * as React from "react";
 
 // Importing components from react-native library.
@@ -98,7 +98,7 @@ export default function App() {
 
 **运行应用程序的步骤:**使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 
@@ -110,7 +110,7 @@ npm run android
 
 ## App.js
 
-```
+```jsx
 import * as React from "react";
 
 // Importing components from react-native library.
@@ -146,7 +146,7 @@ export default function App() {
 
 **运行应用程序的步骤:**使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

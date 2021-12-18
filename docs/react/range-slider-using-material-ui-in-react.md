@@ -17,7 +17,7 @@
 
 *   **步骤 1：**在继续之前，首先我们必须安装 Material-UI 模块，在项目目录中运行以下命令，在 src 文件夹中的终端的帮助下，或者您也可以在项目文件夹中的 Visual Studio 代码的终端中运行此命令。
 
-```
+```jsx
 npm install @material-ui/core  
 ```
 
@@ -25,7 +25,7 @@ npm install @material-ui/core
 *   **步骤 3：**现在从 React 导入 React、useState(用于滑块的初始状态)，从 Material-UI 模块导入 Slider。
 *   **步骤 4：**在 app.js 文件中，添加此代码片段以导入来自 React 的 Reaction、useState(用于滑块的初始状态)和来自 Material-UI 模块的 Slider。
 
-```
+```jsx
 import React, { useState } from "react";
 import { Slider } from "@material-ui/core";
 ```
@@ -42,7 +42,7 @@ import { Slider } from "@material-ui/core";
 
 ## JavaScript
 
-```
+```jsx
 //We use useState for the initial set values
 import React, { useState } from "react";
 import "./App.css";
@@ -91,7 +91,7 @@ export default App;
 
 ## CSS
 
-```
+```jsx
 body {
   margin: 0px;
 }

@@ -16,7 +16,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // First Component i.e. App
 
     import React, { Component } from 'react';
@@ -53,7 +53,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
 
     const Component2 = (props) => {
@@ -76,7 +76,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // First component i.e App
 
     import React, { useState } from 'react';
@@ -112,7 +112,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // Second Component
     import React from 'react';
     import './Component2.css'

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 class MyHeader extends React.Component {
   render() {
     const mystyle = {
@@ -29,7 +29,7 @@ class MyHeader extends React.Component {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 
@@ -64,7 +64,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 

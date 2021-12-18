@@ -12,19 +12,19 @@ firebase 还解决了数据库的一个非常好的问题，它为您提供了�
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的****模块:****
 
-```
+```jsx
 **npm i firebase**
 ```
 
@@ -36,7 +36,7 @@ cd foldername
 
 ******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:****
 
-```
+```jsx
 **npm start**
 ```
 
@@ -44,7 +44,7 @@ cd foldername
 
 ## ****App.js****
 
-```
+```jsx
 **import React, { useState } from "react";
 import "./App.css";
 
@@ -78,7 +78,7 @@ export default App;**
 
 ## ****App.css****
 
-```
+```jsx
 **.App {
   text-align: center;
   height: 100vh;
@@ -136,7 +136,7 @@ button {
 
 ******第 7 步:**如果尚未安装 Firebase CLI，只需在您的 VScode 终端上使用下面给出的命令进行安装****
 
-```
+```jsx
 **npm install -g firebase-tools**
 ```
 
@@ -144,7 +144,7 @@ button {
 
 ******步骤 8:** 完成后，使用下面给出的命令，使用命令行或 VSCode 中的终端登录到您的 firebase。****
 
-```
+```jsx
 **firebase login**
 ```
 
@@ -156,7 +156,7 @@ button {
 
 ## ****火库. js****
 
-```
+```jsx
 **import firebase from "firebase";
 
 const firebaseConfig = {
@@ -181,7 +181,7 @@ export default db;**
 
 ## *****App.js*****
 
-```
+```jsx
 ***import React, { useState } from "react";
 import "./App.css";
 import db from "./firebase";
@@ -239,7 +239,7 @@ export default App;***
 
 ## *****App.js*****
 
-```
+```jsx
 ***import React, { useState, useEffect } from "react";
 import "./App.css";
 import db from "./firebase";
@@ -313,7 +313,7 @@ export default App;***
 
 *******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:*****
 
-```
+```jsx
 ***npm start***
 ```
 
@@ -325,7 +325,7 @@ export default App;***
 
 ## *****App.js*****
 
-```
+```jsx
 ***import React, { useState, useEffect } from "react";
 import "./App.css";
 import db from "./firebase";
@@ -444,7 +444,7 @@ export default App;***
 
 *******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:*****
 
-```
+```jsx
 ***npm start***
 ```
 
@@ -456,7 +456,7 @@ export default App;***
 
 ## *****App.js*****
 
-```
+```jsx
 ***import React, { useState, useEffect } from "react";
 import "./App.css";
 import db from "./firebase";
@@ -589,7 +589,7 @@ export default App;***
 
 *******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:*****
 
-```
+```jsx
 ***npm start***
 ```
 

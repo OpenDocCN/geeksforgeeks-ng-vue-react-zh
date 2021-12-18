@@ -10,31 +10,31 @@ React Rebass 是一个前端框架，设计时考虑到了 React。在本文中�
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 在给定的目录中安装 React Rebass 和 form 组件。
 
-```
+```jsx
 npm i rebass
 ```
 
 **第 4 步:**要添加主题提供者组件，我们必须为我们的项目安装主题 UI。要安装主题用户界面，请使用下面给出的语法:
 
-```
+```jsx
 npm i theme-ui gatsby-plugin-theme-ui
 ```
 
 **第 5 步:**现在要提供自定义主题化，我们将使用主题提供者组件。
 
-```
+```jsx
 import { ThemeProvider } from 'theme-ui'
 
 export default props =>
@@ -51,7 +51,7 @@ export default props =>
 
 ## app.js
 
-```
+```jsx
 import React from 'react'
 import theme from './theme'
 import { ThemeProvider } from 'theme-ui'
@@ -101,7 +101,7 @@ export default props =>
 
 ## Theme.js
 
-```
+```jsx
 export default {
     colors: {
         background: 'black',

@@ -11,7 +11,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -49,7 +49,7 @@ React 用于处理用户输入的值。
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -88,7 +88,7 @@ ReactDOM.render(<App />,
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

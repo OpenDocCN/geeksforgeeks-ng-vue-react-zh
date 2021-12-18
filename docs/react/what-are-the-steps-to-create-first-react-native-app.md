@@ -14,25 +14,25 @@ React Native 是由 Meta Platforms，Inc .创建的开源 UI 软件框架，用�
 
 **第一步:**打开你的终端，运行下面的命令。
 
-```
+```jsx
 npm install -g expo-cli
 ```
 
 **步骤 2:** 现在 expo-cli 已经全局安装，因此您可以通过运行下面的命令来创建项目文件夹。
 
-```
+```jsx
 expo init "projectName"
 ```
 
 **步骤 3** :现在进入创建的文件夹，使用以下命令启动服务器。
 
-```
+```jsx
 cd "projectName"
 ```
 
 执行反应原生程序
 
-```
+```jsx
 npm start web
 ```
 
@@ -44,7 +44,7 @@ npm start web
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 

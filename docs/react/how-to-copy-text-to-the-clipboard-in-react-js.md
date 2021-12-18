@@ -12,19 +12,19 @@
 
 **基本设置:**您将使用以下命令使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/how-to-create-a-read-more-component-in-reactjs/amp/) 启动一个新项目:
 
-```
+```jsx
 npx create-react-app react-copy-text
 ```
 
 现在，通过在终端中键入给定的命令，进入您的**反应-复制-文本**文件夹。
 
-```
+```jsx
 cd react-copy-text
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项。
 
-```
+```jsx
 npm install --save styled-components
 npm install --save react-copy-to-clipboard
 ```
@@ -41,7 +41,7 @@ npm install --save react-copy-to-clipboard
 
 ## 剪贴板. js
 
-```
+```jsx
 import React,{useState} from 'react'
 import copy from "copy-to-clipboard";  
 import { Heading, Input1, Input2, Container, Button } from './Styles'
@@ -87,7 +87,7 @@ export default Clipboard;
 
 ## Styles.js
 
-```
+```jsx
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -126,7 +126,7 @@ export const Button = styled.button` 
 
 ## App.js
 
-```
+```jsx
 import Clipboard from './components/Clipboard'
 
 function App() {
@@ -140,7 +140,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

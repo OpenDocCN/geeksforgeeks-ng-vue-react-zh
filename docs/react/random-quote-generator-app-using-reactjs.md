@@ -21,13 +21,13 @@ Reaction 是一个用于开发交互式用户界面的 JavaScript 库。 它由 
 
 **第一步：**通过以下命令创建 Reaction 应用
 
-```
+```jsx
 npx create-react-app quote-generator-react
 ```
 
 **步骤 2：**现在，转到文件夹
 
-```
+```jsx
 cd quote-generator-react
 ```
 
@@ -51,7 +51,7 @@ Src 文件夹将主要包含 3 个文件：
 
 ## 超文本标记语言
 
-```
+```jsx
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,7 +93,7 @@ Src 文件夹将主要包含 3 个文件：
 
 ## JavaScript
 
-```
+```jsx
 import React from 'react';
 import axios from 'axios';
 
@@ -148,7 +148,7 @@ export default App;
 
 ## CSS
 
-```
+```jsx
 #root, html, body {
     margin: 0;
     padding: 0;
@@ -273,7 +273,7 @@ export default App;
 
 **运行应用程序的步骤：**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

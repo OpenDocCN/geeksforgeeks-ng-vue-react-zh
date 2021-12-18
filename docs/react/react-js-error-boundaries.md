@@ -14,13 +14,13 @@
 
 **步骤 1**：使用以下命令创建 Reaction 应用程序：
 
-```
+```jsx
 create-react-app error-boundary
 ```
 
 **步骤 2：**创建错误边界目录后，移至该目录。
 
-```
+```jsx
 cd error-boundary
 ```
 
@@ -34,7 +34,7 @@ cd error-boundary
 
 ## JavaScript
 
-```
+```jsx
 import React from "react";
 
 class ErrorBoundary extends React.Component {
@@ -158,7 +158,7 @@ export default App;
 
 ## JavaScript
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -177,7 +177,7 @@ reportWebVitals();
 
 **运行应用程序的步骤：**使用以下命令从项目的根目录运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

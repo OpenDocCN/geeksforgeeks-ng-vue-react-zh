@@ -12,13 +12,13 @@ Sass 是一种脚本语言，被编译成[级联样式表(CSS)](https://www.geek
 
 *   **使用 npm 添加 sass:**
 
-    ```
+    ```jsx
     npm install node-sass --save
     ```
 
 *   **使用纱线添加 sass:**
 
-    ```
+    ```jsx
     yarn add node-sass
     ```
 
@@ -32,7 +32,7 @@ Sass 是一种脚本语言，被编译成[级联样式表(CSS)](https://www.geek
 
     ## HTML
 
-    ```
+    ```jsx
     $bg:rgb(88, 235, 88);
     $border-color : black;
 
@@ -50,7 +50,7 @@ Sass 是一种脚本语言，被编译成[级联样式表(CSS)](https://www.geek
 
     ## Javascript
 
-    ```
+    ```jsx
     import logo from './logo.svg';
     import './App.scss';
 

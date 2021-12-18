@@ -14,7 +14,7 @@ React.createElement 可以为小应用程序或演示目的创建元素，但不
 
 ## java 描述语言
 
-```
+```jsx
 <button className="btn btn-primary"> save </button>
 ```
 
@@ -22,7 +22,7 @@ React.createElement 可以为小应用程序或演示目的创建元素，但不
 
 ## java 描述语言
 
-```
+```jsx
 <Component className="card">
     <div>Hello world</div>
 </Component>
@@ -38,7 +38,7 @@ React.createElement 可以为小应用程序或演示目的创建元素，但不
 
 ## 超文本标记语言
 
-```
+```jsx
 <body>
     // Root element of React code
     <div id="root"></div>    

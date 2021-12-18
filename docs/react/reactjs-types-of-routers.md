@@ -13,7 +13,7 @@
 
 *   **语法:**
 
-```
+```jsx
 import { MemoryRouter as Router } from 'react-router-dom';
 ```
 
@@ -21,7 +21,7 @@ import { MemoryRouter as Router } from 'react-router-dom';
 
 ## Java Script 语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import { MemoryRouter as Router, Route, Link, Switch }
                     from 'react-router-dom';
@@ -78,7 +78,7 @@ export default App;
 
 *   **语法:**
 
-```
+```jsx
 import { BrowserRouter as Router } from 'react-router-dom';
 ```
 
@@ -86,7 +86,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 ## Java Script 语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch }
                   from 'react-router-dom';
@@ -142,7 +142,7 @@ export default App;
 
 *   **语法:**
 
-```
+```jsx
 import { HashRouter as Router } from 'react-router-dom';
 ```
 
@@ -150,7 +150,7 @@ import { HashRouter as Router } from 'react-router-dom';
 
 ## Java Script 语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link, Switch }
               from 'react-router-dom';

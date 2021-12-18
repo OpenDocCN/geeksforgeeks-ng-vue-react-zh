@@ -14,7 +14,7 @@
 
 然后我们可以在水平时间线中表示它，如下所示:
 
-```
+```jsx
 ---(1 Jan 2021)----(15 Jan 2021)-----(22 Mar 2021)----
 
 OnClick of 1 Jan we will show the event.    
@@ -34,25 +34,25 @@ OnClick of 22 Mar we will show the event.
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 react-水平时间线。
 
-    ```
+    ```jsx
     npm i react-horizontal-timeline
     ```
 
 *   **步骤 4:** 现在，使用以下命令安装道具类型。
 
-    ```
+    ```jsx
     npm i prop-types
     ```
 
@@ -66,7 +66,7 @@ OnClick of 22 Mar we will show the event.
 
 ## App.js
 
-```
+```jsx
 import React, { useState } from "react";
 import HorizontalTimeline from "react-horizontal-timeline";
 import "./App.css";
@@ -110,7 +110,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 .text-center{
    text-align: center;
 }
@@ -122,7 +122,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

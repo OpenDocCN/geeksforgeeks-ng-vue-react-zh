@@ -16,7 +16,7 @@
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, {useEffect, useReducer, useState} from "react";
 
 const initialState = {
@@ -102,7 +102,7 @@ export const SingleResponsibilityPrinciple = () => {
 
 ## **java 描述语言**
 
-```
+```jsx
 import {useEffect, useReducer, useState} from "react";
 
 const initialState = {
@@ -156,7 +156,7 @@ export const useGetRemoteData = (url) => {
 
 ## **java 描述语言**
 
-```
+```jsx
 import React from "react";
 import {useGetRemoteData} from "./useGetRemoteData";
 
@@ -195,7 +195,7 @@ export const SingleResponsibilityPrinciple = () => {
 
 ## **java 描述语言**
 
-```
+```jsx
 import {useEffect, useReducer, useState} from "react";
 import {loadingReducer} from "./LoadingReducer";
 
@@ -227,7 +227,7 @@ export const useHttpGetRequest = (URL) => {
 
 ## **java 描述语言**
 
-```
+```jsx
 export function loadingReducer(state, action) {
     switch (action.type) {
         case 'LOADING':

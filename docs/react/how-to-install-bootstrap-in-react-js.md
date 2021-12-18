@@ -18,13 +18,13 @@ Bootstrap 是最流行的前端开源工具包之一，用于在网络上开发�
 
 **步骤 1:** 使用以下命令创建一个反应应用程序。在终端内写下以下命令，然后按回车键。(您可以使用自己选择的文件夹名来代替 gfg。)
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **步骤 2:** 通过输入以下命令将目录更改为项目文件夹。
 
-```
+```jsx
 cd gfg
 ```
 
@@ -36,7 +36,7 @@ cd gfg
 
 **第三步:**在终端运行以下命令。一定要检查你是否在 React App 目录中。为了方便起见，我把 *F:\gfg* 作为我当前的工作目录，也就是我的 React App( *gfg)的目录。*
 
-```
+```jsx
 npm install bootstrap
 ```
 
@@ -58,7 +58,7 @@ npm install bootstrap
 
 **第 4 步:**到目前为止，引导程序已经成功安装在 React 应用程序中，但是要使用它，我们必须将其导入 React 文件中。我正在导入 *Bootstrap 精简 CSS 文件*和 *Bootstrap JavaScript 精简捆绑文件*在 ***index.js*** 里面，它在 ***F:\gfg\src** 里面。*
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 ```
@@ -69,7 +69,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ## java 描述语言
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
@@ -90,13 +90,13 @@ ReactDOM.render(
 
 **第五步:**我们都设置使用内置的 Bootstrap 类，但是要在 react app 中使用 Bootstrap 的 JavaScript 组件，我们必须安装 ***popper.js*** 和***jquery。*** 以防还没有安装。要安装 **jquery** 和 **popper.js** 在终端中写下下面一行，然后点击回车。
 
-```
+```jsx
 npm install jquery popper.js
 ```
 
 安装之后，同样地在您的 React JS 文件中导入这两个依赖项在这种情况下***index.js*** 下面是导入这两个依赖项的语句。
 
-```
+```jsx
 import $ from 'jquery';
 import Popper from 'popper.js';
 ```
@@ -107,7 +107,7 @@ import Popper from 'popper.js';
 
 ## java 描述语言
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
@@ -138,7 +138,7 @@ reportWebVitals();
 
 ## java 描述语言
 
-```
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -178,7 +178,7 @@ export default App;
 
 **运行应用程序的步骤:**通过在终端输入以下命令，保存您的文件并运行 npm 服务器。
 
-```
+```jsx
 npm start
 ```
 

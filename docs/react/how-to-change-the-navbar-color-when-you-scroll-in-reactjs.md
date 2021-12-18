@@ -11,19 +11,19 @@
 
 **基本设置:**您将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 开始一个新项目，因此打开您的终端并键入:
 
-```
+```jsx
 npx create-react-app navbar-color-change
 ```
 
 现在，通过在终端中键入给定的命令，转到您的**导航栏-颜色-更改**文件夹:
 
-```
+```jsx
 cd navbar-color-change
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项:
 
-```
+```jsx
 npm install --save styled-components
 npm install --save react-icons
 ```
@@ -46,7 +46,7 @@ state colorChange 的值在条件运算符的帮助下决定了导航条的颜�
 
 ## NavBar，js
 
-```
+```jsx
 import React, { useState, Fragment } from 'react'
 import { FaBars } from 'react-icons/fa'; 
 import {
@@ -106,7 +106,7 @@ export default Navbar;
 
 ## navbarstyles . js
 
-```
+```jsx
 import styled from 'styled-components';
 export const Nav = styled.nav`
    background: transparent;
@@ -194,7 +194,7 @@ export const NavLinks = styled.a`
 
 ## App.css 文件
 
-```
+```jsx
 .navbar{
     background-color: transparent;
 }
@@ -206,7 +206,7 @@ export const NavLinks = styled.a`
 
 ## App.js
 
-```
+```jsx
 import React, { Fragment } from 'react'; 
 import Navbar from './components/Navbar';
 function App() { 
@@ -223,7 +223,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

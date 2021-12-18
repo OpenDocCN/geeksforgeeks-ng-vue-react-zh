@@ -20,19 +20,19 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app tinder-swipe
 ```
 
 **第 2 步:**创建项目文件夹后，即**打火刷，**使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd tinder-swipe
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装**成帧器**模块。
 
-```
+```jsx
 npm install framer
 ```
 
@@ -53,7 +53,7 @@ npm install framer
 
 ## index.js
 
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -124,7 +124,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ## index.css
 
-```
+```jsx
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 
@@ -149,7 +149,7 @@ code {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -163,7 +163,7 @@ npm start
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -272,7 +272,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

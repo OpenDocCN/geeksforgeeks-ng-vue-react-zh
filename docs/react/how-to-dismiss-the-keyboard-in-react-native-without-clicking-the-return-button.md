@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```jsx
 <TouchableWithoutFeedback onPress={Keyboard.dismiss} 
                           accessible={false}>
      <View style={{flex: 1}}>
@@ -21,7 +21,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import { View, 
          StyleSheet, 
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 
 **语法:**
 
-```
+```jsx
 <ScrollView keyboardShouldPersistTaps='handled'>
      ... Rest of the Application Code ...
 </ScrollView>
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import { View, 
          StyleSheet, 

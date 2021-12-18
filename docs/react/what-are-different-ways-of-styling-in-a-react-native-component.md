@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init demo-app
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即演示应用程序
 
-    ```
+    ```jsx
     cd demo-app
     ```
 
@@ -32,7 +32,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { View, Image, Text, Button } from "react-native";
 
@@ -117,7 +117,7 @@ export default function App() {
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 
@@ -129,7 +129,7 @@ npm run android
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { View, Image, Text, Button, StyleSheet } from "react-native";
 
@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

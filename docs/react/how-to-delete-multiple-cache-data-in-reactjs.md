@@ -14,13 +14,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -34,7 +34,7 @@
 
 ## App.js
 
-```
+```jsx
 import * as React from 'react';
 
 export default function App() {
@@ -63,7 +63,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

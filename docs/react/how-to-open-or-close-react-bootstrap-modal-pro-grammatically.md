@@ -7,7 +7,7 @@
 我们可以使用 **useState()** 钩子来打开/关闭反应引导模式。 **useState 函数**是一个内置的钩子，允许我们在不切换到类组件的情况下向功能组件添加状态。
 **语法:**
 
-```
+```jsx
 const [state, setState] = useState(initialState);
 
 ```
@@ -18,25 +18,25 @@ const [state, setState] = useState(initialState);
 
 *   **已安装反作用自举:**
 
-```
+```jsx
 npm install react-bootstrap bootstrap
 ```
 
 *   **导入 bootstrap.min.css:**
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
 *   **导入内置钩子使用状态:**
 
-```
+```jsx
 import React, {useState} from "react";
 ```
 
 *   **导入按钮、模态等单个组件**
 
-```
+```jsx
 import Button from 'react-bootstrap/Button';
 ```
 
@@ -44,7 +44,7 @@ import Button from 'react-bootstrap/Button';
 
 ## java 描述语言
 
-```
+```jsx
 import React, {useState} from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -93,7 +93,7 @@ export default Example;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';

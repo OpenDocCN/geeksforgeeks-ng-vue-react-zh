@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```jsx
 var React = require('react'); // ES5
 ```
 
@@ -21,7 +21,7 @@ var React = require('react'); // ES5
 
 **语法:**
 
-```
+```jsx
 module.exports = Component; // ES5
 ```
 
@@ -29,7 +29,7 @@ module.exports = Component; // ES5
 
 **语法:**
 
-```
+```jsx
 // ES5
 var sum = function(x, y) {
     return x + y;
@@ -45,13 +45,13 @@ var sum = function(x, y) {
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -67,7 +67,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 var React = require("react"); // ES5
 var ReactDOM = require("react-dom"); // ES5
 var createReactClass = require("create-react-class"); // ES5
@@ -131,7 +131,7 @@ ReactDOM.render(<Component />, 
 
 **语法:**
 
-```
+```jsx
 import React from 'react'; // ES6
 ```
 
@@ -140,7 +140,7 @@ import React from 'react'; // ES6
 
 **语法:**
 
-```
+```jsx
 export default Component; // ES6
 ```
 
@@ -148,7 +148,7 @@ export default Component; // ES6
 
 **语法:**
 
-```
+```jsx
 var sum = (x,y)=>{ return x+y };// ES6
 ```
 
@@ -163,7 +163,7 @@ var sum = (x,y)=>{ return x+y };// ES6
 
 ## **java 描述语言**
 
-```
+```jsx
 import React from "react"; // ES6
 import ReactDOM from "react-dom"; // ES6
 

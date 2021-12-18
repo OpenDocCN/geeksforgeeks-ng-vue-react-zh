@@ -29,7 +29,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import Pdf from './Pdf'
 
@@ -60,13 +60,13 @@ export default App;
 
 *   第一部分是为了防止 cors 错误，你可以参考文档来阅读更多关于核心的内容。
 
-```
+```jsx
 1st part: https://cors-anywhere.herokuapp.com/ 
 ```
 
 *   第二部分是我们实际的 PDF 网址。
 
-```
+```jsx
 2nd part: http://www.pdf995.com/samples/pdf.pdf
 ```
 
@@ -78,7 +78,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
 import './pdf.css'
@@ -119,7 +119,7 @@ export default function Test() {
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
 

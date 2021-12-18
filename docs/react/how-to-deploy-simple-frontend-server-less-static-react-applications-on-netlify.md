@@ -18,13 +18,13 @@ Netlify 是最受欢迎的托管服务之一，专门为 web 应用程序和静�
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令将**移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -40,7 +40,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -73,7 +73,7 @@ export default App;
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -96,7 +96,7 @@ reportWebVitals();
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -112,7 +112,7 @@ npm start
 
 **第一步:**打开终端，运行该命令，
 
-```
+```jsx
 npm run build
 ```
 
@@ -124,7 +124,7 @@ npm run build
 
 **第二步:**安装依赖项，
 
-```
+```jsx
 npm install --save-dev netlify-cli -g
 ```
 
@@ -134,7 +134,7 @@ npm install --save-dev netlify-cli -g
 
 **步骤 3:** 首先我们需要在 Netlify 中初始化一个项目，所以运行以下命令:
 
-```
+```jsx
 netlify init
 ```
 
@@ -152,7 +152,7 @@ netlify init
 
 **步骤 4:** 现在我们将使用以下命令部署应用程序。
 
-```
+```jsx
 netlify deploy
 ```
 
@@ -188,7 +188,7 @@ netlify deploy
 
 **第 4 步:**在 git bash 中，按照正确的顺序键入以下命令。
 
-```
+```jsx
 git init
 git add .
 git commit -m "first commit"

@@ -11,7 +11,7 @@ useState()钩子允许在函数内部声明一个状态变量。需要注意的�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {
@@ -35,7 +35,7 @@ useState()返回的值由一个包含两个值的数组组成。第一个值是�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {
@@ -69,7 +69,7 @@ useState()的工作方式起初可能看起来很奇怪。毕竟，每次渲染�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {
@@ -104,7 +104,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {
@@ -148,7 +148,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {

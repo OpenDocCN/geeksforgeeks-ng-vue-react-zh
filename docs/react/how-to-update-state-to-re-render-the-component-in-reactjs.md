@@ -6,7 +6,7 @@ react 中的 [useState()](https://www.geeksforgeeks.org/reactjs-usestate-hook/) 
 
 **语法:**
 
-```
+```jsx
 const [state, setState] = useState(initialState)
 ```
 
@@ -14,7 +14,7 @@ const [state, setState] = useState(initialState)
 
 **语法:**
 
-```
+```jsx
 setState((latestState) => {
     // code logic
     return newState;
@@ -25,7 +25,7 @@ setState((latestState) => {
 
 要创建新的 react 项目，请在命令行中使用以下命令
 
-```
+```jsx
 npx create-react-app name_of_project
 ```
 
@@ -35,7 +35,7 @@ npx create-react-app name_of_project
 
 ## App.js
 
-```
+```jsx
 import { useState } from 'react';
 
 function App() {
@@ -69,7 +69,7 @@ export default App;
 
 **运行应用程序的步骤:**要启动应用程序，请在命令行中使用以下命令。
 
-```
+```jsx
 npm start
 ```
 

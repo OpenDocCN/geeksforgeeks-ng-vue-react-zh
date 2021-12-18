@@ -8,13 +8,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序。
 
-    ```
+    ```jsx
     npx create-react-app myapp
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 myapp)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -32,7 +32,7 @@
 
 ## Parent.js
 
-```
+```jsx
 import React from 'react'
 import Child from './Child';
 
@@ -50,7 +50,7 @@ export default Parent;
 
 ## Child.js
 
-```
+```jsx
 import React from 'react';
 
 const Child = (props) => {
@@ -64,7 +64,7 @@ export default Child;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import "./index.css";
 import Parent from './Parent'
@@ -82,7 +82,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -98,7 +98,7 @@ npm start
 
 ## Parent.js
 
-```
+```jsx
 import React from 'react';
 import Child from './Child'
 
@@ -127,7 +127,7 @@ export default Parent;
 
 ## Child.js
 
-```
+```jsx
 import React from "react";
 
 class Child extends React.Component {
@@ -150,7 +150,7 @@ export default Child;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import "./index.css";
 import Parent from './Parent';
@@ -186,7 +186,7 @@ export default App;
 
 ## Child1.js
 
-```
+```jsx
 import React, {createContext} from "react";
 import Child2 from './Child2';
 
@@ -208,7 +208,7 @@ export {Name};
 
 ## Child2.js
 
-```
+```jsx
 import React from "react";
 import { Name } from "./Child1";
 
@@ -229,7 +229,7 @@ export default Child2;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import "./index.css";
 import Child1 from './Child1';

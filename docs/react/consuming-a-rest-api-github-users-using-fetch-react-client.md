@@ -8,13 +8,13 @@
 
 **步骤 1:** 创建反应应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **第二步:**进入项目文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
@@ -36,7 +36,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 const [username, setUsername] = useState("");
 const [userData, setUserData] = useState({});
 
@@ -49,7 +49,7 @@ useEffect(() => {
 
 ## java 描述语言
 
-```
+```jsx
 var gitHubUrl = `https://api.github.com/users/${username}`;
 
 const getUserData = async () => {
@@ -74,7 +74,7 @@ getUserData()是一个*异步*函数，其中 *fetch(gitHubUrl)* 发出请求并
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 import UserInfoCard from "./UserInfoCard";
@@ -122,7 +122,7 @@ export default Main;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 function SearchBar({username, setUsername}){
@@ -152,7 +152,7 @@ export default SearchBar;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 function UserInfoCard({ userData }) {
@@ -178,7 +178,7 @@ export default UserInfoCard;
 
 **运行应用程序的步骤:**要在您的系统上启动应用程序，请运行以下命令:
 
-```
+```jsx
 npm start
 ```
 

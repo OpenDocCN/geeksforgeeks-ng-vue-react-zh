@@ -10,13 +10,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app name_of_the_app
 ```
 
 **步骤 2:** 创建 react 应用程序后，使用以下命令根据您的应用程序名称移动到目录:
 
-```
+```jsx
 cd name_of_the_app
 ```
 
@@ -32,7 +32,7 @@ cd name_of_the_app
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 
@@ -72,7 +72,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 
@@ -113,7 +113,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 class App extends React.Component {
 

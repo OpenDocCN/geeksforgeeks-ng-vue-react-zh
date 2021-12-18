@@ -15,14 +15,14 @@
 
 *   **第一步**:在进一步移动之前，首先我们要安装 Material-UI 模块，通过在你的项目目录中运行下面的命令，借助你的 src 文件夹中的终端，或者你也可以在你的项目文件夹中的 Visual Studio Code 的终端中运行这个命令。
 
-```
+```jsx
 npm install @material-ui/core 
 
 ```
 
 *   **步骤 2:** 安装完 Material-UI 模块后，现在通过在项目目录中运行以下命令，在 src 文件夹中的终端的帮助下安装 Material-UI 图标，或者您也可以在项目文件夹中的 Visual Studio Code 的终端中运行该命令。
 
-```
+```jsx
 npm install @material-ui/icons
 
 ```
@@ -32,7 +32,7 @@ npm install @material-ui/icons
 *   **第五步**:现在导入 React、材质-UI 核心颜色、材质-UI 图标模块
 *   **第六步**:在你的 app.js 文件中，添加这个代码片段导入 React、Material-UI 核心颜色、Material-UI 图标模块。
 
-```
+```jsx
 import React from 'react';
 import green from "@material-ui/core/colors/green";
 import MailIcon from "@material-ui/icons/Mail";
@@ -47,7 +47,7 @@ import MailIcon from "@material-ui/icons/Mail";
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 // Importing the color of your choice from Material-UI 
@@ -80,7 +80,7 @@ export default function App() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 // Importing the color of your choice from Material-UI 

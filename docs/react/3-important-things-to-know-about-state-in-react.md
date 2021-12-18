@@ -18,7 +18,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export default function App() {
@@ -53,7 +53,7 @@ export default function App() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export default function App() {
@@ -96,7 +96,7 @@ export default function App() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export default function App() {
@@ -145,7 +145,7 @@ export default function App() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 export default function App() {

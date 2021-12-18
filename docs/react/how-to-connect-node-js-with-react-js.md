@@ -24,13 +24,13 @@
 
 *   安装 expressjs 是一个 node.js 框架
 
-```
+```jsx
 npm install express
 ```
 
 *   安装 nodemon:
 
-```
+```jsx
 npm install nodemon
 ```
 
@@ -38,7 +38,7 @@ npm install nodemon
 
 ## 超文本标记语言
 
-```
+```jsx
 {
  "name": "demoapp",
  "version": "1.0.0",
@@ -61,7 +61,7 @@ npm install nodemon
 
 ## java 描述语言
 
-```
+```jsx
 const express = require("express");
 const app = express();
 
@@ -76,7 +76,7 @@ app.listen(PORT, console.log(`Server started on port ${PORT}`));
 
 使用以下命令运行应用程序:
 
-```
+```jsx
 npm run dev
 ```
 
@@ -94,7 +94,7 @@ npm run dev
 
 ## java 描述语言
 
-```
+```jsx
 const express = require("express");
 const app = express();
 
@@ -110,7 +110,7 @@ app.listen(PORT, console.log(`Server started on port ${PORT}`));
 
 **前端设置:**首先，我们必须创建 React 应用程序，并通过编写以下命令来运行您的应用程序。
 
-```
+```jsx
 npx create-react-app demo
 cd demo
 npm start
@@ -122,7 +122,7 @@ npm start
 
 **连接:**我们已经完成了前端部分和后端部分，现在我们必须将两者都连接起来。现在，为了连接 Reactjs 和 Nodejs，我们在 react app 文件夹的 package.json 中添加了这一行:
 
-```
+```jsx
 "proxy": "http://localhost:8080
 ```
 
@@ -130,7 +130,7 @@ npm start
 
 ## 超文本标记语言
 
-```
+```jsx
 {
  "name": "demo",
  "version": "0.1.0",
@@ -176,7 +176,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import logo from "./logo.svg";
 import "./App.css";
 

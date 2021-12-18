@@ -74,19 +74,19 @@ Reaction-Bootstrap 是一个前端框架，其设计考虑到了 Reaction。 表
 
 *   **步骤 1：**使用以下命令创建 Reaction 应用程序：
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2：**创建项目文件夹(即 foldername**)后，**使用以下命令移动到该文件夹：
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3：**创建 ReactJS 应用程序后，使用以下命令安装所需的****模块：****
 
-    ```
+    ```jsx
     **npm install react-bootstrap 
     npm install bootstrap**
     ```
@@ -101,7 +101,7 @@ Reaction-Bootstrap 是一个前端框架，其设计考虑到了 Reaction。 表
 
 ## ****App.js****
 
-```
+```jsx
 **import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
@@ -139,7 +139,7 @@ export default function App() {
 
 ******运行应用程序的步骤：**使用以下命令从项目根目录运行应用程序：****
 
-```
+```jsx
 **npm start**
 ```
 

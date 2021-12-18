@@ -8,13 +8,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即 foldername)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -24,7 +24,7 @@ cd foldername
 
 **1。使用这个.道具.儿童**
 
-```
+```jsx
  <First >
            <Second></Second>
  </First>
@@ -32,7 +32,7 @@ cd foldername
 
 这样，第一个组件可以使用这个属性访问第二个组件。
 
-```
+```jsx
  {this.props.children}
 ```
 
@@ -40,7 +40,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 class App extends React.Component {
@@ -80,13 +80,13 @@ class Second extends React.Component{
 
 **2。作为道具传递给另一个组件**
 
-```
+```jsx
  <First secondcomp= {<Second/>} >
 ```
 
 因此第一个组件可以使用这个属性访问组件。
 
-```
+```jsx
 {this.props.second}
 ```
 
@@ -94,7 +94,7 @@ class Second extends React.Component{
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 class App extends React.Component {

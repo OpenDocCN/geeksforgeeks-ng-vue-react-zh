@@ -6,7 +6,7 @@
 
 <u>**语法:**我们可以使用 setState()直接改变组件的状态，也可以通过箭头函数改变组件的状态。</u>
 
-```
+```jsx
 setState({ stateName : updatedStateValue })
 
 // OR
@@ -19,13 +19,13 @@ setState((prevState) => ({
 
 *   <u>**步骤 1:** 使用以下命令创建一个反应应用程序:</u>
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   <u>**步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:</u>
 
-     <u>```
+     <u>```jsx
     cd foldername
     ```</u> 
 
@@ -33,7 +33,7 @@ setState((prevState) => ({
 
 <u>我们在**构造函数**中设置初始状态值，并创建另一个函数**更新状态()**来更新状态。现在当我们点击按钮时，后者被触发为 [**<u>onClick 事件</u>**](https://www.geeksforgeeks.org/javascript-events/) ，该事件改变状态值。我们在**更新状态()函数**中通过写:</u>
 
-```
+```jsx
 this.setState({greeting : 'GeeksForGeeks welcomes you !!'}) 
 ```
 
@@ -41,7 +41,7 @@ this.setState({greeting : 'GeeksForGeeks welcomes you !!'})
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component { 
@@ -82,7 +82,7 @@ export default App;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 
@@ -98,7 +98,7 @@ npm start
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component { 
@@ -148,7 +148,7 @@ export default App;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 
@@ -162,7 +162,7 @@ npm start
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -227,7 +227,7 @@ export default App;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 
@@ -241,7 +241,7 @@ npm start
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -284,7 +284,7 @@ export default App;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 

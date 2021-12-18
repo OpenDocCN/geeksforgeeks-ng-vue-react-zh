@@ -28,23 +28,23 @@
 
 ****2。**应安装足够版本的[节点和](https://nodejs.org/en/)NPM。下面是检查安装和版本的命令。**
 
-```
+```jsx
 $ node --version
 ```
 
-```
+```jsx
 $ npm --version
 ```
 
 ****3。**安装了适当版本的[创建-反应-应用程序](https://github.com/facebook/create-react-app)。下面是检查安装和版本的命令。**
 
-```
+```jsx
 $ create-react-app --version
 ```
 
 **如果没有安装，请使用下面的命令进行全局安装。**
 
-```
+```jsx
 $ npm install -g create-react-app
 ```
 
@@ -54,13 +54,13 @@ $ npm install -g create-react-app
 
 ****1。**首先使用下面给出的命令在系统中创建一个 React 应用程序。我们将这个应用程序命名为“react-deploy”。这是您将部署到 GitHub Pages 的应用程序。这个过程将在您的目录中创建一个名为“react-deploy”的新文件夹。**
 
-```
+```jsx
 $ create-react-app react-deploy
 ```
 
 ****2。**现在输入您的新应用程序，并运行以下命令来启动应用程序。您将看到您的应用程序正在本地开发服务器**上运行。****
 
-```
+```jsx
 #change directory
 $ cd react-deploy
 #run application in the development environment
@@ -73,7 +73,7 @@ $ npm start
 
 ****4。**安装 **gh-pages** 包作为应用的“开发依赖”。**
 
-```
+```jsx
 #install gh-pages package
 $ npm install --save gh-pages
 ```
@@ -82,13 +82,13 @@ $ npm install --save gh-pages
 
 **看看下面给出的例子…**
 
-```
+```jsx
 "homepage": "http://anuupadhyay.github.io/my-app", 
 ```
 
 **现在您需要再添加两个属性。在现有脚本属性中，添加一个**预部署**属性和一个**部署**属性，每个属性的值如下所示:**
 
-```
+```jsx
 "scripts": {
   //...
   "predeploy": "npm run build",
@@ -104,7 +104,7 @@ $ npm install --save gh-pages
 
 **接下来，如果您从 react-router-dom 使用路由器，那么您需要将 Browser 路由器标签更改为**
 
-```
+```jsx
 //...
   BrowserRouter basename={process.env.PUBLIC_URL}
 //... 
@@ -112,7 +112,7 @@ $ npm install --save gh-pages
 
 ****6。**在这一步中，在应用程序的文件夹中创建一个 git 存储库，并将 GitHub 存储库作为“远程”添加到本地 git 存储库中。这将使 *gh-pages* 包知道您希望它在步骤 7 中部署您的应用程序的位置。它还会使 git 知道您希望它在第 8 步中把您的源代码推送到哪里(即在您的主分支上提交)。**
 
-```
+```jsx
 #create a new git repository
 $ git init
 #add remote repository
@@ -121,7 +121,7 @@ $ git remote add origin https://github.com/anuupadhyay/my-app.git
 
 ****7。**现在魔法来了。按照下面的命令，生成应用程序的生产版本，在 GitHub 页面上部署代码。**
 
-```
+```jsx
 #deploy application
 $ npm run deploy
 ```
@@ -134,7 +134,7 @@ $ npm run deploy
 
 ****8。**此时，如果您要浏览 GitHub 存储库，您会注意到主分支不存在，gh-pages 分支确实存在。这意味着后者包含构建的应用程序代码，而不是应用程序的源代码。因此，要创建一个默认的主分支并将您的源代码推送给它，请运行下面给出的命令…**
 
-```
+```jsx
 #add all changed file paths to staged changes
 $ git add.
 #commit all staged changes

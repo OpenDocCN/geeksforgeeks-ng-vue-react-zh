@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```jsx
 const Car=()=> {
   return <h2>Hi, I am also a Car!</h2>;
 }
@@ -18,7 +18,7 @@ const Car=()=> {
 
 ## java 描述语言
 
-```
+```jsx
 import React ,{useState} from "react";
 
 const FunctionalComponent=()=>{
@@ -49,7 +49,7 @@ export default FunctionalComponent;
 
 **语法:**
 
-```
+```jsx
 class Car extends React.Component {
   render() {
     return <h2>Hi, I am a Car!</h2>;
@@ -61,7 +61,7 @@ class Car extends React.Component {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 class ClassComponent extends React.Component{

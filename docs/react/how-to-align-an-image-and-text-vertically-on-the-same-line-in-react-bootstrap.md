@@ -6,7 +6,7 @@ ReactJS 有一个非常漂亮的方法，可以在 React Bootstrap 中将图像�
 
 **包含引导程序:**引导程序可以嵌入到 React 应用程序中，方法是在我们的 HTML 页面的<标题>部分包含以下链接:
 
-```
+```jsx
 <link rel="stylesheet" 
       href=
 "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
@@ -22,13 +22,13 @@ ReactJS 有一个非常漂亮的方法，可以在 React Bootstrap 中将图像�
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -44,7 +44,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
@@ -83,7 +83,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

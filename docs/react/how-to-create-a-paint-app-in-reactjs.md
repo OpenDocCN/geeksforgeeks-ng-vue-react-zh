@@ -18,13 +18,13 @@
 
 *   **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app paint-app
 ```
 
 *   **步骤 2:** 现在，通过运行以下命令进入项目文件夹，即 paint-app:
 
-```
+```jsx
 cd paint-app
 ```
 
@@ -36,7 +36,7 @@ cd paint-app
 
 ## java 描述语言
 
-```
+```jsx
 import { useEffect, useRef, useState } from "react";
 import Menu from "./components/Menu";
 import "./App.css";
@@ -119,7 +119,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import "../App.css";
 
@@ -163,7 +163,7 @@ export default Menu;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 @import url(
 'https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
@@ -207,7 +207,7 @@ h1 {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

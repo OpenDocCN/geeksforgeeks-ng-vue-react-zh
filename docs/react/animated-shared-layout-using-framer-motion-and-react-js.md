@@ -14,19 +14,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app animated-layout
     ```
 
 *   **步骤 2:** 创建项目文件夹(即动画布局)后，使用以下命令移动到它。
 
-    ```
+    ```jsx
     cd animated-layout
     ```
 
 *   **步骤 3:** 添加项目期间需要的 npm 包:
 
-    ```
+    ```jsx
     npm install framer-motion
     ```
 
@@ -54,7 +54,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { AnimateSharedLayout } from "framer-motion";
 import Item from "./Item";
@@ -98,7 +98,7 @@ export default App;
 
 ## Item.js
 
-```
+```jsx
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -160,7 +160,7 @@ export default Item;
 
 ## styles.css
 
-```
+```jsx
 body {
   min-height: 100vh;
   margin: 0;
@@ -226,7 +226,7 @@ img {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -19,19 +19,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init header-bar
     ```
 
 *   **步骤 3:** 现在进入你的项目文件夹，即标题栏
 
-    ```
+    ```jsx
     cd header-bar
     ```
 
@@ -47,7 +47,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
@@ -94,7 +94,7 @@ export default function App() {
 
 ## HomeScreen.js
 
-```
+```jsx
 import React, { useState } from "react";
 import { Text, View, TextInput, Button } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -155,7 +155,7 @@ export default Home;
 
 ## UserScreen.js
 
-```
+```jsx
 import React from "react";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -184,7 +184,7 @@ export default User;
 
 ## SettingScreen.js
 
-```
+```jsx
 import React from "react";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -203,7 +203,7 @@ export default Settings;
 
 **运行应用程序:**使用以下命令启动服务器。
 
-```
+```jsx
 expo start
 ```
 

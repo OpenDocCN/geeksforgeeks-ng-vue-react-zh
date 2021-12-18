@@ -8,13 +8,13 @@
 
 **步骤 1:** 创建反应应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **第二步:**进入项目文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
@@ -34,13 +34,13 @@ cd foldername
 
 **步骤 4:** 在 **MainComponent.jsx** 组件中，我们有一个状态变量 *data* ，它将保存 GraphQL API 的响应。
 
-```
+```jsx
 const [data, setData] = useState(Object);
 ```
 
 为了获取信息，我们调用了 *apiEndpoint，*但是首先让我们将 GraphQL *查询*分开，一般来说，要形成一个查询，您必须在字段中指定字段，直到这些字段解析为实际数据。通过这种方式，您可以请求对象上的特定字段，并准确地返回您所请求的内容。任何 GraphQL 查询的结构如下所示:
 
-```
+```jsx
 query {
     JSON objects to retrieve
 }
@@ -51,7 +51,7 @@ query {
 
 ## MainComponent.jsx(查询部分)
 
-```
+```jsx
 const apiEndpoint = "https://tmdb.apps.quintero.io/";
 const query = `
     query FetchData($term: String!){
@@ -74,7 +74,7 @@ const query = `
 
 ## MainComponent.jsx(请求部分)
 
-```
+```jsx
 const getData = (term) => {
        fetch(apiEndpoint, {
            method: "POST",
@@ -94,7 +94,7 @@ const getData = (term) => {
 
 ## MainComponent.jsx
 
-```
+```jsx
 import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import ShowInfoCard from "./ShowInfoCard";
@@ -150,7 +150,7 @@ export default Main;
 
 ## SearchBar.jsx 档案
 
-```
+```jsx
 import React, { useState } from "react";
 
 function SearchBar({getData}){
@@ -185,7 +185,7 @@ export default SearchBar;
 
 ## ShowInfoCard.jsx
 
-```
+```jsx
 import React from "react";
 
 function ShowInfoCard({ node }) {
@@ -205,7 +205,7 @@ export default ShowInfoCard;
 
 ## App.js
 
-```
+```jsx
 import './App.css';
 import React from "react";
 import Main from './components/MainComponent';

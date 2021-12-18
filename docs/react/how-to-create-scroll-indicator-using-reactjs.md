@@ -12,19 +12,19 @@
 
 **基本设置:**你将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 命令开始一个新项目。
 
-```
+```jsx
 npx create-react-app react-scroll-indicator
 ```
 
 现在，通过在终端中键入给定的命令，进入您的**反应-滚动-指示器**文件夹。
 
-```
+```jsx
 cd react-scroll-indicator
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项:
 
-```
+```jsx
 npm install --save styled-components
 ```
 
@@ -46,7 +46,7 @@ npm install --save styled-components
 
 ## ScrollIndicator.js(滚动指示器. js)
 
-```
+```jsx
 import React, { useState, Fragment } from "react";
 import { Container, ProgressBar, ScrollContent, Heading } from "./Styles";
 const ScrollIndicator = () => {
@@ -81,7 +81,7 @@ export default ScrollIndicator;
 
 ## Styles.js
 
-```
+```jsx
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -111,7 +111,7 @@ export const Heading = styled.h1`
 
 ## App.js
 
-```
+```jsx
 import ScrollIndicator from
     './components/ScrollIndicator';
 
@@ -126,7 +126,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

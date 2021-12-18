@@ -10,7 +10,7 @@ React StrictMode 可以被视为一个帮助组件，它允许开发人员高效
 
 ## Javascript
 
-```
+```jsx
 import React from 'react';
 
 function StictModeDemo() {

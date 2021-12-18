@@ -15,7 +15,7 @@
 
 **第一步:**在终端使用以下命令创建一个基本的 react app。
 
-```
+```jsx
 npx create-react-app <project_name>
 ```
 
@@ -27,7 +27,7 @@ react-app 的文件夹结构
 
 **第二步:**制作不同的页面进行路由。在这里，我们将为我们的 react-app 创建不同的组件。所以我们绕过它们进行演示。
 
-```
+```jsx
 Components: Home Page, About Page, ContactUs Page. 
 ```
 
@@ -39,7 +39,7 @@ Components: Home Page, About Page, ContactUs Page.
 
 ## 主页. jsx
 
-```
+```jsx
 import React from "react";
 
 const Home = () => {
@@ -55,7 +55,7 @@ export default Home;
 
 ## About.jsx
 
-```
+```jsx
 import React from "react";
 
 const About = () => {
@@ -71,7 +71,7 @@ export default About;
 
 ## 联系人. jsx
 
-```
+```jsx
 import React from "react";
 
 const ContactUs = () => {
@@ -89,7 +89,7 @@ export default ContactUs;
 
 在这里，我们将使用以下命令在我们的 react-app 中安装 react-router-dom 包。
 
-```
+```jsx
 npm i react-router-dom
 ```
 
@@ -105,7 +105,7 @@ Package.json
 
 **步骤 3:** 使用 react-router-dom 包实现路由。在这里，我们将在我们的反应应用程序中实现反应路由器 dom 包。为了实现这一点，我们必须从 react-router-dom 包中导入一些组件，即浏览器、交换机、路由和重定向。
 
-```
+```jsx
 import { BrowserRouter as Router, Switch, 
     Route, Redirect,} from "react-router-dom";
 ```
@@ -123,7 +123,7 @@ import { BrowserRouter as Router, Switch,
 
 ## App.js
 
-```
+```jsx
 import "./App.css";
 // importing components from react-router-dom package
 import {
@@ -180,7 +180,7 @@ export default App;
 
 ## 主页. jsx
 
-```
+```jsx
 import React from "react";
 // importing Link from react-router-dom to navigate to 
 // different end points.

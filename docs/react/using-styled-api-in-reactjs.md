@@ -13,7 +13,7 @@
 
 **第一步:**在继续下一步之前，首先我们必须通过在您的项目目录中运行以下命令，借助于您的 *src* 文件夹中的终端，或者您也可以在您的项目文件夹中的 Visual Studio Code 的终端中运行该命令来安装样式化的组件。
 
-```
+```jsx
 npm install --save styled-components
 ```
 
@@ -23,7 +23,7 @@ npm install --save styled-components
 
 **第 4 步:**在你的 App.js 文件中，添加这个代码片段来导入 React 和 styled 模块。
 
-```
+```jsx
 import React from 'react';
 import styled from 'styled-components';
 ```
@@ -36,7 +36,7 @@ import styled from 'styled-components';
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 // Importing styled from styled-components
@@ -73,7 +73,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 // Importing styled from styled components

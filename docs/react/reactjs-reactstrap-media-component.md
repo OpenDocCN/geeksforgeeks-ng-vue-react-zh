@@ -21,7 +21,7 @@
 *   **标题:**标题属性用于设置元素的标题，默认情况下它取一个布尔值。
 *   **左侧:**左侧属性用于设置组件左侧元素的对齐方式，它取一个布尔值。
 
-```
+```jsx
 <Media>
   Content
 </media>
@@ -31,25 +31,25 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 *   **步骤 2:** 创建项目文件夹即文件夹名称后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
 *   **步骤 3:** 在给定的目录中安装 Reactstrap。
 
-```
+```jsx
  npm install --save reactstrap react react-dom
 ```
 
 *   **步骤 4:** 导入项目中要使用的元素。
 
-```
+```jsx
 import {Media} from 'reactstrap'
 ```
 
@@ -61,7 +61,7 @@ import {Media} from 'reactstrap'
 
 **运行应用程序的步骤:**使用以下命令从项目的根目录运行应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -69,7 +69,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Media } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -112,7 +112,7 @@ export default function App() {
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import { Media } from 'reactstrap';
 

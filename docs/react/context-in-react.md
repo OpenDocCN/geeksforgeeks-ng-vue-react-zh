@@ -47,7 +47,7 @@ React Context 是一种将道具从父组件传递给子组件的方法，方法
 
 ## java 描述语言
 
-```
+```jsx
 import * as React from "react";
 
 export interface MarksContext{
@@ -63,7 +63,7 @@ export const MarksContextConsumer = contextmarks.Consumer;
 
 ## java 描述语言
 
-```
+```jsx
 import * as React from "react";
 import { render } from "react-dom";
 import { MarksContext, MarksContextProvider } from "./MarksContext";

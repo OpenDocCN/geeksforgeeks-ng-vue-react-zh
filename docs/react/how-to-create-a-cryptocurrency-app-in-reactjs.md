@@ -18,19 +18,19 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app crypto-app
 ```
 
 **步骤 2:** 现在，通过运行以下命令转到项目文件夹，即加密应用程序:
 
-```
+```jsx
 cd crypto-app
 ```
 
 **步骤 3:** 安装 [Axios](https://www.npmjs.com/package/axios) ，这是一个 npm 包。它是浏览器和 node.js 的基于承诺的 HTTP 客户端。
 
-```
+```jsx
 npm install axios
 ```
 
@@ -42,7 +42,7 @@ npm install axios
 
 ## java 描述语言
 
-```
+```jsx
 import "./App.css";
 import Axios from "axios";
 import { useEffect, useState } from "react";
@@ -128,7 +128,7 @@ export default App;
 
 ## 超文本标记语言
 
-```
+```jsx
 .App {
   min-height: 100vh;
   height: auto;
@@ -179,7 +179,7 @@ tbody > tr{
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

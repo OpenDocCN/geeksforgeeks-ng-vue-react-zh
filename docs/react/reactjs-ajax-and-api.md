@@ -20,7 +20,7 @@ API 用于从服务器获取数据，使用**[【AJAX】](https://www.geeksforge
 
 *   **例:**
 
-    ```
+    ```jsx
     class MyComponent extends React.Component {
       constructor(props) {
         super(props);
@@ -77,7 +77,7 @@ API 用于从服务器获取数据，使用**[【AJAX】](https://www.geeksforge
 
 *   **示例:**那么，在这个示例中，我们将使用 **OpenWeatherMap** API 制作一个非常简单的天气应用程序。
 
-    ```
+    ```jsx
     class Weather extends React.Component {
 
         constructor(props) {

@@ -10,13 +10,13 @@ React 是一个免费的开源前端 JavaScript 库，用于构建用户界面�
 
 **创建 reatjs 应用程序:**您可以使用以下命令创建一个新的 reatjs 项目:
 
-```
+```jsx
 npx create-react-app gfg  
 ```
 
 **安装所需的包:**现在我们将使用以下命令安装 react-web-share 包:
 
-```
+```jsx
 npm i react-web-share
 ```
 
@@ -30,7 +30,7 @@ npm i react-web-share
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { RWebShare } from "react-web-share";
 
@@ -57,7 +57,7 @@ export default function WebShareGfg(){
 
 **运行应用的步骤:-** 在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 

@@ -8,7 +8,7 @@ Popconfirm 是一个简单而紧凑的动作确认对话框。基本上是用来
 
 **语法:**
 
-```
+```jsx
 <Popconfirm
    title="Open Popconfirm?"
    onConfirm={confirm}
@@ -37,19 +37,19 @@ Popconfirm 是一个简单而紧凑的动作确认对话框。基本上是用来
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app demo
     ```
 
 *   **步骤 2:** 创建项目文件夹(即演示)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd demo
     ```
 
 *   **步骤 3** :创建 ReactJS 应用程序后，使用以下命令安装 antd 库。
 
-    ```
+    ```jsx
     npm install antd
     ```
 
@@ -60,7 +60,7 @@ Popconfirm 是一个简单而紧凑的动作确认对话框。基本上是用来
 
 ## app.js
 
-```
+```jsx
 import { Popconfirm, message } from "antd";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -98,7 +98,7 @@ export default App;
 
 **运行应用程序:**使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

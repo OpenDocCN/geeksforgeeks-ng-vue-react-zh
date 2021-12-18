@@ -8,7 +8,7 @@ BackTop 是 Ant Design 中的一个组件，当用户已经滚动页面返回页
 
 #### 语法:
 
-```
+```jsx
 <BackTop>
       Scroll to Top
 </BackTop>
@@ -25,19 +25,19 @@ BackTop 是 Ant Design 中的一个组件，当用户已经滚动页面返回页
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app demo
     ```
 
 *   **第二步**:创建项目文件夹即演示后，使用以下命令移动到它。
 
-    ```
+    ```jsx
     cd demo
     ```
 
 *   **步骤 3** :创建 ReactJS 应用程序后，使用以下命令安装 antd 库。
 
-    ```
+    ```jsx
     npm install antd
     ```
 
@@ -49,7 +49,7 @@ BackTop 是 Ant Design 中的一个组件，当用户已经滚动页面返回页
 
 ## app.js
 
-```
+```jsx
 import { BackTop } from "antd";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -91,7 +91,7 @@ export default App;
 
 **运行应用程序**:使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

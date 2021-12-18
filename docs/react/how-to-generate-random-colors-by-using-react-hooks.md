@@ -15,13 +15,13 @@
 
 **第一步:**进入你的命令提示符，写下下面的命令，创建一个 react app。
 
-```
+```jsx
 npx create-react-app <YOUR_APP_NAME>
 ```
 
 **步骤 2:** 然后通过键入以下命令进入您的应用程序文件夹
 
-```
+```jsx
 cd <YOUR_APP_NAME>
 ```
 
@@ -35,7 +35,7 @@ cd <YOUR_APP_NAME>
 
 ## 使用 usegeneraterandomcolor . js
 
-```
+```jsx
 import {useState} from 'react';
 
 const useGenerateRandomColor = () => {
@@ -53,7 +53,7 @@ export default useGenerateRandomColor;
 
 ## App.js
 
-```
+```jsx
 import "./App.css";
 import useGenerateRandomColor 
     from "./useGenerateRandomColor";
@@ -95,7 +95,7 @@ export default App;
 
 **运行应用程序的步骤:**运行以下命令，在本地主机中启动您的应用程序:3000。
 
-```
+```jsx
 npm start
 ```
 

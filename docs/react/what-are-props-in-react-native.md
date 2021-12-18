@@ -4,7 +4,7 @@
 
 道具用于为组件提供属性，使用这些属性可以修改和自定义组件。这些属性在组件创建时传递给组件。道具在用户定义的组件和默认组件中使用，以扩展它们的功能。这些道具是不可变的，并且在组件创建后不能更改。
 
-```
+```jsx
 <View>
     // Remaining application code
 
@@ -23,13 +23,13 @@
 
 *   **步骤 1:** 使用以下命令创建反应原生应用程序:
 
-    ```
+    ```jsx
     expo init PropsDefaultDemo
     ```
 
 *   **步骤 2:** 创建项目文件夹后，即 propstefaultdemo**，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd PropsDefaultDemo
     ```
 
@@ -41,7 +41,7 @@
 
 ## App.js
 
-```
+```jsx
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序的步骤:**使用以下命令运行服务器。
 
-```
+```jsx
 npm start
 ```
 
@@ -100,13 +100,13 @@ npm start
 
 *   **步骤 1:** 使用以下命令创建反应原生应用程序:
 
-    ```
+    ```jsx
     expo init PropsUserDemo
     ```
 
 *   **步骤 2:** 创建项目文件夹后，即 propseuderemo**，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd PropsUserDemo
     ```
 
@@ -118,7 +118,7 @@ npm start
 
 ## image fill . js-影像填充. js
 
-```
+```jsx
 import { View, Image, StyleSheet, ScrollView } from 'react-native';
 import React from 'react';
 
@@ -151,7 +151,7 @@ export default ImageFill;
 
 ## App.js
 
-```
+```jsx
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序的步骤:**使用以下命令运行服务器。
 
-```
+```jsx
 npm start
 ```
 

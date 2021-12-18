@@ -21,7 +21,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 // Importing everything as React
 import * as React from "react";
 
@@ -64,7 +64,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 // Importing everything as React
 import * as React from "react";
 
@@ -104,7 +104,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 // Importing everything as React
 import * as React from "react";
 
@@ -156,7 +156,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

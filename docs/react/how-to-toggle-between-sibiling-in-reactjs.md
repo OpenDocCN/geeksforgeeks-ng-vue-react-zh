@@ -10,13 +10,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -28,7 +28,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import {React , Component} from 'react';
 import './App.css'; 
 class App extends Component{
@@ -81,7 +81,7 @@ class App extends Component{
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .box{
     border:1px solid rgb(194, 106, 106);
     height:20px;

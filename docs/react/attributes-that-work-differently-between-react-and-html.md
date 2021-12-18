@@ -8,13 +8,13 @@
 
 **1。类名:**在 HTML 中，通常使用*类*作为属性名，如下所示:
 
-```
+```jsx
 <h1 class="gfg">Welcome to GeeksforGeeks</h1>
 ```
 
 但是在 JSX，我们不能用*类*这个词。我们必须使用*类名*来代替它，它适用于所有常规的 DOM 元素，如< div >、< a >等。这是因为 JSX 被翻译成了 JavaScript，*类*是 JavaScript 中的保留词。
 
-```
+```jsx
 <h1 className="gfg">Welcome to GeeksforGeeks</h1>
 ```
 
@@ -24,19 +24,19 @@
 
 当我们在 HTML 中编写自闭标签时，使用自闭标签是可选的。例如:
 
-```
+```jsx
 <img src=""> and <input>
 ```
 
 但是在 JSX，我们必须包含正斜杠。
 
-```
+```jsx
 <img src="" /> and <input />
 ```
 
 **3。htmlFor:** 在 HTML 中，我们经常在<标签>元素中使用 ***表示*** 属性，该标签元素被标记为标签元素的控件。
 
-```
+```jsx
 <label for="username">Click me</label>
 <input type="text" id="username">
 ```
@@ -45,7 +45,7 @@
 
 **4。** **选择标签:**在 HTML 中，<选择>标签创建多个选项和值。我们的 react-select 组件遵循相同的约定，但是选项和值是作为道具传递的。例如:
 
-```
+```jsx
 <select>
   <option value="GFG">GFG</option>
   <option value="OS">OS</option>
@@ -58,7 +58,7 @@
 
 **注意:**数据结构选项最初是选中的，因为选中了属性。但是在 React 中，它使用根选择标记上的值属性，而不是使用选定的属性，如下例所示。
 
-```
+```jsx
 render() {
    return (
        <select value={this.state.value} 
@@ -76,13 +76,13 @@ render() {
 
 **5。textarea** **标签:**在 HTML 中 **< textarea >** 标签定义了一个多行文本输入控件，如下图所示。
 
-```
+```jsx
 <textarea>Welcome to GeeksforGeeks</textarea>
 ```
 
 但是在 React <textarea>中使用了如下所示的值属性。</textarea>
 
-```
+```jsx
 render() {
   return (
     <textarea value={this.state.value} 
@@ -95,7 +95,7 @@ render() {
 
 ## 超文本标记语言
 
-```
+```jsx
 <!DOCTYPE html>
 <html>
 <body style="text-align: center">
@@ -121,7 +121,7 @@ render() {
 
 但是在 React 而不是 *innerHTML* 中，我们可以在浏览器 DOM 中使用*dangerouslystinnerhtml*，如下所示。
 
-```
+```jsx
 function gfg() {
     return { __html: 'First &middot; Second' };
 }; 

@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init jsonDemo
     ```
 
 *   **步骤 3:** 现在进入你的项目文件夹，即 jsonDemo
 
-    ```
+    ```jsx
     cd jsonDemo
     ```
 
@@ -34,7 +34,7 @@
 
 **步骤 1:** 使用以下命令安装 **react-native-fs** :
 
-```
+```jsx
 npm install react-native-fs
 ```
 
@@ -42,7 +42,7 @@ npm install react-native-fs
 
 ## 可扩展标记语言
 
-```
+```jsx
 <manifest ...>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -58,7 +58,7 @@ npm install react-native-fs
 
 在 **react-native-fs** 文档中提到了所有可能可以访问的目录。
 
-```
+```jsx
 {
    "type":"Fruits",
    "example":[
@@ -77,7 +77,7 @@ npm install react-native-fs
 
 ## App.js
 
-```
+```jsx
 import { mapValuesSeries } from 'async';
 import React, { Component } from 'react';
 import { Text, View, Button } from 'react-native';
@@ -132,7 +132,7 @@ export default App;
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npx react-native run-android
 ```
 
@@ -144,7 +144,7 @@ npx react-native run-android
 
 ## App.js
 
-```
+```jsx
 import { mapValuesSeries } from 'async';
 import React, { Component } from 'react';
 import { Text, View, Button } from 'react-native';

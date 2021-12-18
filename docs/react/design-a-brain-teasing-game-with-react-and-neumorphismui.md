@@ -37,13 +37,13 @@ NeumorphismUI 是一种用于设计网页元素、框架和屏幕的现代软 UI
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app Brain-Teasing-Game
 ```
 
 **第二步:**创建项目文件夹后，即大脑-戏弄-游戏，使用以下命令移动到它:
 
-```
+```jsx
 cd Brain-Teasing-Game
 ```
 
@@ -57,7 +57,7 @@ cd Brain-Teasing-Game
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import app from './App.css';
 import Game from './Game.js';
@@ -84,7 +84,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useEffect, useState } from 'react';
 import game from './Game.css';
 
@@ -170,7 +170,7 @@ export default Game;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     const QUESTION = [
         'Greatest Computer Science portal for geeks',
         'Full form of DSA',
@@ -200,7 +200,7 @@ export default Game;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     const wordGenerate = () => {
       const randomNumber = Math.floor(Math.random() * ANSWERS.length);
       setWord(ANSWERS[randomNumber]);
@@ -219,7 +219,7 @@ export default Game;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     const check = () => {
         if (value) {
           if (value.toLowerCase() === word.toLowerCase()) {

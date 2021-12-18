@@ -18,25 +18,25 @@ Reaction-Bootstrap 中的表带有预定义的样式类，这些样式类既具�
 
 **步骤 1：**使用以下命令创建 Reaction 应用程序：
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2：**创建项目文件夹(即 foldername**)后，**使用以下命令移动到该文件夹：
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3：**创建 ReactJS 应用程序后，使用以下命令安装所需的模块：
 
-```
+```jsx
 npm install react-bootstrap bootstrap
 ```
 
 **第四步：**在*index.js*文件中添加以下行：
 
-```
+```jsx
 import 'bootstrap/dist/css/bootstrap.css';
 ```
 
@@ -50,7 +50,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ## JavaScript
 
-```
+```jsx
 import React from 'react';
 import Table from 'react-bootstrap/Table'
 
@@ -196,7 +196,7 @@ export default function TableExample() {
 
 **运行应用程序的步骤：**使用以下命令从项目根目录运行应用程序：
 
-```
+```jsx
 npm start
 ```
 

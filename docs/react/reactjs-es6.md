@@ -19,7 +19,7 @@ ES6 通常很多地方都支持但是有 Internet Explorer 的问题。所以，
 
 块作用域意味着将所有的 JavaScript 语句混杂到一个块中。它在一对花括号之间创建一个新的范围，即{}。因此，如果您使用 *let* 关键字声明一个变量，它将不会存在于该循环之外。让我们看一个例子:
 
-```
+```jsx
 // ES6 Syntax
 for(let i = 0; i < 10; i++) {
 
@@ -31,7 +31,7 @@ for(let i = 0; i < 10; i++) {
 console.log(i);  
 ```
 
-```
+```jsx
 // ES5 Syntax
 for(var i = 0; i < 10; i++) {
 
@@ -47,7 +47,7 @@ console.log(i);
 
 **const 关键字:*****const***关键字用于定义常量。常量是只读的，这意味着您不能向它们重新分配任何新值。它们也是块范围的，像 ***让*** 关键词。
 
-```
+```jsx
 // Creating a constant variable
 const PI = 3.14;
 
@@ -60,7 +60,7 @@ PI = 777;
 
 **示例:**代码说明如何更改对象属性或数组元素，如下所示:
 
-```
+```jsx
 // Sample object with some properties
 const Branch = {name: "IT", students: 55};
 
@@ -74,7 +74,7 @@ Branch.name = "CSE";
 console.log(Branch.name); 
 ```
 
-```
+```jsx
 // Sample array with some values
 const Fruits = ["apple", "mango", "banana"];
 
@@ -92,7 +92,7 @@ console.log(Fruits[0]);
 
 **示例:**代码说明如何在 ReactJs 中使用 for-of 循环，如下所示:
 
-```
+```jsx
 // Iterating over array
 let colors = ["red", "blue", "green", 
         "yellow", "pink", "purple"];
@@ -105,7 +105,7 @@ for (let color of colors) {
 }
 ```
 
-```
+```jsx
 // Iterating over string
 let name = "Alpha Charlie";
 
@@ -123,7 +123,7 @@ for(let character of name) {
 
 **例:**ES6 中多线串的使用。
 
-```
+```jsx
 // Multi-line string in ES6
 let str = `Jack and Jill
    went up the hill.`;
@@ -143,7 +143,7 @@ console.log(answer);
 
 **例:**多线串在 ES5 中的使用。
 
-```
+```jsx
 // Multi-line string in ES5
 var str = 'Jack and Jill\n\t'
    + 'went up the hill.';
@@ -163,7 +163,7 @@ console.log(answer);
 
 **箭头功能:**箭头功能使得创建功能变得非常容易。这是一个表达式闭包，可以创建漂亮而紧凑的函数，尤其是在处理回调、列表或错误处理时。
 
-```
+```jsx
 // Arrow functions
 arr.map((func) => {
   return func + 1;
@@ -172,13 +172,13 @@ arr.map((func) => {
 
 此外，如果只传递一个参数，则不需要括号。此外，如果您只返回一个值，则没有括号和 return 语句:
 
-```
+```jsx
 arr.map(func => func + 1);
 ```
 
 如果不使用箭头函数，语法如下:
 
-```
+```jsx
 // Without Arrow functions
 arr.map(function (func) {
   return func + 1;

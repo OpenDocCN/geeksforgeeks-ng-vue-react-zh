@@ -6,7 +6,7 @@
 
 在 react native 中创建一个按钮非常简单。首先，我们必须从 React Native 导入按钮组件。
 
-```
+```jsx
 import { Button } from 'react-native'
 ```
 
@@ -14,7 +14,7 @@ import { Button } from 'react-native'
 
 **语法:**
 
-```
+```jsx
 import React, { Component } from 'react'
 import { Button } from 'react-native'
 const Test = () => {
@@ -49,7 +49,7 @@ export default Test
 
 完整的代码来创建一个反应原生按钮:
 
-```
+```jsx
 import React from 'react';
 
 // Import the essential components from react-native
@@ -97,20 +97,20 @@ const styles = StyleSheet.create({
 
 *   转到项目文件夹，在终端上键入以下命令。以下命令创建您的项目。
 
-    ```
+    ```jsx
     react-native init MyAppName
     ```
 
 *   选择 App.js 文件，粘贴项目代码(上面给出的项目完整代码)，然后保存文件。
 *   启动模拟器来运行项目。以下命令将启动模拟器。
 
-    ```
+    ```jsx
     emulator -avd MyAVD
     ```
 
 *   现在，使用以下命令运行项目。
 
-    ```
+    ```jsx
     react-native run-android
     ```
 
@@ -118,13 +118,13 @@ const styles = StyleSheet.create({
 
 *   打开终端并跳转到您的项目文件夹。
 
-    ```
+    ```jsx
     cd ProjectName
     ```
 
 *   要在 Expo 上运行项目，请在终端中键入以下命令。
 
-    ```
+    ```jsx
     expo start
     ```
 

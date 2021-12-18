@@ -17,13 +17,13 @@
 
 **步骤 1:** 通过运行以下命令，在系统中安装 **Heroku** CLI。它会将更新版本的**英雄库**命令行界面安装到您的系统中。
 
-```
+```jsx
 curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
 
 要检查版本，您可以运行命令。
 
-```
+```jsx
 heroku -v 
 ```
 
@@ -31,13 +31,13 @@ heroku -v
 
 **第三步:**运行以下命令，它会提示你输入任意键继续，它会在你的浏览器中打开一个新的标签，要求你登录你的 **Heroku** 账户。在您输入所需的凭据并登录到站点后，它将在您的终端中显示“已登录”
 
-```
+```jsx
 heroku login
 ```
 
 **步骤 4:** 通过运行以下命令初始化 Git 存储库。确保您位于项目目录的顶层。
 
-```
+```jsx
 git init
 ```
 
@@ -47,7 +47,7 @@ git init
 
 只需运行以下命令。部署方法应该选择 GitHub。
 
-```
+```jsx
 heroku git:remote -a myherokuapp
 ```
 
@@ -59,7 +59,7 @@ heroku git:remote -a myherokuapp
 
 **步骤 7:** 现在运行以下命令，将您的项目推送到存储库。
 
-```
+```jsx
 git add.
 git commit -m "First Commit"
 git push heroku master
@@ -73,6 +73,6 @@ git push heroku master
 
 **注意:**它会将你部署的应用打开到你的浏览器中。如果有任何问题，比如您的 React 应用程序没有显示，那么您可以运行以下命令来检查日志中出现了什么问题。考虑一件事，在部署之前，尝试从您的应用程序中删除所有警告，因为 heroku 认为所有警告都是错误。
 
-```
+```jsx
 heroku logs --tail
 ```

@@ -17,7 +17,7 @@
 
 **基本设置:**要创建 react 应用程序，您的计算机上安装了一个节点，您可以通过在终端中键入以下命令来检查该节点:
 
-```
+```jsx
 node -v
 ```
 
@@ -25,19 +25,19 @@ node -v
 
 一切就绪！您将使用[创建-反应-应用程序](https://reactjs.org/docs/create-a-new-react-app.html)启动一个新项目，因此打开您的终端并键入:
 
-```
+```jsx
 npx create-react-app navigation-bar
 ```
 
 现在，通过在终端中键入给定的命令，转到导航栏文件夹:
 
-```
+```jsx
 cd navigation-bar
 ```
 
 通过在终端中键入给定的命令，安装此项目所需的依赖项:
 
-```
+```jsx
 npm install react-router-dom
 npm install --save styled-components
 ```
@@ -54,7 +54,7 @@ npm install --save styled-components
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import {
   Nav,
@@ -108,7 +108,7 @@ export default Navbar;
 
 ## java 描述语言
 
-```
+```jsx
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -203,7 +203,7 @@ export const NavBtnLink = styled(Link)`
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
 
     const About = () => {
@@ -228,7 +228,7 @@ export const NavBtnLink = styled(Link)`
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
 
     const AnnualReport = () => {

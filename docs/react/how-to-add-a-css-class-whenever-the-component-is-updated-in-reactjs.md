@@ -6,7 +6,7 @@
 
 下面是一个有条件地添加 CSS 类的简单示例。
 
-```
+```jsx
  <div className={`box ${flag === false ? "" : "hidden"}`}>
 ```
 
@@ -16,13 +16,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -34,7 +34,7 @@
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import styles from './index.css';
 
@@ -65,7 +65,7 @@ export default App;
 
 ## index.css
 
-```
+```jsx
 .box{
   width: 100px;
   height: 200;
@@ -79,7 +79,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

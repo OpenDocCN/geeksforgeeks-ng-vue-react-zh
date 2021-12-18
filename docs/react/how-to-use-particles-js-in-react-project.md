@@ -12,13 +12,13 @@
 
 *   对于 npm:
 
-    ```
+    ```jsx
     npm install react-particles-js
     ```
 
 *   对于纱线:
 
-    ```
+    ```jsx
     yarn add react-particles-js
     ```
 
@@ -26,7 +26,7 @@
 
 **2。导入包:**导入文件中的包。要导入包，请粘贴以下代码:
 
-```
+```jsx
 import Particles from 'react-particles-js';
 ```
 
@@ -40,7 +40,7 @@ import Particles from 'react-particles-js';
 
 **示例:**
 
-```
+```jsx
 // Complete React Code
 import React from 'react';
 import './App.css';

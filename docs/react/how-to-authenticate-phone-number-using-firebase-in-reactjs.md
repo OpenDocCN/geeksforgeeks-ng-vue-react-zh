@@ -8,13 +8,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应缅甸:
 
-    ```
+    ```jsx
     npx create-react-app myapp
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 myapp)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -24,13 +24,13 @@
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 firebase 模块:
 
-```
+```jsx
 npm install firebase@8.3.1 --save
 ```
 
 **第 4 步:**转到你的 firebase 仪表盘，创建一个新项目并复制你的凭证。
 
-```
+```jsx
 const firebaseConfig = {
       apiKey: "your api key",
       authDomain: "your credentials",
@@ -45,7 +45,7 @@ const firebaseConfig = {
 
 ## 火库. js
 
-```
+```jsx
 import firebase from 'firebase';
 
 const firebaseConfig = {
@@ -67,7 +67,7 @@ export {auth , firebase};
 
 > https://www.npmjs.com/package/react-firebase-hooks
 
-```
+```jsx
 npm i react-firebase-hooks
 ```
 
@@ -77,7 +77,7 @@ npm i react-firebase-hooks
 
 ## log in . js-登入
 
-```
+```jsx
 import React, { useState } from 'react';
 import { firebase, auth } from './firebase';
 
@@ -143,7 +143,7 @@ export default Login;
 
 ## main.js
 
-```
+```jsx
 import React from 'react';
 import { auth } from './firebase';
 
@@ -171,7 +171,7 @@ export default Mainpage;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import {auth} from './firebase';
 import {useAuthState} from 'react-firebase-hooks/auth';
@@ -190,7 +190,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

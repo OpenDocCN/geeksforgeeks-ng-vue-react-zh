@@ -21,7 +21,7 @@ ComponentWillMount()通常用于在加载组件或从服务器获取数据时显
 
 ## java 描述语言
 
-```
+```jsx
 componentWillMount() {
     // Perform the required 
     // activity inside it
@@ -37,13 +37,13 @@ render(){
 
 **步骤 1:** 运行以下命令创建一个新项目
 
-```
+```jsx
 npx create-react-app my-app
 ```
 
 **第二步:**上面的命令将创建应用程序，您可以使用下面的命令运行它，并且可以在浏览器中查看您的应用程序。
 
-```
+```jsx
 cd my-app
 npm start
 ```
@@ -58,7 +58,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component{
@@ -95,7 +95,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 class ApiCall extends Component {

@@ -10,13 +10,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app name_of_the_app
 ```
 
 **步骤 2:** 创建 react 应用程序后，使用以下命令根据您的应用程序名称移动到目录:
 
-```
+```jsx
 cd name_of_the_app
 ```
 
@@ -39,7 +39,7 @@ cd name_of_the_app
 
 ## java 描述语言
 
-```
+```jsx
 // The App.js file
 import React,{Component} from 'react';
 
@@ -73,7 +73,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -87,14 +87,14 @@ npm start
 *   在 App.js 文件导入的顶部，从【反应】**中反应{useState}。**
 *   在应用程序组件中，使用以下语法创建一个名为“文本”的状态。这是内置的 useState 方法，用于对功能组件进行反应。：
 
-```
+```jsx
 const [state, setState] = useState({text:'Default value of the text state'});
 ```
 
 *   使用“{state.text}”方法将“text”状态传递给 JSX 元素。
 *   使用“设置状态”方法更新特定事件(如按钮点击)的状态。语法如下:
 
-```
+```jsx
 setState({text:'Updated Content'})
 ```
 
@@ -104,7 +104,7 @@ setState({text:'Updated Content'})
 
 ## java 描述语言
 
-```
+```jsx
 // App.js file
 import React, {useState} from "react";
 
@@ -129,7 +129,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

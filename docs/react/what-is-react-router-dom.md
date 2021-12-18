@@ -21,13 +21,13 @@ React Router Dom 有许多有用的组件，要创建功能齐全的路由，您
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -39,7 +39,7 @@ cd foldername
 
 **步骤 3:** 接下来，使用以下命令安装 react 路由器 dom
 
-```
+```jsx
 npm install react-router-dom
 ```
 
@@ -53,7 +53,7 @@ npm install react-router-dom
 
 ## 第 1 页，js
 
-```
+```jsx
 import React from 'react'
 
 export default function Page1() {
@@ -67,7 +67,7 @@ export default function Page1() {
 
 ## 第 2 页，js
 
-```
+```jsx
 import React from 'react'
 
 export default function Page2() {
@@ -81,7 +81,7 @@ export default function Page2() {
 
 ## 第 3 页，js
 
-```
+```jsx
 import React from 'react'
 
 export default function Page3() {
@@ -103,7 +103,7 @@ export default function Page3() {
 
 ## App.js
 
-```
+```jsx
 import { BrowserRouter as Router, Route, Link, Switch} 
         from "react-router-dom";
 
@@ -145,7 +145,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 * {
     padding: 0;
     margin: 0;
@@ -189,7 +189,7 @@ a:hover {
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

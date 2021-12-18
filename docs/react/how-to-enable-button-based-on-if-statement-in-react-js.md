@@ -10,7 +10,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, {Component} from 'react'
 
     class DemoUser extends Component {
@@ -67,7 +67,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
     import './index.css';

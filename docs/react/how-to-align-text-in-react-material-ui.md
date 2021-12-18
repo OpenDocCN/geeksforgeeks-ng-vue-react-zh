@@ -6,7 +6,7 @@
 
 **进口:**
 
-```
+```jsx
 import Typography from '@material-ui/core/Typography';
 // OR
 import { Typography } from '@material-ui/core';
@@ -14,7 +14,7 @@ import { Typography } from '@material-ui/core';
 
 **语法:**设置对齐属性。
 
-```
+```jsx
 <object align="value"> Text </object>
 ```
 
@@ -33,7 +33,7 @@ import { Typography } from '@material-ui/core';
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // This code will be written in App.js file of your React Project
 
     import Typography from "@material-ui/core/Typography";
@@ -61,7 +61,7 @@ import { Typography } from '@material-ui/core';
 
 *   **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -79,7 +79,7 @@ import { Typography } from '@material-ui/core';
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // This code will be written in App.js file of your React Project
 
     import Typography from "@material-ui/core/Typography";
@@ -107,7 +107,7 @@ import { Typography } from '@material-ui/core';
 
 *   **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -125,7 +125,7 @@ import { Typography } from '@material-ui/core';
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // This code will be written in App.js file of your React Project
 
     import Typography from "@material-ui/core/Typography";
@@ -153,7 +153,7 @@ import { Typography } from '@material-ui/core';
 
 *   **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -171,7 +171,7 @@ import { Typography } from '@material-ui/core';
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // This code will be written in App.js file of your React Project
 
     import Typography from "@material-ui/core/Typography";
@@ -203,7 +203,7 @@ import { Typography } from '@material-ui/core';
 
 *   **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-    ```
+    ```jsx
     npm start
     ```
 

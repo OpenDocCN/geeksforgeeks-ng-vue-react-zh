@@ -22,13 +22,13 @@
 
 **第一步:**要创建一个新的 react 应用程序，运行下面的命令到你的终端。
 
-```
+```jsx
 npx create-react-app testapp
 ```
 
 **步骤 2:** 现在，使用下面的命令在项目目录中移动。
 
-```
+```jsx
 cd testapp
 ```
 
@@ -38,7 +38,7 @@ cd testapp
 
 **步骤 3:** 通过在终端中运行下面的命令，在项目目录中安装 react-Geolocated 包。
 
-```
+```jsx
 npm install react-geolocated --save
 ```
 
@@ -46,7 +46,7 @@ npm install react-geolocated --save
 
 **语法:**
 
-```
+```jsx
 1\. Check if browser is supporting geolcated or not
    if(this.props.isGeolocationAvailable) {
 
@@ -68,7 +68,7 @@ npm install react-geolocated --save
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 
 // Importing geolocated reducer function
@@ -117,7 +117,7 @@ export default geolocated()(App);
 
 **运行步骤:**要运行项目，请在项目目录中向您的终端输入以下命令。
 
-```
+```jsx
 npm start
 ```
 

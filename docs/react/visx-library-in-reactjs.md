@@ -6,7 +6,7 @@
 
 **模块安装:**我们必须安装由 **Visx** 库提供的大量模块，以制作面积差异图。为此，请从您的终端运行以下命令。
 
-```
+```jsx
 $ npm install --save @visx/axis @visx/curve 
 @visx/gradient @visx/grid @visx/group @visx/mock-data 
 @visx/react-spring @visx/responsive @visx/shape 
@@ -19,13 +19,13 @@ $ npm install --save @visx/axis @visx/curve
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -41,7 +41,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState, useMemo } from "react";
 import AreaClosed from "@visx/shape/lib/shapes/AreaClosed";
 import { curveMonotoneX } from "@visx/curve";
@@ -233,7 +233,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

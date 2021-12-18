@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 <WebView
     source={}
 />
@@ -60,25 +60,25 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
 *   **第 4 步:**对于 WebView，我们在 react-native 中有一个 WebView 组件，它可以帮助我们在应用程序中显示 web 内容，但是那个组件现在已经被**弃用了**，所以作为替代，我们将使用一个名为 react-native-webview 的外部包。使用以下命令安装该软件包。
 
-    ```
+    ```jsx
     npm install react-native-webview
     ```
 
@@ -90,7 +90,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import { WebView } from 'react-native-webview';
 export default function App() {
@@ -103,7 +103,7 @@ export default function App() {
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

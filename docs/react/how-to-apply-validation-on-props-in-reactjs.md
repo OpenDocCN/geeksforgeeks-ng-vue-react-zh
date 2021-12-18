@@ -8,7 +8,7 @@ React JS 有一个用于验证道具数据类型的内置功能，以确保通�
 
 **语法:**使用*类型*的语法如下所示。
 
-```
+```jsx
 class Component extends React.Component {
   render() {}
 }
@@ -35,19 +35,19 @@ Component.propTypes = {/* definition goes here*/};
 
 **步骤 1:** 在终端中键入以下命令，创建一个 React 应用程序:
 
-```
+```jsx
 npx create-react-app PropValidation
 ```
 
 **第 2 步:**创建项目文件夹(即 PropValidation)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd PropValidation
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的模块。
 
-```
+```jsx
 npm install prop-types
 ```
 
@@ -61,7 +61,7 @@ npm install prop-types
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 class App extends React.Component {
@@ -130,7 +130,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -10,13 +10,13 @@
 
 *   **X 状态**
 
-    ```
+    ```jsx
     this.state={ stateA: "whatever"}
     ```
 
 *   **X 中的功能:**
 
-    ```
+    ```jsx
     setStateX(newValue){
        this.setState({stateA: newValue});
     }
@@ -24,19 +24,19 @@
 
 *   现在把它作为道具传给 Y
 
-    ```
+    ```jsx
     <Y setStateX={this.setStateX} />
     ```
 
 *   **In Y:**
 
-    ```
+    ```jsx
     <Z setStateX={this.props.setStateX} />
     ```
 
 *   **In Z:**
 
-    ```
+    ```jsx
     this.props.setStateX("new value of stateX");
     ```
 
@@ -46,13 +46,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -64,7 +64,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import React from 'react'
 
 class X extends React.Component {

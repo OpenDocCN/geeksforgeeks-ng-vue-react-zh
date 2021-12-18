@@ -13,7 +13,7 @@
 
 在文件 **calculator.js** 中的 Calculator 类顶部添加下面的代码。该代码将为我们创建所需的状态:
 
-```
+```jsx
 constructor() {
     super();
 
@@ -34,7 +34,7 @@ constructor() {
 
 将以下函数添加到**计算器. js** 文件中的计算器类中:
 
-```
+```jsx
 // our method to handle all click events from our buttons
 handleClick(event){
 
@@ -96,14 +96,14 @@ handleClick(event){
 
 我们将在我们的计算器组件中的任何地方添加下面的行，从这里我们调用我们的按钮组件，将 handleClick 函数作为道具传递给按钮组件:
 
-```
+```jsx
 handleClick = {this.handleClick}
 
 ```
 
 添加之后，我们将转到 button.js 文件，并将下面的属性添加到输入字段中:
 
-```
+```jsx
 onClick = {props.handleClick}
 
 ```
@@ -114,7 +114,7 @@ onClick = {props.handleClick}
 
 以下是我们最终的 **outputscreen.js** 文件:
 
-```
+```jsx
 // Import React (Mandatory Step).
 import React from 'react';
 
@@ -138,7 +138,7 @@ export default OutputScreen;
 
 以下是我们最终的 **outputscreenrow.js** 文件:
 
-```
+```jsx
 // Import React (Mandatory Step).
 import React from 'react';
 

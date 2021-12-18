@@ -12,7 +12,7 @@
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -24,7 +24,7 @@ ReactDOM.render(<App />, 
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 
 function App() {
@@ -46,7 +46,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 
 function App() {
@@ -69,7 +69,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 
 function App() {

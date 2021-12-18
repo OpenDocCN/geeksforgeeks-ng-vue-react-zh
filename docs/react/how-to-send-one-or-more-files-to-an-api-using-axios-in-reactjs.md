@@ -17,25 +17,25 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app multiple_files
 ```
 
 **步骤 2:** 使用以下命令移动到包含项目的目录:
 
-```
+```jsx
 cd multiple_files
 ```
 
 **步骤 3:** 使用以下命令安装 **axios** 模块:
 
-```
+```jsx
 npm install axios
 ```
 
 **步骤 4:** 使用以下命令启动服务器:
 
-```
+```jsx
 npm start
 ```
 
@@ -51,7 +51,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import axios from "axios";
 
@@ -111,7 +111,7 @@ export default App;
 
 **输出:**
 
-```
+```jsx
 Before clicking 'Send Files' Button:
 ```
 
@@ -121,7 +121,7 @@ Before clicking 'Send Files' Button:
 
 要选择文件，点击**选择文件**按钮，选择多个文件。选择所需文件后，点击**发送文件**按钮。
 
-```
+```jsx
 After clicking 'Send Files' Button:
 ```
 

@@ -12,13 +12,13 @@
 
 **步骤 1:** 要创建一个新的 React 项目，运行下面的命令到你的终端。
 
-```
+```jsx
 npx create-react-app testapp
 ```
 
 **第二步:**要进入项目目录，运行下面的命令到你的终端。
 
-```
+```jsx
 cd testapp
 ```
 
@@ -36,7 +36,7 @@ cd testapp
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 // Some basic code to render first component

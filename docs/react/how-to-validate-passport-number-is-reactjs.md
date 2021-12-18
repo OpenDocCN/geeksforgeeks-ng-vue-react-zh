@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 isPassportNumber(str, countryCode)
 ```
 
@@ -19,19 +19,19 @@ isPassportNumber(str, countryCode)
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令将**移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装**验证器**模块:
 
-```
+```jsx
 npm install validator
 ```
 
@@ -45,7 +45,7 @@ npm install validator
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 import validator from 'validator'
 
@@ -84,7 +84,7 @@ export default App
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -8,7 +8,7 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app 404page
 ```
 
@@ -20,13 +20,13 @@ npx create-react-app 404page
 
 **步骤 2:** 创建项目文件夹(即样式)后，移动到相同的文件夹:
 
-```
+```jsx
 cd styled
 ```
 
 **第三步:**安装 react-router-DOM:React-router-DOM 可以在你的 React 应用中通过 npm 安装。按照下面给出的步骤在您的 react 应用程序中安装 react-router-dom:要安装 react-router-dom，请使用以下命令:
 
-```
+```jsx
  npm install --save react-router-dom
 ```
 
@@ -42,7 +42,7 @@ cd styled
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import {  Route, Switch, BrowserRouter } 
         from 'react-router-dom'
@@ -67,7 +67,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 const Home = () => {
@@ -83,7 +83,7 @@ export default Home;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 const PageNotFound= () =>{
@@ -100,7 +100,7 @@ export default PageNotFound;
 
 **运行应用程序的步骤:**运行以下命令启动应用程序:
 
-```
+```jsx
 npm start
 ```
 

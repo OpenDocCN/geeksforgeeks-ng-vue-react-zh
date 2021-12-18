@@ -12,19 +12,19 @@
 
 **基本设置:**您将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 命令开始一个新项目:
 
-```
+```jsx
 npx create-react-app react-rating
 ```
 
 现在，通过在终端中键入给定的命令，进入您的**反应评级**文件夹。
 
-```
+```jsx
 cd react-rating
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项。
 
-```
+```jsx
 npm install --save styled-components
 npm install --save react-icons
 ```
@@ -43,7 +43,7 @@ npm install --save react-icons
 
 ## Rating.js
 
-```
+```jsx
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Container, Radio, Rating } from "./RatingStyles";
@@ -84,7 +84,7 @@ export default Rate;
 
 ## RatingStyles.js
 
-```
+```jsx
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -104,7 +104,7 @@ export const Rating = styled.div`
 
 ## App.js
 
-```
+```jsx
 import './App.css';
 import Rating from './components/Rating';
 
@@ -119,7 +119,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

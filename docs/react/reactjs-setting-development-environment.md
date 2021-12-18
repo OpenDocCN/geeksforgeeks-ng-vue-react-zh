@@ -10,7 +10,7 @@
 
 **对于包含节点< 8.10 和 npm < 5.6 的旧版本:**设置反应样板。我们将在全球范围内安装样板。在您的终端或命令提示符下运行以下命令来安装反应样板。
 
-```
+```jsx
 npm install -g create-react-app
 ```
 
@@ -24,7 +24,7 @@ npm install -g create-react-app
 
 **运行以下命令创建一个新项目**
 
-```
+```jsx
 npx create-react-app my-app
 ```
 
@@ -34,7 +34,7 @@ npx create-react-app my-app
 
 **您可以通过键入命令 cd my-app 来运行该项目。**
 
-```
+```jsx
 cd my-app
 npm start
 ```
@@ -49,7 +49,7 @@ npm start
 
 ****第三步**:创建一个 React app。现在要创建一个应用程序，我们将使用我们安装的样板。下面的命令将创建一个名为 myapp 的应用程序。**
 
-```
+```jsx
 create-react-app myapp
 ```
 
@@ -65,7 +65,7 @@ create-react-app myapp
 
 ****第四步**:启动开发服务器。要启动开发服务器，进入当前目录“myapp”并执行以下命令:** 
 
-```
+```jsx
 npm start
 ```
 

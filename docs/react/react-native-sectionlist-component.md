@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 <SectionList
       sections={}
       renderItem={}
@@ -45,19 +45,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init sectionlist-demo
     ```
 
 *   **第 3 步:**现在进入你的项目文件夹，即 sectionlist-demo
 
-    ```
+    ```jsx
     cd sectionlist-demo
     ```
 
@@ -69,7 +69,7 @@
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 import { Text, View, StyleSheet, SectionList } from "react-native";
 import { Icon } from "react-native-elements";
@@ -163,7 +163,7 @@ export default App;
 
 **运行应用程序的步骤:**使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

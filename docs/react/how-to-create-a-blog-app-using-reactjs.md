@@ -10,13 +10,13 @@
 
 **步骤 1:** 创建反应项目
 
-```
+```jsx
 npx create-react-app MY-APP
 ```
 
 **第 2 步:**更改您的目录并输入您的主文件夹 MY-APP，如下所示:
 
-```
+```jsx
 cd MY-APP
 ```
 
@@ -30,7 +30,7 @@ cd MY-APP
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import "./App.css";
 
@@ -54,7 +54,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import "./Posts.css";
 import Post from "../Post/Post";
@@ -136,7 +136,7 @@ export default Posts;
 
 ## Posts.css
 
-```
+```jsx
 body {
     background-color: #0e9d57;
 }
@@ -151,7 +151,7 @@ body {
 
 ## 邮件. jsx
 
-```
+```jsx
 import React from "react";
 import "./Post.css";
 const Post = ({ post: { title, body,
@@ -175,7 +175,7 @@ export default Post;
 
 ## Post.css
 
-```
+```jsx
 .post-container {
     background: #e2e8d5;
     display: flex;
@@ -197,7 +197,7 @@ export default Post;
 
 **运行应用程序的步骤:**打开终端，使用命令运行项目。
 
-```
+```jsx
 npm start
 ```
 

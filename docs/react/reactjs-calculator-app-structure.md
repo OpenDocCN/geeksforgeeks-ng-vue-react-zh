@@ -18,7 +18,7 @@
 
 现在让我们使用 create-react-app 命令创建我们的应用程序。打开您的终端，键入以下命令:
 
-```
+```jsx
 create-react-app firstapp
 
 ```
@@ -30,7 +30,7 @@ create-react-app firstapp
 
 下面是我们的 **/public/index.html** 文件:
 
-```
+```jsx
 <!DOCTYPE html>
 <html lang="en">
   <head>

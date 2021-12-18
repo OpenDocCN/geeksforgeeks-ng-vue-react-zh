@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```jsx
 const authContext = useContext(initialValue);
 ```
 
@@ -20,7 +20,7 @@ useContext 接受 React.createContext 提供的值，然后每当组件的值发
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
 
     // Creating the context object and passing the default values.
@@ -33,7 +33,7 @@ useContext 接受 React.createContext 提供的值，然后每当组件的值发
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { useState } from "react";
     import Auth from "./Auth";
     import AuthContext from "./auth-context";
@@ -60,7 +60,7 @@ useContext 接受 React.createContext 提供的值，然后每当组件的值发
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { useContext } from "react";
     import AuthContext from "./auth-context";
 

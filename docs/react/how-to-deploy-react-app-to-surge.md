@@ -15,7 +15,7 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app deploy
 ```
 
@@ -29,13 +29,13 @@ npx create-react-app deploy
 
 **步骤 2:** 创建项目文件夹(即样式)后，移动到相同的文件夹:
 
-```
+```jsx
 cd deploy
 ```
 
 **步骤 3:** 浪涌可以通过 npm 安装在您的 React 应用程序中。按照下面给出的步骤在您的 React 应用程序中安装电涌:要安装电涌，请使用以下命令:
 
-```
+```jsx
 npm install --global surge
 ```
 
@@ -47,7 +47,7 @@ npm install --global surge
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 
 function App(){
@@ -61,13 +61,13 @@ export default App;
 
 **第五步:**现在你需要制作一个构建文件夹，这样你就可以部署你的 React App 了。Build 基本上捆绑和缩小了我们的代码，这个文件夹由编译过的 React 组成，可以归结为简单的 Html、CSS 和 JavaScript。
 
-```
+```jsx
 npm run build
 ```
 
 **第 6 步:**现在我们可以托管和部署我们的 React App 了。现在，您的系统中已经在全球范围内安装了“surge ”,这样您将来就可以随心所欲地使用它。执行以下命令:
 
-```
+```jsx
 surge
 ```
 

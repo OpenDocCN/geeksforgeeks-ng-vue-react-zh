@@ -21,7 +21,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -33,7 +33,7 @@ ReactDOM.render(<App />, document.getElementById('root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import MemeGenerator from './MemeGenerator'
 
@@ -54,7 +54,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 // Import React (Mandatory Step).
 import React from "react";
 
@@ -153,7 +153,7 @@ export default MemeGenerator;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .meme {
   position: relative;
   width: 59%;

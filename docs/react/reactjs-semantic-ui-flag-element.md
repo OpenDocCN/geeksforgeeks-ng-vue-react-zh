@@ -10,7 +10,7 @@ Flag 元素用于表示国旗。
 
 **语法:**
 
-```
+```jsx
 <flag name='countryName'/>
 ```
 
@@ -18,19 +18,19 @@ Flag 元素用于表示国旗。
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd foldername
 ```
 
 **第三步:**在给定的目录下安装语义 UI。
 
-```
+```jsx
  npm install semantic-ui-react semantic-ui-css
 ```
 
@@ -44,7 +44,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import {Table, Flag} from 'semantic-ui-react'
 

@@ -9,14 +9,14 @@
 
 使用以下命令创建一个示例项目:
 
-```
+```jsx
 // constantDemo is the name of our folder
 npx create-react-app constantDemo
 ```
 
 现在使用以下命令移动到 ***constantDemo*** 文件夹:
 
-```
+```jsx
 cd constantDemo
 ```
 
@@ -28,7 +28,7 @@ cd constantDemo
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component {
@@ -53,7 +53,7 @@ export default App
 
 现在使用以下命令运行项目:
 
-```
+```jsx
 npm start
 ```
 
@@ -67,7 +67,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component {
@@ -89,7 +89,7 @@ export default App
 
 现在使用以下命令运行项目:
 
-```
+```jsx
 npm start
 ```
 

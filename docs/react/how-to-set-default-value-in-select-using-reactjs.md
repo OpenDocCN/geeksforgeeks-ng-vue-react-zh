@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```jsx
 <option value='value' selected> label </option>
 ```
 
@@ -20,7 +20,7 @@
 
 ## App.js
 
-```
+```jsx
 import { Component } from 'react'
 
 class App extends Component {
@@ -79,7 +79,7 @@ export default App;
 
 **语法:**
 
-```
+```jsx
 <Select
     option={optionArray}
     defaultValue={optionArray[index]}
@@ -88,7 +88,7 @@ export default App;
 
 **注意:**确保您已经安装了***react-使用以下命令选择*** 模块。
 
-```
+```jsx
 npm install react-select
 ```
 
@@ -96,7 +96,7 @@ npm install react-select
 
 ## App.js
 
-```
+```jsx
 import { Component } from 'react'
 import Select from 'react-select';
 

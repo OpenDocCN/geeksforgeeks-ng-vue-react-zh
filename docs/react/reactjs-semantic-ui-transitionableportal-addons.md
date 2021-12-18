@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```jsx
 <TransitionablePortal>Children content</TransitionablePortal>
 ```
 
@@ -25,19 +25,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **Step 3:** Install semantic UI in your given directory.
 
-    ```
+    ```jsx
      npm install semantic-ui-react semantic-ui-css
     ```
 
@@ -47,7 +47,7 @@
 
     **运行应用程序的步骤:**使用以下命令从项目的根目录运行应用程序。
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -55,7 +55,7 @@
 
     ## App.js
 
-    ```
+    ```jsx
     import React, { Component } from 'react'
     import { Button, Grid, Header, Segment, 
         TransitionablePortal } from 'semantic-ui-react'
@@ -127,7 +127,7 @@
 
     ## index.css
 
-    ```
+    ```jsx
     #gfg {
         margin: 40px;
     }

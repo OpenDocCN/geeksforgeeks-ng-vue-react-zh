@@ -20,25 +20,25 @@
 
 *   **第一步:**下面是在你的项目中创建 React app 的命令……
 
-    ```
+    ```jsx
     npx create-react-app new_files
     ```
 
 *   **第二步:**进入第一步创建的目录。
 
-    ```
+    ```jsx
     cd new_files
     ```
 
 *   **步骤 3:** 使用下面给出的命令安装 Axios 库……
 
-    ```
+    ```jsx
     npm install axios
     ```
 
 *   **步骤 4:** 完成后，您可以使用下面给出的命令启动服务器..
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -46,7 +46,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import axios from "axios";
 
@@ -125,7 +125,7 @@ Axios 是一个基于承诺的库，所以你需要实现一些基于承诺的�
 
 ## Javascript
 
-```
+```jsx
 const getCustomersData = () => {
   axios
   .get("https://jsonplaceholder.typicode.com/customers")
@@ -143,7 +143,7 @@ const getCustomersData = () => {
 
 ## Javascript
 
-```
+```jsx
 import React from 'react';
  import axios from 'axios';
  export default class MyList extends React.Component {
@@ -172,7 +172,7 @@ import React from 'react';
 
 ## Javascript
 
-```
+```jsx
 import React from 'react';
 import axios from 'axios';
 export default class AddPost extends React.Component {
@@ -214,7 +214,7 @@ export default class AddPost extends React.Component {
 
 **使用 axios 删除请求:**将删除请求发送到服务器 Axios。使用 Delete。在创建这个请求 URL 和可选配置时，您需要指定两个参数。
 
-```
+```jsx
 axios.delete(url, { 
   data: { foo: "bar" }, 
   headers: { "Authorization": "******" } 
@@ -225,7 +225,7 @@ axios.delete(url, {
 
 ## Javascript
 
-```
+```jsx
 handleSubmit = event => {
   event.preventDefault();
   axios.delete(

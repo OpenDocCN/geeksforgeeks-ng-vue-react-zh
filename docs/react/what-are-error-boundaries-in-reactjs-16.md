@@ -17,19 +17,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app error-boundary-demo
 ```
 
 **第 2 步:**创建项目文件夹后，即*错误-边界-演示*，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd error-boundary-demo
 ```
 
 **第三步:**创建一个目录并命名为 ***组件*** 。
 
-```
+```jsx
 mkdir Component
 ```
 
@@ -41,7 +41,7 @@ mkdir Component
 
 ## **英雄观.js**
 
-```
+```jsx
 import React from 'react'
 
 const HeroViewar = ({name}) => {
@@ -61,7 +61,7 @@ export default HeroViewar
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react'
 import HeroViewar from './Component/HeroViewar'
 
@@ -80,7 +80,7 @@ export default App
 
 ****运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:**
 
-```
+```jsx
 npm start
 ```
 
@@ -94,7 +94,7 @@ npm start
 
 ## **ErrorBoundary.js**
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class ErrorBoundary extends Component {
@@ -132,7 +132,7 @@ export default ErrorBoundary
 
 ****第七步:**更新 ***App.js*** 将每一个 **HeroViewar** 用 **ErrorBoundary** 包装，如:**
 
-```
+```jsx
 <ErrorBoundary>
     <HeroViewar name="..." />
 </ErrorBoundary>
@@ -142,7 +142,7 @@ export default ErrorBoundary
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react'
 import ErrorBoundary from './Component/ErrorBoundary'
 import HeroViewar from './Component/HeroViewar'

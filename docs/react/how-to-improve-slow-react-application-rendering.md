@@ -22,13 +22,13 @@ Slow React 应用程序渲染顾名思义，就是渲染元素时的小延迟或
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app useMemo 
     ```
 
 *   **第 2 步:**创建项目文件夹后，即使用备忘录**，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd useMemo
     ```
 
@@ -40,7 +40,7 @@ Slow React 应用程序渲染顾名思义，就是渲染元素时的小延迟或
 
 ## App.js
 
-```
+```jsx
 import { useState } from "react";
 import "./App.css";
 
@@ -93,7 +93,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -107,7 +107,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import { useState, useMemo } from "react";
 import "./App.css";
 
@@ -160,7 +160,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

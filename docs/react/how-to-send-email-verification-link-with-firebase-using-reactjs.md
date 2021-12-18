@@ -10,13 +10,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React myapp。
 
-    ```
+    ```jsx
     npx create-react-app myapp
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 myapp)后，使用以下命令将其移动到该文件夹。
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -26,13 +26,13 @@
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 firebase 模块。
 
-```
+```jsx
 npm install firebase@8.3.1 --save
 ```
 
 **第 4 步:**转到你的 firebase 仪表盘，创建一个新项目并复制你的凭证。
 
-```
+```jsx
 const firebaseConfig = {
       apiKey: "your api key",
       authDomain: "your credentials",
@@ -51,7 +51,7 @@ const firebaseConfig = {
 
 ## 火库. js
 
-```
+```jsx
 import firebase from 'firebase';
 
 const firebaseConfig = {

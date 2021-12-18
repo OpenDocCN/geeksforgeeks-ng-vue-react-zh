@@ -17,19 +17,19 @@
 
 **基本设置:**您将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 开始一个新项目，因此打开您的终端并键入:
 
-```
+```jsx
 npx create-react-app react-sidebar-dropdown
 ```
 
 现在，通过在终端中键入给定的命令，转到您的**反应-侧栏-下拉菜单**文件夹:
 
-```
+```jsx
 cd react-sidebar-dropdown
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项。
 
-```
+```jsx
 npm install react-router-dom
 npm install --save styled-components
 npm install --save react-icons
@@ -51,7 +51,7 @@ npm install --save react-icons
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -137,7 +137,7 @@ export default Sidebar;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -236,7 +236,7 @@ export const SidebarData = [
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -322,7 +322,7 @@ export default SubMenu;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export const AboutUs = () => {
@@ -354,7 +354,7 @@ export const OurVision = () => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 const Contact = () => {
@@ -372,7 +372,7 @@ export default Contact;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export const Events = () => {
@@ -404,7 +404,7 @@ export const EventsTwo = () => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 export const Services = () => {
@@ -444,7 +444,7 @@ export const ServicesThree = () => {
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 const Support = () => {

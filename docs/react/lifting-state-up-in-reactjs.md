@@ -12,7 +12,7 @@
 
 **示例 2:** 如果我们的 App 中有 3 个组件。
 
-```
+```jsx
         A
        / \
       B   C
@@ -30,13 +30,13 @@
 
 **之前:**
 
-```
+```jsx
 import App from './App';
 ```
 
 **之后:**
 
-```
+```jsx
 import App from './A';
 ```
 
@@ -44,7 +44,7 @@ import App from './A';
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component }  from 'react';
 import B from './B'
 import C from './C'
@@ -79,7 +79,7 @@ export default A;
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component } from 'react';
 
 class B extends Component {
@@ -108,7 +108,7 @@ export default B;
 
 ## java 描述语言
 
-```
+```jsx
 import React,{ Component } from 'react';
 
 class C extends Component {

@@ -9,14 +9,14 @@ React 允许我们使用名为**的道具**(代表属性)向组件传递信息�
 
 我们可以将道具传递给任何组件，就像我们为任何 HTML 标记声明属性一样。看看下面的代码片段:
 
-```
+```jsx
 <DemoComponent sampleProp = "HelloProp" />
 ```
 
 在上面的代码片段中，我们将名为*样本道具*的**道具传递给名为*演示组件*的组件。这个道具的值是“HelloProp”。现在让我们看看如何才能获得这些道具。
 我们可以从道具传递到的组件类中访问里面的任何道具。可以访问的道具如下所示:** 
 
-```
+```jsx
 this.props.*propName*;
 ```
 
@@ -29,7 +29,7 @@ this.props.*propName*;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -66,7 +66,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -100,7 +100,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -148,7 +148,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

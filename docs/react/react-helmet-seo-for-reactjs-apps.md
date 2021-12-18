@@ -25,7 +25,7 @@ Helmet 获取纯 HTML 标签并输出纯 HTML 标签。 它非常简单，而且
 
 **第一步：**创建 Reaction 应用程序并安装模块：
 
-```
+```jsx
 npx create-react-app helmet
 ```
 
@@ -33,13 +33,13 @@ npx create-react-app helmet
 
 **步骤 2：**创建项目文件夹(即 Reaction-Helmet)后，使用以下命令移动到该文件夹：
 
-```
+```jsx
 cd helmet
 ```
 
 **步骤 3：**我们可以继续添加头盔。
 
-```
+```jsx
 npm i react-helmet
 ```
 
@@ -53,7 +53,7 @@ npm i react-helmet
 
 **第四步：**添加用于路由的 Reaction-Router-DOM
 
-```
+```jsx
 npm i react-router-dom
 ```
 
@@ -65,7 +65,7 @@ npm i react-router-dom
 
 ## Lyrics.js
 
-```
+```jsx
 import React from 'react';
 
 const Lyrics = () => (
@@ -79,7 +79,7 @@ export default Lyrics;
 
 ## Audio.js
 
-```
+```jsx
 import React from 'react';
 
 const Audio = () => (
@@ -93,7 +93,7 @@ export default Audio;
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, 
@@ -142,7 +142,7 @@ export default App ;
 
 ## **Lyrics.js**
 
-```
+```jsx
 import React from 'react';
 import { Helmet } from "react-helmet";
 

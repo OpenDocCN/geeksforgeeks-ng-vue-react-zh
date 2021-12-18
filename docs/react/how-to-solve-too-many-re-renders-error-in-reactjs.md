@@ -21,13 +21,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -39,7 +39,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 class Greeting extends React.Component {
   render() {
@@ -68,7 +68,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 class Greeting extends React.Component {
@@ -106,7 +106,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 class Greeting extends React.Component {
   shouldComponentUpdate() {

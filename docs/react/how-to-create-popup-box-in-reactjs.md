@@ -10,13 +10,13 @@ React 是一个免费的开源前端 JavaScript 库，用于构建用户界面�
 
 **创建 reatjs 应用程序:**您可以使用以下命令创建一个新的 reatjs 项目:
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **安装所需的软件包:**现在我们将使用以下命令安装 reactjs-popup 软件包:
 
-```
+```jsx
 npm i reactjs-popup
 ```
 
@@ -28,7 +28,7 @@ npm i reactjs-popup
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
@@ -51,7 +51,7 @@ export default function PopupGfg(){
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 

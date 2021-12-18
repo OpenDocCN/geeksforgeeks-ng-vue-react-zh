@@ -12,19 +12,19 @@
 
 **基本设置:**你将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 开始一个新项目，所以打开你的终端并输入。
 
-```
+```jsx
 npx create-react-app react-scroll-top
 ```
 
 现在，通过在终端中键入给定的命令，转到您的**反应-滚动-顶部**文件夹。
 
-```
+```jsx
 cd react-scroll-top
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项。
 
-```
+```jsx
 npm install --save styled-components
 npm install --save react-icons
 ```
@@ -43,7 +43,7 @@ npm install --save react-icons
 
 ## scroll button . js-卷动按钮. js
 
-```
+```jsx
 import React, {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button } from './Styles';
@@ -86,7 +86,7 @@ export default ScrollButton;
 
 ## Styles.js
 
-```
+```jsx
 import styled from 'styled-components';
 
 export const Heading = styled.h1`
@@ -114,7 +114,7 @@ export const Button = styled.div`
 
 ## App.js
 
-```
+```jsx
 import { Fragment } from 'react';
 import ScrollButton from './components/ScrollButton';
 import { Content, Heading } from './components/Styles';
@@ -134,7 +134,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

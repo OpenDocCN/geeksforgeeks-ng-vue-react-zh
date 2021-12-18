@@ -19,7 +19,7 @@
 
 **第二步**:打开命令提示符，检查是否安装完毕，输入命令–>
 
-```
+```jsx
 node -v
 ```
 
@@ -31,7 +31,7 @@ node -v
 
 **步骤 3** :现在在终端运行以下命令:
 
-```
+```jsx
 npm install -g create -react -app  
 ```
 
@@ -41,7 +41,7 @@ npm install -g create -react -app
 
 它将在全球范围内为您安装 react app。要检查一切是否顺利，请运行命令
 
-```
+```jsx
 create -react -app -v
 ```
 
@@ -53,7 +53,7 @@ create -react -app -v
 
 **第 4 步:**现在使用以下命令创建一个新文件夹，您想在其中让您的应用程序做出反应:
 
-```
+```jsx
 mkdir newfolder
 ```
 
@@ -63,7 +63,7 @@ mkdir newfolder
 
 使用以下命令在同一文件夹中移动:
 
-```
+```jsx
 cd newfolder (your folder name)
 ```
 
@@ -71,7 +71,7 @@ cd newfolder (your folder name)
 
 **第 5 步**:现在在这个文件夹中运行命令–>
 
-```
+```jsx
 create -react -app  reactfirst YOUR_APP_NAME
 ```
 
@@ -85,7 +85,7 @@ create -react -app  reactfirst YOUR_APP_NAME
 
 **第 7 步:**要启动您的应用程序，请运行以下命令:
 
-```
+```jsx
 npm start  
 ```
 

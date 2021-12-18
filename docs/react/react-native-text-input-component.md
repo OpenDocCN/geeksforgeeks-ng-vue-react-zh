@@ -6,13 +6,13 @@
 
 为了在反应原生中创建文本输入，我们必须从反应原生中导入文本输入组件。
 
-```
+```jsx
 import { TextInput } from 'react-native'
 ```
 
 **语法:**
 
-```
+```jsx
 <TextInput  
   // Define TextInput property
 />        
@@ -76,19 +76,19 @@ import { TextInput } from 'react-native'
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -100,7 +100,7 @@ import { TextInput } from 'react-native'
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import {View,Text,TextInput } from 'react-native';
 
@@ -133,7 +133,7 @@ export default class App extends Component {
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

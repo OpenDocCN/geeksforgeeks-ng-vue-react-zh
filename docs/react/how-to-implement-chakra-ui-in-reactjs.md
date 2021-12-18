@@ -17,13 +17,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令将**移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -50,7 +50,7 @@
 
 ## ****App.js****
 
-```
+```jsx
 **import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
@@ -78,7 +78,7 @@ export default App;**
 
 ## ****index.js****
 
-```
+```jsx
 **import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -97,7 +97,7 @@ import App from './App';
 
 ******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:****
 
-```
+```jsx
 **npm start**
 ```
 

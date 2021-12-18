@@ -8,19 +8,19 @@ recharts.js 是一个重新定义的图表库，由 React 和 D3 构建。它有
 
 *   **步骤 1** :使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2** :创建项目文件夹即文件夹名称后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 现在转到命令行，安装 rechart.js 库
 
-    ```
+    ```jsx
     npm install recharts
     ```
 
@@ -32,7 +32,7 @@ recharts.js 是一个重新定义的图表库，由 React 和 D3 构建。它有
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import {
   LineChart,
@@ -113,7 +113,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

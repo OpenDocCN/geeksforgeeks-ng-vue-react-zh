@@ -6,7 +6,7 @@
 
 <u>到目前为止，我们在 HTML 中有一个 DOM 元素，我们将我们的 react 应用程序装入其中，即公共文件夹中我们的**index.html**的根元素。基本上，我们将**应用程序**组件安装到根元素上。拥有一个 id 为**根**的 div 元素作为根 DOM 元素几乎是一种惯例。如果您看一下 DOM 树中的浏览器，我们应用程序中的每个单独的 React 组件都属于根元素，即在这个语句中。</u>
 
-```
+```jsx
 <div id="root"></div>
 ```
 
@@ -14,7 +14,7 @@
 
 <u>**语法:**</u>
 
-```
+```jsx
 ReactDOM.createPortal(child, container)
 ```
 
@@ -22,7 +22,7 @@ ReactDOM.createPortal(child, container)
 
 <u>**导入:**要创建和使用门户，您需要导入**反应堆模块**，如下所示。</u>
 
-```
+```jsx
 import ReactDOM from 'react-dom';
 ```
 
@@ -30,13 +30,13 @@ import ReactDOM from 'react-dom';
 
 *   <u>**步骤 1:** 使用以下命令创建一个 [**<u>React 应用程序</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 。</u>
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   <u>**步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。</u>
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -48,7 +48,7 @@ import ReactDOM from 'react-dom';
 
 ## <u>App.js</u>
 
-```
+```jsx
 import ReactDOM from 'react-dom'
 function App() {
 

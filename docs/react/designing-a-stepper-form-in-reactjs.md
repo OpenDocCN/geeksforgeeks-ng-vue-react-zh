@@ -10,19 +10,19 @@
 
 **步骤 1:** 使用以下命令创建 react app。
 
-```
+```jsx
 npx create-react-app my-first-app
 ```
 
 **步骤 2:** 通过执行命令将目录更改为该文件夹:
 
-```
+```jsx
 cd my-first-app
 ```
 
 **步骤 3:** 安装必要的依赖项。转到目录“src”，在那里执行命令提示符并运行命令
 
-```
+```jsx
 npm install @material-ui/core/Stepper
 npm install @material-ui/core/Step
 npm install @material-ui/core/StepLabel
@@ -36,7 +36,7 @@ npm install @material-ui/core/StepLabel
 
 ## App.js
 
-```
+```jsx
 import GeekStepper from './StepperForm'
 function App() {
   return (
@@ -55,7 +55,7 @@ export default App;
 
 ## StepperForm.jsx
 
-```
+```jsx
 import React from 'react';
 import { makeStyles, Theme, createStyles } 
         from '@material-ui/core/styles';
@@ -193,7 +193,7 @@ export default function GeekStepper() {
 
 **运行应用程序的步骤:**通过在 src 中执行以下命令来运行您的应用程序
 
-```
+```jsx
 npm start
 ```
 

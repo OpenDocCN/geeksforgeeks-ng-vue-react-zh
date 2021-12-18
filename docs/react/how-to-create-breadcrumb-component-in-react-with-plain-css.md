@@ -10,7 +10,7 @@ ReactJS 是一个基于组件的 web 框架，用于在 Frontend 中制作可重
 
 *   **步骤 1:** 制作一个要包含在导航栏面包屑中的项目的内嵌列表。其代码如下:
 
-    ```
+    ```jsx
     li {
        display:inline;
        padding: 10px 16px;  
@@ -22,7 +22,7 @@ ReactJS 是一个基于组件的 web 框架，用于在 Frontend 中制作可重
 
 *   **第二步:**通过添加一些字符来分隔列表项，如斜线或逗号等，从而对面包屑进行样式化。为此，我们必须在 CSS 中使用如下所示的(::before):
 
-    ```
+    ```jsx
     li,li:before {
        padding: 8px;
        color: black;
@@ -36,13 +36,13 @@ ReactJS 是一个基于组件的 web 框架，用于在 Frontend 中制作可重
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app GFGHosting
     ```
 
 *   **第 2 步:**创建项目文件夹后，即**后，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd GFGHosting
     ```
 
@@ -56,7 +56,7 @@ ReactJS 是一个基于组件的 web 框架，用于在 Frontend 中制作可重
 
 ## App.js
 
-```
+```jsx
 import React from 'react'
 
 function App() {
@@ -78,7 +78,7 @@ export default App;
 
 ## index.css
 
-```
+```jsx
 ol{
    text-align : center;
    border:solid;
@@ -105,7 +105,7 @@ ol{
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

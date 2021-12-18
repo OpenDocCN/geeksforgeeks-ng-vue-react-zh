@@ -8,13 +8,13 @@
 
 **步骤 1:** 使用以下命令执行 Create react app。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 通过执行以下命令将目录更改为该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -26,7 +26,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 
 class App extends React.Component {
@@ -40,7 +40,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -54,7 +54,7 @@ npm start
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React from "react";
 
 class App extends React.Component {
@@ -95,7 +95,7 @@ export default App;
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React from "react";
 class Name extends React.Component{
 

@@ -6,7 +6,7 @@
 
 **伪码:**
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Component from "./Component"
@@ -29,13 +29,13 @@ ReactDOM.render(<App />, rootElement)
 
 **步骤 1:** 创建反应应用程序
 
-```
+```jsx
 npx create-react-app loops
 ```
 
 **步骤 2:** 创建项目文件夹(即循环)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd loops
 ```
 
@@ -47,13 +47,13 @@ cd loops
 
 ****语法:****
 
-```
+```jsx
 { arr.map((parameter) => (//logic) )}
 ```
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -72,7 +72,7 @@ export default App;
 
 ****运行应用程序的步骤:**打开终端，键入以下命令。**
 
-```
+```jsx
 npm start
 ```
 
@@ -84,13 +84,13 @@ npm start
 
 ****语法:****
 
-```
+```jsx
 for(initialization; condition; updation) {  //logic }
 ```
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -112,7 +112,7 @@ export default App;
 
 ****运行应用程序的步骤:**打开终端，键入以下命令。**
 
-```
+```jsx
 npm start
 ```
 
@@ -124,7 +124,7 @@ npm start
 
 ****语法:****
 
-```
+```jsx
 { (condition) ? true : false }
 ```
 
@@ -132,7 +132,7 @@ npm start
 
 ## **App.js**
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -148,7 +148,7 @@ const x = 12
 
 ****运行应用程序的步骤:**打开终端，键入以下命令。**
 
-```
+```jsx
 npm start
 ```
 

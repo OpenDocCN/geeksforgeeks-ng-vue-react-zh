@@ -6,7 +6,7 @@
 
 **语法:**使用语法在构造函数类外部初始化状态。
 
-```
+```jsx
 state = {stateName1:stateValue1, 
          stateName2:stateName2, 
          ....... 
@@ -19,7 +19,7 @@ state = {stateName1:stateValue1,
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -31,7 +31,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -75,7 +75,7 @@ export default App
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
@@ -87,7 +87,7 @@ ReactDOM.render(<App />, document.querySelector('#root'))
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class App extends Component {

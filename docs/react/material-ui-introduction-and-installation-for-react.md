@@ -27,13 +27,13 @@
 
 *   ****使用新产品导入安装物料界面****
 
-```
+```jsx
 **npm install @material-ui/core** 
 ```
 
 *   ****使用纱线安装材料界面****
 
-```
+```jsx
 **yarn add @material-ui/core** 
 ```
 
@@ -43,7 +43,7 @@
 
 ## ****超文本标记语言****
 
-```
+```jsx
 **import React, {Component} from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';

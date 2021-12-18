@@ -8,25 +8,25 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app gfg
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd gfg
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 **material-ui** 模块。
 
-    ```
+    ```jsx
     npm install @material-ui/core
     ```
 
 *   **第四步:**前往 public/index.html，将字体添加到你的<头像>:
 
-    ```
+    ```jsx
     <link rel="stylesheet" href=
     "https://fonts.googleapis.com/css2family=Open+Sans:wght@300
     &family=Raleway:wght@300&family=Roboto
@@ -51,7 +51,7 @@ Acc。to docs–“<themeprovider>依靠 React 的上下文特性将主题向下
 
 ## 主题. js
 
-```
+```jsx
 import { createMuiTheme, responsiveFontSizes } 
 
 from '@materialui/core/styles';
@@ -65,13 +65,13 @@ const theme = responsiveFontSizes(createMuiTheme({
 
 *   **间距:**它有助于在我们的 UI 元素之间创建一致的间距。
 
-    ```
+    ```jsx
     spacing: 4,
     ```
 
 *   **版式:**版式是我们定义不同字体变体的地方，然后通过“版式”组件在组件模板中使用。
 
-    ```
+    ```jsx
     typography: {
         fontFamily: [
           'Roboto',
@@ -96,7 +96,7 @@ const theme = responsiveFontSizes(createMuiTheme({
 
 *   **调色板:**调色板是我们定义要在 React 应用程序中使用的颜色的地方。该主题公开了以下预定义的调色板颜色–主要颜色、次要颜色、错误颜色、警告颜色、信息颜色、成功颜色和字体颜色文本。
 
-    ```
+    ```jsx
     palette: {
         background: {
           default: '#009900',
@@ -130,7 +130,7 @@ const theme = responsiveFontSizes(createMuiTheme({
 
 ## 主题. js
 
-```
+```jsx
 import { createMuiTheme, responsiveFontSizes } 
 from '@material-ui/core/styles';
 
@@ -190,7 +190,7 @@ export default theme;
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline';

@@ -12,7 +12,7 @@
 
 我们将从使用**创建-反应-应用**工具创建一个新的反应项目开始。您可以使用以下命令创建一个具有所需名称的。请确保系统上安装了**节点**和 **npm** 。
 
-```
+```jsx
 npx create-react-app react-md-note-app
 ```
 
@@ -28,7 +28,7 @@ npx create-react-app react-md-note-app
 
 我们还需要两个 **npm 包**，一个是 [**markdown-it**](https://www.npmjs.com/package/markdown-it) 包，它负责解析 markdown 内容并以 HTML 形式向我们提供渲染输出。我们可以简单地使用这个 HTML 来显示我们的输出。另一个模块是 [**文件保存程序**](https://www.npmjs.com/package/file-saver) 包，它简化了将给定的 blob 保存到系统的任务。以下命令用于安装这两个软件包:
 
-```
+```jsx
 npm install markdown-it file-saver
 ```
 
@@ -44,7 +44,7 @@ npm install markdown-it file-saver
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 body {
   background-color: yellow; 
 } 
@@ -96,7 +96,7 @@ body {
 
 ## **java 描述语言**
 
-```
+```jsx
 import { useState } from 'react';
 
 // Import the required modules
@@ -258,13 +258,13 @@ export default App;
 
 **我们可以使用以下命令运行这个应用程序。这将启动 React 的开发服务器，用于调试我们的应用程序。**
 
-```
+```jsx
 npm run start
 ```
 
 **我们还可以构建这个应用程序，以便它可以托管在任何支持静态文件托管的平台上。我们可以使用以下命令运行项目来构建我们的应用程序:**
 
-```
+```jsx
 npm run build
 ```
 

@@ -15,7 +15,7 @@
 
 ## Javascript
 
-```
+```jsx
 const Greet = (props) => {
     const person = props.name;
   return (

@@ -12,13 +12,13 @@
 
 **步骤 1:** 创建反应应用程序命令
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹，即文件夹名称后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -28,7 +28,7 @@ cd foldername
 
 **步骤 3:** 使用以下命令安装所需模块:
 
-```
+```jsx
 npm install node-sass
 ```
 
@@ -44,7 +44,7 @@ npm install node-sass
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .gfg {
   background-color: green;
   padding: 5px;
@@ -63,7 +63,7 @@ npm install node-sass
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component }  from 'react';
 
 import './App.scss';
@@ -85,13 +85,13 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
 **注:** *如有编译问题降级节点-sass 如下:*
 
-```
+```jsx
 npm install node-sass@4.14.1
 ```
 

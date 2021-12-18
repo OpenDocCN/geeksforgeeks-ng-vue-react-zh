@@ -8,7 +8,7 @@
 
 **API:** API 是应用编程接口(Application Programming Interface)的缩写，它是各种程序用来在它们之间进行通信的通信协议和子程序的集合。程序员可以利用各种应用编程接口工具使其程序变得更加容易和简单。此外，应用编程接口为程序员开发软件程序提供了一种有效的方法。在本文中，我们将了解如何从 API(应用程序编程接口)获取数据。对于数据，我们使用了
 
-```
+```jsx
 http://jsonplaceholder.typicode.com/users
 ```
 
@@ -18,13 +18,13 @@ http://jsonplaceholder.typicode.com/users
 
 **步骤 1:** 创建反应项目
 
-```
+```jsx
 npx create-react-app apis
 ```
 
 **步骤 2:** 更改您的目录并输入您的主文件夹图表如下
 
-```
+```jsx
 cd apis
 ```
 
@@ -42,7 +42,7 @@ cd apis
 
 ## App.js
 
-```
+```jsx
 import {useEffect} from "react";
 
 function App() {
@@ -65,7 +65,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -77,13 +77,13 @@ npm start
 
 要安装 Axios，请编写以下命令
 
-```
+```jsx
 npm i axios
 ```
 
 ## App.js
 
-```
+```jsx
 import {useEffect} from "react";
 import axios from "axios"
 
@@ -106,7 +106,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start 
 ```
 
@@ -122,7 +122,7 @@ npm start 
 
 ## App.js
 
-```
+```jsx
 import {useEffect} from "react";
 import axios from "axios"
 
@@ -152,7 +152,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -166,7 +166,7 @@ npm start
 
 ## useFetch.js
 
-```
+```jsx
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -215,7 +215,7 @@ export default useFetch;
 
 ## App.js
 
-```
+```jsx
 import {useEffect} from "react";
 import axios from "axios"
 
@@ -237,7 +237,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

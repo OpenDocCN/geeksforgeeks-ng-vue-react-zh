@@ -15,13 +15,13 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序。
 
-```
+```jsx
 npx create-react-app react-table
 ```
 
 **步骤 2:** 现在，通过运行以下命令进入项目文件夹，即**反应表**。
 
-```
+```jsx
 cd react-table
 ```
 
@@ -35,7 +35,7 @@ cd react-table
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 
 function App() {
@@ -80,7 +80,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 
 // Example of a data array that
@@ -121,7 +121,7 @@ export default App;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .App {
   width: 100%;
   height: 100vh;
@@ -147,7 +147,7 @@ td {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

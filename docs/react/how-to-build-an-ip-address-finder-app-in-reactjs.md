@@ -16,19 +16,19 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app ip-finder
 ```
 
 **步骤 2:** 现在，通过运行以下命令进入项目文件夹，即 ip-finder:
 
-```
+```jsx
 cd ip-finder
 ```
 
 **步骤 3:** 使用以下命令安装本项目所需的一些 npm 包:
 
-```
+```jsx
 npm install axios 
 npm install react-map-gl
 npm install react-icons
@@ -51,7 +51,7 @@ npm install react-icons
 
 ## java 描述语言
 
-```
+```jsx
 import { useEffect, useState } from 'react';
 import Axios from 'axios';
 import Map from './Map';
@@ -108,7 +108,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useEffect, useState } from 'react';
 import ReactMapGL, { Marker } from 'react-map-gl';
 import { RiUserLocationFill } from 'react-icons/ri';
@@ -163,7 +163,7 @@ export default Map;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .App{
   height: 70vh;
@@ -204,7 +204,7 @@ p{
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

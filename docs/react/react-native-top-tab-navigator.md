@@ -37,19 +37,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init top-tab-navigator-demo
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即顶部-标签-导航-演示
 
-    ```
+    ```jsx
     cd top-tab-navigator-demo
     ```
 
@@ -69,7 +69,7 @@
 
     ## App.js
 
-    ```
+    ```jsx
     import React from "react";
     import { Ionicons } from "@expo/vector-icons";
     import { createAppContainer } from "react-navigation";
@@ -150,7 +150,7 @@
 
     ## Profile.js
 
-    ```
+    ```jsx
     import React from "react";
     import { Text, View } from "react-native";
     import { Ionicons } from "@expo/vector-icons";
@@ -169,7 +169,7 @@
 
     ## Images.js
 
-    ```
+    ```jsx
     import React from "react";
     import { Text, View } from "react-native";
     import { Ionicons } from "@expo/vector-icons";
@@ -193,7 +193,7 @@
 
     ## Videos.js
 
-    ```
+    ```jsx
     import React from "react";
     import { Text, View } from "react-native";
     import { Ionicons } from "@expo/vector-icons";
@@ -217,7 +217,7 @@
 
     使用以下命令启动服务器。
 
-    ```
+    ```jsx
     expo start
     ```
 

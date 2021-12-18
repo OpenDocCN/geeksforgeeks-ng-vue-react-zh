@@ -15,7 +15,7 @@
 
 ## 【JavaScript】
 
-```
+```jsx
 var http = require('http');
 
 // Create a server object:

@@ -6,7 +6,7 @@
 
 **创建参考:使用 React.createRef()创建参考，并通过 Ref 属性附加到 React 元素。**
 
-```
+```jsx
 class App extends React.Component {
 constructor(props) {
   super(props);
@@ -26,7 +26,7 @@ render() {
 
 **访问引用:**当我们在渲染中将引用分配给一个元素时，我们可以使用引用的当前属性来访问该元素。
 
-```
+```jsx
 const element = this.myRef.current;
 ```
 
@@ -34,13 +34,13 @@ const element = this.myRef.current;
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -52,7 +52,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react'
 
 class App extends React.Component {

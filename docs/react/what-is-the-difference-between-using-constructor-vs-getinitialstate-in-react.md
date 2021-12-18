@@ -8,7 +8,7 @@ React 中的构造函数和 getInitialState 都用于初始化状态，但它们
 
 **语法:**
 
-```
+```jsx
 class App extends React.Component {
 constructor(props) {
   super(props);
@@ -19,7 +19,7 @@ constructor(props) {
 
 **语法:**
 
-```
+```jsx
 var App = React.createClass({
 getInitialState() {
   return { /* initial state */ };
@@ -33,13 +33,13 @@ getInitialState() {
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -51,7 +51,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import {React ,Component} from 'react'
 class App extends Component{
 
@@ -80,13 +80,13 @@ export default App
 
 **注意:**我们需要使用以下命令安装一个库来使用 createReactClass 方法:
 
-```
+```jsx
 npm install create-react-class --save
 ```
 
 ## java 描述语言
 
-```
+```jsx
 import { React } from 'react'
 
 var App = React.createClass({

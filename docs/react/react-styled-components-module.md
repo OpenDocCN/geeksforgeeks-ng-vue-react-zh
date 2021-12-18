@@ -15,7 +15,7 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app styled
 ```
 
@@ -23,7 +23,7 @@ npx create-react-app styled
 
 **步骤 2:** 创建项目文件夹(即样式)后，移动到相同的文件夹:
 
-```
+```jsx
 cd styled
 ```
 
@@ -31,13 +31,13 @@ cd styled
 
 **带 npm:**
 
-```
+```jsx
 npm install --save styled-components
 ```
 
 **带纱:**
 
-```
+```jsx
 yarn add styled-components
 ```
 
@@ -51,7 +51,7 @@ yarn add styled-components
 
 然后转到 app.js 文件。现在，在 app.js 中添加下面给出的代码。
 
-```
+```jsx
 import styled from "styled-components"
 ```
 
@@ -59,7 +59,7 @@ import styled from "styled-components"
 
 ## App.js
 
-```
+```jsx
 import Button from './Button'
 
 function App() {
@@ -77,7 +77,7 @@ export default App;
 
 ## Button.js
 
-```
+```jsx
 import styled from 'styled-components'
 
 const Button = styled.div`
@@ -107,7 +107,7 @@ export default Button;
 
 ## App.js
 
-```
+```jsx
 import Button from './Button'
 
 function App() {
@@ -124,7 +124,7 @@ export default App;
 
 在 Button.js 中，背景色的值我们传递一个模板字符串，其中使用三元运算符我们可以检查 props.bg 属性的值，并相应地设置背景色的值。此外，如果任何 CSS 属性需要前缀，那么 style-component 会自动这样做。
 
-```
+```jsx
 background-color : ${props => 
     props.bg === "green" ? "green" : "yellow"};
 ```
@@ -133,7 +133,7 @@ background-color : ${props =>
 
 ## java 描述语言
 
-```
+```jsx
 import styled from 'styled-components'
 
 const Button = styled.div`
@@ -153,7 +153,7 @@ export default Button;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

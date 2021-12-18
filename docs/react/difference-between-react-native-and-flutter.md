@@ -26,14 +26,14 @@
 
 *   **Native React:**没有太多考虑让开发人员开始编写文档。相反，它假设设置已经完成，这就是为什么 React Native 通过编写命令直接创建第一个应用程序
 
-```
+```jsx
 $ npx react-native init MyTestApp
 $ cd MyProject
 ```
 
 *   **Flutter:** 它记录了从 IDE 设置、平台特定设置到一个名为 flutter doctor 的 CLI 工具的所有小东西。
 
-```
+```jsx
 $ flutter create MyProject
 $ cd MyProject
 ```

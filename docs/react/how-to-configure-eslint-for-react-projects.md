@@ -7,7 +7,7 @@
 
 **安装:**通过运行以下命令，在您的反应项目中作为开发依赖项安装 ESLint:
 
-```
+```jsx
 npm install -D eslint
 ```
 
@@ -27,7 +27,7 @@ npm install -D eslint
 ****“extends”**和“**plugins”:**通过在 extends 属性中添加文件名，我们可以继承其配置，而*“plugin”*作为 ESLint 的扩展，可以执行许多功能。
 在我们的*里面` . eslintrc.json`* 文件添加扩展和插件属性类似于下面给出的:**
 
-```
+```jsx
 {
   "extends": [
     "eslint:recommended",
@@ -41,13 +41,13 @@ npm install -D eslint
 
 **请注意，由于我们添加了各种插件，我们需要首先安装它们，因此运行以下命令将它们安装为开发依赖项:**
 
-```
+```jsx
 npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 **“导入插件”将帮助我们识别导入和导出时的常见问题；` jsx-a11y '将捕获关于可访问性的错误，` react '插件是关于 react 中使用的代码实践，因为我们使用的是` eslit-plugin-React `，我们需要通知它我们使用的是 React 的哪个版本，所以让我们将它添加到我们的“**设置”**属性中，而不是陈述当前的 React 版本，我们将使用关键字“detect”将此作业切换到设置，以便它将从` package.json '中检测当前的 React 版本**
 
-```
+```jsx
 ..},
   "settings": {
     "react": {
@@ -64,7 +64,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 
 **让我们添加一些规则到我们的配置中，你可以根据你的选择从上面提到的所有规则列表中添加任何其他规则。**
 
-```
+```jsx
 "rules": {
     "react/prop-types": 0,
     "indent": ["error", 2],
@@ -75,7 +75,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 
 **“ **env** ”和“**解析程序”:**在“env”属性中，我们将指定我们在什么环境中工作。在解析程序中，我们可以指定像 jsx 支持或 ecma 版本这样的 JavaScript 选项**
 
-```
+```jsx
 "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
@@ -92,7 +92,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 
 ## **. eslintrc 诉 json 案**
 
-```
+```jsx
 {
   "extends": [
     "eslint:recommended",
@@ -129,7 +129,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 
 **最后但同样重要的是，让我们在包中添加一些命令**
 
-```
+```jsx
 "scripts": {
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"

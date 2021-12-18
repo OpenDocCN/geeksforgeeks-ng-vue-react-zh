@@ -18,13 +18,13 @@
 
 *   **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序:
 
-```
+```jsx
 npx create-react-app movie-app
 ```
 
 *   **步骤 2:** 现在，通过运行以下命令进入项目文件夹，即电影应用程序:
 
-```
+```jsx
 cd movie-app
 ```
 
@@ -32,13 +32,13 @@ cd movie-app
 
 [**电影预告片:**](https://www.npmjs.com/package/movie-trailer) 为任何电影/系列获取 Youtube 预告片。
 
-```
+```jsx
 npm install --save movie-trailer
 ```
 
 [**react-player:**](https://www.npmjs.com/package/react-player) 一个用于播放各种 URL 的 react 组件，包括文件路径、YouTube 等。
 
-```
+```jsx
 npm install react-player
 ```
 
@@ -52,7 +52,7 @@ npm install react-player
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 import { useState } from 'react';
 import ReactPlayer from 'react-player';
@@ -103,7 +103,7 @@ export default App;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .App {
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ button {
 
 **运行应用程序的步骤:**在终端中键入以下命令:
 
-```
+```jsx
 npm start
 ```
 

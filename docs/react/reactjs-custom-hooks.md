@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import {useState , useEffect} from "react";
 
 // Remember to start the name of your custom hook with "use"
@@ -44,7 +44,7 @@ export default useCustomHook;
 
 ## Javascript
 
-```
+```jsx
 import React from "react";
 
 // importing the custom hook
@@ -72,7 +72,7 @@ export default FirstComponent;
 
 ## Javascript
 
-```
+```jsx
 import React from "react";
 
 // Importing the custom hook
@@ -100,7 +100,7 @@ export default SecondComponent;
 
 ## 【JavaScript】
 
-```
+```jsx
 import React from 'react';
 import './App.css';
 import FirstComponent from './components/FirstComponent';

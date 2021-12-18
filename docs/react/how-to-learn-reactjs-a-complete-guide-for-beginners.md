@@ -36,7 +36,7 @@ React 是构建用户界面最流行的 javascript 库。它快速、灵活，�
 
 ## **java 描述语言**
 
-```
+```jsx
 // Old method
 function greet()
 {

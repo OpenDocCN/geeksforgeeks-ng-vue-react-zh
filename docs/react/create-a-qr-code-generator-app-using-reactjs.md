@@ -19,13 +19,13 @@
 
 **步骤 1:** 在终端中键入以下命令，创建一个 react 应用程序。
 
-```
+```jsx
 npx create-react-app qrcode-gen
 ```
 
 **步骤 2:** 现在，通过运行以下命令转到项目文件夹，即二维码. gen。
 
-```
+```jsx
 cd qrcode-gen
 ```
 
@@ -39,7 +39,7 @@ cd qrcode-gen
 
 ## java 描述语言
 
-```
+```jsx
 import { useEffect, useState } from 'react';
 import './App.css';
 
@@ -103,7 +103,7 @@ export default App;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 @import url('http://fonts.cdnfonts.com/css/lilly');
 .App{
   display: flex;
@@ -154,7 +154,7 @@ button:active{
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

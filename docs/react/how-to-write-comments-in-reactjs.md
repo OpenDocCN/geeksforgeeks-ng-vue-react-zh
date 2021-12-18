@@ -10,19 +10,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app my-app
 ```
 
 **步骤 2:** 使用以下命令移动到项目文件夹*我的应用程序*:
 
-```
+```jsx
 cd my-app
 ```
 
 **步骤 3:** 使用以下命令启动开发服务器:
 
-```
+```jsx
 yarn start
 ```
 
@@ -36,7 +36,7 @@ yarn start
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 
 // This is a comment
@@ -65,7 +65,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -94,7 +94,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class App extends Component {

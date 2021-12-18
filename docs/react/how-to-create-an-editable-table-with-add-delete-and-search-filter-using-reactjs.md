@@ -8,19 +8,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 React.js 应用程序后，使用以下命令安装 **material-ui** 模块。
 
-    ```
+    ```jsx
     npm install @material-ui/core
     npm install @material-ui/icons
     npm install @material-ui/lab
@@ -42,7 +42,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import TableDemo from "./TableDemo";
 
@@ -68,7 +68,7 @@ export default App;
 
 ## table demo . js-表格演示
 
-```
+```jsx
 import React, { useState } from "react";
 import CreateIcon from "@material-ui/icons/Create";
 import {
@@ -366,7 +366,7 @@ export default TableDemo;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

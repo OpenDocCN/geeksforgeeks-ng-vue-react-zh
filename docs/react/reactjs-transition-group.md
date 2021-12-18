@@ -15,13 +15,13 @@
 
 您可以使用以下命令在项目组件中安装过渡组:
 
-```
+```jsx
 npm install react-transition-group --save
 ```
 
 您可以使用以下命令在项目组件中导入过渡组件:
 
-```
+```jsx
 import { Transition } from 'react-transition-group';
 ```
 

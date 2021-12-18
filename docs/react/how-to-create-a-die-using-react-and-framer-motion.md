@@ -14,19 +14,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app rolling-die
 ```
 
 **第 2 步:**创建项目文件夹后，即擀面杖**，**使用以下命令移动到项目文件夹:
 
-```
+```jsx
 cd rolling-die
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装**成帧器-运动**模块:
 
-```
+```jsx
 $ npm install framer-motion
 ```
 
@@ -36,7 +36,7 @@ $ npm install framer-motion
 
 ## App.js
 
-```
+```jsx
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./App.css";
@@ -118,7 +118,7 @@ export default App;
 
 ## App.css
 
-```
+```jsx
 body {
   overflow: hidden;
   width: 100vw;
@@ -166,7 +166,7 @@ button {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

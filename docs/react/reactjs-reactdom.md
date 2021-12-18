@@ -22,7 +22,7 @@ ReactDOM 是一个包，它提供了 DOM 特定的方法，可以在 web 应用�
 
 **先决条件:**要在任何 ReactDOM web 应用程序中使用 ReactDOM，我们必须首先使用以下代码片段从 React DOM 包导入 React DOM:
 
-```
+```jsx
 import ReactDOM from 'react-dom'
 ```
 
@@ -32,7 +32,7 @@ import ReactDOM from 'react-dom'
 
 **语法**:
 
-```
+```jsx
 ReactDOM.render(element, container, callback)
 ```
 
@@ -50,7 +50,7 @@ ReactDOM.render(element, container, callback)
 
 **语法**:
 
-```
+```jsx
 ReactDOM.findDOMNode(component)
 ```
 
@@ -64,7 +64,7 @@ ReactDOM.findDOMNode(component)
 
 **语法**:
 
-```
+```jsx
 ReactDOM.unmountComponentAtNode(container)
 ```
 
@@ -78,7 +78,7 @@ ReactDOM.unmountComponentAtNode(container)
 
 **语法**:
 
-```
+```jsx
 ReactDOM.hydrate(element, container, callback)
 ```
 
@@ -96,7 +96,7 @@ ReactDOM.hydrate(element, container, callback)
 
 **语法**:
 
-```
+```jsx
 ReactDOM.createPortal(child, container)
 ```
 

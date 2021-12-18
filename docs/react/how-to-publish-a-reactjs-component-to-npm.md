@@ -10,13 +10,13 @@
 
 *   使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 *   创建项目文件夹后，即文件夹名称**，**使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -32,7 +32,7 @@ cd foldername
 
 ## Header.js
 
-```
+```jsx
 import React from "react";
 import {
     Nav,
@@ -93,7 +93,7 @@ export default Header;
 
 使用终端&进入*组件*文件夹，输入 **npm init** 。您将在命令行中看到以下内容。
 
-```
+```jsx
 Use `npm install <pkg>` afterward to install a package and
 save it as a dependency in the package.json file.
 
@@ -125,13 +125,13 @@ Is this OK? (yes)
 
 将组件所需的所有依赖项作为对等依赖项安装。首先，您必须转到您的终端并键入以下命令:
 
-```
+```jsx
 npm install (your dependences name)
 ```
 
 对于我们的示例，我们必须使用以下命令为组件安装这两个依赖项:
 
-```
+```jsx
 npm install react
 npm install react-bootstrap
 ```
@@ -153,7 +153,7 @@ npm install react-bootstrap
 
 转到 npm 网站，使用您的邮件 ID 和密码创建一个帐户。确保您位于当前目录(即组件目录)中，并键入以下命令:
 
-```
+```jsx
 npm login 
 # Use your username and password what you have created in the npm website
 # Then run this command

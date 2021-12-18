@@ -14,19 +14,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     $ npx create-react-app image-gallery
     ```
 
 *   **步骤 2:** 创建项目文件夹，即**图像库**后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     $ cd image-gallery
     ```
 
 *   **步骤 3:** 添加项目期间需要的 npm 包。
 
-    ```
+    ```jsx
     $ npm install framer
     ```
 
@@ -47,7 +47,7 @@
 
 ## index.js
 
-```
+```jsx
 import React from "react";
 import { render } from "react-dom";
 
@@ -120,7 +120,7 @@ render(<MyComponent />, rootElement);
 
 ## index.css
 
-```
+```jsx
 #root {
   width: 100vw;
   height: 100vh;
@@ -150,7 +150,7 @@ img {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 $ npm start
 ```
 

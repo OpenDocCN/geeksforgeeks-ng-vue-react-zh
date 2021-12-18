@@ -12,13 +12,13 @@ React 是一个免费的开源前端 JavaScript 库，用于构建用户界面�
 
 **步骤 1:** 您可以使用以下命令创建一个新的 ReactJs 项目:
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **步骤 2:** 现在我们将使用以下命令安装反应调色板包:
 
-```
+```jsx
 npm install react-color-palette
 ```
 
@@ -30,7 +30,7 @@ npm install react-color-palette
 
 ## App.js
 
-```
+```jsx
 import { ColorPicker, useColor } from "react-color-palette";
 import "react-color-palette/lib/css/styles.css";
 
@@ -52,7 +52,7 @@ export default function ColorPickerGfg(){
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```jsx
 npm start
 ```
 

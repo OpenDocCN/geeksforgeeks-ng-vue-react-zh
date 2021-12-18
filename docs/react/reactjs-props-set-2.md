@@ -15,7 +15,7 @@ defaultProps 是一种方法，我们可以使用它来为特定的类存储我�
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -55,7 +55,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -94,7 +94,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

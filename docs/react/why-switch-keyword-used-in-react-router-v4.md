@@ -10,19 +10,19 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app SWITCH_DEMO_APP
 ```
 
 **步骤 2:** 创建项目文件夹后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 cd SWITCH_DEMO_APP
 ```
 
 **步骤 3:** 创建 React 应用程序后，使用以下命令将 React 路由器作为依赖项安装。
 
-```
+```jsx
 npm install --save react-router-dom
 ```
 
@@ -42,7 +42,7 @@ React 路由器获取相对 URL，并将其与路由组件中提供的每个路�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Link, 
     Route } from "react-router-dom";
@@ -101,7 +101,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 
@@ -113,7 +113,7 @@ npm start
 
 **语法:**使用 Switch 组件的语法如下。
 
-```
+```jsx
 <Switch>
   <Route exact path='/'>
       <A />
@@ -132,7 +132,7 @@ npm start
 
 如果两条路线相互匹配，那么我们可以使用如下所示的[精确的](https://reactrouter.com/web/api/NavLink/exact-bool)道具。
 
-```
+```jsx
 <Route exact path='/'>
     <Home />
 </Route>
@@ -144,7 +144,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, 
   Link, Route, Switch } from 'react-router-dom';
@@ -205,7 +205,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

@@ -45,49 +45,49 @@
 
 ****步骤 1:** 如果没有安装，通过在终端上键入命令进行安装。**
 
-```
+```jsx
 python3 -m pip install --user virtualenv
 ```
 
 ****步骤 2:** 创建虚拟环境。**
 
-```
+```jsx
 python3 -m venv env
 ```
 
-```
+```jsx
 cd env
 ```
 
-```
+```jsx
 source bin/activate
 ```
 
 ****步骤 3:** 使用 pip 安装以下软件包**
 
-```
+```jsx
 pip install django
 ```
 
-```
+```jsx
 pip install djangorestframework
 ```
 
-```
+```jsx
 python -m pip install django-cors-headers
 ```
 
 ****第 4 步:**创建一个您选择的项目名称。**
 
-```
+```jsx
 django-admin startproject quotes
 ```
 
-```
+```jsx
 cd quotes
 ```
 
-```
+```jsx
 django-admin startapp core
 ```
 
@@ -99,7 +99,7 @@ django-admin startapp core
 
 ## **蟒蛇 3**
 
-```
+```jsx
 from django.db import models
 
 # Create your models here.
@@ -113,7 +113,7 @@ class React(models.Model):
 
 ## **蟒蛇 3**
 
-```
+```jsx
 from rest_framework import serializers
 from . models import *
 
@@ -127,7 +127,7 @@ class ReactSerializer(serializers.ModelSerializer):
 
 ## **蟒蛇 3**
 
-```
+```jsx
 from django.shortcuts import render
 from rest_framework.views import APIView
 from . models import *
@@ -158,7 +158,7 @@ class ReactView(APIView):
 
 ## **蟒蛇 3**
 
-```
+```jsx
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
@@ -183,25 +183,25 @@ urlpatterns = [
 
 *   **此命令用于检测数据库中的更改。**
 
-```
+```jsx
 python manage.py makemigrations 
 ```
 
 *   **该命令将这些更改应用于数据库。**
 
-```
+```jsx
 python manage.py migrate 
 ```
 
 *   **创建一个超级用户，他将是整个应用程序的管理员。**
 
-```
+```jsx
 python manage.py createsuperuser --email admin@example.com --username admin 
 ```
 
 *   **此命令将运行服务器，并且服务器应该始终处于运行状态。**
 
-```
+```jsx
 python manage.py runserver
 ```
 
@@ -213,15 +213,15 @@ python manage.py runserver
 
 ****设置前端:**没有边界可以让前端文件夹在后端文件夹所在的同一个目录下。此外，没有必要为 React 创建虚拟环境。使用以下命令为反应应用做好准备。使用 bootstrap 进行造型和更好的外观和感觉，jQuery 是为了与 Bootstrap 的依赖关系。**
 
-```
+```jsx
 npx create-react-app our-quote
 ```
 
-```
+```jsx
 cd our-quote
 ```
 
-```
+```jsx
 npm install bootstrap jquery axios
 ```
 
@@ -231,7 +231,7 @@ npm install bootstrap jquery axios
 
 ## **java 描述语言**
 
-```
+```jsx
 import React from 'react'; 
 class App extends React.Component { 
     render() { 
@@ -261,7 +261,7 @@ export default App;
 
 ## **java 描述语言**
 
-```
+```jsx
 import React from 'react';
 import axios from 'axios';
 
@@ -318,7 +318,7 @@ export default App;
 
 ## **java 描述语言**
 
-```
+```jsx
 import React from "react";
 import axios from "axios";
 

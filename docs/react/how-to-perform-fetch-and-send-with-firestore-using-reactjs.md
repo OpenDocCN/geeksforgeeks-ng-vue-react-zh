@@ -6,13 +6,13 @@
 
 **步骤 1:** 创建一个新的 React 应用程序。我们使用创建-反应-应用程序来创建我们的应用程序。
 
-```
+```jsx
 npx create-react-app gfgfirestore
 ```
 
 **步骤 2:** 使用 npm 在项目中安装 firebase 包。
 
-```
+```jsx
 npm install firebase@8.3.1 --save
 ```
 
@@ -24,7 +24,7 @@ npm install firebase@8.3.1 --save
 
 ## java 描述语言
 
-```
+```jsx
 import firebase from 'firebase';
 
 var firebaseConfig = {
@@ -42,7 +42,7 @@ export default db;
 
 ## java 描述语言
 
-```
+```jsx
 import db from './firbase';
 import {useState} from 'react';
 
@@ -105,7 +105,7 @@ export default Firestore;
 
 ## java 描述语言
 
-```
+```jsx
 // Import Firestore database
 import db from './firbase';
 import { useState } from 'react';

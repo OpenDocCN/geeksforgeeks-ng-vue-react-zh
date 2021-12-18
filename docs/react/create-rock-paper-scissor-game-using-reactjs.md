@@ -13,7 +13,7 @@
 
 **方法:**容器是有状态反应组件(基于类)。组件是无状态反应组件(基于功能)。在这个项目中，我有一个容器，它是控制器，负责状态管理和整个游戏逻辑。此外，还有三个组成部分，即:
 
-```
+```jsx
 Player ->Represent​ing a Player entity in-game;
 GameControls -> For Choosing stone, paper, or scissor; 
 DecisionBox -> Displays win/loose status for players;
@@ -33,7 +33,7 @@ DecisionBox -> Displays win/loose status for players;
 4.  在 **App.js** 中编辑代码:App 组件渲染控制器并显示标题。
     T4T6T8】Java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
     import Controller from "./containers/controller/controller";
     import { Typography } from "antd";
@@ -63,7 +63,7 @@ DecisionBox -> Displays win/loose status for players;
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from "react";
     import { Row, Col, Divider } from "antd";
     import { Typography } from "antd";
@@ -94,7 +94,7 @@ DecisionBox -> Displays win/loose status for players;
 
         ## 爪哇描述语言
 
-    ```
+    ```jsx
     weaponUpdate = (player, weapon) => {this.setState({
     [player]: {
     ...this.state[player],

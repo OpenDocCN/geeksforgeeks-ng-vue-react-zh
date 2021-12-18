@@ -25,7 +25,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // Import React (Mandatory Step).
     import React from "react";
 
@@ -50,7 +50,7 @@
 
     ## java 描述语言
 
-    ```
+    ```jsx
     // Import React (Mandatory Step).
     import React from "react";
     // Import ReactDOM (Mandatory Step).

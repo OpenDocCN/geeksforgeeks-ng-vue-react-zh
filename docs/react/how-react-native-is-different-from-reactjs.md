@@ -8,13 +8,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app react-demo
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 react-demo)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd react-demo
     ```
 
@@ -24,7 +24,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
@@ -46,7 +46,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -60,19 +60,19 @@ npm start
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init react-native-demo
     ```
 
 *   **步骤 3:** 现在进入你的项目文件夹，即反应-原生-演示
 
-    ```
+    ```jsx
     cd react-native-demo
     ```
 
@@ -82,7 +82,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序的步骤:**使用以下命令启动服务器。
 
-```
+```jsx
 expo start
 ```
 

@@ -6,13 +6,13 @@
 
 **语法:**第一个元素是初始状态，第二个元素是用于更新状态的函数。
 
-```
+```jsx
 const [state, setState] = useState(initialstate)
 ```
 
 如果需要计算初始状态，我们还可以传递一个函数作为参数。并且该函数返回的值将用作初始状态。
 
-```
+```jsx
 const [sum, setsum] = useState(function generateRandomInteger(){5+7);})
 ```
 
@@ -20,7 +20,7 @@ const [sum, setsum] = useState(function generateRandomInteger(){5+7);})
 
 **导入:**要使用 useState，需要从 react 导入 useState，如下所示:
 
-```
+```jsx
 import React, { useState } from "react"
 ```
 
@@ -28,13 +28,13 @@ import React, { useState } from "react"
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令将**移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -44,7 +44,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 
 function App(props) {
@@ -72,7 +72,7 @@ export default App
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

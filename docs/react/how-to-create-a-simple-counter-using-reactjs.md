@@ -8,7 +8,7 @@
 
 **初始设置:**npx 是一个 CLI 工具，用于安装和管理 npm 注册表中的依赖关系。NPX 预捆绑了 npm 5.2+，否则我们可以使用以下命令安装它:
 
-```
+```jsx
 npm i -g npx    // -g flag indicates global installation
 ```
 
@@ -16,13 +16,13 @@ npm i -g npx    // -g flag indicates global installation
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app counter
 ```
 
 **步骤 2:** 创建项目文件夹(即计数器)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd counter
 ```
 
@@ -36,7 +36,7 @@ cd counter
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from "react";
 
 // Importing app.css is css file to add styling
@@ -109,7 +109,7 @@ export default App
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

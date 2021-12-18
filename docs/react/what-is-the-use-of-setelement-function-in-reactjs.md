@@ -16,13 +16,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名称)后，使用以下命令移动到该文件夹:
 
-```
+```jsx
 cd foldername
 ```
 
@@ -38,7 +38,7 @@ cd foldername
 
 该 useState 钩子声明如下:
 
-```
+```jsx
 const [ element , setElement ] = useState(initial_state);
 ```
 
@@ -52,7 +52,7 @@ useState()返回的值由一个包含两个值的数组组成。第一个值称�
 
 ## java 描述语言
 
-```
+```jsx
 import React, { useState } from 'react'
 function App() {
   const [element, setElement] = useState(0);
@@ -78,7 +78,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 

@@ -10,13 +10,13 @@
 
 *   **步骤 1:** 创建一个新的 react 应用程序，运行下面的命令到您的终端。
 
-```
+```jsx
 npx create-react-app testapp
 ```
 
 *   **第二步:**通过对终端运行下面的命令，移动到项目目录。
 
-```
+```jsx
 cd testapp
 ```
 
@@ -32,7 +32,7 @@ cd testapp
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component {
@@ -57,13 +57,13 @@ export default App;
 
 这是更改 react app 默认端口的最简单方法。我们需要创建 ***。env*** 文件内的项目目录并添加环境变量。用户需要在*内添加以下代码。env* 文件。
 
-```
+```jsx
 PORT=<specify_port_of_your_choice> 
 ```
 
 **示例:**
 
-```
+```jsx
 PORT=5000
 ```
 
@@ -77,13 +77,13 @@ PORT=5000
 
 用户需要编辑“*脚本”*对象的第一行，他们必须在那里添加下面的代码。
 
-```
+```jsx
 "start": "set PORT=<specify_port_of_your_choice> && react-scripts start"
 ```
 
 **示例:**
 
-```
+```jsx
 "start": "set PORT=5000 && react-scripts start"
 ```
 
@@ -95,19 +95,19 @@ PORT=5000
 
 首先，我们需要在项目目录中安装“*cross-env”*包。因此，打开终端并在项目目录中运行下面的命令。
 
-```
+```jsx
 yarn add -D cross-env
 ```
 
 安装完跨 env 包后，用户需要编辑 *package.json* 文件内“scripts”对象的第一行。用户需要通过删除“脚本”对象中的第一行来更改下面的代码。
 
-```
+```jsx
 "start": "cross-env PORT=<specify_port_of_your_choice> react-scripts start"
 ```
 
 **示例:**
 
-```
+```jsx
 "start": "cross-env PORT=5000 react-scripts start"
 ```
 
@@ -119,13 +119,13 @@ yarn add -D cross-env
 
 在这种方法中，我们不需要在 react 应用程序中编辑任何文件。我们只需要提到带有 react 项目的 run 命令的端口。用户必须使用下面的命令来运行项目，而不是 *npm 启动。*
 
-```
+```jsx
 PORT=<specify_port_of_your_choice> npm start
 ```
 
 **示例:**
 
-```
+```jsx
 PORT=5000 npm start
 ```
 

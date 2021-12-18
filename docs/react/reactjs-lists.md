@@ -9,7 +9,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 <script type="text/javascript">
     var numbers = [1,2,3,4,5];
 
@@ -23,7 +23,7 @@
 
 上面的代码将把下面的输出记录到控制台:
 
-```
+```jsx
 [3, 4, 5, 6, 7]
 ```
 
@@ -33,7 +33,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -61,7 +61,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -94,7 +94,7 @@ ReactDOM.render(
 
 您可以在上面的输出中看到，无序列表已成功呈现给浏览器，但控制台上记录了一条警告消息。
 
-```
+```jsx
 Warning: Each child in an array or iterator
          should have a unique "key" prop
 ```
@@ -105,7 +105,7 @@ Warning: Each child in an array or iterator
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

@@ -14,7 +14,7 @@
 
 [包. json](https://www.geeksforgeeks.org/node-js-package-json/) 包含关于我们项目的元数据。默认情况下，它是在我们创建 React 项目时创建的。我们可以使用下面提到的命令创建一个 react 应用程序。
 
-```
+```jsx
 npx create-react-app name_of_the_app
 ```
 
@@ -26,7 +26,7 @@ package.json 文件以 [JSON](https://www.geeksforgeeks.org/javascript-json/) �
 
 我们可以在命令行中使用下面提到的命令轻松检查 React 版本。
 
-```
+```jsx
 npm view react version
 ```
 
@@ -40,7 +40,7 @@ npm view react version
 
 **语法:**使用 version 属性的语法如下。
 
-```
+```jsx
 import React from 'react';
 let a = React.version
 ```
@@ -51,7 +51,7 @@ let a = React.version
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 const App = () => {
@@ -65,7 +65,7 @@ export default App;
 
 **运行应用程序的步骤:**在命令行中使用以下命令启动应用程序。
 
-```
+```jsx
 npm start
 ```
 

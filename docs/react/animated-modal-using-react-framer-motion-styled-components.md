@@ -24,19 +24,19 @@
 
 ****步骤 1:** 现在，您将使用 create-react-app 启动一个新项目，因此请打开您的终端并键入。**
 
-```
+```jsx
 npx create-react-app toggle-modal
 ```
 
 ****步骤 2:** 创建项目文件夹(即切换模式)后，使用以下命令移动到该文件夹。**
 
-```
+```jsx
 cd toggle-modal
 ```
 
 ****步骤 3:** 添加项目期间需要的 npm 包。**
 
-```
+```jsx
 npm install framer-motion styled-components
 //For yarn
 yarn add framer-motion styled-components
@@ -75,7 +75,7 @@ yarn add framer-motion styled-components
 
 ## **Styles.js**
 
-```
+```jsx
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -117,7 +117,7 @@ export const ToggleBtn = styled(motion.button)`
 
 ## **App.js**
 
-```
+```jsx
 import React, { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { ToggleBtn, ModalBox, ModalContent, ModalContainer } from "./Styles";
@@ -209,7 +209,7 @@ export default App;
 
 ## **index.js**
 
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -224,7 +224,7 @@ ReactDOM.render(
 
 ## **App.css 文件**
 
-```
+```jsx
 * {
   margin: 0;
   box-sizing: border-box;
@@ -239,7 +239,7 @@ img {
 
 ****运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。**
 
-```
+```jsx
 npm start
 ```
 

@@ -8,13 +8,13 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 在创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹。**
 
-```
+```jsx
 cd foldername
 ```
 
@@ -27,7 +27,7 @@ cd foldername
 *   **正文:**在本节中，我们将提到所有必要的数据。
 *   **链接:**该属性用于为我们的卡片添加链接。
 
-```
+```jsx
 npm install react-bootstrap bootstrap
 ```
 
@@ -41,7 +41,7 @@ npm install react-bootstrap bootstrap
 
 ## java 描述语言
 
-```
+```jsx
 import Card from "react-bootstrap/Card";
 import React from "react";
 
@@ -68,7 +68,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -16,7 +16,7 @@ React 提供了一个内置的图标库，通过使用它，我们可以在项�
 
 *   **第一步:**在进一步移动之前，首先你必须安装 react 图标库，通过在你的项目目录中运行以下命令，借助你的 src 文件夹中的终端，或者你也可以在你的项目文件夹中的 Visual Studio Code 的终端中运行该命令。
 
-```
+```jsx
 npm install react-icons --save
 
 ```
@@ -29,7 +29,7 @@ npm install react-icons --save
 
 *   **第四步:**现在在你的 **app.js** 文件中，添加这个代码:
 
-```
+```jsx
 import { IconName } from "react-icons/";
 
 ```
@@ -38,7 +38,7 @@ import { IconName } from "react-icons/";
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 // gi is sort name of game icon.
@@ -61,13 +61,13 @@ export default App;
 
 *   查看命令下的输出运行。
 
-```
+```jsx
 npm start
 ```
 
 *   现在，在 npm 成功启动后，打开浏览器并在下面键入 url 以查看输出。
 
-```
+```jsx
 http://localhost:3000/
 ```
 
@@ -77,7 +77,7 @@ http://localhost:3000/
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 // gi is sort name of game icon.
@@ -104,7 +104,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from "react";
 
 // gi is sort name of game icon.

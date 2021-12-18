@@ -10,7 +10,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 *   [反应](https://www.geeksforgeeks.org/react-js-introduction-working/)
 *   反应自举
 
-    ```
+    ```jsx
     npm install react-bootstrap bootstrap
     ```
 
@@ -18,13 +18,13 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 *   **[NPX:](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)** 它是一个自带 npm 5.2+的包 runner 工具，NPX 是好用的 CLI 工具。npx 用于执行节点包。它大大简化了许多事情，其中之一是快速检查/运行节点包，而无需在本地或全局安装它。
 
-    ```
+    ```jsx
     npx create-react-app todo-react
     ```
 
 *   Now, goto the folder
 
-    ```
+    ```jsx
     cd todo-react
     ```
 
@@ -32,7 +32,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 *   Start the server- Start the server by typing the following command in terminal:
 
-    ```
+    ```jsx
     npm start
     ```
 
@@ -41,25 +41,25 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 *   将目录更改为 src:
 
-    ```
+    ```jsx
     cd src
     ```
 
 *   删除目录里面的所有东西
 
-    ```
+    ```jsx
     rm *
     ```
 
 *   现在创建**索引. js** 文件
 
-    ```
+    ```jsx
     touch index.js 
     ```
 
 *   该文件将把我们的应用程序渲染成位于**公共文件夹**中的 HTML 文件。还用文件名 **app.js**
 
-    ```
+    ```jsx
     mkdir components && cd components && touch app.js
     ```
 
@@ -68,7 +68,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
     ![](img/2f9436a82f617b1548ab83f72593a083.png)
 *   **在 src 中编辑 index.js 文件:**
 
-    ```
+    ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
     import App from './components/app';
@@ -79,7 +79,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 *   **在组件中编辑 app . js:**
 
-    ```
+    ```jsx
     import React, {Component} from 'react';
 
     // Bootstrap for react
@@ -211,7 +211,7 @@ React 是一个用于开发交互式用户界面的 JavaScript 库。它由脸�
 
 *   **保存所有文件并启动服务器:**
 
-    ```
+    ```jsx
     npm start
     ```
 

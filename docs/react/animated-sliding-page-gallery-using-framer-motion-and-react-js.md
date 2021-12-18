@@ -14,19 +14,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 $ npx create-react-app page-gallery
 ```
 
 **步骤 2:** 创建项目文件夹，即**页面图库**后，使用以下命令移动到该文件夹。
 
-```
+```jsx
 $ cd page-gallery
 ```
 
 **步骤 3:** 添加项目期间需要的 npm 包。
 
-```
+```jsx
 $ npm install framer-motion @popmotion/popcorn
 ```
 
@@ -50,7 +50,7 @@ $ npm install framer-motion @popmotion/popcorn
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import { useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
@@ -126,7 +126,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import { useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -223,7 +223,7 @@ export default PageSlider;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 body {
   display: flex;
   justify-content: center;
@@ -291,7 +291,7 @@ body {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 $ npm start
 ```
 

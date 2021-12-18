@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 // Simple getElementById() method
 document.getElementById('some-id').innerValue = 'updated value';
 ```

@@ -8,25 +8,25 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init tab-navigation-icons
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即标签-导航-图标
 
-    ```
+    ```jsx
     cd tab-navigation-icons
     ```
 
 **步骤 4:** 使用以下命令安装所需的软件包:
 
-```
+```jsx
 npm install --save react-navigation react-native-gesture-handler 
 npm install --save react-native-vector-icons  
 ```
@@ -39,7 +39,7 @@ npm install --save react-native-vector-icons
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { createAppContainer } from "react-navigation";
@@ -121,7 +121,7 @@ export default function App() {
 
 ## HomeScreen.js
 
-```
+```jsx
 import React from "react";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -140,7 +140,7 @@ export default Home;
 
 ## 用户屏幕
 
-```
+```jsx
 import React from "react";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -159,7 +159,7 @@ export default User;
 
 ## 设置屏幕.js
 
-```
+```jsx
 import React from "react";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -178,7 +178,7 @@ export default Settings;
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

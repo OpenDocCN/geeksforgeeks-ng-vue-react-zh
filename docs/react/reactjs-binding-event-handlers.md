@@ -10,7 +10,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class EventBind extends Component {
@@ -39,7 +39,7 @@ export default EventBind;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class EventBind extends Component {
@@ -80,7 +80,7 @@ export default EventBind;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class EventBind extends Component {
@@ -116,7 +116,7 @@ export default EventBind;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class EventBind extends Component {
@@ -153,7 +153,7 @@ export default EventBind;
 
 ## java 描述语言
 
-```
+```jsx
 this.clickHandler = this.clickHandler.bind(this)
 ```
 
@@ -161,7 +161,7 @@ this.clickHandler = this.clickHandler.bind(this)
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class EventBind extends Component {

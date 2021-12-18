@@ -8,7 +8,7 @@ S2015 引入了基于被称为**计算属性名**的 JavaScript 表达式创建�
 
 **语法:**
 
-```
+```jsx
 const obj = {
    : value
 }
@@ -21,7 +21,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'
@@ -33,7 +33,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import Form from './Form'
 
@@ -52,7 +52,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React,{ Component } from 'react'
 
     class Form extends Component{
@@ -161,7 +161,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'
@@ -173,7 +173,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     import BoxList from './BoxList'
 
@@ -191,7 +191,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from 'react'
     import { v4 as uuid } from 'uuid'
     import NewBoxForm from './NewBoxForm'
@@ -244,7 +244,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React,{ Component } from 'react'
 
     class NewBoxForm extends Component{
@@ -324,7 +324,7 @@ const obj = {
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React, { Component } from 'react'
 
     class Box extends Component {

@@ -10,13 +10,13 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app stopwatch
 ```
 
 **第 2 步:**创建项目文件夹后，即秒表**，**使用以下命令移动到它。
 
-```
+```jsx
 cd stopwatch
 ```
 
@@ -34,7 +34,7 @@ cd stopwatch
 
 ## index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -50,7 +50,7 @@ ReactDOM.render(
 
 ## App.js
 
-```
+```jsx
 import './App.css';
 import StopWatch from './Components/StopWatch/StopWatch.js';
 
@@ -67,7 +67,7 @@ export default App;
 
 ## App.css 文件
 
-```
+```jsx
 .App{
   background-color: rgb(238, 238, 238);
   width: 100vw;

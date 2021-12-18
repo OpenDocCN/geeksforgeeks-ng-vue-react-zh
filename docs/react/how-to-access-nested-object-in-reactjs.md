@@ -6,7 +6,7 @@ ReactJS 中对象的结构可以多次嵌套，并且会很快变得复杂。如
 
 **嵌套对象示例:**
 
-```
+```jsx
  var person = {
       "name":"Kapil",
       "age":27,
@@ -24,13 +24,13 @@ ReactJS 中对象的结构可以多次嵌套，并且会很快变得复杂。如
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -42,7 +42,7 @@ ReactJS 中对象的结构可以多次嵌套，并且会很快变得复杂。如
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 
 class App extends React.Component {
@@ -95,7 +95,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

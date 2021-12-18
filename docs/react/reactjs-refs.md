@@ -8,7 +8,7 @@ Refs 是 React 提供的一个函数，用于访问 DOM 元素和您自己可能
 
 ## java 描述语言
 
-```
+```jsx
 // without refs
 class App extends React.Component {
   constructor(){
@@ -41,7 +41,7 @@ ReactDOM.render(< App />, document.getElementById('root'));
 
 ## java 描述语言
 
-```
+```jsx
 // using refs
 class App extends React.Component {
  constructor(){
@@ -75,7 +75,7 @@ class App extends React.Component {
 
 ## java 描述语言
 
-```
+```jsx
 // callback used inside ref
 class App extends React.Component {
   constructor(){

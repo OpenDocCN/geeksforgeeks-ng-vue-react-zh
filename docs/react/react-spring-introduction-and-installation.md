@@ -8,7 +8,7 @@ React spring 是一个动画库，它使用户界面元素的动画变得简单�
 
 **安装:**要在项目中安装这个库，可以从应用程序的根目录使用以下命令:
 
-```
+```jsx
 npm install react-spring
 ```
 
@@ -18,19 +18,19 @@ npm install react-spring
 
 *   **步骤 1:** 使用以下命令创建新应用程序。
 
-    ```
+    ```jsx
     npx create-react-app reactspringdemo
     ```
 
 *   **步骤 2:** 现在使用以下命令移动创建的项目文件夹。
 
-    ```
+    ```jsx
     cd reactspringdemo
     ```
 
 *   **步骤 3:** 安装反作用弹簧库。
 
-    ```
+    ```jsx
     npm install react-spring
     ```
 
@@ -46,7 +46,7 @@ npm install react-spring
 
 ## LoopingCard.jsx 档案
 
-```
+```jsx
 import React from 'react';
 import { useSpring, animated } from 'react-spring'
 
@@ -91,7 +91,7 @@ export default LoopingCard;
 
 ## App.js
 
-```
+```jsx
 import React from 'react'
 import LoopingCard from './LoopingCard'
 
@@ -109,7 +109,7 @@ export default App;
 
 **要运行应用程序:**运行以下命令。
 
-```
+```jsx
 npm start
 ```
 

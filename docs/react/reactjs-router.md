@@ -36,7 +36,7 @@
 
 要在应用程序中添加 React Router 组件，请在您使用的编辑器中打开您的项目目录，然后转到 **app.js** 文件。现在，在 app.js 中添加下面给出的代码。
 
-```
+```jsx
 import {
     BrowserRouter as Router,
     Routes,
@@ -53,7 +53,7 @@ import {
 
 *   **主场:**
 
-    ```
+    ```jsx
     import React from 'react';
 
     function Home (){
@@ -63,7 +63,7 @@ import {
     export default Home;
     ```
 
-*   **```
+*   **```jsx
     import React from 'react';
 
     function About () {
@@ -80,7 +80,7 @@ import {
     ```** 
 *   ****联系方式:**
 
-    ```
+    ```jsx
     import React from 'react';
 
     function Contact (){
@@ -99,7 +99,7 @@ import {
 
 *   ****浏览器浏览器:**将别名为路由器的浏览器添加到 app.js 文件中，以便包装所有其他组件。浏览器是一个父组件，只能有一个子组件。
 
-    ```
+    ```jsx
     class App extends Component {
       render() {
         return (
@@ -113,7 +113,7 @@ import {
     ```** 
 *   ****Link:** Let us now create links to our components. Link component uses the **to** prop to describe the location where the links should navigate to.
 
-    ```
+    ```jsx
     <div className="App">
         <ul>
           <li>
@@ -133,7 +133,7 @@ import {
     T3】** 
 *   ****Route:** Route component will now help us to establish the link between component’s UI and the URL. To include routes to the application, add the code give below to your app.js.
 
-    ```
+    ```jsx
     <Route exact path='/' element={< Home />}></Route>
     <Route exact path='/about' element={< About />}></Route>
     <Route exact path='/contact' element={< Contact />}></Route>
@@ -151,7 +151,7 @@ import {
     **注意:**默认情况下，路由是包含的，这意味着多个 Route 组件可以匹配 URL 路径并同时渲染。如果我们想要渲染单个组件，我们需要使用**路线**。** 
 *   ****Routes:** To render a single component, wrap all the routes inside the Routes Component.
 
-    ```
+    ```jsx
     <Routes>
         <Route exact path='/' element={< Home />}></Route>
         <Route exact path='/about' element={< About />}></Route>
@@ -163,7 +163,7 @@ import {
 
 **添加所有组件后，这里是我们完整的源代码:**
 
-```
+```jsx
 import React, { Component } from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Home from './component/home';

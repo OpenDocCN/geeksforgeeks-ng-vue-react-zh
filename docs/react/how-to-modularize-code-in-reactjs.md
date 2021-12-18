@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```jsx
 export default COMPONENT_NAME
 ```
 
@@ -25,7 +25,7 @@ export default COMPONENT_NAME
 
 **语法:**
 
-```
+```jsx
 export {CODE1, CODE2}
 ```
 
@@ -35,7 +35,7 @@ export {CODE1, CODE2}
 
 **语法:**
 
-```
+```jsx
 import ANY_NAME from ADDRESS
 ```
 
@@ -43,7 +43,7 @@ import ANY_NAME from ADDRESS
 
 **语法:**
 
-```
+```jsx
 import {Code1, Code2} from ADDRESS
 ```
 
@@ -53,7 +53,7 @@ import {Code1, Code2} from ADDRESS
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -78,7 +78,7 @@ ReactDOM.render(
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 const DefaultExport = () => {
@@ -98,7 +98,7 @@ export default DefaultExport;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 const NamedExport = () => {

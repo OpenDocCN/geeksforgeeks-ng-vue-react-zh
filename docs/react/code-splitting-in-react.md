@@ -11,7 +11,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import { add } from './math';
 console.log(add(x, y));
 
@@ -22,7 +22,7 @@ console.log(add(x, y));
 
 ## java 描述语言
 
-```
+```jsx
 import("./math").then(math => {
   console.log(math.add(x, y));
 });
@@ -36,13 +36,13 @@ import("./math").then(math => {
 **React.lazy 和 suspension:**由于 React.lazy 和 suspension 现在还不能在服务器上渲染，建议在服务器渲染的应用中使用 https://github.com/gregberge/loadable-components 进行代码拆分。React.lazy 有助于将动态导入作为常规组件呈现。
 **之前:**
 
-```
+```jsx
 import Component from './Component';
 ```
 
 **之后:**
 
-```
+```jsx
 const Component = React.lazy(() => import('./Component'));
 ```
 
@@ -51,7 +51,7 @@ const Component = React.lazy(() => import('./Component'));
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Suspense } from 'react';
 const Component = React.lazy(() => import('./Component'));
 function MyComponent() {
@@ -66,7 +66,7 @@ function MyComponent() {
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Suspense } from 'react';
 
 const ComponentOne =
@@ -83,7 +83,7 @@ function MyComponent() {
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Suspense } from 'react';
 import ErrorBoundary from './ErrorBoundary';
 const ComponentOne = React.lazy(() =>
@@ -102,7 +102,7 @@ T3】例:
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import Suspense from 'react';
 import lazy from 'react';
@@ -122,7 +122,7 @@ const App = () =>
 
 ## java 描述语言
 
-```
+```jsx
 // Components.js
 export const Component = /* ... */;
 export const MyUnusedComponent = /* ... */;

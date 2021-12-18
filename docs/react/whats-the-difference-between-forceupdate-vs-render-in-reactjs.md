@@ -8,7 +8,7 @@
 
 ## App.js
 
-```
+```jsx
 import React,{ Component } from 'react';
 
 class App extends Component {
@@ -36,7 +36,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 class App extends React.Component{
   forceUpdateHandler=()=>{

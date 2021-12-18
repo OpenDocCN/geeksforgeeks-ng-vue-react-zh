@@ -10,7 +10,7 @@
     T3】安装 Axios:
     *   运行以下命令。
 
-```
+```jsx
 npm install axios --save
 ```
 
@@ -20,7 +20,7 @@ npm install axios --save
 
 ## java 描述语言
 
-```
+```jsx
 import axios from 'axios';
 
 import React,{Component} from 'react';

@@ -12,13 +12,13 @@
 
 **第一步:**要[创建一个新的 react app](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) ，运行下面的命令到你的终端。
 
-```
+```jsx
 npx create-react-app testapp
 ```
 
 **步骤 2:** 现在，使用下面的命令在项目目录中移动。
 
-```
+```jsx
 cd testapp
 ```
 
@@ -34,7 +34,7 @@ cd testapp
 
 在使用三元运算符时，开发人员需要将整个表达式包装在大括号中。为了提高代码的可读性，用户可以将操作数包装在括号内。
 
-```
+```jsx
 {
 condition ? ("condition is true") : ("condition is false")
 }
@@ -52,7 +52,7 @@ condition ? ("condition is true") : ("condition is false")
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 // rendering differen message according to the
@@ -77,7 +77,7 @@ export default App;
 
 **运行命令:**
 
-```
+```jsx
 npm start
 ```
 
@@ -95,7 +95,7 @@ npm start
 
 开发人员需要用大括号嵌入表达式。如果需要，他们可以将操作数包装在括号内，以保持代码干净。
 
-```
+```jsx
 {
    (condition) && (React component or HTML code)
 }
@@ -111,7 +111,7 @@ npm start
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 // using inline if with logical && operator
@@ -141,7 +141,7 @@ export default App;
 
 **运行命令:**
 
-```
+```jsx
 npm start
 ```
 

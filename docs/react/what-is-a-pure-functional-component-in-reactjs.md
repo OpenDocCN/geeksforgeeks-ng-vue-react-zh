@@ -20,13 +20,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app pure-react
     ```
 
 *   **步骤 2:** 创建项目文件夹(即纯反应)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd pure-react
     ```
 
@@ -38,7 +38,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import GeeksScore from './geekscore';
 
@@ -53,7 +53,7 @@ export default function App() {
 
 ## geekscore . js
 
-```
+```jsx
 import React from 'react';
 
 class GeeksScore extends React.PureComponent {
@@ -76,7 +76,7 @@ export default GeeksScore;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -104,7 +104,7 @@ npm start
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import GeeksScore from './geekscore';
 
@@ -119,7 +119,7 @@ export default function App() {
 
 ## geekscore . js
 
-```
+```jsx
 import React, { memo } from 'react';
 
 function GeeksScore({ score = 0, total = Math.max(1, score) }) {
@@ -136,7 +136,7 @@ export default memo(GeeksScore);
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

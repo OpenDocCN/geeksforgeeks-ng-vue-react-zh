@@ -10,7 +10,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 // Simple rendering with div
@@ -38,7 +38,7 @@ export default App;
 
 **语法:**
 
-```
+```jsx
 <React.Fragment>  
       <h2>Child-1</h2>   
       <p> Child-2</p>   
@@ -49,7 +49,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 // Simple rendering with fragment syntax
@@ -77,7 +77,7 @@ export default App;
 **注意:**简写语法不接受键属性，在这种情况下你必须使用< React。碎片>标记。
 **语法:**
 
-```
+```jsx
 <>  
       <h2>Child-1</h2>   
       <p> Child-2</p>   
@@ -88,7 +88,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from "react";
 
 // Simple rendering with short syntax

@@ -14,19 +14,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **第二步**:创建项目文件夹即 foldername 后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3** :创建 ReactJS 应用程序后，使用以下命令安装 ***html-to-react*** 模块。
 
-    ```
+    ```jsx
     npm i html-to-react
     ```
 
@@ -40,7 +40,7 @@
 
 ## reaction component . js
 
-```
+```jsx
 export default function ReactComponent() {
     return(
         <div>
@@ -57,7 +57,7 @@ export default function ReactComponent() {
 
 ## App.js
 
-```
+```jsx
 import { Parser, ProcessNodeDefinitions } from "html-to-react";
 import ReactComponent from "./ReactComponent";
 import React, { Component } from 'react';
@@ -104,7 +104,7 @@ export default class MyParentComponent extends Component {
 
 **说明:**此处必不可少的是*加工说明*。DOM 树中的每个节点从顶部开始对照数组中的每个指令进行检查，直到 *shouldProcessNode* 返回 true，并且该节点通过相应的 *processNode* 函数转换为 React 元素。这允许相当复杂的处理规则，但是如果您想要处理嵌套的自定义元素，它会很快变得有点混乱。该示例的结果相当于 JSX 语法中的以下代码。
 
-```
+```jsx
 <div>
     Hi
     <ReactComponent/>
@@ -113,7 +113,7 @@ export default class MyParentComponent extends Component {
 
 **运行应用程序的步骤**:从项目根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

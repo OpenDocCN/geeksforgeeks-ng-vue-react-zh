@@ -12,19 +12,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init react-navigation-routing
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即反应-导航-路线
 
-    ```
+    ```jsx
     cd react-navigation-routing
     ```
 
@@ -42,7 +42,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
@@ -82,7 +82,7 @@ export default function App() {
 
 ## HomeScreen.js
 
-```
+```jsx
 import React, { useState } from "react";
 import { Text, View, TextInput, Button } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -116,7 +116,7 @@ export default Home;
 
 ## profiles screen . js
 
-```
+```jsx
 import React from "react";
 import { Text, View, Button } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -148,7 +148,7 @@ export default Profile;
 
 ## 设置屏幕.js
 
-```
+```jsx
 import React from "react";
 import { Text, View, Button } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -172,7 +172,7 @@ export default Settings;
 
 **运行应用程序的步骤:**使用以下命令启动服务器。
 
-```
+```jsx
 expo start
 ```
 

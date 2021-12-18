@@ -16,13 +16,13 @@ U+2192
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
      npx create-react-app geeksforgeeks
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 geeksforgeeks)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd geeksforgeeks
     ```
 
@@ -34,13 +34,13 @@ U+2192
 
     **如何在 ReactJS 中连接 Unicode 和变量:**为了连接，我们首先将 Unicode 转换为它的数值，为此，我们将使用 parseInt。
 
-    ```
+    ```jsx
     parseInt(Unicode,base)
     ```
 
     现在，这个数值需要转换成它的字符，为此，我们可以使用
 
-    ```
+    ```jsx
     String.fromCodePoint(numericalValue).
     ```
 
@@ -48,7 +48,7 @@ U+2192
 
     ## App.js
 
-    ```
+    ```jsx
     import React from 'react'
         const App = ({ unicode }) => {
 
@@ -66,7 +66,7 @@ U+2192
 
     ## index.js
 
-    ```
+    ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
     import App from './App';
@@ -83,7 +83,7 @@ U+2192
 
     现在在 react-app 目录中使用以下命令运行本地服务器
 
-    ```
+    ```jsx
     npm start
     ```
 

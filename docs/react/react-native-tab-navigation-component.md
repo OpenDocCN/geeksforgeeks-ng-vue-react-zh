@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```jsx
 const Tab = createBottomTabNavigator();
 <Tab.Navigator >
    <Tab.Screen/>
@@ -26,25 +26,25 @@ const Tab = createBottomTabNavigator();
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
 *   **第 4 步:**现在在你的项目中安装反应导航。反应导航用于从一个页面导航到另一个页面。使用以下命令安装它。
 
-    ```
+    ```jsx
     npm install @react-navigation/native
     ```
 
@@ -54,13 +54,13 @@ const Tab = createBottomTabNavigator();
 
 *   **第 6 步:**现在从反应导航安装底部标签。
 
-    ```
+    ```jsx
     npm install @react-navigation/bottom-tabs
     ```
 
 **对于反应标签导航:**这也可以用于反应原生
 
-```
+```jsx
 https://reactnavigation.org/docs/tab-based-navigation/
 ```
 
@@ -72,7 +72,7 @@ https://reactnavigation.org/docs/tab-based-navigation/
 
 ## App.js
 
-```
+```jsx
 import * as React from 'react';
 import { Text, View } from 'react-native';
 import { NavigationContainer } 
@@ -125,7 +125,7 @@ export default function App() {
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

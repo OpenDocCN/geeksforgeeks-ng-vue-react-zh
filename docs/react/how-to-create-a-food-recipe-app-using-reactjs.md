@@ -26,13 +26,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-```
+```jsx
 cd foldername
 ```
 
@@ -44,7 +44,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import React, { useEffect, useState } from 'react'
 import './App.css';
 import Recipe from './Recipe';
@@ -108,7 +108,7 @@ export default App;
 
 ## 食谱. js
 
-```
+```jsx
 import React from "react";
 import style from './recipe.module.css';
 
@@ -137,7 +137,7 @@ export default Recipe;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .App{
   min-height: 100vh;
  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
@@ -178,7 +178,7 @@ export default Recipe;
 
 ## recipe.module.css
 
-```
+```jsx
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .recipe{
     border-radius: 10px;
@@ -203,7 +203,7 @@ export default Recipe;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

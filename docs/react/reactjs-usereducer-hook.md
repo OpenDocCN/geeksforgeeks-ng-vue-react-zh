@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```jsx
 const [state, dispatch] = useReducer(reducer, initialArgs, init);
 ```
 
@@ -18,7 +18,7 @@ const [state, dispatch] = useReducer(reducer, initialArgs, init);
 
 ## **java 描述语言**
 
-```
+```jsx
 import React, { useReducer } from "react";
 
 // Defining the initial state and the reducer

@@ -10,7 +10,7 @@
 
 我们将使用节点安装巴别塔。打开你的文本编辑器，然后创建如下所示的目录结构:
 
-```
+```jsx
   |--node_modules
   |--src
     --app.js
@@ -22,7 +22,7 @@
 如果你知道节点是如何工作的，那么你就知道 node_modules、package.json 和 package.lock.json。一旦我们运行一些命令，它们就会自动形成。
 现在，打开命令行并设置文件夹目录的路径，然后将这些行写入 cmd:
 
-```
+```jsx
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
 npm install nodemon --save-dev
 ```
@@ -35,7 +35,7 @@ npm install nodemon --save-dev
 从上图中我们可以看到，我们用来安装 babel 依赖项的命令现在在我们的“package.json”文件中可见。
 在内侧添加下面的线也很重要。我们项目目录中的 babelrc 文件。
 
-```
+```jsx
 // .babelrc
 {
   "presets": ["@babel/preset-env"]
@@ -44,7 +44,7 @@ npm install nodemon --save-dev
 
 现在，我们终于需要将脚本添加到我们的“package.json”文件中。
 
-```
+```jsx
 "start": "nodemon --exec babel-node src/app.js" // inside your scripts tag
 ```
 
@@ -57,7 +57,7 @@ npm install nodemon --save-dev
 
 ## java 描述语言
 
-```
+```jsx
 // next generation javascript code
 let alice = () => {};
 

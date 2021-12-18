@@ -12,7 +12,7 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app appname
 ```
 
@@ -20,7 +20,7 @@ npx create-react-app appname
 
 **步骤 2:** 创建项目文件夹后。现在，使用以下命令跳转到相应的文件夹:
 
-```
+```jsx
 cd appname
 ```
 
@@ -34,7 +34,7 @@ cd appname
 
 ## App.css 文件
 
-```
+```jsx
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -70,7 +70,7 @@ cd appname
 
 ## App.js
 
-```
+```jsx
 import React, { useState } from "react";
 import "./App.css";
 const App = () => {
@@ -97,7 +97,7 @@ export default App;
 
 **第 5 步:**使用以下命令运行代码:
 
-```
+```jsx
 npm start
 ```
 

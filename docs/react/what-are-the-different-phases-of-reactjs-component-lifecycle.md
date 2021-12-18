@@ -40,13 +40,13 @@ ReactJS 组件生命周期的第三阶段是更新阶段。接下来是装载阶
 
 *   **步骤 1:** 使用以下命令创建新的 react 应用程序:
 
-    ```
+    ```jsx
     npx create-react-app demo-app
     ```
 
 *   **步骤 2:** 使用以下命令进入项目目录:
 
-    ```
+    ```jsx
     cd demo-app
     ```
 
@@ -54,7 +54,7 @@ ReactJS 组件生命周期的第三阶段是更新阶段。接下来是装载阶
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 
 class App extends Component {
@@ -119,7 +119,7 @@ export default App;
 
 **运行文件:**您可以保存该文件，然后使用以下命令在**本地主机:3000** 上本地运行您的应用程序:
 
-```
+```jsx
 npm start
 ```
 

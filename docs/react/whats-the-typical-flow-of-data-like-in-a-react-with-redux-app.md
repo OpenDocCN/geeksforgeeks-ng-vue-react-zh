@@ -30,13 +30,13 @@ Redux 是一个开源的状态管理 JavaScript 库，用于管理应用程序�
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app react-with-redux
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 react-with-redux)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd react-with-redux
     ```
 
@@ -48,7 +48,7 @@ Redux 是一个开源的状态管理 JavaScript 库，用于管理应用程序�
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 import "./App.css";
 import { GetMessage } from "./action/showMessageAction";
@@ -89,7 +89,7 @@ export default connect(mapStateToProps, mapActionsToProps)(App);
 
 ## reduce/index . js
 
-```
+```jsx
 import { combineReducers } from "redux";
 import showMessageReducer from "./showMessageReducer";
 
@@ -100,7 +100,7 @@ export default combinedReducers;
 
 ## showMessageAction.js：
 
-```
+```jsx
 export const SHOW_MESSAGE = "SHOW_MESSAGE";
 
 export const GetMessage = () => {
@@ -114,7 +114,7 @@ export const GetMessage = () => {
 
 ## showmessagereducer.js 文件
 
-```
+```jsx
 import { SHOW_MESSAGE } from "../action/showMessageAction";
 
 const showMessageReducer = (
@@ -136,7 +136,7 @@ export default showMessageReducer;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

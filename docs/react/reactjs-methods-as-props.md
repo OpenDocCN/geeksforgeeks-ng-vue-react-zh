@@ -16,7 +16,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class ParentComponent extends Component {
@@ -38,7 +38,7 @@ export default ParentComponent;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 
 class ParentComponent extends Component {
@@ -74,7 +74,7 @@ export default ParentComponent;
 
 ## java 描述语言
 
-```
+```jsx
 import './App.css';
 import React from 'react';
 
@@ -100,7 +100,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 
 function ChildComponent(props) {
@@ -122,7 +122,7 @@ export default ChildComponent;
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import ChildComponent from './ChildComponent';
 

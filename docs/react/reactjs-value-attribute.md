@@ -10,13 +10,13 @@ React.js 库就是将应用程序拆分成几个组件。每个组件都有自�
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -28,7 +28,7 @@ React.js 库就是将应用程序拆分成几个组件。每个组件都有自�
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -55,7 +55,7 @@ ReactDOM.render(
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

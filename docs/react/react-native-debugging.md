@@ -20,7 +20,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 import {useDimensions, useDeviceOrientation} from

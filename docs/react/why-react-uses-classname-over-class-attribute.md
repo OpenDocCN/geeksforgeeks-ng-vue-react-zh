@@ -6,20 +6,20 @@
 
 事实上，在 React 16 之前的早期，如果你用 React 不能识别的未知元素写 JSX，它会直接跳过。**例如:**
 
-```
+```jsx
 <div myatrribute="xyz" />
 ```
 
 上面的代码行将向 React 15 中的 DOM 呈现一个空 div，
 
-```
+```jsx
 // React 15 output
 <div />
 ```
 
 但是在 React 16 中，这个未知的属性“xyz”也会出现在 DOM 中。
 
-```
+```jsx
 // React 16 output
 <div myatrribute="xyz" />
 ```
@@ -30,13 +30,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-```
+```jsx
 cd foldername
 ```
 
@@ -50,7 +50,7 @@ cd foldername
 
 ## App.js
 
-```
+```jsx
 import "./App.css";
 
 function App() {
@@ -68,7 +68,7 @@ export default App;
 
 ## App.js
 
-```
+```jsx
 import "./App.css";
 
 function App() {

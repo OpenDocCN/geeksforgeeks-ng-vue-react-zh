@@ -5,7 +5,7 @@
 在我们之前的文章中，我们在计算器应用程序中添加了功能，并使用 React 成功创建了一个功能齐全的计算器应用程序。尽管功能齐全，但看起来并不好。这是因为代码中缺少 CSS。让我们在我们的应用程序中添加 CSS，让它看起来更有吸引力和美观。
 还记得我们最初创建了一个名为“index.css”的文件吗？我们将把所有的 CSS 代码写在这个文件中。但是在此之前，让我们将这个文件包含在我们的 **index.js** 文件中，这样我们就可以在浏览器中立即看到我们在 CSS 中所做的更改的效果。在我们的 index.js 文件的顶部写下下面一行代码:
 
-```
+```jsx
 import './index.css';
 ```
 
@@ -13,7 +13,7 @@ import './index.css';
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 *{
     margin:0px;
     padding:0px;
@@ -31,7 +31,7 @@ import './index.css';
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```jsx
 .calculator-title{
     font-size:30px;
     background: #fff;

@@ -30,19 +30,19 @@
 
 **第一步:**我们开始用 React 构建前端部分。要创建新的 React App，请在终端中输入以下代码，然后按回车键。
 
-```
+```jsx
 npx create-react-app mern-stack-crud
 ```
 
 **第 2 步:**进入 React 项目文件夹。
 
-```
+```jsx
 cd mern-stack-crud
 ```
 
 **步骤 3:** 要运行反应应用程序，请运行以下命令:
 
-```
+```jsx
 npm start
 ```
 
@@ -85,7 +85,7 @@ npm start
 
 ## 学习型态. js
 
-```
+```jsx
 import React from "react";
 import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -151,7 +151,7 @@ export default StudentForm;
 
 ## create-student.component.js
 
-```
+```jsx
 // CreateStudent Component for add new student
 
 // Import Modules
@@ -195,7 +195,7 @@ export default CreateStudent
 
 ## edit-student.component.js
 
-```
+```jsx
 // EditStudent Component for update student data
 
 // Import Modules
@@ -262,7 +262,7 @@ export default EditStudent;
 
 ## 学生列表.组件. js
 
-```
+```jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Table } from "react-bootstrap";
@@ -312,7 +312,7 @@ export default StudentList;
 
 ## 学生表格行. js
 
-```
+```jsx
 import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -360,7 +360,7 @@ export default StudentTableRow;
 
 ## App.js
 
-```
+```jsx
 // Import React
 import React from "react";
 
@@ -448,7 +448,7 @@ export default App;
 
 ## App.css
 
-```
+```jsx
 .wrapper {
   padding-top: 30px;
 }
@@ -506,7 +506,7 @@ input[type=number] {
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```jsx
 npm start
 ```
 
@@ -518,19 +518,19 @@ npm start
 
 **第一步:**运行命令为服务器创建 ***后端*** 文件夹并进入其中。
 
-```
+```jsx
 mkdir backend && cd backend
 ```
 
 **第二步:创建 package . JSON–**接下来，我们需要创建一个单独的 ***package.json*** 文件来管理我们的***mern-stack-crud***app 的服务器。
 
-```
+```jsx
 npm init -y
 ```
 
 转到 ***后端/package.json*** 文件会如下图所示。替换 ***测试*** 属性像:
 
-```
+```jsx
 "test": "echo \"Error: no test specified\" && exit 1" 
 "start": "nodemon server.js"
 ```
@@ -549,13 +549,13 @@ npm init -y
 
 要安装上述依赖项，请在终端上运行以下代码。
 
-```
+```jsx
 npm install express body-parser cors mongoose
 ```
 
 您可以安装 *nodemon* 作为开发依赖项，以自动化服务器重启过程。
 
-```
+```jsx
 npm i -D nodemon
 ```
 
@@ -569,7 +569,7 @@ npm i -D nodemon
 
 ## db.js(数据库)
 
-```
+```jsx
 module.exports = {
   db: 'mongodb://localhost:27017/reactdb'
 };
@@ -581,7 +581,7 @@ module.exports = {
 
 ## 学生. js
 
-```
+```jsx
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
@@ -606,7 +606,7 @@ module.exports = mongoose.model('Student', studentSchema)
 
 **第六步:使用 ExpressJS 创建路线–**在这一步中，我们将使用 Express 和 Node.js 为 Create、READ、UPDATE 和 DELETE 设置一些路线(REST APIs)。这些路线将帮助我们管理我们的 ***mern-stack-crud*** 应用程序中的数据。创建一个文件夹，并将其命名为后端文件夹中的路由。这里我们会保留所有路线相关的文件。另外，创建一个文件并将其命名为***student . routes . js***在 ***路由*** 文件夹中，在这个文件中我们将定义我们的路由。
 
-```
+```jsx
 mkdir routes && cd routes && touch student.route.js
 ```
 
@@ -614,7 +614,7 @@ mkdir routes && cd routes && touch student.route.js
 
 ## student.route.js
 
-```
+```jsx
 let mongoose = require("mongoose"),
   express = require("express"),
   router = express.Router();
@@ -701,7 +701,7 @@ module.exports = router;
 
 ## server.js
 
-```
+```jsx
 let express = require('express');
 let mongoose = require('mongoose');
 let cors = require('cors');
@@ -765,7 +765,7 @@ app.use(function (err, req, res, next) {
 
 **运行应用的步骤:**打开一个终端，停留在 ***后端*** 文件夹，运行以下命令启动 Nodemon 服务器。
 
-```
+```jsx
 npm start
 ```
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```jsx
 <view props="value"/>
 ```
 
@@ -64,19 +64,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```jsx
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```jsx
     expo init myapp
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即 myapp
 
-    ```
+    ```jsx
     cd myapp
     ```
 
@@ -88,7 +88,7 @@
 
 ## App.js
 
-```
+```jsx
 import React from 'react';
 import { StyleSheet,
         Text,
@@ -134,7 +134,7 @@ container: {
 
 使用以下命令启动服务器。
 
-```
+```jsx
 npm run android
 ```
 

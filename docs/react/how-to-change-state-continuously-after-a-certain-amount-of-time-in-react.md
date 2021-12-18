@@ -4,7 +4,7 @@
 
 在某些情况下，切换需要一定时间后才能连续改变状态。首先，创建一个负责改变组件状态的函数。然后第一次从构造函数方法调用该函数。使用函数内部的 set interval 方法在固定时间后更改状态。**设置间隔**方法采取两个参数回调和时间。在给定的时间后，**回调**函数被反复调用。使用**设置状态**方法改变组件的状态。
 
-```
+```jsx
 timing(){
   setInterval(() => {
     this.setState({
@@ -21,7 +21,7 @@ timing(){
 
 ## 【JavaScript】
 
-```
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'

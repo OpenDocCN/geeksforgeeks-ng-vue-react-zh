@@ -6,7 +6,7 @@ bind()是 React 中的内置方法，用于将数据作为参数传递给基于�
 
 **语法:**
 
-```
+```jsx
 this.function.bind(this,[arg1...]);
 ```
 
@@ -16,13 +16,13 @@ this.function.bind(this,[arg1...]);
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即**文件夹名)后，使用以下命令将**移动到该文件夹:
 
-    ```
+    ```jsx
     cd foldername
     ```
 
@@ -32,7 +32,7 @@ this.function.bind(this,[arg1...]);
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     class App extends React.Component {
       // Initialising state
@@ -67,7 +67,7 @@ this.function.bind(this,[arg1...]);
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
@@ -80,7 +80,7 @@ npm start
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react';
     class App extends React.Component {
       // Initialising state
@@ -116,7 +116,7 @@ npm start
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

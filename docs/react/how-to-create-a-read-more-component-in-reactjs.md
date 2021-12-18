@@ -11,13 +11,13 @@
 
 **基本设置:**您将使用以下命令使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 启动一个新项目:
 
-```
+```jsx
 npx create-react-app react-read-more
 ```
 
 现在，通过在终端中键入给定的命令，进入您的**反应-阅读-更多**文件夹。
 
-```
+```jsx
 cd react-read-more
 ```
 
@@ -39,7 +39,7 @@ cd react-read-more
 
 ## ReadMore.js .阅读更多信息
 
-```
+```jsx
 import React, { useState } from "react";
 import "../App.css";
 
@@ -83,7 +83,7 @@ export default Content;
 
 ## App.css 文件
 
-```
+```jsx
 .container{
   position: absolute;
   top: 10%;
@@ -104,7 +104,7 @@ export default Content;
 
 ## App.js
 
-```
+```jsx
 import Content from './components/ReadMore'
 
 function App() {
@@ -118,7 +118,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

@@ -8,19 +8,19 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **第 2 步:**创建项目文件夹(即 gfg)后，使用以下命令移动到它。
 
-```
+```jsx
 cd gfg
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 material-ui 模块。
 
-```
+```jsx
 npm install @material-ui/core
 npm install @material-ui/icons
 npm install @material-ui/lab
@@ -30,7 +30,7 @@ npm install @material-ui/lab
 
 **导入 TreeView:** 可以使用以下代码从@material-ui/lab 导入< TreeView / >组件。
 
-```
+```jsx
 import { TreeView } from '@material-ui/lab';
 ```
 
@@ -50,13 +50,13 @@ import { TreeView } from '@material-ui/lab';
 
 <treeview>组件是定义整个树结构的最顶层组件。</treeview>
 
-```
+```jsx
 <TreeView> </TreeView>
 ```
 
 然后，使用 TreeItem 组件定义每个节点，该组件有两个主要支柱——唯一的节点 id 和标签。标签是您可以定义节点是什么元素、按钮、样式 div 还是列表项的地方。这里我们将使用列表项。
 
-```
+```jsx
 <TreeItem nodeId="1" label={
     <ListItem button component="a" href="#">
         <ListItemText primary="Home" />
@@ -72,7 +72,7 @@ import { TreeView } from '@material-ui/lab';
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
@@ -232,7 +232,7 @@ export default function Trees() {
 
 ## java 描述语言
 
-```
+```jsx
 import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
@@ -269,7 +269,7 @@ export default GFG;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```jsx
 npm start
 ```
 

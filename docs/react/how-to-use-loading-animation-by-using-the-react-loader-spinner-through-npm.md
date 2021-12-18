@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```jsx
 <Loader
   type="Spinner Type"
   color="rgb color"
@@ -49,19 +49,19 @@
 
 **步骤 1:** 使用命令创建 React 应用程序。
 
-```
+```jsx
 npx create-react-app foldername 
 ```
 
 **第 2 步:**现在使用这个命令进入你的项目文件夹，即 foldername。
 
-```
+```jsx
 cd foldername
 ```
 
 **步骤 3:** 现在将包安装到项目文件夹中。
 
-```
+```jsx
 npm install react-loader-spinner
 ```
 

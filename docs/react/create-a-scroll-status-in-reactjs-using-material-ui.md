@@ -10,19 +10,19 @@
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```jsx
 npx create-react-app gfg
 ```
 
 **第 2 步:**创建项目文件夹后，即 gfg **，**使用以下命令移动到它。
 
-```
+```jsx
 cd gfg
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 **material-ui** 模块。
 
-```
+```jsx
 npm install @material-ui/core
 ```
 
@@ -41,7 +41,7 @@ npm install @material-ui/core
 
 **添加状态:**我们添加一个状态‘progress’，它是使用 React 提供的‘State’钩子控制进度条进度长度的变量。“设置程序”是更新该状态变量的值的方法。
 
-```
+```jsx
 const [progress, setProgress] = React.useState(0);
 ```
 
@@ -49,7 +49,7 @@ const [progress, setProgress] = React.useState(0);
 
 ## status.js
 
-```
+```jsx
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -96,7 +96,7 @@ export default function StatusBar() {
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import './App.css';
 import StatusBar from './status';
@@ -142,7 +142,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 

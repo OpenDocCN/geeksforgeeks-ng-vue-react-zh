@@ -15,7 +15,7 @@
 
 **反应样本代码**
 
-```
+```jsx
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -77,7 +77,7 @@ REACT Native 仅使用 JavaScript 即可帮助您创建真实且令人兴奋的�
 
 **样本反应原生代码**
 
-```
+```jsx
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 

@@ -6,7 +6,7 @@ useMemo 是在 react 的函数组件中使用的一个钩子，它返回一个 m
 
 **语法:**
 
-```
+```jsx
 const memoizedValue = useMemo(functionThatReturnsValue, 
                                    arrayDepencies)
 
@@ -16,7 +16,7 @@ const memoizedValue = useMemo(functionThatReturnsValue,
 
 ## java 描述语言
 
-```
+```jsx
 import React, {useState} from 'react';
 
 function App() {
@@ -68,7 +68,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React, {useState} from 'react';
 
 function App() {

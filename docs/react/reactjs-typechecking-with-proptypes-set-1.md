@@ -8,25 +8,25 @@ React 允许我们使用名为[](https://www.geeksforgeeks.org/reactjs-props-set
 
 <u>**步骤 1:** 使用以下命令创建一个反应应用程序:</u>
 
-```
+```jsx
 npx create-react-app foldername
 ```
 
 <u>**步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:</u>
 
-```
+```jsx
 cd foldername
 ```
 
 <u>**所需模块:**在使用 PropTypes 之前，我们必须通过在终端中键入给定的命令来安装它。</u>
 
-```
+```jsx
 npm install prop-types --save
 ```
 
 <u>道具的类型检查总是在组件呈现期间执行，因为 JavaScript 是一种类型化语言，数据类型总是在运行时确定。</u>
 
-```
+```jsx
 var g = 20
 // Changing the data type
 g = "geeks"
@@ -41,7 +41,7 @@ g = [100,200]
 
 ## <u>index.js</u>
 
-```
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -79,7 +79,7 @@ ReactDOM.render(
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 
@@ -91,7 +91,7 @@ npm start
 
 ## <u>App.js</u>
 
-```
+```jsx
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -122,7 +122,7 @@ export default ProfitComponent;
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:</u>
 
-```
+```jsx
 npm start
 ```
 

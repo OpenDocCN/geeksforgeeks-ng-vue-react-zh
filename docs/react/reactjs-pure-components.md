@@ -17,7 +17,7 @@
 
 ## java 描述语言
 
-```
+```jsx
 import React from ‘react’;
 
 export default class Test extends React.PureComponent{

@@ -25,19 +25,19 @@ Bootstrap 是一个流行的前端 CSS 框架，被 web 开发人员用来设计
 
 以下是创建简单的 react-bootstrap 应用程序的步骤
 
-```
+```jsx
 npm install -g create-react-app
 ```
 
-```
+```jsx
 create-react-app my_app
 ```
 
-```
+```jsx
 cd my_app/
 ```
 
-```
+```jsx
 npm start
 ```
 
@@ -45,7 +45,7 @@ npm start
 
 **添加引导:**
 
-```
+```jsx
 npm install react-bootstrap bootstrap
 ```
 
@@ -55,7 +55,7 @@ npm install react-bootstrap bootstrap
 
 ## java 描述语言
 
-```
+```jsx
 // Importing individual react components
 import React from 'react';
 
@@ -81,7 +81,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -114,19 +114,19 @@ serviceWorker.unregister();
 
 以下是创建简单 reactstrap 应用程序的步骤
 
-```
+```jsx
 npm install -g create-react-app
 ```
 
-```
+```jsx
 create-react-app myapp
 ```
 
-```
+```jsx
 cd myapp/
 ```
 
-```
+```jsx
 npm start
 ```
 
@@ -134,11 +134,11 @@ npm start
 
 **添加引导:**
 
-```
+```jsx
 npm i bootstrap
 ```
 
-```
+```jsx
 npm i reactstrap react react-dom
 ```
 
@@ -148,7 +148,7 @@ npm i reactstrap react react-dom
 
 ## java 描述语言
 
-```
+```jsx
 // Importing individual react components to 
 // reduce the code size
 import React, { Component } from 'react';
@@ -191,7 +191,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

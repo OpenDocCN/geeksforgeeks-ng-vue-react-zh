@@ -6,7 +6,7 @@
 
 **基本语法:**
 
-```
+```jsx
 <SearchBar
     placeholder="Type Here..."
     onChangeText={this.updateSearch}
@@ -45,19 +45,19 @@
 
 *   **第一步:**打开终端，安装 expo-cli，如果还没有安装的话。
 
-    ```
+    ```jsx
     npm install --global expo-cli
     ```
 
 *   **步骤 2:** 安装后，让我们初始化一个项目，如果还没有完成的话。
 
-    ```
+    ```jsx
     expo init dummy
     ```
 
 *   **步骤 3:** 现在导航到您的项目。
 
-    ```
+    ```jsx
     cd dummy
     ```
 
@@ -69,7 +69,7 @@
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from "react";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 import { ListItem, SearchBar } from "react-native-elements";
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序:**现在，通过运行以下命令启动服务器
 
-```
+```jsx
 npm run web
 ```
 

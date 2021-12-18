@@ -12,19 +12,19 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序。
 
-    ```
+    ```jsx
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```jsx
     cd foldername
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 create-react 类模块。
 
-    ```
+    ```jsx
     npm install create-react-class
     ```
 
@@ -38,7 +38,7 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
     ## App.js
 
-    ```
+    ```jsx
     import React from 'react'
     import "./App.css"
 
@@ -56,7 +56,7 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
     ## App.js
 
-    ```
+    ```jsx
     import React from 'react'
     import "./App.css"
 
@@ -88,7 +88,7 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
     ## App.js
 
-    ```
+    ```jsx
     import React from 'react'
     import "./App.css"
 
@@ -112,7 +112,7 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
     ## java 描述语言
 
-    ```
+    ```jsx
     import React from 'react'
     import "./App.css"
 
@@ -148,7 +148,7 @@ Reactjs 是有史以来最好的前端库。它由脸书制造，在前端本身
 
     ## Counter.js
 
-    ```
+    ```jsx
     import React from 'react'
 
     class Counter extends React.Component {

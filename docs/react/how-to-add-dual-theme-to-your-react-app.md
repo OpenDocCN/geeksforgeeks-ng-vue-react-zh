@@ -10,19 +10,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```jsx
     npx create-react-app gfg
     ```
 
 *   **第 2 步:**创建项目文件夹后，即 gfg **，**使用以下命令移动到该文件夹:
 
-    ```
+    ```jsx
     cd gfg
     ```
 
 *   **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装 **material-ui** 模块:
 
-    ```
+    ```jsx
     npm install @material-ui/core
     ```
 
@@ -45,7 +45,7 @@
 
 ***语法:***
 
-```
+```jsx
 import { useTheme } from '@material-ui/core/styles';
 
 function Component1() {
@@ -57,7 +57,7 @@ function Component1() {
 
 尽管材质用户界面带有内置的亮暗模式，但我们将分别定义暗主题对象，因为随着时间的推移，我们可以自由地在两个主题中独特地更改每个属性，或者您甚至可以想要灰色主题而不是暗主题。
 
-```
+```jsx
 const darkTheme = responsiveFontSizes(createMuiTheme({
   spacing: 4,
 }));
@@ -67,7 +67,7 @@ const darkTheme = responsiveFontSizes(createMuiTheme({
 
 ## 主题. js
 
-```
+```jsx
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
 const lightTheme = responsiveFontSizes(createMuiTheme({
@@ -146,7 +146,7 @@ export {darkTheme} ;
 
 ## Component1.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { useTheme } from '@material-ui/core/styles';
@@ -176,7 +176,7 @@ export default function Component1() {
 
 ## App.js
 
-```
+```jsx
 import React, { Component } from 'react';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -250,7 +250,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```jsx
 npm start
 ```
 
