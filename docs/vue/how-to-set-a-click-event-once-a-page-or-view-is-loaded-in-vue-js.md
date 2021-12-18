@@ -10,25 +10,25 @@
 
 1.  首先，我们应该使用下面的命令安装 vue.js:
 
-    ```
+    ```js
     sudo npm install -g @vue/cli
     ```
 
 2.  安装 vue.js 后，您可以使用下面的命令创建一个新项目:
 
-    ```
+    ```js
     vue create test
     ```
 
 3.  现在，使用转到项目文件夹
 
-    ```
+    ```js
     cd myapp
     ```
 
 4.  您可以使用以下命令运行项目:
 
-    ```
+    ```js
     npm run serve
     ```
 
@@ -39,13 +39,13 @@
 
 *   **第一步:**给出你想要点击的按钮的参考。
 
-    ```
+    ```js
     <button ref="Btn" @click="logClicked">Click</button>
     ```
 
 *   **第 2 步:**在**挂载**钩子触发按钮点击。
 
-    ```
+    ```js
     mounted () {
       this.$refs.Btn.click()
     }
@@ -55,7 +55,7 @@
 
 ## java 描述语言
 
-```
+```js
 <script>
 export default({
   methods: {
@@ -77,7 +77,7 @@ export default({
 
 **输出**输入**本地主机:8080** 可以在 chrome 浏览器中看到输出，也可以使用下面的命令在 Chrome 浏览器中打开控制台
 
-```
+```js
  ctrl+shift+j
 ```
 

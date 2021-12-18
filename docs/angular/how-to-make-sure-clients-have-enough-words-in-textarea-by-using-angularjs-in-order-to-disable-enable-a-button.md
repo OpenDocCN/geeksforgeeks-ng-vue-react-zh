@@ -8,14 +8,14 @@
 
 *   这里，字数是 1，不在 5-20 字范围内，因此按钮将被禁用。
 
-```
+```ts
 Input : GeeksforGeeks
 Output: Button will be disabled
 ```
 
 *   这里，字数是 5，所以现在按钮将被启用。
 
-```
+```ts
 Input : Hello Geek! welcome to GeeksforGeeks!! 
 Output: Button will be enabled
 ```
@@ -41,7 +41,7 @@ Output: Button will be enabled
 
 ## 超文本标记语言
 
-```
+```ts
 <textarea (input)="CheckLen($event)" id="ta" ></textarea>
 <br>
 <button id="bt" disabled={{check}}>Button</button>
@@ -51,7 +51,7 @@ Output: Button will be enabled
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({

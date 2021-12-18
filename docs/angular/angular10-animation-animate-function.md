@@ -8,7 +8,7 @@ angular 10 中的 **动画** 用于定义一个动画步骤，该动画步骤将
 
 **语法:**
 
-```
+```ts
 animate(timings | styles)
 ```
 
@@ -38,7 +38,7 @@ animate(timings | styles)
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
        from '@angular/core';
 import { BrowserModule }
@@ -69,7 +69,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { trigger, state,
 style, transition, animate }
        from '@angular/animations';
@@ -105,7 +105,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <button (click)='anim()'>Animate</button>
 <div 

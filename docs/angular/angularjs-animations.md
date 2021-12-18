@@ -25,7 +25,7 @@
 
 **示例:**下面是 Angular 的实现。Js 动画。
 
-```
+```ts
 <html>
 <style>
     div {

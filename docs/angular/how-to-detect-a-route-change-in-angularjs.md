@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 $rootScope.$on('$routeChangeSuccess', function () {
     Content...
 });
@@ -17,7 +17,7 @@ $rootScope.$on('$routeChangeSuccess', function () {
 
 下面是上述方法的实现:
 
-```
+```ts
 <!DOCTYPE html>
 <html>
    <head>

@@ -7,7 +7,7 @@ ng-repeat 类似于我们在 C、C++或其他语言中使用的循环，但在�
 
 **语法:**
 
-```
+```ts
 <div ng-repeat="keyName in MyObjectName ">
   {{keyName}}
 </div>
@@ -20,7 +20,7 @@ ng-repeat 类似于我们在 C、C++或其他语言中使用的循环，但在�
 
 1.  Create an app.js file for the app.
 
-    ```
+    ```ts
     var app = angular.module('myApp',[]);
 
     app.controller('MainCtrl', function($scope){
@@ -35,7 +35,7 @@ ng-repeat 类似于我们在 C、C++或其他语言中使用的循环，但在�
 
 2.  Create index.html page
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html ng-app="myApp">
     <head>
@@ -66,7 +66,7 @@ ng-repeat 类似于我们在 C、C++或其他语言中使用的循环，但在�
 
 *   **app.js 文件**
 
-    ```
+    ```ts
     var app = angular.module('myApp',[]);
 
     app.controller('MainCtrl', function($scope){
@@ -79,7 +79,7 @@ ng-repeat 类似于我们在 C、C++或其他语言中使用的循环，但在�
 
     **index.html**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html ng-app="myApp">
     <head>

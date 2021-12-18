@@ -9,7 +9,7 @@ Angular 是一个开源的 MVC JavaScript(编程方言)系统，通过广告编�
 
 ## java 描述语言
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +41,7 @@ Angular 是一个开源的 MVC JavaScript(编程方言)系统，通过广告编�
 
 **输出:**
 
-```
+```ts
 GeeksforGeeks
 
 ```
@@ -60,7 +60,7 @@ GeeksforGeeks
 
 ## java 描述语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -103,7 +103,7 @@ GeeksforGeeks
 
 **输出:**
 
-```
+```ts
 GeeksforGeeks
 
 ```

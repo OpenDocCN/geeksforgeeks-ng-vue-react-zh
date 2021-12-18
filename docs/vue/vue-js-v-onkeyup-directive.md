@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-on:keyup="function"
 ```
 
@@ -26,7 +26,7 @@ v-on:keyup="function"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

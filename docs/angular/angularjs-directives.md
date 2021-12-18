@@ -22,7 +22,7 @@
 1.  **[ng-app:](https://www.geeksforgeeks.org/angularjs-ng-app-directive/)** The **ng-app Directive** in AngularJS is used to define the root element of an AngularJS application. This directive automatically initializes the AngularJS application on page load. It can be used to load various modules in AngularJS Application.
     **Example:** This example uses ng-app Directive to define a default AngularJS application.
 
-    ```
+    ```ts
     <html> 
 
     <head> 
@@ -53,7 +53,7 @@
     The ng-init directive defines initial values and variables for an AngularJS application.
     **Example:** In this example, we initialize an array of string.
 
-    ```
+    ```ts
     <html> 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/ 
         angular.min.js"></script> 
@@ -84,7 +84,7 @@
     它也用于表单验证期间。
     **例:**
 
-```
+```ts
 <!DOCTYPE html> 
 <html> 
 <script src= 
@@ -174,7 +174,7 @@
     The ng-controller Directive in AngularJS is used to add controller to the application. It can be used to add methods, functions and variables that can be called on some event like click, etc to perform certain action.
     **Example:**
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -216,7 +216,7 @@
 9.  **[ng-bind:](https://www.geeksforgeeks.org/angularjs-ng-bind-directive/)**
     The ng-bind directive in AngularJS is used to bind/replace the text content of any particular HTML element with the value that is entered in the given expression. The value of specified HTML content updates whenever the value of the expression changes in **ng-bind** directive.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -270,7 +270,7 @@
 
     1.  Create an app.js file for the app.
 
-        ```
+        ```ts
         var app = angular.module('myApp',[]); 
 
         app.controller('MainCtrl', function($scope){ 
@@ -285,7 +285,7 @@
 
     2.  Create index.html page
 
-        ```
+        ```ts
         <!DOCTYPE html> 
         <html ng-app="myApp"> 
         <head> 
@@ -315,7 +315,7 @@
     The ng-show Directive in AngluarJS is used to show or hide the specified HTML element. If the given expression in ng-show attribute is true then the HTML element will display otherwise it hides the HTML element. It is supported by all HTML elements.
     **Example 1:** This example uses ng-show Directive to display the HTML element after checked the checkbox.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -366,7 +366,7 @@
     The ng-readonly Directive in AngularJS is used to specify the readonly attribute of an HTML element. The HTML element will be readonly only if the expression inside ng-readonly directive returns true.
     **Example:** This example uses ng-readonly Directive to enable readonly property.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
         <head> 
@@ -404,7 +404,7 @@
     The ng-disabled Directive in AngularJS is used to enable or disable HTML elements. If the expression inside the ng-disabled attribute returns true then the form field will be disabled or vice versa. It is usually applied on form field (input, select, button, etc).
     **Example 1:** This example uses ng-disabled Directive to disable the button.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -455,7 +455,7 @@
     The ng-if Directive in AngularJS is used to remove or recreate a portion of HTML element based on an expression. The ng-if is different from ng-hide because it completely removes the element in the DOM rather than just hiding the display of the element. If the expression inside it is false then the element is removed and if it is true then the element is added to the DOM.
     **Example:** This example changes the content after clicking the button.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -518,7 +518,7 @@
     The ng-click Directive in AngluarJS is used to apply custom behavior when an element is clicked. It can be used to show/hide some element or it can popup alert when button is clicked.
     **Example:** This example uses ng-click Directive to display an alert message after clicking the element.
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 

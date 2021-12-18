@@ -11,14 +11,14 @@ span 元素可用于高亮显示、显示、隐藏或基于功能对其执行任
 
 **语法:**
 
-```html
+```tshtml
 <button ng-click="[A FUNCTION CALL] > Click! < button>
 <span ng-show="[An boolean Expression] > The element < /span>
 ```
 
 **示例:**
 
-```html
+```tshtml
 <!DOCTYPE html>
 <html>
 
@@ -132,7 +132,7 @@ span 元素可用于高亮显示、显示、隐藏或基于功能对其执行任
 
 **语法:**
 
-```html
+```tshtml
 < form (nameOfEventBinder)="Function Call" > < /form > 
 < button type="nameOfEventBinder" > Click! < button >
 < span ng-if="[An boolean Expression] > The element < /span >
@@ -140,7 +140,7 @@ span 元素可用于高亮显示、显示、隐藏或基于功能对其执行任
 
 **例:**test.html 文件:
 
-```html
+```tshtml
 <table>
     <tr>
         <td> The Hidden text is:
@@ -182,7 +182,7 @@ span 元素可用于高亮显示、显示、隐藏或基于功能对其执行任
 
 test.css 文件:
 
-```html
+```tshtml
 .hidden{
     font-weight: bold;
 }
@@ -196,7 +196,7 @@ test.css 文件:
 
 test.ts 文件:
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 @Component({

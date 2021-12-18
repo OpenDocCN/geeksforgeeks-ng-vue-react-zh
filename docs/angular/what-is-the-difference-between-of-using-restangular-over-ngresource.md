@@ -15,7 +15,7 @@ Restangular 和 ngResource 之间的主要区别:
 
 ## java 描述语言
 
-```
+```ts
 // Restangular returns promises
 Restangular.all('users').getList() // GET: /users
     .then(function (users) {
@@ -47,7 +47,7 @@ $scope.user.one('messages', 123)
 
 ## java 描述语言
 
-```
+```ts
 Restangular.one("users", 123).get().then(function(user) {
     $scope.user = user;
 });

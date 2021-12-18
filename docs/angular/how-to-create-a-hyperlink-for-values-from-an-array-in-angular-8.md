@@ -14,7 +14,7 @@
 **语法:**
 启动项目的语法。
 
-```
+```ts
 ng serve --open
 ```
 
@@ -22,7 +22,7 @@ ng serve --open
 
 **app.component.html:**
 
-```
+```ts
 <div *ngFor = "let item of data"> 
   <a [attr.href]="item.url">
    {{item.name}}
@@ -32,7 +32,7 @@ ng serve --open
 
 **app . component . ts:**T2】
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',

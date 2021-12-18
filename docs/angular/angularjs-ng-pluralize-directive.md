@@ -6,7 +6,7 @@ AngularJS 中的**ng-multiplex 指令**用于根据 en-us 本地化规则指定�
 
 **语法:**
 
-```
+```ts
 <ng-pluralize count="" when="string" [offset="number"]>
 Contents...
 </ng-pluralize>
@@ -21,7 +21,7 @@ Contents...
 
 **示例 1:** 本示例使用 ng-multiplex Directive 显示内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +76,7 @@ Contents...
 
 **示例 2:** 本示例使用 ng-multiplex Directive 显示输入的文本内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

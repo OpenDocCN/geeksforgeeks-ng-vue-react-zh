@@ -6,7 +6,7 @@
 
 **表单控制指令**用于将独立的表单控制实例与表单控制元素同步
 
-```
+```ts
 <form [FormControlDirective] ="name">
 ```
 
@@ -29,7 +29,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
   import { FormGroup, FormControl, FormArray } from '@angular/forms'
   @Component({
@@ -44,7 +44,7 @@ import { Component, Inject } from '@angular/core';
 
 ## app.component.html
 
-```
+```ts
 <br>
 <input [formControl]="geek">
 

@@ -6,7 +6,7 @@ entryComponent 是通过力加载角度的组件，这意味着这些组件在 H
 
 首先，Angular 通过 [ComponentFactoryResolver](https://angular.io/api/core/ComponentFactoryResolver) 类为每个引导入口组件创建一个组件工厂，然后在运行时，它将使用这些工厂来实例化组件。
 
-```
+```ts
 abstract class ComponentFactoryResolver {
   static NULL: ComponentFactoryResolver
   abstract resolveComponentFactory(component: Type): ComponentFactory
@@ -21,7 +21,7 @@ abstract class ComponentFactoryResolver {
 
 **引导 entryComponent:** 在应用程序启动时或引导过程中，引导组件由 Angular 加载到 DOM(文档对象模型)中。
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -54,7 +54,7 @@ app.module.ts
 
 **app-routing.module.ts**
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import {  RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './list/list.component';

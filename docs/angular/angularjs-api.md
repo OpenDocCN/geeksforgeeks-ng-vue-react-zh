@@ -13,7 +13,7 @@ AngularJS API 用于比较、迭代和转换对象。基本的 AngularJS 应用�
 用于检查对象是否为字符串。如果对象是字符串，则返回 true，否则返回 false。
 **例:**
 
-```
+```ts
 <!-- Write HTML code here -->
 <!DOCTYPE html>
 <html>
@@ -48,7 +48,7 @@ AngularJS API 用于比较、迭代和转换对象。基本的 AngularJS 应用�
 用于将字符串中的所有字符转换为小写字符。
 **例:**
 
-```
+```ts
 <!-- Write HTML code here -->
 <!DOCTYPE html>
 <html>
@@ -83,7 +83,7 @@ AngularJS API 用于比较、迭代和转换对象。基本的 AngularJS 应用�
 用于将字符串中的所有字符转换为大写字符。
 **例:**
 
-```
+```ts
 <!-- Write HTML code here -->
 <!DOCTYPE html>
 <html>
@@ -118,7 +118,7 @@ AngularJS API 用于比较、迭代和转换对象。基本的 AngularJS 应用�
 用来检查一个物体是否是数字。如果对象是数字，则返回 true，否则返回 false。
 **例:**
 
-```
+```ts
 <!-- Write HTML code here -->
 <!DOCTYPE html>
 <html>

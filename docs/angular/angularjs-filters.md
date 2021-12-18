@@ -23,7 +23,7 @@
 1.  **Currency Filter:**
     This filter simply formats a number as currency.
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -61,11 +61,11 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ date | date : format : timezone }}
     ```
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -102,7 +102,7 @@
     This is used to display only the required objects. The filter selects a subset of an array.
     For example, This filter can be used only on arrays as this returns an array containing only the matching items(condition given in the array).
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -157,13 +157,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ object | limitTo : limit : begin }}
     ```
 
     这里，limit 指定要显示的元素数量，而 begin 指定从哪里开始限制。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -210,13 +210,13 @@
 
 **语法:**
 
-```
+```ts
 {{ array | orderBy : expression : reverse }}
 ```
 
 这里，反向可以用来反转结果数组的顺序。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -272,13 +272,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ string | number : fractionsize}}
     ```
 
     这里，**‘分数化’**指定小数位数。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -314,13 +314,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ string | lowercase }}
     ```
 
     让我们看一个例子来弄清楚这个过滤器。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -370,11 +370,11 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ string | uppercase}}
     ```
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -409,7 +409,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{ object | json : spacing }}
     ```
 
@@ -417,7 +417,7 @@
 
     看看这个示例代码:
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -455,7 +455,7 @@
 
     *   **Let’s have a look at the example of an array filter.**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 

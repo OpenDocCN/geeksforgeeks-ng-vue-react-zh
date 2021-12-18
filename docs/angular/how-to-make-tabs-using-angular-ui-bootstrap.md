@@ -6,7 +6,7 @@
 
 **从链接下载安古拉瑞:**
 
-```
+```ts
 https://angular-ui.github.io/bootstrap
 ```
 
@@ -25,7 +25,7 @@ https://angular-ui.github.io/bootstrap
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
   <head>
@@ -82,7 +82,7 @@ https://angular-ui.github.io/bootstrap
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
   <head>

@@ -8,7 +8,7 @@ Angular ngx bootstrap 是一个 bootstrap 框架，与 Angular 一起使用来�
 
 **安装语法:**
 
-```
+```ts
 npm install ngx-bootstrap --save
 ```
 
@@ -28,7 +28,7 @@ npm install ngx-bootstrap --save
 
 ## index.html
 
-```
+```ts
 <!doctype html>
 <html lang="en">
 
@@ -59,7 +59,7 @@ npm install ngx-bootstrap --save
 
 ## app.component.html
 
-```
+```ts
 <accordion [isAnimated]="true">
     <accordion-group heading="Header1">
         <p>content1</p>
@@ -81,7 +81,7 @@ npm install ngx-bootstrap --save
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module

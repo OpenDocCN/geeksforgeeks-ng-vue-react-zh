@@ -12,7 +12,7 @@
 
 ## index.html
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -56,7 +56,7 @@
 
 ## app.js
 
-```
+```js
 const parent = new Vue({
   el: "#parent",
 

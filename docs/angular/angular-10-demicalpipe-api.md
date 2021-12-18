@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 {{ value | number}}
 ```
 
@@ -30,7 +30,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -44,7 +44,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <p>
     Number:
     {{pi | number}}
@@ -67,7 +67,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, LOCALE_ID } from '@angular/core';
 
 @Component({
@@ -81,7 +81,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <p>
     Number:
     {{num | number}}

@@ -51,7 +51,7 @@ Plunker 是一个基于网络的编辑器，有了它，你可以直接从浏览
 
 ## index.html
 
-```
+```ts
 <body>
     <!-- Begin Webpage -->
     <div class="webpage">
@@ -79,7 +79,7 @@ Plunker 是一个基于网络的编辑器，有了它，你可以直接从浏览
 
 现在根据你的需要添加 CSS，比如你希望你的网站是什么样子。
 
-```
+```ts
 h1,
 p {
     font-family: sans-serif;

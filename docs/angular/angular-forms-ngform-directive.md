@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <form #FormName = "ngForm"> </form>
 ```
 
@@ -29,7 +29,7 @@
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -56,7 +56,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <form #gfgform = "ngForm">
   {{ gfgform.value | json }}
   <br>

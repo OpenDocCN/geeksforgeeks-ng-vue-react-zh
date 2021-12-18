@@ -34,13 +34,13 @@
 *   现在在 Angular CLI 中运行一个服务器来重建您的应用程序。打开*<u>http://localhost:4200</u>*。右键检查元素(或 Ctrl+Shift+I)，转到网络选项卡查看结果。
     **语法:**
 
-    ```
+    ```ts
     ng serve
     ```
 
 **示例:**下面是一个应用程序路由模块的示例。
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, 
     PreloadAllModules } from '@angular/router';

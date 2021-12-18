@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-bind:attribute="expression";
 ```
 
@@ -16,7 +16,7 @@ v-bind:attribute="expression";
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

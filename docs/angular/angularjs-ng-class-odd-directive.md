@@ -6,13 +6,13 @@ AngularJS 中的 **ng 类奇数指令**用于在 HTML 元素的每个奇数外�
 
 **语法:**
 
-```
+```ts
 <element ng-class-odd="expression"> Contents... </element> 
 ```
 
 **示例:**本示例使用 ng-class-odd Directive 选择奇数元素并添加一些 CSS 样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

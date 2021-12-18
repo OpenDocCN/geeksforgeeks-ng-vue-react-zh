@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-once
 ```
 
@@ -14,7 +14,7 @@ v-once
 
 **示例:**本示例使用 Vue.js 用 v-once 显示数据的工作情况。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

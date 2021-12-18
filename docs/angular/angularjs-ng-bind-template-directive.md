@@ -6,13 +6,13 @@ AngularJS 中的 **ng-bind-template 指令**用于用给定表达式的值替换
 
 **语法:**
 
-```
+```ts
 <element ng-bind-template="expression"> Contents... &ltl;/element>
 ```
 
 **示例 1:** 本示例使用 ng-bind-template Directive 显示绑定内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -67,7 +67,7 @@ AngularJS 中的 **ng-bind-template 指令**用于用给定表达式的值替换
 
 **示例 2:** 本示例使用 ng-bind-template Directive 显示绑定内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

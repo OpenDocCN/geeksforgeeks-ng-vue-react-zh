@@ -5,13 +5,13 @@
 AngularJS 中的 **angular .大写()函数**用于将字符串转换为**大写**。当用户想用大写字母而不是小写字母显示文本时，可以使用它。
 **语法:**
 
-```
+```ts
 angular.uppercase(string)
 ```
 
 **示例:**在本例中，字符串被转换为大写。
 
-```
+```ts
 <html ng-app="app">
 <head>
 <script src=

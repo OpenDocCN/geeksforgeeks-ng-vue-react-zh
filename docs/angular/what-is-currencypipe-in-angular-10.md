@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 {{ value | currency }}
 ```
 
@@ -29,7 +29,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -44,7 +44,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- Default currency is in Dollars-->
 
 <p>A: {{a | currency}}</p>

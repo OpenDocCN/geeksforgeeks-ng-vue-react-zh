@@ -6,7 +6,7 @@
 基于数组项目创建下拉列表时，应使用 ng-options 指令:
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -47,7 +47,7 @@
 ng-repeat 的 from 必须是一个字符串。
 **例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

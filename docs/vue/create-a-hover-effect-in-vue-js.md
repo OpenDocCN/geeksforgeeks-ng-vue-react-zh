@@ -12,7 +12,7 @@ Vue 是一个用于构建用户界面的进步框架。核心库只专注于视�
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +41,7 @@ Vue 是一个用于构建用户界面的进步框架。核心库只专注于视�
 
 ## java 描述语言
 
-```
+```js
 const parent = new Vue({
     el : '#parent',
     data : {

@@ -8,7 +8,7 @@
 1.  **Using NPM method:**
     Now to install jQuery Using NPM method, we need to create a new angular application by running the command at the VS Code Terminal.
 
-    ```
+    ```ts
      ng new angular1
     ```
 
@@ -16,7 +16,7 @@
     ![](img/84408069cf5e4640bc33bb8a45542665.png)
     现在我们“光盘”进入应用文件夹安装 jquery。我们在 VS 代码终端执行以下命令:
 
-    ```
+    ```ts
     cd angular1
     npm install jquery --save
 
@@ -29,7 +29,7 @@
     While browsing **https://jquery.com/download/**, you can easily locate the jQuery CDN and download it.
     It is always recommended sticking with the latest version of the official CDN since it supports Subresource Integrity (SRI). Now to use the jQuery CDN, you need to reference the file in the script tag directly from the jQuery CDN domain. The code with Subresource Integrity attribute will be like this. jQuery 3.4.1 is used here.
 
-    ```
+    ```ts
     <script
     src=”https://code.jquery.com/jquery-3.4.1.js"
     integrity=”sha256–2z0P7MLoyxByUtvAk/xjkmindefS4auh4Pfzbm7y6g0=”
@@ -42,7 +42,7 @@
     安装 jQuery 后，我们需要使它成为全局的。在 jQuery 模块中，“dis”文件夹下的 jquery.min.js 不是公共的。要使 jQuery 全局化，我们需要执行以下操作:
     该步骤包括浏览到位于 Angular CLI 项目文件夹根的文件**“Angular-CLI . JSON”**，并找到脚本:[]属性，并按照给定的路径包含 jQuery 文件夹
 
-    ```
+    ```ts
     "scripts" :["./node_modules/jquery/dist/jquery.min.js"]
     ```
 
@@ -52,7 +52,7 @@
     ![](img/e0daa618fb344a48caf76767b3b2e9f7.png)
     你会看到这个路径，这意味着你已经将 jQuery 库全局添加到这个应用程序中。为了让这些更改在应用程序中平稳过渡，我们必须使用 serve 重新运行这个应用程序。
 
-    ```
+    ```ts
      ng serve -open 
     ```
 
@@ -60,7 +60,7 @@
 
     现在要使用 jquery，剩下的就是将其导入到您想要使用 jQuery 的任何组件中。
 
-    ```
+    ```ts
     import * from jquery
     ```
 
@@ -68,7 +68,7 @@
 
 *   **示例:**现在，为了跟进本教程，我们需要在 app.component.html
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 
@@ -88,7 +88,7 @@
     中包含 Html 代码
 *   We need to include the below code in app.component.ts to make the button perform an action.
 
-    ```
+    ```ts
     import * as $ from 'jquery'
     import {
         Component, OnInit
@@ -106,7 +106,7 @@
     **运行此应用:**
     将上述代码包含在你的应用的 HTML 和组件部分后，我们将通过在终端输入命令来运行此应用:
 
-    ```
+    ```ts
      ng serve 
     ```
 
@@ -122,7 +122,7 @@
 **示例:**在本例中，我们使用 angular 中的 jquery 在 Html 中制作一个字段的动画。我们在 app.controller.ts 写 Html 代码，在 app.controller.ts.
 写 angular Code/jquery**Html 代码:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -152,7 +152,7 @@
 
 **角码:**
 
-```
+```ts
 import { Component, OnInit} from ‘@angular/core’;
 import * as $ from 'jquery' 
 export class AppComponent implements OnInit {

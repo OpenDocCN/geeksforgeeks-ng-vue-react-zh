@@ -12,14 +12,14 @@
 
 **语法:**该语法将作为依赖项包含在模块中，以完成角度配置。
 
-```
+```ts
 var myApp = angular.module("myApp", ['ngIdle']);
 ```
 
 让我们通过一个例子来看看 ng-idle 的用法。
 **例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

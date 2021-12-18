@@ -17,7 +17,7 @@
 
 ## app.component.html
 
-```
+```ts
 <app-geek>
     <strong class="app">Senior Developer</strong>
     <strong class="app1">Experience : 5 years</strong>
@@ -32,7 +32,7 @@
 
 ## geek.component.html
 
-```
+```ts
 <h3>
     <span>Hello, I am </span>
     <ng-content select=".app"></ng-content>

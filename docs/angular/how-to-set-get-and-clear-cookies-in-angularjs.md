@@ -21,7 +21,7 @@ Angular 内置了名为 **ngCookies** 的指令。
 
 **语法:**
 
-```
+```ts
 $scope.SetCookies = function () {
     $cookies.put("username", $scope.username);
 };
@@ -38,7 +38,7 @@ $scope.SetCookies = function () {
 
     **语法:**
 
-    ```
+    ```ts
     $scope.GetCookies = function () {
         $window.alert($cookies.get('username'));
     };
@@ -55,7 +55,7 @@ $scope.SetCookies = function () {
 
     **语法:**
 
-    ```
+    ```ts
     $scope.ClearCookies = function () {
         $cookies.remove('username');
     };
@@ -64,7 +64,7 @@ $scope.SetCookies = function () {
 
     **示例:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 

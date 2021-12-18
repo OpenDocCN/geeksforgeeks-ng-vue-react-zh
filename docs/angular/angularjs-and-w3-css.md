@@ -25,7 +25,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>

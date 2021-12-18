@@ -6,13 +6,13 @@ AngularJS 中的 **ng 类指令**用于指定 HTML 元素上的 CSS 类。它用
 
 **语法:**
 
-```
+```ts
 <element ng-class="expression"> Contents... </element>
 ```
 
 **示例 1:** 本示例使用 ng 类指令设置和重置 CSS 类。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -60,7 +60,7 @@ AngularJS 中的 **ng 类指令**用于指定 HTML 元素上的 CSS 类。它用
 
 **示例 2:** 本示例使用 ng-class Directive 为类设置 CSS 样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

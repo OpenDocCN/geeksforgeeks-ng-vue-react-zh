@@ -11,7 +11,7 @@ AngularJS 提供了两种不同的方法来更改日期的格式。这可以通�
 
 **语法:**
 
-```html
+```tshtml
 {{ dateVariable | date [ : format [ : timezone [ : locale ] ] ] }}
 ```
 
@@ -24,7 +24,7 @@ AngularJS 提供了两种不同的方法来更改日期的格式。这可以通�
 
 **示例:**在本例中，我们将当前日期更改为不同的格式。该日期格式包括标准格式和用户定义的格式。
 
-```html
+```tshtml
 <!DOCTYPE html>
 <html>
 
@@ -70,13 +70,13 @@ AngularJS 提供了两种不同的方法来更改日期的格式。这可以通�
 
 当我们运行代码时，它会以不同的格式提供当前日期。
 
-```html
+```tshtml
 Input Current Date: 24th March 2020
 ```
 
 **输出:**
 
-```html
+```tshtml
 Formatted Date with default parameters: Mar 24, 2020 
 Formatted Date with standard filter (ShortDate): 3/24/20
 Formatted Date with standard filter (FullDate): Tuesday, March 24, 2020
@@ -90,13 +90,13 @@ Formatted date with user defined format:today is March 24, 2020
 
 **Syntax:**
 
-```html
+```tshtml
 $scope.dateVariable = $filter('date')("dateString", "dateformat");
 ```
 
 **示例:**这里，我们使用角度控制器来更改日期格式。日期作为字符串并通过使用$filter filter 传递，该筛选器用于筛选对象元素和数组。它以指定的格式为您提供原始数组的子集。
 
-```html
+```tshtml
 <!DOCTYPE html>
 <html>
 
@@ -136,7 +136,7 @@ $scope.dateVariable = $filter('date')("dateString", "dateformat");
 
 **输出:**
 
-```html
+```tshtml
 Input Date in String Format: "2013-07-20T18:30:00.000Z"
 Output Date : 21/07/13
 

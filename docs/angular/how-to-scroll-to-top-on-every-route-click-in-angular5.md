@@ -14,7 +14,7 @@
 
 完成上述步骤后，使用下面的命令启动项目。
 
-```
+```ts
 ng serve --open
 ```
 
@@ -24,7 +24,7 @@ ng serve --open
 
 ## java 描述语言
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
@@ -48,7 +48,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 
@@ -74,7 +74,7 @@ export class AppComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```ts
 <link href=
 "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     rel="stylesheet">

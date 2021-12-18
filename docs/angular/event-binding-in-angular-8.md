@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 < element (event) = function() >
 ```
 
@@ -23,7 +23,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -34,7 +34,7 @@
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    
@@ -58,7 +58,7 @@ export class AppComponent {    
 
 ## 超文本标记语言
 
-```
+```ts
 <!-- event is passed to function -->
 <input (keyup)="onKeyUp($event)">  
 
@@ -69,7 +69,7 @@ export class AppComponent {    
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    

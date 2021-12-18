@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```ts
 <element ng-cloak> {{the piece of code}} </element>
 ```
 
 **示例:**这个示例展示了 ng-斗篷指令的用法。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

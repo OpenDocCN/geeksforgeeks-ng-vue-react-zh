@@ -12,7 +12,7 @@
 
 **包含脚本:**我们可以使用以下 CDN 链接将 Vue Js 包含到我们的 HTML 中:
 
-```
+```js
 <script src=
     "https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js">
 </script>
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

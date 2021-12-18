@@ -8,7 +8,7 @@ isPlatformBrowser 用于获取表示浏览器平台的平台 id
 
 **语法:**
 
-```
+```ts
 isPlatformBrowser(platformId);
 ```
 
@@ -29,7 +29,7 @@ isPlatformBrowser(platformId);
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } 
 from '@angular/core';
 import { PLATFORM_ID } 
@@ -60,7 +60,7 @@ export class AppComponent  {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } 
 from '@angular/core';
 import { PLATFORM_ID }
@@ -85,7 +85,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <div *ngIf='isB'><strong>GeeksforGeeks.</strong></div>
 
 <div *ngIf='isB'>isBrowserPlatform | angularJs.</div>

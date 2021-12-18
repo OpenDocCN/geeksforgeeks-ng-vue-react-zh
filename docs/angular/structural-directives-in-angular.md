@@ -11,13 +11,13 @@ ngIf 用于根据分配给它的表达式值显示或隐藏 DOM 元素。表达�
 
 **语法:**
 
-```
+```ts
 <div *ngIf="boolean"> </div>
 ```
 
 在上面的语法中，布尔值代表真值或假值。因此，它产生了如下两种有效语法:
 
-```
+```ts
 <div *ngIf="true">  </div>
 <div *ngIf="false">  </div>
 
@@ -25,7 +25,7 @@ ngIf 用于根据分配给它的表达式值显示或隐藏 DOM 元素。表达�
 
 **ngIf 的例子:**
 
-```
+```ts
 <div *ngIf="false">
   This text will be hidden
   <h1 [ngStyle]="{'color':'#FF0000'}">
@@ -52,7 +52,7 @@ ngIf-else 的工作方式类似于简单的 If-else 语句，其中如果条件�
 
 **语法:**
 
-```
+```ts
 <div *ngIf="boolean; else id_selector">  </div>
 <ng-template #id_selector>  </ng-template>
 
@@ -61,7 +61,7 @@ ngIf-else 的工作方式类似于简单的 If-else 语句，其中如果条件�
 在上面的语法中，布尔值代表真值或假值。如果布尔值为真，则在 DOM 上呈现 If 中的元素，否则在 DOM 上呈现另一个元素。
 *** Ngif-else 示例:**
 
-```
+```ts
 <div *ngIf="false;else id_selector">
   This text will be hidden
   <h1 [ngStyle]="{'color':'#FF0000'}">
@@ -89,7 +89,7 @@ ngIf-else 的工作方式类似于简单的 If-else 语句，其中如果条件�
 
 **语法:**
 
-```
+```ts
 <div *ngFor="let item of item-list">  </div>
 ```
 
@@ -97,12 +97,12 @@ ngIf-else 的工作方式类似于简单的 If-else 语句，其中如果条件�
 
 假设您有一个如下所示的列表:
 
-```
+```ts
 items = ["GfG 1", "GfG 2", "GfG 3", "GfG 4"];
 
 ```
 
-```
+```ts
 <div *ngFor="let item of items">
  <p >  {{item}} </p>
 </div>
@@ -117,12 +117,12 @@ items = ["GfG 1", "GfG 2", "GfG 3", "GfG 4"];
 **带有索引的*的示例-2:**
 假设您有一个如下所示的列表:
 
-```
+```ts
 items = ["GfG ", "GfG ", "GfG ", "GfG "];
 
 ```
 
-```
+```ts
 <div *ngFor="let item of items;let i=index">
  <p >  {{item}} {{i}} </p>
 </div>
@@ -139,7 +139,7 @@ items = ["GfG ", "GfG ", "GfG ", "GfG "];
 ngSwitch 用于在*ngSwitchCase 内部的表达式定义的多个 case 语句之间进行选择，并根据该选择显示在 DOM Element 上。如果没有匹配的表达式，将显示默认的 DOM 元素。
 **语法:**
 
-```
+```ts
 <div [ngSwitch]="expression">
   <div *ngSwitchCase="expression_1"></div>  
   <div *ngSwitchCase="expression_2"></div>  
@@ -151,7 +151,7 @@ ngSwitch 用于在*ngSwitchCase 内部的表达式定义的多个 case 语句之
 在上面的语法中，用每个案例检查表达式，然后在 DOM 上呈现与表达式匹配的案例，否则在 DOM 上呈现默认案例。
 **开关示例:**
 
-```
+```ts
 <div [ngSwitch]="'one'">
   <div *ngSwitchCase="'one'">One is Displayed</div>  
   <div *ngSwitchCase="'two'">Two is Displayed</div>  

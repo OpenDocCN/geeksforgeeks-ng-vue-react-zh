@@ -8,13 +8,13 @@
 
 *   **字符串长度大于给定字符。**
 
-    ```
+    ```ts
     function(str, length, ending) {........}
     ```
 
 *   **字符串截断到指定的特定单词长度。**
 
-    ```
+    ```ts
     function truncate(str, no_words) {
         return str.split(" ").splice(0, no_words).join(" ");
     }
@@ -22,7 +22,7 @@
 
 **示例 1:** 此示例显示了将 Angular 中的文本截断的方式。这里，文本/字符串的长度比给定的字符长。创建 truncate 函数，检查字符串长度是否大于给定长度。然后，它相应地返回截断的文本。
 
-```
+```ts
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -68,7 +68,7 @@ console.log(text_truncate('Truncate text using Geeks for Geeks',11,'!!'))
 
 **示例 2:** 这个示例展示了如何将文本截断为某些单词。它删除给定限制中未包含的单词。为此目的:使用 str.split、splice 和 join。
 
-```
+```ts
 <!DOCTYPE html> 
 <html> 
 <head> 

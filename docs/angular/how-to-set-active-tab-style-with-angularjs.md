@@ -10,7 +10,7 @@
 
 ****语法:****
 
-```
+```ts
 <element ng-controller="expression"> Contents... </element>
 ```
 
@@ -20,7 +20,7 @@
 
 ****例 1:****
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head> </head>
@@ -58,7 +58,7 @@
 
 ****创建模块的语法:****
 
-```
+```ts
 <div ng-app="myFirstApp">...</div>
 <script>
 var app = angular.module("myFirstApp", []);
@@ -69,7 +69,7 @@ var app = angular.module("myFirstApp", []);
 
 **向模块添加**指令**的语法:**
 
-```
+```ts
 <div ng-app="myApp"></div>
 <script>
 var my_app = angular.module("myFirstApp", []);
@@ -83,7 +83,7 @@ my_app.directive("DirectiveApp", function() {
 
 ****例 2:****
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>

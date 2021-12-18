@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 formatNumber(value, locale, digitsInfo)
 ```
 
@@ -31,7 +31,7 @@ formatNumber(value, locale, digitsInfo)
 *   创建要使用的角度应用程序。
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 get formatNumber 导入 LOCALE。
 
-    ```
+    ```ts
     import { LOCALE_ID, NgModule } from '@angular/core';
     ```
 
@@ -44,7 +44,7 @@ formatNumber(value, locale, digitsInfo)
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatNumber
  }
@@ -69,7 +69,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -85,7 +85,7 @@ constructor(
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatNumber
  }
@@ -110,7 +110,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -126,7 +126,7 @@ constructor(
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatNumber
  }
@@ -151,7 +151,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>

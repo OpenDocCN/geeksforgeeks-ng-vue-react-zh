@@ -8,7 +8,7 @@
 
 **例 1:** 在本例中，类从**红色变为绿色。**
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -66,7 +66,7 @@
 
 **例 2:** 在本例中，按钮的 ID 由**蓝色变为绿色**。
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

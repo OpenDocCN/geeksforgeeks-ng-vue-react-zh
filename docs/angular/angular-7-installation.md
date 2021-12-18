@@ -29,7 +29,7 @@ node . js 管理 npm 依赖项在加载特定页面时支持某些浏览器。�
 打开你的 **VS Code IDE** 为项目路径选择一个文件夹，选择 *File- > Open Folder* 在 VS Code 上打开。
 运行以下命令安装 angular CLI:
 
-```
+```ts
 npm install -g @angular/cli
 ```
 
@@ -42,7 +42,7 @@ npm install -g @angular/cli
 **第一步:制作并运行第一个应用**
 现在在 CLI 的帮助下，我们准备开始构建新的默认项目。为此，在终端上编写以下命令。
 
-```
+```ts
 ng new <project-name>
 ```
 
@@ -54,13 +54,13 @@ ng new <project-name>
 
 **步骤 2:** 现在在本地服务器上运行它。为此，首先使用 cd 命令导航到项目文件夹，然后在终端上写入以下命令。
 
-```
+```ts
 cd FirstApp
 ```
 
 *   -o 标志用于自动打开浏览器:
 *   代表开放。
 
-```
+```ts
 ng serve -o
 ```

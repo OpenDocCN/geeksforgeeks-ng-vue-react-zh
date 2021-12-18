@@ -10,7 +10,7 @@
 
 ## Javascript
 
-```
+```ts
 app.controller('ControllerName',
                ['$scope', '$route', function($scope, $route) {
     $scope.reloadRoute = function() {
@@ -25,7 +25,7 @@ app.controller('ControllerName',
 
 **语法:**
 
-```
+```ts
 location.reload(forceGet)
 ```
 
@@ -33,7 +33,7 @@ location.reload(forceGet)
 
 ## Javascript
 
-```
+```ts
 function locationreload() {
 
         // To reload the entire page from the server

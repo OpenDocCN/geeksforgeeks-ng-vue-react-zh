@@ -7,7 +7,7 @@ Angular ng bootstrap 是一个 bootstrap 框架，与 Angular 一起使用来创
 
 **安装语法:**
 
-```
+```ts
 ng add @ng-bootstrap/ng-bootstrap
 ```
 
@@ -21,7 +21,7 @@ ng add @ng-bootstrap/ng-bootstrap
     添加以下脚本
 *   在模块中导入引导模块
 
-    ```
+    ```ts
     import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
     imports: [ 
@@ -37,13 +37,13 @@ ng add @ng-bootstrap/ng-bootstrap
 
 ## app.component.html
 
-```
+```ts
 <ngb-timepicker id='gfg' [(ngModel)]="gfg1"></ngb-timepicker>
 ```
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -77,7 +77,7 @@ export class AppModule { }
 
 ## app.component.css
 
-```
+```ts
 #gfg {
     margin:40px
 }
@@ -85,7 +85,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -107,7 +107,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <ngb-timepicker id='gfg' 
     [(ngModel)]="gfg1" [disabled]='true'>
 </ngb-timepicker>
@@ -115,7 +115,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -151,7 +151,7 @@ export class AppModule { }
 
 ## app.component.css
 
-```
+```ts
 #gfg {
     margin:40px
 }
@@ -159,7 +159,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

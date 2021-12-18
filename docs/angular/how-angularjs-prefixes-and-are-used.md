@@ -14,7 +14,7 @@
 
     在控制器函数内部，可以附加作用域($)的属性和方法。*表达式*、 *ng-model* 或 *ng-bind* 指令可用于显示视图中的范围数据。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <head>
@@ -46,7 +46,7 @@
 
     **例 2:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
         <script src=
@@ -100,7 +100,7 @@
 
     **例 3:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <head>
@@ -154,13 +154,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     $('.selector');
     ```
 
     或者
 
-    ```
+    ```ts
     element.all(by.css('.selector'));
     ```
 
@@ -168,7 +168,7 @@
 
     **示例:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
         <script src=

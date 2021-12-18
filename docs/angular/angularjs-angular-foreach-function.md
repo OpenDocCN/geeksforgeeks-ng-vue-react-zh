@@ -6,7 +6,7 @@ AngularJS 中的 **angular.forEach()函数**用于迭代数组或对象中的每
 
 **语法:**
 
-```
+```ts
 angular.forEach(object, iterator, [context])
 ```
 
@@ -18,7 +18,7 @@ angular.forEach(object, iterator, [context])
 
 **示例:**
 
-```
+```ts
 <html>
     <head>
         <script src=

@@ -21,7 +21,7 @@
 
 *   安装 Angular 并创建一个新项目。
 
-    ```
+    ```ts
     npm install -g @angular/cli
     ng new <project-name>
     cd <project-name>
@@ -31,7 +31,7 @@
 
 *   创建 2 个名为 sibling1 和 sibling2 的新组件，这将创建两个新目录，每个目录包含 4 个文件。
 
-    ```
+    ```ts
     ng g c sibling1
     ng g c sibling2
     ```
@@ -40,7 +40,7 @@
 
 ## sibling1.component.ts
 
-```
+```ts
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
@@ -70,7 +70,7 @@ export class Sibling1Component implements OnInit {
 
 ## sibling1.component.html
 
-```
+```ts
 <input type="text" (keyup)="send($event)">
 
 <p>Height of Sibling is {{height}}</p>

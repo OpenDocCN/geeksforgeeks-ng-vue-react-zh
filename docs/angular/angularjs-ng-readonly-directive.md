@@ -6,13 +6,13 @@ AngularJS 中的 **ng-readonly 指令**用于指定一个 HTML 元素的 readonl
 
 **语法:**
 
-```
+```ts
 <element ng-readonly="expression"> Contents... </element> 
 ```
 
 **示例 1:** 本示例使用 ng-readonly 指令来启用 readonly 属性。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -48,7 +48,7 @@ AngularJS 中的 **ng-readonly 指令**用于指定一个 HTML 元素的 readonl
 
 **示例 2:** 本示例使用 ng-readonly 指令来启用选项列表中的 readonly 属性。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

@@ -15,13 +15,13 @@ CSS 属性如下所示:
 
 **语法:**
 
-```
+```ts
 <element ng-style="property"></element>
 ```
 
 **示例 1:** 本示例使用 ng 样式的指令。这里使用字体颜色和背景颜色的 CSS 属性。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@ CSS 属性如下所示:
 
 **示例 2:** 该示例显示了基于字体大小、字体颜色和背景颜色的组件样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

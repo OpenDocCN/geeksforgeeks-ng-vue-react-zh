@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 form.valid
 ```
 
@@ -29,7 +29,7 @@ form.valid
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, 
     FormArray, Validators } from '@angular/forms'
@@ -59,7 +59,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <input formControlName="name" placeholder="Name">
     <br>

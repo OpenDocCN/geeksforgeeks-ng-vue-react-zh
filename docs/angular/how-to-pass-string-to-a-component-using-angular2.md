@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <component>{{message}}</component>
 ```
 
@@ -16,7 +16,7 @@
 
 *   **T2T4
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
     @Component({ 
         selector: 'app-display',
@@ -28,7 +28,7 @@
     ```** 
 *   **app.component.html**T3
 
-    ```
+    ```ts
     <p>GeeksForGeeks</p>
     <app-display> {{content}} </app-display>
     ```
@@ -36,7 +36,7 @@
     T4】
 *   **输出:**
 
-    ```
+    ```ts
     GeeksForGeeks
     Hello World
     ```
@@ -48,7 +48,7 @@
 
 **语法:**
 
-```
+```ts
 <component [inputField]="message"></component>
 ```
 
@@ -56,7 +56,7 @@
 
 **示例:**容器组件(父组件)应该将“send”的值传递给嵌套组件(子组件)。使用属性绑定，绑定目标“message”从绑定源“send”获取内容。父组件的组件装饰器的指令属性指定需要使用**“子组件”**。在接收端，子代有@Input 装饰器，它从父代接收字符串并相应地使用它。
 
-*   **```
+*   **```ts
     import { Component } from '@angular/core';
 
     @Component({
@@ -75,7 +75,7 @@
     ```** 
 *   ****parent.component.html**T3
 
-    ```
+    ```ts
     <p>GeeksForGeeks</p>
     <p>I am parent</p>
     <child [message]="send"></child>
@@ -84,7 +84,7 @@
     T4】**
 *   ****T2T4
 
-    ```
+    ```ts
     import { Component, Input } from '@angular/core';
 
     @Component({
@@ -97,7 +97,7 @@
     ```**** 
 *   ****child.component.html**T3
 
-    ```
+    ```ts
     <p>I am child</p>
     <child>{{message}}</child>
     ```
@@ -105,7 +105,7 @@
     T4】**
 *   ****输出:**
 
-    ```
+    ```ts
     GeeksForGeeks
     I am parent
     I am child
@@ -116,7 +116,7 @@
 
 ****示例:**子组件将使用@Output 属性拥有一个 EventEmitter 对象的实例。调用一个函数(这里是按钮点击)来触发字符串的传递。另一方面，使用指令装饰器将子组件绑定到它的父组件将使用另一个可以根据兴趣使用的函数来接收有效负载。**
 
-*   ****```
+*   ****```ts
     import { Component } from '@angular/core';
 
     @Component({
@@ -138,7 +138,7 @@
     ```**** 
 *   ******parent.component.html**T3
 
-    ```
+    ```ts
     <p> {{ username }} </p>
     <child (messageEmitter)="recievemsg()"></child>
     ```
@@ -146,7 +146,7 @@
     T4】****
 *   ******T2T4
 
-    ```
+    ```ts
     import { Component, Output, EventEmitter } from '@angular/core';
 
     @Component({
@@ -169,7 +169,7 @@
     ```****** 
 *   ******child.component.html**T3
 
-    ```
+    ```ts
     <p>GeeksForGeeks </p>
     <p>Child called</p>
     <button (click)="sendmsg()"> Send Message </button>
@@ -178,7 +178,7 @@
     T4】****
 *   ******输出:**
 
-    ```
+    ```ts
     GeeksForGeeks
     Child called
     I am Parent
@@ -191,7 +191,7 @@
 
 ******语法:******
 
-```
+```ts
 **<component inputField="message"></component>
 (or)
 <component [inputField]="'message'"></component>
@@ -203,7 +203,7 @@
 
 *   ******T2T4
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
     @Component({
       selector: 'example',
@@ -214,14 +214,14 @@
     ```****** 
 *   ******app.component.html**T4
 
-    ```
+    ```ts
     <example name="GeeksForGeeks1"></example>
     <example [name]="'GeeksForGeeks2'"></example>
     <example name=" {{'GeeksForGeeks3'}} "></example>
     ```**** 
 *   ******输出:**
 
-    ```
+    ```ts
     GeeksForGeeks1
     GeeksForGeeks2
     GeeksForGeeks3

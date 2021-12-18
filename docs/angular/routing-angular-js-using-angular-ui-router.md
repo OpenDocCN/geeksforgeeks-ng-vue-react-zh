@@ -17,7 +17,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     $stateProvider
     .state('StateName', {
         url: 'Url pattern for this State',
@@ -30,7 +30,7 @@
     可以使用 templateUrl 代替模板，并给定要为状态呈现的 HTML 文件的路径。
     **例:**
 
-    ```
+    ```ts
     $stateProvider
     .state('Home', {
         url: '/home',
@@ -43,14 +43,14 @@
     **在路线之间导航的简单项目，演示 Angular-UI-Router 模块的使用。**
     **先决条件:** [Node.js](https://www.geeksforgeeks.org/tag/node-js/) 和 [npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/)
 
-    ```
+    ```ts
     To run and install http-server node module to host demo app.
     ```
 
     **执行操作的步骤:**
     **1。**创建如下目录结构:
 
-    ```
+    ```ts
     routingDemo
     --app.js
     --index.html
@@ -72,7 +72,7 @@
 
         **注意:**如果不起作用，将第二个和第三个脚本替换为以下内容:
 
-        ```
+        ```ts
         <script src="angular.min.js"></script>
         <script src = "
         https://unpkg.com/@uirouter/angularjs@1.0.7/release/angular-ui-router.min.js">
@@ -82,7 +82,7 @@
 
         **4。**创建 **app.js** 文件如下。这是一个应用程序文件，其中包含要通过控制器执行的路由信息和操作。
 
-        ```
+        ```ts
         // declares application module with name "myApp"
         // inject ui.router dependency
         var app = angular.module('myApp', [ "ui.router" ]);
@@ -125,7 +125,7 @@
 
         **5。**要在浏览器中运行上述演示应用，请安装 **http-server 节点模块**。要安装 **http 服务器模块**，请使用以下命令:
 
-        ```
+        ```ts
                npm install http-server -g
 
         ```
@@ -133,14 +133,14 @@
         **6。**安装后:
         –从 **routingDemo** 文件夹，运行以下命令:
 
-        ```
+        ```ts
                http-server
 
         ```
 
         上述命令将在端口 8080 上托管演示应用程序。可以使用以下链接访问应用程序:
 
-        ```
+        ```ts
                localhost:8080/
 
         ```

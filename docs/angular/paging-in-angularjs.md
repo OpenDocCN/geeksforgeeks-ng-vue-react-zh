@@ -7,7 +7,7 @@
 **示例:**
 在下面的示例中，实现了分页技术，在 AngularJS 中也称为分页技术。HTML 代码必须添加到 index.html 文件中，javascript 代码必须添加到 script.js 文件中。在下面提到的例子中，我们创建了一个表，并使用 javascript 将数据放入其中，并使用分页来表示整个实现。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="myApp">
     <head>
@@ -68,7 +68,7 @@
 </html>
 ```
 
-```
+```ts
 // Write Javascript code here
 var app = angular.module('myApp', ['ui.bootstrap']);
 

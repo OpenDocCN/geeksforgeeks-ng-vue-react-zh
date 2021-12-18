@@ -11,7 +11,7 @@ div 的内容宽度可以根据用户需求，使用 clientWidth 和 scrollWidth
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ div 的内容宽度可以根据用户需求，使用 clientWidth 和 scrollWidth
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

@@ -7,14 +7,14 @@
 
 *   **语法:**
 
-    ```html
+    ```tshtml
     <input  (change)="function($e)">
     ```
 
 *   **示例:**
     HTML 文件:
 
-```html
+```tshtml
 <label>Choose your favorite cartoon:
   <select class="cartoon" name="cartoon">
     <option value="">Select One …</option>
@@ -29,7 +29,7 @@
 
 打字脚本文件:
 
-```html
+```tshtml
 const selectElement = document.querySelector('.cartoon');
 
 selectElement.addEventListener('change', (event) => {
@@ -46,7 +46,7 @@ selectElement.addEventListener('change', (event) => {
 
 *   **语法**
 
-```html
+```tshtml
 <input [(ngModel)]="value" (ngModelChange)="function($e)">
 
 ```
@@ -54,7 +54,7 @@ selectElement.addEventListener('change', (event) => {
 *   **示例**
     HTML 文件:
 
-```html
+```tshtml
 <div style="color: red" *ngIf="isInvalid">
           Please check your ranges
 </div>
@@ -78,7 +78,7 @@ selectElement.addEventListener('change', (event) => {
 
 *   打字脚本文件:
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({

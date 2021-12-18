@@ -8,7 +8,7 @@ getLocaleId 是 用来从当前区域获取区域标识。
 
 **语法:**
 
-```
+```ts
 getLocaleId(locale: string): string
 ```
 
@@ -21,7 +21,7 @@ getLocaleId(locale: string): string
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getLocaleId 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -42,7 +42,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -71,7 +71,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleId, 
         TranslationWidth} 
@@ -95,7 +95,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>

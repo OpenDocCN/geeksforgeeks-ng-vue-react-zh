@@ -10,7 +10,7 @@ $window 服务引用了浏览器窗口对象。它在 JavaScript 中是全局可
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -53,7 +53,7 @@ $window 服务引用了浏览器窗口对象。它在 JavaScript 中是全局可
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -99,7 +99,7 @@ $window 服务引用了浏览器窗口对象。它在 JavaScript 中是全局可
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

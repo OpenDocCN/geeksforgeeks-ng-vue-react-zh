@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
 import { Component } from '@angular/core';
@@ -38,7 +38,7 @@ title = 'MyAngularApp'
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
 @NgModule({
@@ -61,7 +61,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
 <!Doctype html>
@@ -97,7 +97,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
 placeholder and can be replaced.-->
 @Component({
@@ -118,7 +118,7 @@ placeholder and can be replaced.-->
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
 @Component({
@@ -139,7 +139,7 @@ placeholder and can be replaced.-->
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
 @Component({
@@ -169,7 +169,7 @@ placeholder and can be replaced.-->
 
 ## 超文本标记语言
 
-```
+```ts
 <!--The content below is only a
     placeholder and can be replaced.-->
     import { Component } from '@angular/core';

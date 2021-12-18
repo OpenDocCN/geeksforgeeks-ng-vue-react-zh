@@ -21,7 +21,7 @@
 
 **语法:**
 
-```
+```ts
 import { Injectable } from '@angular/core';  
 
 @Injectable()  
@@ -35,7 +35,7 @@ export class ServiceName {
 
 **步骤 1:** 创建一个类 CoursesService 并将文件保存为 *courses.service.ts.* 不要忘记导出该类，以便任何组件都可以使用该服务。让我们将 getdata 方法添加到这个类中。
 
-```
+```ts
 export class CoursesService {    // SERVICE CLASS
 
     constructor() { }
@@ -48,7 +48,7 @@ export class CoursesService {    // SERVICE CLASS
 
 **步骤 2:** 然后用装饰器装饰服务元数据。我们在创建服务时使用可注射装饰器。因为装饰器是一个函数，所以它应该被一个左括号和右括号包围。
 
-```
+```ts
 @Injectable()      // DECORATOR
 
 export class CoursesService {
@@ -65,7 +65,7 @@ export class CoursesService {
 
 ## 课程.服务. ts
 
-```
+```ts
 // IMPORT STATEMENT
 import { Injectable } from '@angular/core';
 
@@ -87,7 +87,7 @@ export class CoursesService {
 
     ## 
 
-    ```
+    ```ts
     import { BrowserModule } from "@angular/platform-browser";
     import { NgModule } from "@angular/core";
     import { AppComponent } from "./app.component";
@@ -106,7 +106,7 @@ export class CoursesService {
 
     ## 
 
-    ```
+    ```ts
     import { Component } from "@angular/core";
     import { CoursesService } from "src/services/courses.service";
 
@@ -123,7 +123,7 @@ export class CoursesService {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from "@angular/core";
 import { CoursesService } from "src/services/courses.service";
 
@@ -147,7 +147,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h2>Course List</h2>
 <p *ngFor="let c of courses">{{ c }}</p>
 ```
@@ -162,13 +162,13 @@ export class AppComponent {
 
 **语法:**
 
-```
+```ts
 ng g service courses
 ```
 
 它将生成如下服务代码框架:
 
-```
+```ts
 import { Injectable } from '@angular/core';  
 
 @Injectable()
@@ -180,7 +180,7 @@ export class ServiceName {
 
 **步骤 2:** 服务创建后，我们必须将其包含在 **app.module.ts** 的提供商中
 
-```
+```ts
 providers: [CoursesService],
 ```
 
@@ -188,7 +188,7 @@ providers: [CoursesService],
 
 ## app.module.ts
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
@@ -207,7 +207,7 @@ export class AppModule {}
 
 在其余必需的导入中导入服务。
 
-```
+```ts
 import { CoursesService } from './courses.service';
 ```
 
@@ -215,13 +215,13 @@ import { CoursesService } from './courses.service';
 
 在构造函数中，定义服务类型的属性
 
-```
+```ts
 constructor(private _coursesService: CoursesService) {}
 ```
 
 另外，创建一个 *ngOnInit* 方法:
 
-```
+```ts
 ngOnInit() {
    this.courses = this._coursesService.getdata();
  }
@@ -231,7 +231,7 @@ ngOnInit() {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 import { CoursesService } from './courses.service';
 
@@ -255,7 +255,7 @@ export class AppComponent {
 
 ## 课程.服务. ts
 
-```
+```ts
 import { Injectable } from '@angular/core';  
 
 @Injectable()  
@@ -274,7 +274,7 @@ export class CoursesService {  
 
 ## app.component.html
 
-```
+```ts
 <h2>Course List</h2>
 <p *ngFor="let c of courses">{{ c }}</p>
 ```

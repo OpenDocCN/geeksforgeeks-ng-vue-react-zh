@@ -11,7 +11,7 @@
     *   使用 [ng-repeat](https://docs.angularjs.org/api/ng/directive/ngRepeat) 指令和 [limitTo](https://docs.angularjs.org/api/ng/filter/limitTo) 过滤器。
     *   ng-repeat 能够迭代对象的属性，在我们的例子中，对象本身就是对象。使用以下语法:
 
-        ```
+        ```ts
         < div ng-repeat="(key, value) in myObj" > ... < /div >
         ```
 
@@ -19,7 +19,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     html binding:
     {{ limitTo_expression | limitTo : limit : begin}}
 
@@ -27,7 +27,7 @@
 
     **示例:**极限的值可以被改变以获得可迭代的元素(在这种情况下是对象)
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 
@@ -80,13 +80,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     {{name_of_the array[index]}}
     ```
 
     **示例:**数组第一个对象的索引值为 0。因为数组的元素是对象，所以我们可以使用(。)运算符。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 

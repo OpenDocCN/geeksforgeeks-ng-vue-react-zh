@@ -12,32 +12,32 @@
 
 *   安装角度命令行界面:
 
-```
+```ts
 npm install -g @angular/cli
 ```
 
 *   创建新的角度项目。这里我们的项目名称是“**电子样品**”:
 
-```
+```ts
 ng new electron-sample
 cd electron-sample
 ```
 
 *   现在运行项目，打开 *http://localhost:4200* 检查安装是否成功。
 
-```
+```ts
 ng serve -o
 ```
 
 *   安装电子 JS 作为开发依赖项:
 
-```
+```ts
 npm install electron --save-dev
 ```
 
 *   我们还需要一个名为**电子包装机**的包装。这个包将捆绑我们的应用程序，并产生桌面应用程序文件。全球安装:
 
-```
+```ts
 npm install -g electron-packager
 ```
 
@@ -45,7 +45,7 @@ npm install -g electron-packager
 
 ## java 描述语言
 
-```
+```ts
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 const url = require("url");
@@ -78,7 +78,7 @@ app.on("window-all-closed", () => {
 
 在上面的代码中，我们简单地打开了 Angular 应用程序的编译版本，该版本位于 **dist/** 目录中。请注意，我们直接提供了 dist 文件夹，因此这段代码可以在任何应用程序上运行。但是文件**index.html**位于子目录中。因此，在 **angular.json** 中，按如下方式更改**输出路径**键中的值。
 
-```
+```ts
 ...
 "architect": {
        "build": {
@@ -92,7 +92,7 @@ app.on("window-all-closed", () => {
 
 这将把编译后的文件保存到 dist 文件夹，而不是子目录。在 src/index.html 中，将行**<base href = "/>**更改为 **< base href= "。/>**如下。
 
-```
+```ts
 <head>
  <meta charset="utf-8">
  <title>ElectronSample</title>
@@ -104,7 +104,7 @@ app.on("window-all-closed", () => {
 
 现在在 **package.json** 中，我们除了要指向电子 app 的起点之外，还要为我们的 app 的开发和测试添加一些命令。在**包**中添加以下行
 
-```
+```ts
 {
  "name": "electron-sample",
  "version": "0.0.0",
@@ -129,7 +129,7 @@ app.on("window-all-closed", () => {
 
 现在我们可以通过运行该应用程序来测试它/
 
-```
+```ts
 npm run electron-build
 ```
 
@@ -141,19 +141,19 @@ npm run electron-build
 
 对于已编译的应用程序，我们可以使用直接运行该应用程序
 
-```
+```ts
 npm run electron
 ```
 
 当我们创建了最终的应用程序时，我们可以生成编译后的文件，这些文件可以直接在我们的系统上使用，而无需安装依赖项。电子打包模块帮助我们构建二进制文件。
 
-```
+```ts
 electron-packager . --platform=linux
 ```
 
 这里我们可以在*达尔文、Linux、Mac 和 win32* 中选择我们的平台。执行上述命令将创建一个带有应用程序和操作系统名称的新文件夹。在这个目录中打开终端:
 
-```
+```ts
 sudo chmod +x electron-sample
 ./electron-sample
 ```

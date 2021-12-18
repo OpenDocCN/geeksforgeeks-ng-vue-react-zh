@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-on:click.middle="function"
 ```
 
@@ -14,7 +14,7 @@ v-on:click.middle="function"
 
 **示例:**本示例使用 Vue.js 通过 v-on:click.middle 切换元素的可见性。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

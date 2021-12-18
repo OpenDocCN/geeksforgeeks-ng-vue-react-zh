@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-else
 
 ```
@@ -16,7 +16,7 @@ v-else
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ v-else
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

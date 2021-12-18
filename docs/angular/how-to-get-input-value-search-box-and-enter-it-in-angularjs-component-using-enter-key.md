@@ -12,7 +12,7 @@
 
 ## app.component.html
 
-```html
+```tshtml
 <div class="container">
   <div class="row">
     <div class="col-md-4"></div>
@@ -45,7 +45,7 @@
 
 ## app.component.css
 
-```html
+```tshtml
 .searchBox{
    margin: 20px 0;
 }
@@ -59,7 +59,7 @@ input{
 
 ## app.component.ts
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 import { AbstractControl, FormBuilder, 
     FormGroup } from '@angular/forms';

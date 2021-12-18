@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-repeat="(key, value) in JSObject"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@
 
 *   **程序:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html ng-app="myApp">
 
@@ -57,7 +57,7 @@
 
 *   **程序:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html ng-app="myApp">
 

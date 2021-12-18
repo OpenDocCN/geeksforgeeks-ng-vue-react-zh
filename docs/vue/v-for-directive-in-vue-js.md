@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-for="data in datas"
 ```
 
@@ -14,7 +14,7 @@ v-for="data in datas"
 
 **示例:**本示例使用 Vue.js 循环遍历带有 v-for 的数组。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

@@ -6,7 +6,7 @@ AngularJS 中的 **ng-switch 指令**用于指定在 HTML DOM 中显示/隐藏�
 
 **语法:**
 
-```
+```ts
 <element ng-switch="expression">
   <element ng-switch-when="value"> Contents... </element>
   <element ng-switch-when="value"> Contents... </element>
@@ -17,7 +17,7 @@ AngularJS 中的 **ng-switch 指令**用于指定在 HTML DOM 中显示/隐藏�
 
 **示例 1:** 本示例使用 ng-switch 指令切换元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@ AngularJS 中的 **ng-switch 指令**用于指定在 HTML DOM 中显示/隐藏�
 
 **示例 2:** 本示例使用 ng-switch 指令显示输入的号码。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

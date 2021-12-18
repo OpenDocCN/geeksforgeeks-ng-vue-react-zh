@@ -14,13 +14,13 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
 *   **Step 1:** Navigate to an Empty Directory to set up the project, and run the following command,
 
-    ```
+    ```ts
     npm install -g @angular/cli
     ```
 
     在全球范围内安装 **[Angular CLI](https://www.geeksforgeeks.org/angular-cli-angular-project-setup/)** 。Angular CLI 工具用于创建项目、执行测试和部署等任务，以及生成代码的各种组件。通过运行以下命令创建一个新的 Angular 项目，并提供您选择的项目名称，
 
-    ```
+    ```ts
     ng new ang-electron
     ```
 
@@ -29,13 +29,13 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
     这也将把所需的角度依赖项和包安装到**节点模块**中。完成后，使用 npm 安装**电子**，并将其保存为开发依赖项。
 
-    ```
+    ```ts
     npm install electron --save-dev
     ```
 
     此时，Angular 应用程序已经就绪，可以在本地提供服务。要在本地主机上运行应用程序，请运行以下命令，
 
-    ```
+    ```ts
     cd ang-electron
     ng serve
     ```
@@ -46,7 +46,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
     **main.js:**
 
-    ```
+    ```ts
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -102,13 +102,13 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
 *   **Step 3:** A small change is required in the **index.html** file located in the **src** folder. Replace the following code.
 
-    ```
+    ```ts
     <base href="/">
     ```
 
     随着
 
-    ```
+    ```ts
     <'base href="./">
     ```
 
@@ -116,7 +116,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
     **package.json:**
 
-    ```
+    ```ts
     {
       "name": "ang-electron",
       "version": "0.0.0",
@@ -138,7 +138,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
     **输出:**一旦完成相应的更改，我们就可以启动电子应用程序了。要启动应用程序，请运行命令，
 
-    ```
+    ```ts
     npm run electron
     ```
 
@@ -147,7 +147,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 *   **第四步:**至此，我们已经成功地将 Angular 与 Electron 进行了整合。要在 Angular 中使用电子 API，我们可以遵循以下两种方法中的任何一种:
     *   **Approach 1:** Using an external package to access the Electron APIs. We will use the **ngx-electron** npm package for this purpose. We can use this package as a simple Angular Service to access Electron APIs. For more detailed Information, Refer this [link](https://www.npmjs.com/package/ngx-electron). To install this package, run the following command:
 
-        ```
+        ```ts
         npm install ngx-electron --save
         ```
 
@@ -155,7 +155,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **app.module.ts:**
 
-        ```
+        ```ts
         import { BrowserModule } from '@angular/platform-browser';
         import { NgModule } from '@angular/core';
         import { AppRoutingModule } from './app-routing.module';
@@ -181,7 +181,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **app.component.html:**
 
-        ```
+        ```ts
         <div style="text-align:center">
           <h1>
             Welcome to {{ title }}!
@@ -199,7 +199,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **app.component.ts:**
 
-        ```
+        ```ts
         import { Component } from '@angular/core';
         import { ElectronService } from 'ngx-electron';
 
@@ -227,7 +227,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
     *   **Approach 2:** By creating an Electron [Service](https://angular.io/cli/generate#service-command) component and sharing it across the application for using the Electron APIs. We will generate the Electron Service by running the following CLI command:
 
-        ```
+        ```ts
         ng generate service elec --skipTests=true
         ```
 
@@ -235,7 +235,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **电.服务. ts:**
 
-        ```
+        ```ts
         import { Injectable } from '@angular/core';
         import { shell } from 'electron';
 
@@ -253,7 +253,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **任意**关键字用于**窗口**对象上的**类型断言**。使用`any`转换此对象表示编译器不再将您绑定到**窗口**对象的默认属性。这用于防止在使用电子模块时出现编译时类型错误。如果在**窗口**对象上忽略类型转换，我们将收到以下错误:
 
-        ```
+        ```ts
         ERROR in ./node_modules/electron/index.js
         Module not found: Error: Can't resolve 'fs'
         ```
@@ -262,7 +262,7 @@ Electron 可以与 **Angular 4+** 、 **AngularJS 1.x** 、 **React** 等几个�
 
         **app.component.ts:**
 
-        ```
+        ```ts
         import { Component } from '@angular/core';
         import { ElectronService } from 'ngx-electron';
         import { ElecService } from '../app/elec.service';

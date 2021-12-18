@@ -9,14 +9,14 @@ AngularJS 工厂方法使 AngularJS 应用程序的开发过程更加健壮。�
 
 **语法:**
 
-```
+```ts
 module.factory( 'factoryName', function(){ Custom code....});
 ```
 
 **示例:**
 以下示例说明了在控制器内部实例化工厂代码来生成随机数的用法
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@ module.factory( 'factoryName', function(){ Custom code....});
 
 **示例:**本示例利用工厂创建一个函数来查找两个数字的加减。然后，这个函数被加载到 controller $scope 变量中，该变量将它们传递给 html 代码以显示结果。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

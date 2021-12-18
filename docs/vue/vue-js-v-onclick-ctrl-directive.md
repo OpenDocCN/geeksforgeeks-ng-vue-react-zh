@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-on:click.ctrl="function"
 ```
 
@@ -16,7 +16,7 @@ v-on:click.ctrl="function"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

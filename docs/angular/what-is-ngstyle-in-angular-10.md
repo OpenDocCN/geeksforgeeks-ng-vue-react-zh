@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <element [ngStyle] = "typescript_property">
 ```
 
@@ -22,7 +22,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -36,7 +36,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <div [ngStyle] ="{'background-color':'green'}">
   GeeksforGeeks
 </div>

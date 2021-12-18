@@ -21,19 +21,19 @@ Angular PrimeNG 是一个与 Angular 一起使用的框架，用来创建具有�
 
 *   **步骤 1:** 使用以下命令创建角度应用程序。
 
-```
+```ts
 ng new appname
 ```
 
 *   **步骤 2:** 创建项目文件夹即 appname 后，使用以下命令移动到该文件夹。
 
-```
+```ts
 cd appname
 ```
 
 *   **步骤 3:** 在给定的目录中安装 PrimeNG。
 
-```
+```ts
 npm install primeng --save
 npm install primeicons --save
 ```
@@ -46,7 +46,7 @@ npm install primeicons --save
 
 ## app.component.html
 
-```
+```ts
 <p-toolbar>
     <div class="p-toolbar-group-left">
         <p-button label="GeeksforGeeks" 
@@ -66,7 +66,7 @@ npm install primeicons --save
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } 

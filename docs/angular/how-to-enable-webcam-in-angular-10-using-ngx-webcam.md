@@ -10,7 +10,7 @@ ngx-网络摄像头组件通过 Angular 10 中的动作和事件绑定，提供�
 *   创建角度命令行界面项目
 *   Install the package by standard npm command :
 
-    ```
+    ```ts
     npm i ngx-webcam
     ```
 
@@ -20,7 +20,7 @@ ngx-网络摄像头组件通过 Angular 10 中的动作和事件绑定，提供�
 
 *   现在从 app.component.ts 文件中的 ngx-网络摄像头包库中添加 WebcamImage 组件，并在 AppComponent 类中使用它来处理网络摄像头的功能。
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
     import {WebcamImage} from 'ngx-webcam';
     import {Subject, Observable} from 'rxjs';
@@ -51,7 +51,7 @@ ngx-网络摄像头组件通过 Angular 10 中的动作和事件绑定，提供�
 
 *   下面是 app.component.html 代码:
 
-    ```
+    ```ts
     <div>
     <webcam [height]="400" 
             [width]="1000" 
@@ -70,7 +70,7 @@ ngx-网络摄像头组件通过 Angular 10 中的动作和事件绑定，提供�
 
 *   要运行该应用程序，请在终端运行以下命令:
 
-    ```
+    ```ts
     ng serve --open
     ```
 

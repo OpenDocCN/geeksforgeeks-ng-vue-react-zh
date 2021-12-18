@@ -6,7 +6,7 @@ ng-if 是 AngularJS 中的一个指令，用于在表达式或变量的值为 fa
 
 **语法:**
 
-```
+```ts
 <element angular_directive=expression> Contents... </element>
 ```
 
@@ -23,7 +23,7 @@ ng-if 是 AngularJS 中的一个指令，用于在表达式或变量的值为 fa
 
 **例 1:** 本例使用**“data-ng-if”**指令。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@ ng-if 是 AngularJS 中的一个指令，用于在表达式或变量的值为 fa
 
 **例 2:** 本例使用**“ng-if”**指令。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

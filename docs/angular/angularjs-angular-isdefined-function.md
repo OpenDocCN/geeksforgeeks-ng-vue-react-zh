@@ -6,7 +6,7 @@ AngularJS 中的 **angular.isDefined()函数**用于确定 isDefined 函数内�
 
 **语法:**
 
-```
+```ts
 angular.isDefined( value )
 ```
 
@@ -14,7 +14,7 @@ angular.isDefined( value )
 
 **示例:**本示例使用 angular.isDefined()函数来确定是否定义了 isDefined 函数内部的值。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

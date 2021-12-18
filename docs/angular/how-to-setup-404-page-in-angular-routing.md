@@ -6,7 +6,7 @@
 
 **创建组件:**运行以下命令创建*页面未找到的*组件。
 
-```
+```ts
 ng generate component pagenotfound
 ```
 
@@ -18,7 +18,7 @@ ng generate component pagenotfound
 
 ## pagenotfound.component.html
 
-```
+```ts
 <div>
     <h1>404 Error</h1>
     <h1>Page Not Found</h1>
@@ -29,7 +29,7 @@ ng generate component pagenotfound
 
 ## app-routing.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PagenotfoundComponent } from 
@@ -62,7 +62,7 @@ export class AppRoutingModule { }
 
 **运行应用程序的步骤:**运行以下命令启动应用程序:
 
-```
+```ts
 ng serve
 ```
 

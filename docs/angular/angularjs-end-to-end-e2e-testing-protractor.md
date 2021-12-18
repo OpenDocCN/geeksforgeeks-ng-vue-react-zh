@@ -16,7 +16,7 @@ conf . js:t1]
 
 ## java 描述语言
 
-```
+```ts
 exports.config = {
 
     // Capabilities to be passed to the 
@@ -51,7 +51,7 @@ exports.config = {
 
 ## java 描述语言
 
-```
+```ts
 describe('Protractor Demo App', function () {
     it('should have a title', function () {
 
@@ -69,7 +69,7 @@ describe('Protractor Demo App', function () {
 
 *   最后，我们准备使用下面给出的命令运行我们的文件:
 
-    ```
+    ```ts
     protractor conf.js
     ```
 

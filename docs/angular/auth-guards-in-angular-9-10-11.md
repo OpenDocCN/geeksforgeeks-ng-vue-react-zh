@@ -20,7 +20,7 @@ Auth guard 提供名为 canActivate 生命周期事件。canActivate 就像一�
 
 ## auth.guards.ts
 
-```
+```ts
 import { Injectable } from "@angular/core";
 import {
     ActivatedRouteSnapshot,
@@ -54,7 +54,7 @@ export class AuthGuard implements CanActivate {
 
 ## app-routing.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } 
 from '@angular/router';

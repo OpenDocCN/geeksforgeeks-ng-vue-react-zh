@@ -16,7 +16,7 @@
 以下是以上步骤的实现:
 **app.module.ts**
 
-```
+```ts
 // Necessary imports of component is done
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -42,7 +42,7 @@ export class AppModule { }
 
 **add-input.component.html**
 
-```
+```ts
 <!-- Main div and ADD button is created -->
 <center>
   CLICK ON BUTTON TO ADD NEW FIELD
@@ -55,7 +55,7 @@ export class AppModule { }
 
 **add-input.component.ts**
 
-```
+```ts
 // The class function add() is made that contains
 // the necessary code for the action
 import { Component, OnInit } from '@angular/core';

@@ -14,7 +14,7 @@
 
 **1。**量角器可以使用下面给出的命令在节点上全局安装:
 
-```
+```ts
 // For Windows
 npm install -g protractor
 
@@ -27,7 +27,7 @@ sudo npm install -g protractor
 ![](img/995e034b4ec4e46c87d18ea94e452988.png)
 **2。**现在检查安装是否成功，让我们使用下面给出的命令检查量角器的版本:
 
-```
+```ts
 protractor --version
 ```
 
@@ -38,7 +38,7 @@ protractor --version
 
 ****4。更新二进制文件:**我们可以使用下面的命令更新必要的二进制文件。**
 
-```
+```ts
 // For Windows
 webdriver-manager update
 
@@ -49,7 +49,7 @@ sudo webdriver-manager update
 **![](img/54a70592ecf8ffec2158449752d4d922.png)
 **5。启动服务器:**之后，我们可以使用下面的命令运行 Selenium Server。**
 
-```
+```ts
 // For Windows
 webdriver-manager start
 

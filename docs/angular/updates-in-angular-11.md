@@ -16,7 +16,7 @@ Angular 11 发布了，它有一些很棒的功能，让我们来看看:
 
 **更新热模块更换(HMR)支持:**在版本 11 中，angular 开发人员审查了 CLI，以允许 HMR 在启动带有 ng serve like 的应用程序时。
 
-```
+```ts
 ng serve --hmr
 ```
 
@@ -28,7 +28,7 @@ ng serve --hmr
 
 **如何升级到 Angular 版本 11:**
 
-```
+```ts
 ng update @ angular /cli @ angular/core
 ```
 

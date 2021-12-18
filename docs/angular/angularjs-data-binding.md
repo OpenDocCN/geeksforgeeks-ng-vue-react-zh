@@ -11,7 +11,7 @@ Angular 提供了一个功能[数据绑定](https://docs.angularjs.org/guide/dat
 **[插值](https://docs.angularjs.org/guide/interpolation) :**
 角度插值用于使用双花括号语法在相应的视图模板中显示组件属性。插值用于传递组件类中提到的属性，以反映在其模板中。
 
-```
+```ts
 Syntax-: class="{{variable_name}}"
 
 ```
@@ -19,7 +19,7 @@ Syntax-: class="{{variable_name}}"
 例如:
 **app.component.html**
 
-```
+```ts
 <h3>Binding Types</h3>
 <P>Interpolation</P>
 <br>
@@ -30,7 +30,7 @@ Syntax-: class="{{variable_name}}"
 
 **app.component.ts**
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -46,14 +46,14 @@ export class AppComponent {
 
  **属性绑定:**类似于 Java，父类中定义的变量可以被子类继承，在这种情况下，子类就是模板。插值和属性绑定的唯一区别是，我们不应该在使用插值时将非字符串值存储在变量中。因此，如果我们必须存储布尔或其他数据类型，而不是使用属性绑定。
 
-```
+```ts
 Syntax-: [class]="variable_name"
 
 ```
 
 **app.component.html**
 
-```
+```ts
 <h3>Binding Types</h3>
 <p>Property Binding</p>
 <input type="text" ng-bind="{{ Geeks }}"><br>
@@ -63,7 +63,7 @@ Syntax-: [class]="variable_name"
 
 **app.component.ts**
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -86,7 +86,7 @@ export class AppComponent {
 
 语法:
 
-```
+```ts
   <button class="btn btn-block" (click)=showevent($event)>Event</button> 
 showevent(event)
 { 
@@ -96,7 +96,7 @@ showevent(event)
 
 **app.component.html**
 
-```
+```ts
 <h3>Binding Types</h3>
 <P>Event Binding</P>
 <button class="btn btn-block" (click)="Clickme($event)">
@@ -106,7 +106,7 @@ showevent(event)
 
 **app.component.ts**
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -127,7 +127,7 @@ export class AppComponent {
 **双向绑定:**
 在 app.module.ts 中，我们必须在导入中包含 FormsModule，就像给定的方式一样，我们也必须导入 FormsModule。我们必须包含 FormsModule，因为 ngModel 不是包含在我们使用新项目名称开发的项目中的属性，所以我们必须通过导入这个 Module 来包含它。
 
-```
+```ts
 import { FormsModule } from '@angular/forms';
 
   imports: [
@@ -140,7 +140,7 @@ import { FormsModule } from '@angular/forms';
 
 **app.component.html**
 
-```
+```ts
 <h3>Binding Types</h3>
 <P>Two Way Binding</P>
 <input type="text" placeholder="Enter text" [(ngModel)]="val">
@@ -150,7 +150,7 @@ import { FormsModule } from '@angular/forms';
 
 **app.component.ts**
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',

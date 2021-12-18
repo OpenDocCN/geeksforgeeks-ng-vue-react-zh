@@ -11,7 +11,7 @@ div 的内容高度可以根据用户需求，使用 clientHeight 和 scrollHeig
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE html>
 <html>
 
@@ -86,7 +86,7 @@ div 的内容高度可以根据用户需求，使用 clientHeight 和 scrollHeig
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE html>
 <html>
 

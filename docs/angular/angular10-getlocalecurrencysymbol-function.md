@@ -8,7 +8,7 @@ getLocaleCurrencySymbol 是 用来获取给定地区的货币符号。
 
 **语法:**
 
-```
+```ts
 getLocaleCurrencySymbol(locale: string): string | null
 ```
 
@@ -21,7 +21,7 @@ getLocaleCurrencySymbol(locale: string): string | null
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getLocaleCurrencySymbol 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -42,7 +42,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -71,7 +71,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleCurrencySymbol, 
         TranslationWidth } 
@@ -96,7 +96,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>
@@ -112,7 +112,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
        from '@angular/core';
 import { BrowserModule } 
@@ -141,7 +141,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
   getLocaleCurrencySymbol, 
   TranslationWidth } 
@@ -166,7 +166,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>

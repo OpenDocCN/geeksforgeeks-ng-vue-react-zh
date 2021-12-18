@@ -8,38 +8,38 @@
 
 1.  使用以下命令创建一个新的角度应用程序-
 
-    ```html
+    ```tshtml
     ng new angular-file-upload 
     ```
 
 2.  使用 cd 命令在应用内移动-
 
-    ```html
+    ```tshtml
     cd src/app/
     ```
 
 3.  生成新组件文件-上传-
 
-    ```html
+    ```tshtml
     ng g c file-upload/ 
     ```
 
 4.  打开 src/app 文件夹，开始编辑**app.component.html**文件。
 
-    ```html
+    ```tshtml
     <app-file-upload></app-file-upload>
     ```
 
 5.  通过命令-
 
-    ```html
+    ```tshtml
     ng g s file-upload/
     ```
 
     为文件上传组件创建服务
 6.  打开 src/app/file-upload 文件夹，开始编辑**文件-upload.component.ts** 文件。
 
-    ```html
+    ```tshtml
     import { Component, OnInit } from '@angular/core';
     import { FileUploadService } from './file-upload.service';
 
@@ -87,7 +87,7 @@
 
 7.  打开 src/app/file-upload/并开始编辑**文件-upload.service.ts** 文件。
 
-    ```html
+    ```tshtml
     import { Injectable } from '@angular/core';
     import {HttpClient} from '@angular/common/http';
     import {Observable} from 'rxjs';
@@ -119,7 +119,7 @@
 
 8.  打开 src/app/file-上传并开始编辑**file-upload.component.html**文件。
 
-    ```html
+    ```tshtml
     <div class="text-center">
         <input class="form-control" type="file" 
                 (change)="onChange($event)">
@@ -145,7 +145,7 @@
 
 9.  打开 src/app/并开始编辑 **app.module.ts** 文件。
 
-    ```html
+    ```tshtml
     import { BrowserModule } from 
         '@angular/platform-browser';
     import { NgModule } from '@angular/core';
@@ -173,7 +173,7 @@
 
 10.  Now run this command to serve on localhost
 
-    ```html
+    ```tshtml
     ng serve
     ```
 

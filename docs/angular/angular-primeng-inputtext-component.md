@@ -14,26 +14,26 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 *   **p-inputtext:** 是应用于文本输入字段的指令&。
 
-```
+```ts
 <input type="text" pInputText />
 ```
 
 **模型绑定:**n Model 指令用于绑定模型。
 
-```
+```ts
 <input type="text" pInputText [(ngModel)]="property"/>
 ```
 
 **尺寸:**除常规尺寸外，还有 2 种以上尺寸可选，小文本输入添加*p-input text-sm*&大文本输入添加 *p-inputtext-lg* 。这些类必须用于更改特定输入字段的大小。
 **为较小的输入文本**
 
-```
+```ts
 <input type="text" pInputText class="p-inputtext-sm">
 ```
 
 **对于较大的输入文本**
 
-```
+```ts
 <input type="text" pInputText class="p-inputtext-lg"> 
 ```
 
@@ -41,19 +41,19 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 *   **步骤 1:** 使用以下命令创建角度应用程序。
 
-    ```
+    ```ts
     ng new appname
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 appname)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```ts
     cd appname
     ```
 
 *   **步骤 3:** 在给定的目录中安装 PrimeNG。
 
-    ```
+    ```ts
     npm install primeng --save
     npm install primeicons --save
     ```
@@ -66,7 +66,7 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 ## app.component.html
 
-```
+```ts
 <h2>GeeksforGeeks</h2>
 <h5>PrimeNG InputText component</h5>
 <div class="sizes">
@@ -80,7 +80,7 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
@@ -105,7 +105,7 @@ export class AppModule {}
 
 ## app.component.html
 
-```
+```ts
 <h2>GeeksforGeeks</h2>
 <h5>PrimeNG InputText component</h5>
 <div class="sizes">
@@ -125,7 +125,7 @@ export class AppModule {}
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } 

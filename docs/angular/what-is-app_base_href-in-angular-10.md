@@ -8,7 +8,7 @@ APP_BASE_HREF 为当前页面的基本 HREF 返回一个预定义的 DI 令牌�
 
 **语法:**
 
-```
+```ts
  provide: APP_BASE_HREF, useValue: '/gfgapp'
 ```
 
@@ -23,7 +23,7 @@ APP_BASE_HREF 为当前页面的基本 HREF 返回一个预定义的 DI 令牌�
 
 ## java 描述语言
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -49,7 +49,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import {APP_BASE_HREF} from '@angular/common';
 

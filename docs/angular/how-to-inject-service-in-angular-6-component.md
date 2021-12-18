@@ -6,7 +6,7 @@
 
 服务和其他依赖项被直接注入到组件的构造函数中，如下所示:
 
-```
+```ts
 constructor(private _myService: MyService) {
 }
 ```
@@ -15,7 +15,7 @@ constructor(private _myService: MyService) {
 
 要创建新服务，我们可以使用代码支架工具:
 
-```
+```ts
 // Generate service
 ng g s my-custom-service
 ```
@@ -24,7 +24,7 @@ ng g s my-custom-service
 
 ## MyCustomComponent.ts
 
-```
+```ts
 import {...} from "@angular/core";
 import { MyCustomService } from "../...PATH";
 
@@ -51,7 +51,7 @@ export class MyCustomComponent {
 
 ## interaction.service.ts
 
-```
+```ts
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
@@ -73,7 +73,7 @@ export class InteractionService {
 
 ## gentlemen.component.html
 
-```
+```ts
 <!DOCTYPE html>
 <html>
   <head>
@@ -88,14 +88,14 @@ export class InteractionService {
 
 我们现在将使用以下命令创建第一个组件:
 
-```
+```ts
 // Generate component
 ng g c gentlemen
 ```
 
 ## 先生们。组件。ts
 
-```
+```ts
 import {...} from "@angular/core";
 ...
 import { InteractionService } from "../services/interaction.service";
@@ -118,14 +118,14 @@ export class GentlemenComponent {
 
 快速创建我们的最后一个组件:
 
-```
+```ts
 // Generate component
 ng g c ladies
 ```
 
 ## 女士。组件。ts
 
-```
+```ts
 import {...} from "@angular/core";
 ...
 import { InteractionService } from "../services/interaction.service";

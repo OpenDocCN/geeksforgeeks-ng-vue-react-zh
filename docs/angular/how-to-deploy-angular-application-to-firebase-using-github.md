@@ -29,7 +29,7 @@
 
 *   在项目文件夹的终端中运行以下命令。
 
-```
+```ts
 ng build --prod
 ```
 
@@ -43,13 +43,13 @@ Firebase 命令行界面(CLI)工具可用于从命令行测试、管理和部署
 
 *   要下载并安装 Firebase 命令行界面，请以管理员权限运行以下命令:
 
-```
+```ts
 npm install -g firebase-tools
 ```
 
 *   现在，您应该使用 google 帐户登录 firebase，在项目终端中使用以下命令:
 
-```
+```ts
 firebase login
 ```
 
@@ -61,7 +61,7 @@ firebase login
 *   登录后，点击**添加项目**按钮，然后输入您的项目名称，点击**创建项目**按钮，创建您的 Firebase 项目。
 *   现在是时候在您的项目终端中使用下面的命令初始化 firebase 了。
 
-```
+```ts
 firebase init
 ```
 
@@ -86,7 +86,7 @@ firebase init
 
 *   一旦 Firebase 初始化完成，只需在终端中输入以下命令来部署您的项目。
 
-```
+```ts
 firebase deploy
 ```
 

@@ -9,7 +9,7 @@ Angular 提供 **HttpClient** 在 API 上工作，轻松处理数据。在这种
 *   **步骤 1:** 创建必要的组件和应用程序。
 *   **步骤 2:** 为**模块中的 **HttpClient** 进行必要的导入。** 
 
-```
+```ts
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -25,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 *   **步骤 3:** 在 **component.ts** 文件中为 **HttpClient** 做必要的导入。
 
-```
+```ts
 import {HttpClient} from '@angular/common/http';
 
 export class ShowApiComponent implements OnInit {
@@ -37,7 +37,7 @@ export class ShowApiComponent implements OnInit {
 
 *   **第四步:**我们通过在 **get()方法**中传递 API url，然后订阅该 url，从 API 获取**响应**。
 
-```
+```ts
 this.http.get('API url').subscribe(parameter)
 ```
 
@@ -55,7 +55,7 @@ this.http.get('API url').subscribe(parameter)
 
 ## java 描述语言
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -86,7 +86,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 @Component({
@@ -128,7 +128,7 @@ export class ShowApiComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```ts
 <h1>Registered Employees</h1>
 <div class="d-flex justify-content-center">
 <div class="spinner-border" role="status" >

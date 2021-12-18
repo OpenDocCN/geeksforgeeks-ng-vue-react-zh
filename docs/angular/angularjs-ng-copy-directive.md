@@ -6,7 +6,7 @@ AngularJS 中的 **ng-copy 指令**用于指定在输入文本字段中复制文
 
 **语法:**
 
-```
+```ts
 <element ng-copy="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-copy 指令**用于指定在输入文本字段中复制文
 
 **示例:**本示例使用 ng-copy 指令在元素将复制时显示一条消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

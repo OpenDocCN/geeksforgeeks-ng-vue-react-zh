@@ -6,13 +6,13 @@ AngularJS 中的 ng-mouseenter 指令用于在特定的 HTML 元素上发生鼠�
 
 **语法:**
 
-```
+```ts
  <element ng-mouseenter="expression"> content ... </element> 
 ```
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/
@@ -52,7 +52,7 @@ AngularJS 中的 ng-mouseenter 指令用于在特定的 HTML 元素上发生鼠�
 
 **例 2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/

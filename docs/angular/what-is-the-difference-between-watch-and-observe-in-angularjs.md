@@ -10,7 +10,7 @@ AngularJS 提供了不同的方法来观察/观察其元素和变量的变化。
 
 ## HTML
 
-```html
+```tshtml
 <!-- Interpolation Element -->
 attr1 = "Name: {{name}}"
 

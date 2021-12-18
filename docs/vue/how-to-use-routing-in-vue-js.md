@@ -10,26 +10,26 @@
 
 *   **步骤 1:** Vue Router 可以通过 Npm 安装，使用下面的命令安装名为 vue-router 的包。
 
-    ```
+    ```js
     npm install vue-router // OR 
     vue add router 
     ```
 
     它可以通过如下所示的脚本标签来使用。
 
-    ```
+    ```js
     <script src="https://unpkg.com/vue-router"></script>
     ```
 
 *   **步骤 2:** 使用以下命令创建我们的 Vue 项目。
 
-    ```
+    ```js
     vue create router-page 
     ```
 
 *   **步骤 3:** 在创建我们的项目之后，我们将使用以下命令添加我们的 Vue 路由器。
 
-    ```
+    ```js
     vue add router
     ```
 
@@ -41,7 +41,7 @@
 
 ## main.js
 
-```
+```js
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'

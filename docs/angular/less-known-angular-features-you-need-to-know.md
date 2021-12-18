@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```ts
 import { Title } from "@angular/platform-browser"
 @Component({
   //..
@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```ts
 import { Meta, Title } from '@angular/platform-browser';
 
 constructor(meta: Meta) {
@@ -52,7 +52,7 @@ constructor(meta: Meta) {
 
 **输出:**这将呈现如下:
 
-```
+```ts
 <meta name="twitter:title" content="Your Website Title" />
 ```
 
@@ -64,7 +64,7 @@ constructor(meta: Meta) {
 
 ## java 描述语言
 
-```
+```ts
 @Component({
   interpolation: ["((", "))"]
 })
@@ -77,7 +77,7 @@ export class AppComponent { }
 
 **输出:**这将呈现如下:
 
-```
+```ts
 <hello name="(( name ))"></hello>
 ```
 
@@ -87,7 +87,7 @@ export class AppComponent { }
 
 ## java 描述语言
 
-```
+```ts
 import { Location } from "@angular/common"
 
 @Component({
@@ -115,7 +115,7 @@ export class AppComponent {
 
 ## java 描述语言
 
-```
+```ts
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject, VERSION } from '@angular/core';
 
@@ -134,7 +134,7 @@ renderCanvasElement() {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, Attribute, Input } from '@angular/core';
 @Component({
   selector: 'my-app',
@@ -162,7 +162,7 @@ export class HelloComponent {
 
 ## java 描述语言
 
-```
+```ts
 import { APP_INITIALIZER } from '@angular/core';
 
 function runSettingsOnInit() {
@@ -180,7 +180,7 @@ function runSettingsOnInit() {
 
 **示例:**
 
-```
+```ts
 import { APP_BOOTSTRAP_LISTENER } from '@angular/core';
 @NgModule({
  {

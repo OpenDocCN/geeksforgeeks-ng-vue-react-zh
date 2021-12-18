@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-bind-html="expression"></element>
 ```
 
@@ -17,14 +17,14 @@
 
 *   包括
 
-    ```
+    ```ts
     <script src="lib/angular/angular-sanitize.min.js"></script>
     ```
 
     资源
 *   在一个 js 文件(控制器或者通常是 app.js)中，我们必须包含 ngSanitize，
 
-    ```
+    ```ts
     angular.module('myApp', ['myApp.filters', 'myApp.services', 
     'myApp.directives', 'ngSanitize'])
     ```
@@ -35,7 +35,7 @@
 
 **例 1:**
 
-```
+```ts
 <html>
 <script src=
 "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -75,7 +75,7 @@
 
 **例 2:**
 
-```
+```ts
 <!DOCTYPE html> 
 <html ng-app="myApp"> 
 

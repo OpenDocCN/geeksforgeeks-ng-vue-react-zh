@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 {{ inputValue | *pipename : parameter* }}
 ```
 
@@ -21,13 +21,13 @@
 
 **步骤 1:** 构造一个实现 PipeTransform 接口的类。确保导出该类，以便其他组件可以使用它来导入管道。使用大写字母书写管道类的名称。在本例中，我们将该类命名为*仲裁管道*。
 
-```
+```ts
 export class ArbitraryPipe implements PipeTransform {}
 ```
 
 **第二步:**pipe Transform 界面有一个 transform 方法。在 transform 方法中，我们编写代码来转换和返回值。在这种情况下，我们希望传入要用空格替换的字符。方法返回类型也被定义为字符串，因为我们返回的是转换后的字符串。
 
-```
+```ts
 export class ArbitraryPipe implements PipeTransform {
   transform(value: string, character: string): string {
     return value.replace(character, ' ');
@@ -37,7 +37,7 @@ export class ArbitraryPipe implements PipeTransform {
 
 **步骤 3:** 要使类成为管道，请向其添加管道装饰器。这是一个函数，所以我们像其他装饰者一样添加括号。管道的名称在传递给函数的对象中指定。模板中将使用管道的名称。
 
-```
+```ts
 @Pipe({
   name: 'arbitrary'
 })
@@ -52,7 +52,7 @@ export class ArbitraryPipe implements PipeTransform {
 
 ## 任意. pipe.ts
 
-```
+```ts
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -69,7 +69,7 @@ export class ArbitraryPipe implements PipeTransform {
 
 ## app.component.html
 
-```
+```ts
 <h2>Product code without using custom pipe is {{productCode}} </h2>
 
 <h2>Product code using custom pipe is {{productCode | arbitrary:'-'}} </h2>
@@ -79,7 +79,7 @@ export class ArbitraryPipe implements PipeTransform {
 
 ## app.module.ts
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -99,7 +99,7 @@ export class AppModule {}
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -116,7 +116,7 @@ export class AppComponent {
 
 **方法 2:** 在这种情况下，我们将使用 Angular CLI 生成管道& Angular CLI 将处理我们在第一种方法即中执行的所有配置设置。，它会自动导入随机管道&将其包含在申报数组中，还会配置 *random.pipe.ts 文件*。要生成管道，我们遵循以下命令:
 
-```
+```ts
 ng generate pipe random
 ```
 
@@ -124,7 +124,7 @@ ng generate pipe random
 
 ## random.pipe.ts
 
-```
+```ts
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -141,7 +141,7 @@ export class RandomPipe implements PipeTransform {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -158,7 +158,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h4>Without using custom pipe: </h4>
 <h2>{{name}}</h2>
 <h4>With using custom pipe:</h4>
@@ -167,7 +167,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';

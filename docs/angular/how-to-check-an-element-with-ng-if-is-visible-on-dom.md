@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-if="expression"> Contents... </element>
 ```
 
@@ -27,7 +27,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,7 +79,7 @@
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 

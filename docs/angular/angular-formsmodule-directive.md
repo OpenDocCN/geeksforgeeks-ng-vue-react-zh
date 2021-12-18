@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 import { FormsModule } from '@angular/forms';
 ```
 
@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms';
 
 ## app.component.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -52,7 +52,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <form #gfgform = "ngForm">
   {{ gfgform.value | json }}
   <br>

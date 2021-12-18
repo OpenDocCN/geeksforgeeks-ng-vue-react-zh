@@ -5,7 +5,7 @@
 AngluarJS 中的 **ng-hide 指令**用于显示或隐藏指定的 HTML 元素。如果在 ng-hide 属性中给出的表达式为真，则 HTML 元素隐藏。在 AngularJS 中，有一个名为 ng-hide 的预定义类，用于将显示设置为无。
 **语法:**
 
-```
+```ts
  <element ng-hide="expression"> Contents... </element> 
 ```
 
@@ -13,7 +13,7 @@ AngluarJS 中的 **ng-hide 指令**用于显示或隐藏指定的 HTML 元素。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ AngluarJS 中的 **ng-hide 指令**用于显示或隐藏指定的 HTML 元素。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/

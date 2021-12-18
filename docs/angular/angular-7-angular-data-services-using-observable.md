@@ -14,7 +14,7 @@
 
 要添加服务，请在控制台中编写以下命令。
 
-```
+```ts
 ng g s ServiceName
 OR
 ng generate service ServiceName
@@ -28,7 +28,7 @@ ng generate service ServiceName
 
 ## java 描述语言
 
-```
+```ts
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -47,7 +47,7 @@ clickEvent(){
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 import {DataServiceService} from './data-service.service'
 @Component({
@@ -79,7 +79,7 @@ function cEvent(){
 
 ## java 描述语言
 
-```
+```ts
 import { Injectable } from '@angular/core';
 //Importing HttpClientModule for GET request to API
 import { HttpClient } from '@angular/common/http';
@@ -101,7 +101,7 @@ export class DataService {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 // Importing Data Service to subscribe to getInfo() observable
 import { DataServiceService } from '../data-service.service'
@@ -131,7 +131,7 @@ export class RegUserComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```ts
 <style>
 ul {
     list-style-type: none;
@@ -178,7 +178,7 @@ ul {
 
 要运行此应用程序，请在项目内部迁移并运行以下命令。
 
-```
+```ts
 cd < Project Path >
 ng serve -o
 

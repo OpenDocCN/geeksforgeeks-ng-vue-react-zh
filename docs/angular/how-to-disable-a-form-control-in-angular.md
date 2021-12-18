@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <formelement disabled></formelement>
 ```
 
@@ -25,7 +25,7 @@
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -54,7 +54,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form #gfg = "ngForm">
     Name: <input type="text" name = 'name' ngModel disabled>
@@ -69,7 +69,7 @@ export class AppModule { }
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -98,7 +98,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form #gfg = "ngForm">
     Checked: <input type="checkbox" name = 'Check' ngModel disabled>
@@ -113,7 +113,7 @@ export class AppModule { }
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -144,7 +144,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form #gfg = "ngForm">
     <button disabled>Disabled Button</button>

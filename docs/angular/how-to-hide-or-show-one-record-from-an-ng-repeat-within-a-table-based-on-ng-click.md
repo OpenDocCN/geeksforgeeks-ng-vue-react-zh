@@ -12,7 +12,7 @@ ng-show 和 ng-hide 指令都可以有常规的函数调用，但是它们应该
 
 **语法:**
 
-```
+```ts
 < tr ng-repeat="x in [some list]" ng-show="[some boolean expression]" > < tr >
 < tr ng-repeat="x in [some list]" ng-hide="[some boolean expression]" > < tr >
 
@@ -20,7 +20,7 @@ ng-show 和 ng-hide 指令都可以有常规的函数调用，但是它们应该
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -96,13 +96,13 @@ ng-show 和 ng-hide 指令都可以有常规的函数调用，但是它们应该
 
 **Syantax:**
 
-```
+```ts
 < tr ng-repeat="x in [some list]" ng-if="[some boolean expression]" > < tr >
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

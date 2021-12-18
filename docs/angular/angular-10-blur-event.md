@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <input (blur)='functionName()'/>
 ```
 
@@ -25,7 +25,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -43,7 +43,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form>
     <input placeholder="Name" (blur) = 'onBlur()'>
@@ -58,7 +58,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -76,7 +76,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form>
     <button  (blur) = 'onBlur()'>Click Here!!</button>

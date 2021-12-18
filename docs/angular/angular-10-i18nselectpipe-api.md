@@ -8,7 +8,7 @@ i18n 选择管道是一个选择器，用于显示与当前值匹配的字符串
 
 **语法:**
 
-```
+```ts
 {{ value | i18nSelect : map}}
 ```
 
@@ -36,7 +36,7 @@ i18n 选择管道是一个选择器，用于显示与当前值匹配的字符串
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } 
 from '@angular/core';
 
@@ -55,7 +55,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- In Below Code I18nSelectPipe is used -->
 <div>The User <b>{{age | i18nSelect: votin}}</b> </div>
 ```
@@ -68,7 +68,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit }
 from '@angular/core';
 
@@ -87,7 +87,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- In Below Code I18nSelectPipe is used -->
 <div>The User <b>{{age | i18nSelect: votin}}</b> </div>
 ```

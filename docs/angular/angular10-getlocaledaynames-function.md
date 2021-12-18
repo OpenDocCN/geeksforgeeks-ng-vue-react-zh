@@ -8,7 +8,7 @@ getLocaleDayNames 用于获取给定区域设置的星期几。
 
 **语法:**
 
-```
+```ts
 getLocaleDayNames(
              locale: string, 
              formStyle: FormStyle, 
@@ -25,7 +25,7 @@ getLocaleDayNames(
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getLocaleDayNames 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -48,7 +48,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -73,7 +73,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleDayNames, 
         TranslationWidth } 
@@ -101,7 +101,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -116,7 +116,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -141,7 +141,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleDayNames, 
         TranslationWidth } 

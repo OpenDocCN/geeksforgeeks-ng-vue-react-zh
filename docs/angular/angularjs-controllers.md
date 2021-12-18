@@ -8,7 +8,7 @@ AngularJS 控制器在 AngularJS 应用中发挥着重要作用。所有的 Angu
 
 **语法:**
 
-```
+```ts
 <element ng-controller="expression">Contents...</element>
 ```
 
@@ -16,7 +16,7 @@ AngularJS 控制器在 AngularJS 应用中发挥着重要作用。所有的 Angu
 
 ## java 描述语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ AngularJS 控制器在 AngularJS 应用中发挥着重要作用。所有的 Angu
 
 ## java 描述语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -124,7 +124,7 @@ AngularJS 控制器在 AngularJS 应用中发挥着重要作用。所有的 Angu
 
 ## java 描述语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>

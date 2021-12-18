@@ -19,7 +19,7 @@ AngularJS 是一个开源的 MVC 框架，与 JavaScript 框架非常相似。
 
     **示例:**
 
-    ```
+    ```ts
     <html> 
 
     <head> 
@@ -49,7 +49,7 @@ AngularJS 是一个开源的 MVC 框架，与 JavaScript 框架非常相似。
 
     **示例:**
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -92,7 +92,7 @@ AngularJS 是一个开源的 MVC 框架，与 JavaScript 框架非常相似。
 
     **示例:**
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 

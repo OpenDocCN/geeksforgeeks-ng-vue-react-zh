@@ -6,21 +6,21 @@
 
 **拼接()函数的语法:**
 
-```
+```ts
 array.splice(indexno, noofitems(n), item-1, item-2, ..., item-n)
 
 ```
 
 **拼接()功能示例:**
 
-```
+```ts
 const topics = ['Array', 'String', 'Vector'];
 let removed=topics.splice(1, 1);
 ```
 
 **输出:**
 
-```
+```ts
 ['Array', 'Vector']
 
 ```
@@ -34,7 +34,7 @@ let removed=topics.splice(1, 1);
 
 **示例:**让我们更加关注示例。这里我们将通过例子来证明删除操作。这里给出了在极客网站上有账号的学生的名字。我们将尝试从学生姓名数组中删除其中一个姓名。
 
-```
+```ts
 <!DOCTYPE html>
   <html>
      <script src=

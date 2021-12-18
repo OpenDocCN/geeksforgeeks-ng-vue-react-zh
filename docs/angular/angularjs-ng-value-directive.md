@@ -6,14 +6,14 @@ AngularJS 中的 **ng 值指令**用于指定输入元素的值。支持<输入>
 
 **语法:**
 
-```
+```ts
 <element ng-value="expression"> Content ... </element> 
 
 ```
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

@@ -6,7 +6,7 @@ AngularJS 中的 **ng-list 指令**用于分隔输入字符串，并使用分隔
 
 **语法:**
 
-```
+```ts
  <element ng-list="delimiter"> Contents... </element> 
 ```
 
@@ -16,7 +16,7 @@ ng-list 的值指定用于分隔输入字符串的分隔符。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

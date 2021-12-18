@@ -11,7 +11,7 @@
 *   通过终端进入 angular app。
 *   使用以下命令创建组件:
 
-```
+```ts
 ng g c <component_name> 
 OR
 ng generate component <component_name> 
@@ -32,13 +32,13 @@ ng generate component <component_name>
 
 **gfg.component.html:**
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 ```
 
 **gfg.component.css:**
 
-```
+```ts
 h1{
     color: green;
     font-size: 30px;
@@ -47,7 +47,7 @@ h1{
 
 **gfg.component.ts:**
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -62,7 +62,7 @@ export class GfgComponent{
 
 **app.module.ts:**
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

@@ -25,7 +25,7 @@
 *   **第一级更新:**假设变量 b 被任何事件更新，那么在第一个周期期间，Digest 周期通知 AngularJs 框架这些变化，并在此之后经历第二个周期。因为没有更多的更新，所以它更新 DOM 并完成它。*   **Second level watch updates:** Whenever there is a change encountered in the first cycle for any particular watch say c, digest process executes watch listener for it. Now watch listener further modifies variable a to a new value. After the first cycle, c gets updated. During the second cycle, we encounter changes in a and thus update takes place for a. Now a third cycle takes place and there are no more modifications encountered. DOM gets updated.
     An example for second level updates:
 
-    ```
+    ```ts
     $scope.a = 1;
     $scope.b = 2;
     $scope.c = 3;
@@ -61,7 +61,7 @@
 
     *   摘要过程从根作用域开始，然后识别其他作用域。如果我们的代码使用 DOM 事件(ng-click)、带有回调的 ajax、带有回调的计时器、浏览器位置更改、像$apply 这样的手动调用，那么它必然会对所有这些事件进行摘要处理。*   As we know, the browser is responsible to render the DOM and it may have events like Timer, On-click. The browser maintains a queue for these events called Event Queue. And it sends those to Javascript. Consequently, a digest takes place for them. If events are not related to Javascript i.e written in Jquery or other languages, then it is our duty to write $apply function for maintaining digest for them.
 
-    ```
+    ```ts
     $scope.$apply(function() {    
     }); 
     ```

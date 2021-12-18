@@ -10,7 +10,7 @@ Angular 7 中的指令是用 decorator @Directive 声明的 Typescript 类。这
 
 ## java 描述语言
 
-```html
+```tshtml
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -28,7 +28,7 @@ Angular 7 中的指令是用 decorator @Directive 声明的 Typescript 类。这
 
 ## java 描述语言
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({
@@ -47,7 +47,7 @@ export class AppComponent {
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <div *ngFor="let day of Weekdays">
 <ng-container *ngIf =
     "(day == 'Saturday' || day == 'Sunday'); else elseTemplate">

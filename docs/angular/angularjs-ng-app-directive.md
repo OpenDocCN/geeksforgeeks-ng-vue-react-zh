@@ -6,13 +6,13 @@ AngularJS 中的 **ng-app 指令**用于定义 AngularJS 应用程序的根元�
 
 **语法:**
 
-```
+```ts
 <element ng-app=""> Contents... </element>
 ```
 
 **示例 1:** 本示例使用 ng-app Directive 来定义默认的 AngularJS 应用程序。
 
-```
+```ts
 <html>
 
 <head>
@@ -40,7 +40,7 @@ AngularJS 中的 **ng-app 指令**用于定义 AngularJS 应用程序的根元�
 
 **示例 2:** 本示例使用 ng-app Directive 来定义默认的 AngularJS 应用程序。
 
-```
+```ts
 <html>
 
 <head>

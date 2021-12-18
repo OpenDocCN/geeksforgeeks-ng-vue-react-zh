@@ -11,7 +11,7 @@ AngularJS 提供了 Angular 谷歌地图组件，用于在应用程序中集成�
 
 *   使用以下命令将 AGM 安装到您的本地角度项目。
 
-    ```
+    ```ts
     npm install @agm/core --save
     ```
 
@@ -20,13 +20,13 @@ AngularJS 提供了 Angular 谷歌地图组件，用于在应用程序中集成�
     *   确保您的应用编程接口已启用，要启用您的应用编程接口，请按照此链接[https://support.google.com/googleapi/answer/6158841?hl=en](https://support.google.com/googleapi/answer/6158841?hl=en)中的步骤操作
 *   Import **AgmCoreModule** to your applications
 
-    ```
+    ```ts
     import { AgmCoreModule } from '@agm/core';
     ```
 
     在必须将创建的应用编程接口密钥放入 apiKey (apiKey:“这里是您的应用编程接口密钥”)的地方添加 AgmCoreModule.forRoot。
 
-    ```
+    ```ts
     imports: [
         AgmCoreModule.forRoot({
           apiKey:"your API key here"
@@ -37,7 +37,7 @@ AngularJS 提供了 Angular 谷歌地图组件，用于在应用程序中集成�
 
     **app.module.ts:**
 
-    ```
+    ```ts
     import { BrowserModule } from '@angular/platform-browser';
     import { NgModule } from '@angular/core';
     import { AgmCoreModule } from '@agm/core';
@@ -66,7 +66,7 @@ AngularJS 提供了 Angular 谷歌地图组件，用于在应用程序中集成�
     对于标记**agm-标记**选择器用于相同纬度和经度绑定到局部变量的地方。
     T3
 
-    ```
+    ```ts
     <agm-map [latitude]="latitude" [longitude]="longitude" 
           (mapClick)="location($event)">
       <agm-marker [latitude]="latitude" [longitude]="longitude">
@@ -77,7 +77,7 @@ AngularJS 提供了 Angular 谷歌地图组件，用于在应用程序中集成�
 *   在 TypeScript 文件中，定义了获取坐标并将其绑定到局部变量的函数，该变量用于在单击地图时设置标记。
     T2T4
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
 
     @Component({

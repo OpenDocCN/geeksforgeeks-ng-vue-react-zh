@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```tshtml
 <tag-name  *ngFor="let item of array">{{iter}}</tag-name>
 <tag-name  *ngFor="let key of object">{{key}}</tag-name>
 ```
@@ -19,20 +19,20 @@
 
 *   安装角度:
 
-```html
+```tshtml
 npm install -g @angular/cli
 ```
 
 *   创建新的角度项目:
 
-```html
+```tshtml
 ng new <project-name>
 cd <project-name> 
 ```
 
 *   通过运行项目来检查安装。您应该会在 http://localhost:4200/上看到角度着陆页面
 
-```html
+```tshtml
 ng serve -o
 ```
 
@@ -40,7 +40,7 @@ ng serve -o
 
 1.创建新组件:
 
-```html
+```tshtml
 ng g c dropdown
 ```
 
@@ -50,7 +50,7 @@ ng g c dropdown
 
 ## java 描述语言
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({
@@ -87,7 +87,7 @@ export class DropdownComponent {
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <h3>Choose Your Favorite Cricket Player</h3>
 <select #cricket (change)="update($event)">
     <option value="default">----</option>
@@ -107,13 +107,13 @@ export class DropdownComponent {
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <app-dropdown></app-dropdown>
 ```
 
 5.现在运行项目并打开 http://localhost:4200/查看结果:
 
-```html
+```tshtml
 ng serve -o
 ```
 

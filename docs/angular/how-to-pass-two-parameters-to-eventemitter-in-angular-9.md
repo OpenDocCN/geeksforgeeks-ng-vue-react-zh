@@ -8,7 +8,7 @@
 
 让我们看看事件发射器的源代码:
 
-```
+```ts
 export declare class EventEmitter<T> 
                   extends Subject<T> {
     __isAsync: boolean;
@@ -30,7 +30,7 @@ export declare class EventEmitter<T> 
 
 **语法:**
 
-```
+```ts
 @Output() sendobject = new EventEmitter<any>();
 
 this.sendobject.emit({stringval, numval, ...});
@@ -41,7 +41,7 @@ this.sendobject.emit({stringval, numval, ...});
 
 **子组件代码:**
 
-```
+```ts
 import { 
        Component, OnInit, EventEmitter, Input, Output
       } from '@angular/core';
@@ -87,7 +87,7 @@ export class TestComponent {
 
 **父组件代码:**
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

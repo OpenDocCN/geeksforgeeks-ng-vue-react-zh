@@ -12,7 +12,7 @@
 
 安装角度 CLI 并创建新的角度项目。
 
-```
+```ts
 npm i -g @angular/cli
 ng new <project-name>
 cd <project-name>
@@ -20,13 +20,13 @@ cd <project-name>
 
 现在，通过在本地主机上提供应用程序来验证安装:
 
-```
+```ts
 ng serve -o
 ```
 
 你应该看到棱角分明的登陆页面，你就可以走了。现在我们需要安装和注册一个额外的软件包:
 
-```
+```ts
 npm install @techiediaries/ngx-qrcode
 ```
 
@@ -34,7 +34,7 @@ npm install @techiediaries/ngx-qrcode
 
 ## 
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -60,7 +60,7 @@ export class AppModule { }
 
 现在让我们创建一个新的组件来显示带有所需数据的二维码。
 
-```
+```ts
 ng generate component qrcode
 ```
 
@@ -68,7 +68,7 @@ ng generate component qrcode
 
 ## 二维码
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-qrcode',
@@ -87,7 +87,7 @@ export class QrcodeComponent{ 
 
 ## 【qrcode.component.html】
 
-```
+```ts
 <ngx-qrcode
   [elementType]="elementType"
   [value]="data">

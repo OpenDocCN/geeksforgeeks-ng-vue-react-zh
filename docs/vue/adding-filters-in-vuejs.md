@@ -11,7 +11,7 @@
 *   **第一步:**首先，如果我们想要一个全局过滤器，我们通过 Vue.filter()方法注册它
 *   **第二步:**现在我们在 index.js 文件中添加 Vue.filter()方法。这个过滤器函数以一个值作为参数，然后返回过滤器或转换后的值。
 
-```
+```js
 Vue.filter('uppercase', function(value));
 
 ```
@@ -19,7 +19,7 @@ Vue.filter('uppercase', function(value));
 *   **第三步:**该功能由 [Vue 执行。JS](https://www.geeksforgeeks.org/vue-js-introduction-installation/) 每当这个滤镜应用到某个东西的时候。这个函数将自动接收一个输入一个参数，这就是值。 [Vue。JS](https://www.geeksforgeeks.org/vue-js-introduction-installation/) 会自动将这个值传递给这个函数，这就是我们应用这个过滤器的值。
 *   **步骤 4:** 现在我们返回过滤器或转换后的值。
 
-```
+```js
 Vue.filter('uppercase', function (value) {
   return value.toUpperCase();
 });
@@ -28,7 +28,7 @@ Vue.filter('uppercase', function (value) {
 
 *   **步骤 5:** 现在转到您的模板，只需通过添加管道符号，然后添加过滤器的名称来添加过滤器。应用过滤器的语法是
 
-```
+```js
 {{ title | filtername }}
 
 ```
@@ -43,7 +43,7 @@ Vue.filter('uppercase', function (value) {
 
 ## java 描述语言
 
-```
+```js
 // GLOBAL FILTER
 // In this example, we are 
 // creating a filter which
@@ -67,7 +67,7 @@ new Vue({
 
 ## 超文本标记语言
 
-```
+```js
 <!--Template--> 
 <template>
   <div id="app">
@@ -100,7 +100,7 @@ export default {
 
 ## java 描述语言
 
-```
+```js
 <!-- Local filter in VueJS -->
 <!-- Template -->
 <template>

@@ -5,14 +5,14 @@
 AngularJS 中的 **ng 样式指令**用于在 HTML 元素上应用自定义的 CSS 样式。ng 样式指令中的表达式必须是一个对象。所有的 HTML 元素都支持它。
 **语法:**
 
-```
+```ts
 <element ng-style="expression"> Content ... </element> 
 
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
     <head>
         <title>ng-style Directive</title>

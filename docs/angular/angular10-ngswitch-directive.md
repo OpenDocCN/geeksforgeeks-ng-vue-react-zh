@@ -8,7 +8,7 @@ angular 10 中的 **开关** 用于指定显示或隐藏子元素的条件。
 
 **语法:**
 
-```
+```ts
 <li *NgSwitch='condition'></li>
 ```
 
@@ -36,7 +36,7 @@ angular 10 中的 **开关** 用于指定显示或隐藏子元素的条件。
 
     ## app.component.ts
 
-    ```
+    ```ts
     import { Component, Inject } 
     from '@angular/core';
     import { PLATFORM_ID } 
@@ -56,7 +56,7 @@ angular 10 中的 **开关** 用于指定显示或隐藏子元素的条件。
 
     ## app.component.html
 
-    ```
+    ```ts
     <div [ngSwitch]="num">
       <div *ngSwitchCase="'1'">One</div>
       <div *ngSwitchCase="'2'">Two</div>

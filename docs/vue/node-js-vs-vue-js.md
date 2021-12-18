@@ -25,7 +25,7 @@
 | Applications using Node.js: LinkedIn, Uber, Netflix, PayPal, Trello, Capital One, Yahoo, Mozilla, etc. | Applications using Vue.js: Google, Apple, Nintendo, Behance, Oval Money. |
 | 
 
-```
+```js
 if(gfg) {
 console.log("Geeks for Geeks"); }
 
@@ -33,7 +33,7 @@ console.log("Geeks for Geeks"); }
 
  | 
 
-```
+```js
 <h1 v-if="gfg">Geeks for Geeks</h1>
 
 ```

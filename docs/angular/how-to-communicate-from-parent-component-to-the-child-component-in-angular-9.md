@@ -12,7 +12,7 @@
 *   在父组件中，声明您想要在子组件中接收的属性，比如“ParentId”。
 *   在父组件中包含子组件时，使用属性绑定将“ParentId”属性绑定到子组件。
 
-    ```
+    ```ts
     <child [id] = "parentid"></child>
     ```
 
@@ -24,7 +24,7 @@
 *   在这个例子中，我们将创建一个属性`'ParentId'`，并在子组件中接收它。
     让我们为父组件编写代码。
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
 
     @Component({
@@ -56,7 +56,7 @@
 
 *   现在为子组件
 
-    ```
+    ```ts
     import { Component, OnInit, Input} from '@angular/core';
 
     @Component({

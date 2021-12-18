@@ -6,13 +6,13 @@ AngularJS 中的 **ng-mousedown 指令**用于在特定的 HTML 元素上发生 
 
 **语法:**
 
-```
+```ts
  <element ng-mousedown="expression"> Contents... </element> 
 ```
 
 **示例 1:** 本示例使用 ng-mousedown 指令在单击鼠标后设置元素的样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@ AngularJS 中的 **ng-mousedown 指令**用于在特定的 HTML 元素上发生 
 
 **示例 2:** 本示例使用 ng-mousedown Directive 在点击输入区域后显示提醒消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

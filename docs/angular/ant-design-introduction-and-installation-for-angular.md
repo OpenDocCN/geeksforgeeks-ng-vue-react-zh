@@ -38,7 +38,7 @@
     ![](img/7244e99c348ac3e74448470335e09344.png)
     *   在**【angular . JSON】**文件中添加蚂蚁设计**。css** 文件中的样式数组如下所示:
 
-        ```
+        ```ts
         {
          "$schema": 
         "./node_modules/@angular/cli/lib/config/schema.json",
@@ -179,7 +179,7 @@
 
     *   在**“app . module . ts”**中导入蚂蚁设计按钮模块，这样我们就可以在中访问它了。html 文件如下所示:
 
-        ```
+        ```ts
         import { BrowserModule } from '@angular/platform-browser';
         import { NgModule } from '@angular/core';
 
@@ -204,7 +204,7 @@
 
     *   在**【app . component . html】**文件中添加如下代码如下:
 
-        ```
+        ```ts
         <button nz-button nzType="primary">Primary</button>
         <button nz-button nzType="default">Default</button>
         <button nz-button nzType="dashed">Dashed</button>
@@ -212,7 +212,7 @@
 
     *   Add some CSS in **“app.component.scss”** to show the buttons at the center as given below:
 
-        ```
+        ```ts
         [nz-button] {
           margin-left: 50%;
           margin-top: 3%;
@@ -221,7 +221,7 @@
 
         *   在终端中，使用以下命令在浏览器中运行应用程序:
 
-            ```
+            ```ts
             ng serve -o
             ```
 

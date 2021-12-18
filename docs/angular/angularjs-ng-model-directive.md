@@ -24,7 +24,7 @@
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -116,7 +116,7 @@
 
 在**app.component.html**写下下面的代码
 
-```
+```ts
 <div class="form-group">
     <label for="phone">mobile</label>
     <form>   
@@ -148,7 +148,7 @@
 
 **语法:**
 
-```
+```ts
 ng-model-options="{ getterSetter: true }"
 ```
 
@@ -156,7 +156,7 @@ ng-model-options="{ getterSetter: true }"
 
 **示例:**
 
-```
+```ts
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">

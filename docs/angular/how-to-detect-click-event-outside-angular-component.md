@@ -4,7 +4,7 @@
 
 在 angular 中，通过不同的方式检测点击。由于 click 是一个事件，因此在组件内部，它是通过简单的事件绑定来检测的。组件内通过事件绑定进行检测的简单点击如下所示:
 
-```
+```ts
 @Component({
   selector: "geeks",
   template: `
@@ -28,7 +28,7 @@ export class GeeksComponent {
 
 **语法:**
 
-```
+```ts
 @HostListener(events, args)
 handler_name(args){
   // Do something
@@ -44,7 +44,7 @@ HostListener 的语法中有三点需要注意:
 
 **示例:在组件内通过点击进行绑定**为了在组件内绑定点击，将进入主机侦听器的事件名称将只是“点击”。在这种情况下，上述代码将写成:
 
-```
+```ts
 @Component({
   selector: "geeks",
   template: `
@@ -69,7 +69,7 @@ export class GeeksComponent {
 **与点击外部组件绑定**
 要检测组件外部的点击，需要查看另一个事件。在这里，点击将不起作用，因为它检测到组件内的点击。这里的关键是在 DOM 中寻找点击，而不仅仅是组件，因此“document:click”将是正确的选择，同时我们需要过滤掉组件中的事件，这是由布尔变量“inside”完成的。因此，在下面给出的代码中，将有另一个组件添加到 is 中，它将充当外部上下文，但是单击它将导致当前组件上的 click 事件。
 
-```
+```ts
 @Component({
   selector: "another",
   template: `

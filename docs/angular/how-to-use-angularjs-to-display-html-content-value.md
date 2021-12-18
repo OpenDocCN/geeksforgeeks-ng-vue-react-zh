@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-bind-html="expression"> Contents... </element>
 ```
 
@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```ts
 <html>
 <head>
     <meta charset="utf-8">

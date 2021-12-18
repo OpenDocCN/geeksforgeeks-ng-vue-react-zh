@@ -15,7 +15,7 @@
 
 **语法:**在**下方【自动对焦】**输入栏内是自动对焦该输入栏的指令。
 
-```
+```ts
 <input autofocus type="email" name="email" #email="ngModel" ngModel />
 ```
 
@@ -25,7 +25,7 @@
 
 ## auto-focus.directive.ts
 
-```
+```ts
 import {AfterViewInit, Directive,ElementRef} from '@angular/core'
 
 @Directive({
@@ -49,7 +49,7 @@ export class AutoFocus implements AfterViewInit{
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -74,7 +74,7 @@ export class AppModule { }
 
 ## signup.component.html
 
-```
+```ts
 <form (submit)="onSignup(form)" #form="ngForm" >
   <mat-card>
     <mat-form-field>
@@ -104,7 +104,7 @@ export class AppModule { }
 </form>
 ```
 
-```
+```ts
 <input autofocus type="email" matInput 
     name="email" #email="ngModel" ngModel />
 ```

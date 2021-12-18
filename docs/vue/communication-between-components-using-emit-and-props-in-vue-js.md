@@ -6,13 +6,13 @@ Vue.js 中的组件有时需要相互共享数据，以便给出所需的输出�
 
 **$emit 和道具:**在 Vue.js 中，我们使用 **$emit** 为我们的组件生成自定义事件。这意味着，就像鼠标点击或滚动生成 onclick 和 onwheel 事件一样，我们可以从组件方法中生成事件，并根据我们的约定命名它们。不仅如此，我们还可以将数据作为参数传递给这个事件。
 
-```html
+```jshtml
 this.$emit('setevent',someVariable);
 ```
 
 **道具**用于将数据作为自定义属性传递给组件。道具按如下方式添加到组件中–
 
-```html
+```jshtml
 Vue.component('exampleComponent',{
     props: ['sometext'],
 
@@ -31,7 +31,7 @@ Vue.component('exampleComponent',{
 
 ## 超文本标记语言
 
-```html
+```jshtml
 <!DOCTYPE html>
 <html>
 
@@ -79,7 +79,7 @@ Vue.component('exampleComponent',{
 
 ## java 描述语言
 
-```html
+```jshtml
 /* First component has a heading element in 
    the template which shows how many times 
    the button in 2nd component has been 

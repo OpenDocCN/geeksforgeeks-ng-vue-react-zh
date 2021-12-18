@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-blur="expression"> Contents... </element>
 
 ```
@@ -17,7 +17,7 @@
 
 **示例 1:** 本示例在输入焦点集中时显示文本消息“在此输入您的文本”，在输入焦点丢失时隐藏。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@
 
 **示例 2:** 本示例统计焦点从文本区域移除的次数。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

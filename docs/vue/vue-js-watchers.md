@@ -8,7 +8,7 @@ Vue.js 中的 **Watcher** 是一个特殊的特性，当组件的值发生变化
 
 **语法:**
 
-```
+```js
 watch: {
    // We can add our functions here
 }
@@ -21,7 +21,7 @@ Vue.js **Watchers** 可以用下面的例子来演示:
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -95,7 +95,7 @@ Vue.js **Watchers** 可以用下面的例子来演示:
 
 ## java 描述语言
 
-```
+```js
 watch: {
     // Creating function
     // for input component
@@ -118,7 +118,7 @@ watch: {
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 
 <head>

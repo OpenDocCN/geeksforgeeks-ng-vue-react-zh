@@ -8,7 +8,7 @@ angular 10 中的 **切换案例** 用于 c 创建一个视图，当给定的表
 
 **语法:**
 
-```
+```ts
 <li *NgSwitchCase='condition'></li>
 ```
 
@@ -32,7 +32,7 @@ angular 10 中的 **切换案例** 用于 c 创建一个视图，当给定的表
 
 ## app.component.ts
 
-```
+```ts
 import { Component } 
 from '@angular/core';
 
@@ -48,7 +48,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <div [ngSwitch]="num">
   <div *ngSwitchCase="'1'">One</div>
   <div *ngSwitchCase="'2'">Two</div>

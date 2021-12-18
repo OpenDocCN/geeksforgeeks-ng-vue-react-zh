@@ -8,7 +8,7 @@ JsonPipe 用于将对象转换为其 JSON 表示
 
 **语法:**
 
-```
+```ts
 {{ value | json}}
 ```
 
@@ -32,7 +32,7 @@ JsonPipe 用于将对象转换为其 JSON 表示
 
 ## app.component.ts
 
-```
+```ts
 import { Component }
 from '@angular/core';
 
@@ -100,7 +100,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <div>
    <pre>{{emp | json}}</pre>
  </div>

@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```ts
 <element [property]= 'typescript_property'>
 ```
 
@@ -23,7 +23,7 @@
 
 **app.Component.html**
 
-```
+```ts
 <input style = "color:green;
                 margin-top: 40px; 
                 margin-left: 100px;" 
@@ -32,7 +32,7 @@
 
 加入时间：清华大学 2007 年 01 月 25 日下午 3：33
 
-```
+```ts
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    
@@ -52,13 +52,13 @@ export class AppComponent {   
 
 **app.Component.html**
 
-```
+```ts
 <img [src]='src'>
 ```
 
 加入时间：清华大学 2007 年 01 月 25 日下午 3：33
 
-```
+```ts
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    
@@ -78,13 +78,13 @@ export class AppComponent {   
 
 **app.Component.html**
 
-```
+```ts
 <button [disabled]='bool' style="margin-top: 20px;">GeekyButton</button>
 ```
 
 加入时间：清华大学 2007 年 01 月 25 日下午 3：33
 
-```
+```ts
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    

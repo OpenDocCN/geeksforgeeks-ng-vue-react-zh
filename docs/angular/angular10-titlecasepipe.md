@@ -8,7 +8,7 @@ TitleCasePipe 用于将所有文本转换为 titlecase。
 
 **语法:**
 
-```
+```ts
 {{ value | TitleCasePipe }}
 ```
 
@@ -32,7 +32,7 @@ TitleCasePipe 用于将所有文本转换为 titlecase。
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -47,7 +47,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <b>
   <div>
     titlecase value is : {{value | titlecase}}
@@ -63,7 +63,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -78,7 +78,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <b>
   <div>
     CamelCase value is : {{value}}

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```tshtml
 $location.absURL()
 ```
 
@@ -14,7 +14,7 @@ $location.absURL()
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -67,7 +67,7 @@ $location.absURL()
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

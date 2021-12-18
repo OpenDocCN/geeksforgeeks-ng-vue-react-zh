@@ -6,14 +6,14 @@ AngularJS 中的 **ng-required 指令**用于指定 HTML 元素所需的属性�
 
 **语法:**
 
-```
+```ts
 <element ng-required="expression"> Contents... </element> 
 
 ```
 
 **示例 1:** 本示例使用 ng-required 指令将表单标签的输入文本字段设置为必填。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +72,7 @@ AngularJS 中的 **ng-required 指令**用于指定 HTML 元素所需的属性�
 
 **示例 2:** 选中复选框后，本示例使用 ng-required 指令创建必填字段。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

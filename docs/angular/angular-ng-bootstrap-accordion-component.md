@@ -8,7 +8,7 @@ Angular ng bootstrap 是一个 bootstrap 框架，与 Angular 一起使用来创
 
 **安装语法:**
 
-```
+```ts
 ng add @ng-bootstrap/ng-bootstrap
 ```
 
@@ -17,7 +17,7 @@ ng add @ng-bootstrap/ng-bootstrap
 *   首先，使用上述命令安装 angular ng 引导程序。
 *   Import ng bootstrap module in module.ts
 
-    ```
+    ```ts
     import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
     imports: [
@@ -33,7 +33,7 @@ ng add @ng-bootstrap/ng-bootstrap
 
     ## pp.component.html
 
-    ```
+    ```ts
     <ngb-accordion #acc="ngbAccordion"
                    activeIds="ngb-panel-0">
       <ngb-panel title="GeeksforGeeks">
@@ -60,7 +60,7 @@ ng add @ng-bootstrap/ng-bootstrap
 
     ## app.module.ts
 
-    ```
+    ```ts
     import { NgModule } from '@angular/core';
 
     // Importing forms module

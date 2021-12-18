@@ -8,7 +8,7 @@ Angel NGX Bootstrap 是一个 Bootstrap 框架，它与 Angel 一起使用来创
 
 **安装语法：**
 
-```
+```ts
 npm install ngx-bootstrap --save
 ```
 
@@ -29,7 +29,7 @@ npm install ngx-bootstrap --save
 
 ## Index.html
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +60,7 @@ npm install ngx-bootstrap --save
 
 ## App.component.html
 
-```
+```ts
 <div id="gfg">
     <rating [(ngModel)]="rate" [max]="max" 
         [readonly]="isReadonly">
@@ -76,7 +76,7 @@ npm install ngx-bootstrap --save
 
 ## App.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -112,7 +112,7 @@ export class AppModule { }
 
 ## App.component.css
 
-```
+```ts
 .card{
     margin: 30px;
 }
@@ -124,7 +124,7 @@ export class AppModule { }
 
 ## App.component.ts
 
-```
+```ts
 import { Component, OnInit,LOCALE_ID } 
 from '@angular/core';
 

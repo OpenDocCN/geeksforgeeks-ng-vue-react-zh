@@ -8,7 +8,7 @@ AngularJS 中的 **ng-dblclick 事件**对于获取双击事件的 HTML 元素�
 
 **语法:**
 
-```
+```ts
 <element ng-dblclick="expression"> </element>
 
 ```
@@ -19,7 +19,7 @@ AngularJS 中的 **ng-dblclick 事件**对于获取双击事件的 HTML 元素�
 
     **示例:**(该示例将增加变量“count”的值，每次双击标题时。)
 
-    ```
+    ```ts
     <!DOCTYPE html>
 
     <html>

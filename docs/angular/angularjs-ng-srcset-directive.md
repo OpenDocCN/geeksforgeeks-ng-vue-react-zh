@@ -6,14 +6,14 @@ AngularJS 中的 **ng-srcset 指令**用于指定< img >元素的 srcset 属性�
 
 **语法:**
 
-```
+```ts
 <img ng-srcset="url"> </img> 
 
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

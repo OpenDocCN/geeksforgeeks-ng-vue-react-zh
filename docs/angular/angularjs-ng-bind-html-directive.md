@@ -6,14 +6,14 @@ AngularJS 中的 **ng-bind-html 指令**用于将 html 元素的 innerHTML 绑�
 
 **语法:**
 
-```
+```ts
 <element ng-bind-html="expression"> Contents... </element>
 
 ```
 
 **示例:**这个示例说明了 ng-bind-html 指令。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="myApp">
 

@@ -8,25 +8,25 @@
 
 **按照以下步骤在 Angular 2 中使用引导程序 4:**在执行这些步骤之前，您必须确保已经安装了 **Angular CLI** ，如果尚未安装，则运行以下命令安装 Angular CLI。安装完 Angular CLI 后，您可以执行以下步骤。
 
-```
+```ts
 npm install -g @angular/cli
 ```
 
 *   **步骤 1:** 通过在终端运行下面的命令创建一个新项目。
 
-    ```
+    ```ts
     ng new project-name
     ```
 
     *   **步骤 2:** 这里需要安装引导程序。现在在终端中打开项目，并在 Angular 2 CLI 上运行以下命令，将引导添加到您的项目中。
 
-    ```
+    ```ts
     npm i bootstrap@next --save
     ```
 
     *   **Step 3:** Now have to importing CSS, go to **src/style.css** and import bootstrap
 
-    ```
+    ```ts
     @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
     ```
 
@@ -34,7 +34,7 @@ npm install -g @angular/cli
 
     *   **Step 4:** For Bootstrap JS components to work you will still need to import **bootstrap.js** into **angular.json/angular-cli.json** under scripts. This should happen automatically, its still better to check.
 
-    ```
+    ```ts
     "scripts": ["../node_modules/jquery/dist/jquery.js",
                       "../node_modules/tether/dist/js/tether.js",
                       "../node_modules/bootstrap/dist/js/bootstrap.js"],
@@ -44,13 +44,13 @@ npm install -g @angular/cli
 
     *   **第五步:**现在必须重启服务器。
 
-    ```
+    ```ts
     ng serve
     ```
 
     *   **第六步:**现在你要运行**app.component.html**代码。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 

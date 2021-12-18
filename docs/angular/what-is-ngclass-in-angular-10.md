@@ -8,7 +8,7 @@ NgClass 用于在一个 HTML 元素上添加或删除 CSS 类
 
 **语法:**
 
-```
+```ts
 <element [ngClass] = "typescript_property">
 ```
 
@@ -22,7 +22,7 @@ NgClass 用于在一个 HTML 元素上添加或删除 CSS 类
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -36,7 +36,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <div [ngClass] ="'gfgclass'">
   GeeksforGeeks
 </div>

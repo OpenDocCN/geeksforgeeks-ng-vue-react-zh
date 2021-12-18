@@ -8,7 +8,7 @@
 
 **app.module.html:**
 
-```
+```ts
 <!-- Script for display 
 data in particular format -->
 
@@ -43,7 +43,7 @@ data in particular format -->
 
 **app.module.ts:**
 
-```
+```ts
 import { BrowserModule } from 
         '@angular/platform-browser'; 
 import { NgModule } from '@angular/core'; 
@@ -81,7 +81,7 @@ export class AppModule { } 
 
 **app.component.ts:**
 
-```
+```ts
 // Code to get file content
 // and other data
 import { Component, OnInit }  

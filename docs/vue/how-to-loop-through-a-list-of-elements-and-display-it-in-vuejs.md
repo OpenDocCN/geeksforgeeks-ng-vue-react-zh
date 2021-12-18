@@ -12,7 +12,7 @@ Vue 是一个用于构建用户界面的进步框架。核心库只专注于视�
 
 ## index.html
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -38,7 +38,7 @@ Vue 是一个用于构建用户界面的进步框架。核心库只专注于视�
 
 ## app.js
 
-```
+```js
 const parent = new Vue({
   el: '#parent',
   data: {
@@ -58,7 +58,7 @@ const parent = new Vue({
 
 ## index.html
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -91,7 +91,7 @@ const parent = new Vue({
 
 ## app.js
 
-```
+```js
 const parent = new Vue({
     el: '#parent',
     data: {

@@ -5,17 +5,17 @@
 **路由**是 [**Vue.js**](https://www.geeksforgeeks.org/vue-js-introduction-installation/) 提供的众多功能之一，允许用户在页面之间切换，无需每次加载页面都刷新。这导致页面之间的平滑过渡，给用户更好的感觉。
 **设置应用程序:**首先，我们需要创建一个要处理的项目。我们可以为此使用命令行界面。打开终端，运行以下命令。
 
-```
+```js
 vue init webpack vue-routing-example
 ```
 
 在初始化过程中，确保在提示安装 **vue-router** 时回答是。为了在我们的应用程序中使用路由，这是必需的。初始化结束后，打开应用程序，通过在终端运行以下命令来检查过程是否成功:
 
-```
+```js
 cd vue-routing-example
 ```
 
-```
+```js
 npm run dev
 ```
 
@@ -28,7 +28,7 @@ npm run dev
 
 ## java 描述语言
 
-```
+```js
 <template>
   <div class = 'helloworld'>
     <h1>{{ msg }}</h1>
@@ -57,7 +57,7 @@ export default {
 *   **Ste 4(可选):**用户现在可以通过将 URL 更改为**http://localhost:8080/#/hello world**或**http://localhost:8080/#/hello gek**来手动路由到每个页面。但是让我们设置通过链接路由的方法。
 *   **第五步:**这里我们将进行路线链接，我们可以使用<路线链接>标签设置路线链接。**到**属性将被赋予一个我们需要路由的页面的路径。
 
-```
+```js
 <router-link to="/helloworld">Hello World</router-link>
 ```
 

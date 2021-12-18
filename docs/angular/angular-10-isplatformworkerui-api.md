@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 isPlatformWorkerUi( platformId );
 ```
 
@@ -27,7 +27,7 @@ isPlatformWorkerUi( platformId );
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformWorkerApp } from '@angular/common';
@@ -55,7 +55,7 @@ export class AppComponent  {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformWorkerApp } from '@angular/common';
@@ -76,7 +76,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <div *ngIf = 'isWorkerApp==false'>
     platform id does not represents a web worker UI platform.
 </div>

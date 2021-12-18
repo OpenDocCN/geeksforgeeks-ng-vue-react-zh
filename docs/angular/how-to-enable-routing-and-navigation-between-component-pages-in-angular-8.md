@@ -16,7 +16,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
     **语法:**
 
-    ```
+    ```ts
     ng new app_name
 
     ```
@@ -25,7 +25,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
     **语法:**
 
-    ```
+    ```ts
     ng g c component_name
 
     ```
@@ -34,14 +34,14 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
     **语法:**
 
-    ```
+    ```ts
     import { RouterModule } from '@angular/router';
 
     ```
 
 *   然后在导入 **app.module.ts** 时定义路径。
 
-    ```
+    ```ts
     imports: [
         BrowserModule,
         AppRoutingModule,
@@ -55,7 +55,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
 *   现在对于 HTML 部分，定义 app.component.html 的 HTML。在链接中，将 routerLink 的路径定义为组件名称。
 
-    ```
+    ```ts
     <a routerLink="/home">Home </a><br>
     <a routerLink="/dash">dashboard</a>
 
@@ -63,7 +63,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
 *   在 app.component.html 应用路由器插座。路由视图渲染在< [路由器-出口](https://angular.io/api/router/RouterOutlet) >
 
-    ```
+    ```ts
     <router-outlet></router-outlet>
 
     ```
@@ -75,7 +75,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
 *   **app.module.ts:**
 
-    ```
+    ```ts
     import { BrowserModule } from '@angular/platform-browser';
     import { NgModule } from '@angular/core';
     import { RouterModule } from '@angular/router';
@@ -106,7 +106,7 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
 *   **app.component.html**
 
-    ```
+    ```ts
     <a routerLink="/home">Home </a><br>
     <a routerLink="/dash">dashboard</a>
     <router-outlet></router-outlet>
@@ -114,13 +114,13 @@ Angular 8 路由器有助于在用户操作触发的页面之间导航。当用�
 
 *   **home.component.html**
 
-    ```
+    ```ts
     <h1>GeeksforGeeks</h1>
     ```
 
 *   **dash.component.html**
 
-    ```
+    ```ts
     <h1>Hey GEEKS! Welcome to Dashboard</h1>
     ```
 

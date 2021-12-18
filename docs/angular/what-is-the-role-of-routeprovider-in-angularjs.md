@@ -12,7 +12,7 @@ $routeProvider 是一个简单的应用编程接口，它接受 when()或其他(
 
 我们需要安装 ngRoute 模块。
 
-```
+```ts
 <html>
    <head>
       <title>GFG</title>
@@ -106,7 +106,7 @@ $routeProvider 是在调用 when()和 other()函数的帮助下配置的。
 
 **在 AngularJS 中配置路由的语法:**
 
-```
+```ts
 var app = angular.module("appName", ['ngRoute']);  
 
 app.config(function($routeProvider) {  
@@ -134,7 +134,7 @@ $routeProvider
 
 **当用户点击链接时，可以使用$routeProvider 来定义页面。**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src=

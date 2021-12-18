@@ -5,7 +5,7 @@
 AngularJS 货币过滤器用于将数字转换为货币格式。如果未指定货币格式，货币筛选器将使用本地货币格式。
 **语法:**
 
-```
+```ts
 {{ currency_expression | currency : symbol : fractionSize}}
 ```
 
@@ -18,7 +18,7 @@ AngularJS 货币过滤器用于将数字转换为货币格式。如果未指定�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,7 +62,7 @@ AngularJS 货币过滤器用于将数字转换为货币格式。如果未指定�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

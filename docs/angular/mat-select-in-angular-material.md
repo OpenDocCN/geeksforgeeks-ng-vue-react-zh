@@ -7,7 +7,7 @@ Angular Material 是 Angular 团队开发的 UI 组件库，用于构建桌面�
 
 **安装语法:**
 
-```
+```ts
 ng add @angular/material
 ```
 
@@ -26,7 +26,7 @@ ng add @angular/material
 
 ## java 描述语言
 
-```
+```ts
 import { CommonModule } from '@angular/common'; 
 import { NgModule } from '@angular/core'; 
 import { FormsModule } from '@angular/forms'; 
@@ -53,7 +53,7 @@ export class AppModule {}
 
 ## 超文本标记语言
 
-```
+```ts
 <mat-form-field appearance="fill">
   <mat-label>Choose a technology</mat-label>
   <mat-select>

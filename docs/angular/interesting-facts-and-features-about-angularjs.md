@@ -26,7 +26,7 @@ AngularJS 利用带 HTML 的用户界面辅助设计 UI，使其与其他框架�
 
 **示例:**
 
-```
+```ts
 <div ng-app="" ng-init="firstName='Rahul'">
 
 <p>Name: <input type="text" ng-model="firstName"></p>
@@ -40,7 +40,7 @@ AngularJS 利用带 HTML 的用户界面辅助设计 UI，使其与其他框架�
 
 **示例:**
 
-```
+```ts
 angular.module('app', []).controller(
     function($scope) {
         $scope.message = "You're Awesome!"

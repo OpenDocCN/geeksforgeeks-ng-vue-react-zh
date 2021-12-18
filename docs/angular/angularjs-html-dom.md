@@ -7,7 +7,7 @@
 
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -43,7 +43,7 @@
 禁用 HTML 元素的属性。它将数据绑定到禁用的 HTML 元素的属性。
 **示例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

@@ -9,13 +9,13 @@
 *   $routeProvider 用于配置路由。它有助于定义用户单击链接时显示的页面。它接受 when()或其他()方法。
 *   ngRoute 必须作为应用程序模块中的依赖项添加:
 
-    ```
+    ```ts
      //const app = angular.module("myApp", ["ngRoute"]);
     ```
 
 **示例-1:仅使用“当”方法**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -86,7 +86,7 @@ app.config(function($routeProvider) {
 
 **示例-2:“否则”方法也与“当”**一起使用
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

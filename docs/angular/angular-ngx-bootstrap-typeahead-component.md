@@ -7,7 +7,7 @@ Angular ngx bootstrap 是一个 bootstrap 框架，与 Angular 一起使用来�
 
 **安装语法:**
 
-```
+```ts
 npm install ngx-bootstrap --save
 ```
 
@@ -26,7 +26,7 @@ npm install ngx-bootstrap --save
 
 ## index.html
 
-```
+```ts
 <!doctype html>
 <html lang="en">
 
@@ -61,7 +61,7 @@ npm install ngx-bootstrap --save
 
 ## app.component.html
 
-```
+```ts
 <pre id='gfg1' class="card 
     card-block card-header mb-3">
     Model: {{gfg | json}}
@@ -74,7 +74,7 @@ npm install ngx-bootstrap --save
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -112,7 +112,7 @@ export class AppModule { }
 
 ## app.component.css
 
-```
+```ts
 #gfg1 {
     margin: 10px;
 }
@@ -120,7 +120,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit, LOCALE_ID } 
 from '@angular/core';
 

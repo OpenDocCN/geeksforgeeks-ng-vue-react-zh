@@ -14,7 +14,7 @@ Angular 3 被跳过，因为路由器包已经在 3.3.0 版本中。为了避免
 *   **新关键词:**引入了‘as’等新关键词。这通常用于将切片或命令的输出存储在某个变量中。“否则”条件也在 Angular 4 中引入。“如果-否则”的引入；循环条件有助于代码浓缩。
     *   **使用‘as’关键字:**
 
-        ```
+        ```ts
         <div *ngFor="let j of weeks | slice:0:5 as num">
            Months: {{j}} Num: {{num.length}}
         </div>
@@ -22,7 +22,7 @@ Angular 3 被跳过，因为路由器包已经在 3.3.0 版本中。为了避免
 
     *   **在角度 4 中使用“if-else”条件:**ngIf 输出“有效条件”，而“else”条件输出“无效条件”。
 
-        ```
+        ```ts
         <span *ngIf="isavailable; else condition1">
         Valid Condition.</span>
         <ng-template #condition1>

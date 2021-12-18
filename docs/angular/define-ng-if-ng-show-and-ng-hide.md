@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     <element ng-if="expression"></element>
 
     ```
@@ -23,7 +23,7 @@
 
     在以下示例中，当输入元素中有任何文本时，将显示 div 内容，否则它将被隐藏。
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <script src=
@@ -53,7 +53,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     <element ng-show="expression"> </element> 
     ```
 
@@ -61,7 +61,7 @@
 
     在下面的例子中，当他们的复选框被选中时，div 内容将被显示，否则它将被隐藏。
 
-    ```
+    ```ts
     <!DOCTYPE html>
       <html>
         <script src=
@@ -93,7 +93,7 @@
 
     **语法:**
 
-    ```
+    ```ts
      <element ng-hide="expression"> </element> 
 
     ```
@@ -102,7 +102,7 @@
 
     在这个例子中，如果复选框被选中，这意味着 ng-hide 属性为真，HTML 元素将被隐藏。
 
-    ```
+    ```ts
     <!DOCTYPE html>
       <html>
         <script src=

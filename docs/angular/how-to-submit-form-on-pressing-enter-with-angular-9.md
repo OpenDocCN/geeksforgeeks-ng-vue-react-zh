@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -66,7 +66,7 @@
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({ selector: 'app-root',
 //here we used inline template format. template: `

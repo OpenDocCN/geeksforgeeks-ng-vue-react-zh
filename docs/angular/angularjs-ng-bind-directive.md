@@ -5,7 +5,7 @@
 AngularJS 中的 **ng-bind 指令**用于用给定表达式中输入的值绑定/替换任何特定 HTML 元素的文本内容。每当 ng-bind 指令中表达式的值发生变化时，指定的 HTML 内容的值就会更新。
 **语法:**
 
-```
+```ts
 <element ng-bind="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-bind 指令**用于用给定表达式中输入的值绑定
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -66,7 +66,7 @@ AngularJS 中的 **ng-bind 指令**用于用给定表达式中输入的值绑定
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

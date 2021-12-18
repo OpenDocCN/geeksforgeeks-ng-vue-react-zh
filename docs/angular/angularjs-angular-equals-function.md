@@ -6,7 +6,7 @@ AngularJS 中的 **angular.equals()函数**用于比较两个对象或两个值�
 
 **语法:**
 
-```
+```ts
 angular.equals(val1, val2)
 ```
 
@@ -15,7 +15,7 @@ angular.equals(val1, val2)
 
 **例 1:**
 
-```
+```ts
 <html>
 <head>
  <script src=
@@ -62,7 +62,7 @@ angular.equals(val1, val2)
 
 **例 2:**
 
-```
+```ts
 <html>
 <head>
  <script src=

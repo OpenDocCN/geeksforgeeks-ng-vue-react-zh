@@ -7,7 +7,7 @@ AngularJS 中的 **angular.isFunction()函数**用于*判断 isFunction 函数�
 
 **语法:**
 
-```
+```ts
 angular.isFunction(value)
 ```
 
@@ -15,7 +15,7 @@ angular.isFunction(value)
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

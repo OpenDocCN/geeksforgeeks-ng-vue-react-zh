@@ -8,19 +8,19 @@
 
 *   **字体大小**(相应更改字体大小):
 
-    ```
+    ```ts
     variable.fontSize = "100px"
     ```
 
 *   **字体样式**(相应更改字体样式):
 
-    ```
+    ```ts
     variable.font = "Comic Sans MS"
     ```
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@
 
 **例 2:**
 
-```
+```ts
 <html>
 
 <head>

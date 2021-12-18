@@ -23,7 +23,7 @@
 
 **示例:**
 
-```
+```ts
 <html>
     <style>
         table,
@@ -72,7 +72,7 @@
 
 **服务器代码 PHP 和 MySQL:**
 
-```
+```ts
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
@@ -109,7 +109,7 @@ echo $output;
 
 **HTML 代码:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <style>

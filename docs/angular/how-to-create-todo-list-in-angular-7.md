@@ -8,32 +8,32 @@ ToDo 应用程序用来帮助我们记住一些重要的任务。我们只是添
 
 1.  使用以下命令创建一个新的角度应用程序:
 
-    ```
+    ```ts
     ng new my-todo-list
     ```
 
 2.  通过 cd 进入应用程序并运行。之后打开本地主机，检查应用程序是否正常工作。
 
-    ```
+    ```ts
     cd my-todo-list
     ng serve
     ```
 
 3.  Install bootstrap using the following command:
 
-    ```
+    ```ts
     npm install bootstrap
     ```
 
     在项目中编辑 **style.css** 文件
 
-    ```
+    ```ts
     @import 'bootstrap/dist/css/bootstrap.css';
     ```
 
 4.  打开 src/app 文件夹，开始编辑**app.component.html**T3
 
-    ```
+    ```ts
     <!--Division for GeeksForGeeks heading-->
     <div class="container-fluid">
         <div class="row bg-success justify-content-center
@@ -90,7 +90,7 @@ ToDo 应用程序用来帮助我们记住一些重要的任务。我们只是添
     T4】
 5.  打开 **app.component.ts** 文件，编写任务增删功能。
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
 
     @Component({
@@ -129,7 +129,7 @@ ToDo 应用程序用来帮助我们记住一些重要的任务。我们只是添
 
 6.  为了处理接受输入的表单，我们必须在**应用模块**文件中导入表单模块。
 
-    ```
+    ```ts
     import { FormsModule } from '@angular/forms'
     ```
 

@@ -10,7 +10,7 @@
 
 **语法:**在 vue 循环中调用过滤器。
 
-```
+```js
 $options.filters.addLast(data, other_parameters)
 ```
 
@@ -18,7 +18,7 @@ $options.filters.addLast(data, other_parameters)
 
 ## index.html
 
-```
+```js
 <html>
 <head>
   <script src="
@@ -51,7 +51,7 @@ https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js">
 
 ## app.js
 
-```
+```js
 const parent = new Vue({
   el: '#parent',
   data: {

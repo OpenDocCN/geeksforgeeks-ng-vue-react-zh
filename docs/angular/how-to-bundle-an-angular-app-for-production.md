@@ -16,7 +16,7 @@
 **步骤**
 在执行部署应用程序的步骤之前，请确保系统中已经安装了 **Angular CLI** 如果没有，请运行以下命令。
 
-```
+```ts
 npm install -g @angular/cli
 ```
 
@@ -24,13 +24,13 @@ npm install -g @angular/cli
 
 *   导航到项目目录。
 
-```
+```ts
 cd project-folder
 ```
 
 *   Run ng build command in Angular CLI
 
-    ```
+    ```ts
     ng build --prod 
     ```
 
@@ -38,7 +38,7 @@ cd project-folder
 
     *   To get the preview of the application, run the following command:
 
-    ```
+    ```ts
     ng serve --prod
     ```
 

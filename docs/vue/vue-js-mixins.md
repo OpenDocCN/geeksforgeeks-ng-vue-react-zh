@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 const MixinObjectName = {
     methods: {
         // you can write your methods here
@@ -23,7 +23,7 @@ const MixinObjectName = {
 
 全局混合的一个小例子:
 
-```
+```js
 // Creating global mixin
 Vue.mixin({
   created: function () {
@@ -40,7 +40,7 @@ new Vue({
 
 ```
 
-```
+```js
 Output: This is Vue!!
 ```
 
@@ -54,7 +54,7 @@ Output: This is Vue!!
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -131,7 +131,7 @@ Output: This is Vue!!
 
 ***为我们的应用创建 Mixin:***
 
-```
+```js
 const Mixin = {
     methods: {
 
@@ -151,7 +151,7 @@ const Mixin = {
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

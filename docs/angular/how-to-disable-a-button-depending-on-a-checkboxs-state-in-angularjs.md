@@ -14,7 +14,7 @@ ng-disabled 指令用于启用或禁用 HTML 元素。如果 ng-disabled 指令�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 

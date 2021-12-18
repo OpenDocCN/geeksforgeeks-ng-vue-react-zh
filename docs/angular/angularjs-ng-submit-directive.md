@@ -6,14 +6,14 @@ AngularJS 中的 **ng-submit 指令**用于指定在提交事件上运行的函�
 
 **语法:**
 
-```
+```ts
 <form ng-submit="expression"> Content ... </form> 
 
 ```
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -65,7 +65,7 @@ AngularJS 中的 **ng-submit 指令**用于指定在提交事件上运行的函�
 ![ngsubmit](img/ed04842eeccb5a54cbc6740a2111274b.png)
 **示例 2:**
 
-```
+```ts
 <!DOCTYPE html>
     <head>
         <title>ng-submit Directive</title>

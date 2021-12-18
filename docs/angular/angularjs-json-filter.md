@@ -6,7 +6,7 @@ AngularJs 中的 **json** 过滤器用于将 JavaScript 对象转换为 json。�
 
 **语法:**
 
-```
+```ts
     {{ object | json : spacing }}
 
 ```
@@ -16,7 +16,7 @@ AngularJs 中的 **json** 过滤器用于将 JavaScript 对象转换为 json。�
 **示例 1:**
 本示例将显示 JSON 中学生的分数
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -58,7 +58,7 @@ $scope.marks = { 
 **示例 2:**
 该示例将在 JSON 中显示水果名称，每个缩进 10 个空格
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>

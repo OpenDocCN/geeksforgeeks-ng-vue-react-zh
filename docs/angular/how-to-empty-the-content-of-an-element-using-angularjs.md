@@ -8,7 +8,7 @@
 
 **示例 1:** 在本示例中，ID('div ')元素的内容被清空。
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -71,7 +71,7 @@
 
 **示例 2:** 在此示例中，元素及其子元素的内容被清空。
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

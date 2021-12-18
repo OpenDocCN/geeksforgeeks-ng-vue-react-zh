@@ -4,7 +4,7 @@
 
 众所周知，angularJS 中的组件是每个应用程序的基本构件。通常，我们可以通过简单地运行以下命令来创建一个角度分量。
 
-```
+```ts
 ng g c component_name
 ```
 
@@ -33,7 +33,7 @@ ng g c component_name
 
 ## customer.component.ts
 
-```
+```ts
 // This is our main component class called
 // as 'CustomerComponent'
 
@@ -69,7 +69,7 @@ export class CustomerComponent {
 
 ## app.module.ts
 
-```
+```ts
 /* For the first few lines, we will have 
 to import certain Angular library modules 
 So that we can run our project smoothly.*/
@@ -102,7 +102,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <h1>Welcome to GeeksForGeeks !! </h1>
 <!-- Placeholder HTML DOM -->
 <!-- CustomerComponent selector HTML DOM -->

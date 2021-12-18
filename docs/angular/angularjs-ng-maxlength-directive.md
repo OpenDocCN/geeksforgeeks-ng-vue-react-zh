@@ -6,7 +6,7 @@ AngularJS 中的 **ng-maxlength 指令**用于设置输入字段的最大长度�
 
 **语法:**
 
-```
+```ts
  <element ng-maxlength="expression"> Contents... </element> 
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-maxlength 指令**用于设置输入字段的最大长度�
 
 **示例:**本示例使用 ng-maxlength 指令检查字符串的最大长度。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

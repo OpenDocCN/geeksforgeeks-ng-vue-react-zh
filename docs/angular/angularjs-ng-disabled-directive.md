@@ -6,7 +6,7 @@ AngularJS 中的 **ng-disabled 指令**用于启用或禁用 HTML 元素。如�
 
 **语法:**
 
-```
+```ts
 <element ng-disabled="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-disabled 指令**用于启用或禁用 HTML 元素。如�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@ AngularJS 中的 **ng-disabled 指令**用于启用或禁用 HTML 元素。如�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

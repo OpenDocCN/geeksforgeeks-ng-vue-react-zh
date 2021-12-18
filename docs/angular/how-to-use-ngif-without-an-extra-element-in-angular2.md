@@ -8,7 +8,7 @@
 
 **app.component.ts:**
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app-table',
@@ -24,7 +24,7 @@ India=[{city:'Hyderabad'}, {city:'Mumbai'}]
 
 **app.component.html:**
 
-```
+```ts
 <h1>ng-container example</h1>
 
  <div *ngFor="let state of India"> 

@@ -20,19 +20,19 @@
 
 **安装:**要安装 Angular CLI，请在命令提示符下运行以下命令，这将在您的系统中安装 ng。
 
-```
+```ts
 $ npm install -g @angular/cli 
 ```
 
 为了检查版本，我们将编写以下命令-
 
-```
+```ts
 $ ng version 
 ```
 
 这将给出您已安装的版本。
 
-```
+```ts
 @angular/cli: 1.0.0
 node: 6.10.0
 os: darwin x64
@@ -40,7 +40,7 @@ os: darwin x64
 
 **新应用程序的创建:**要在开发服务器上构建和服务新的 Angular 项目，请转到新工作区的父目录，并使用以下命令:
 
-```
+```ts
 $ ng new my-first-Angular-application 
 ```
 
@@ -48,13 +48,13 @@ $ ng new my-first-Angular-application
 
 要在浏览器中预览新应用程序，请导航到其目录:
 
-```
+```ts
 $ cd my-first-Angular-application
 ```
 
 然后运行:
 
-```
+```ts
 $ ng serve
 ```
 
@@ -63,13 +63,13 @@ $ ng serve
 **现在主要问题出现了，为什么我们需要允许从外部访问 localhost？**
 答案是，作为开发人员，我们经常使用不止一台设备或计算机来根据我们的需求运行我们的应用程序。这将使我们的工作有效率，而且我们可以节省很多时间。为了允许从外部访问 localhost，我们对前面看到的 ng serve 注释进行了简单的修改。
 
-```
+```ts
 $ ng serve --host 0.0.0.0
 ```
 
 然后键入 192.168.x.x:4200 以从另一台机器访问。x.x 代表您的 IP 地址的最后两个带点的十进制数字。或者你可以简单地输入-
 
-```
+```ts
 $ ng serve --host 192.168.X.X
 ```
 

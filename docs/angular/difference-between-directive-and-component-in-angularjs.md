@@ -13,7 +13,7 @@
 *   **Component-**
     **Syntax:**
 
-    ```
+    ```ts
     import {Component, View} from 'angular2/angular2';
     @Component ({........
                 ........ })
@@ -21,7 +21,7 @@
              ...........})
     ```
 
-    ```
+    ```ts
     import {Component, View} from 'angular2/angular2';
     @Component({
       selector: 'message'
@@ -38,20 +38,20 @@
 
     **输出:**
 
-    ```
+    ```ts
     你好极客们这是组件的一个例子
     ```
 
 *   **指令-**
     **语法:**
 
-```
+```ts
 import {Directive} from 'angular2/angular2';
 @Directive({........
             ........})
 ```
 
-```
+```ts
 import {Directive} from 'angular2/angular2';
 
 @Directive({
@@ -73,7 +73,7 @@ class Message {
 
 **输出:**
 
-```
+```ts
 Geeksforgeeks
 This is an example of directive
 ```

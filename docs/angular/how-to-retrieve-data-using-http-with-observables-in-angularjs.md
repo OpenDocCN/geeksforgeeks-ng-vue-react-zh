@@ -15,7 +15,7 @@
 
 ## java 描述语言
 
-```
+```ts
 import { Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -36,7 +36,7 @@ export class AlbumService {
 
 ## java 描述语言
 
-```
+```ts
 @NgModule({
   imports: [ BrowserModule,
        FormsModule, HttpClientModule ],

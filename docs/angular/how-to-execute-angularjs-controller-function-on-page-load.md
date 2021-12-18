@@ -7,14 +7,14 @@
 在 AngularJS 中调用函数或在页面加载时初始化单个值非常容易。AngularJS 为我们提供了一个专门的指令来完成这个特定的任务。这是 ng-init 指令。
 **语法:**
 
-```
+```ts
 <element ng-init="function()"> Contents... </element>
 
 ```
 
 **示例 1:** 在本例中，我们将在页面加载时调用一个函数来初始化一个变量。
 
-```
+```ts
 <html ng-app="myApp">
 <head>
     <script src=
@@ -55,7 +55,7 @@ T3】
 
 **示例 2:** 在本例中，我们将为变量 gfg 分配一个对象并使用它。
 
-```
+```ts
 <html ng-app="myApp">
 <head>
     <script src=
@@ -103,7 +103,7 @@ T3】
 
 **示例 3:** 在本例中，我们将从 ng-init 指令直接初始化一个变量。
 
-```
+```ts
 <html ng-app="myApp">
 <head>
     <script src=

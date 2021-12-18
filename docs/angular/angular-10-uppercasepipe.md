@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 {{ value | uppercase }}
 ```
 
@@ -32,7 +32,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit }
         from '@angular/core';
 
@@ -48,7 +48,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <b>
   <div>
     Uppercase value is :
@@ -65,7 +65,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } 
         from '@angular/core';
 
@@ -80,7 +80,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <b>
   <div>
     CamelCase value is : 

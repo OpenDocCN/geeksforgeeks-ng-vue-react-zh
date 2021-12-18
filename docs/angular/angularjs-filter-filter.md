@@ -6,7 +6,7 @@ AngularJS 中的“过滤器”filter 用于过滤数组和对象元素，并返
 
 **语法:**
 
-```
+```ts
 {{ arrayexpression | filter : expression : comparator : anyPropertyKey }}
 
 ```
@@ -20,7 +20,7 @@ AngularJS 中的“过滤器”filter 用于过滤数组和对象元素，并返
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@ AngularJS 中的“过滤器”filter 用于过滤数组和对象元素，并返
 
 **示例 2:** 本示例使用对象来过滤其元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -148,7 +148,7 @@ AngularJS 中的“过滤器”filter 用于过滤数组和对象元素，并返
 
 **示例 3:** 在本例中，我们将看到一个“严格”的 caparison，它不返回任何值，除非它是纯匹配。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

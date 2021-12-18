@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <ng-select
  [items]="item-name"
  bindLabel="name"
@@ -23,19 +23,19 @@
 
 *   安装角度
 
-    ```
+    ```ts
     npm install -g @angular/cli
     ```
 
 *   创建新的角度项目
 
-    ```
+    ```ts
     ng new <project-name>
     ```
 
 *   通过运行项目来检查安装。您应该会在 http://localhost:4200/上看到角度着陆页面
 
-    ```
+    ```ts
     ng serve -o
     ```
 
@@ -47,13 +47,13 @@
 
 *   创建新的应用程序。我们将使用下面的命令创建一个新的应用程序。
 
-    ```
+    ```ts
     ng new geeksforgeeks-multiSelect
     ```
 
 *   安装@ ngselect npm 包。为了使用下拉菜单，我们将按照下面的命令从 npm 安装@ ngselect 包。
 
-    ```
+    ```ts
     npm install --save @ng-select/ng-select
     ```
 
@@ -61,7 +61,7 @@
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
@@ -82,7 +82,7 @@ export class AppModule {}
 
 style . CSS
 
-```
+```ts
 @import "~@ng-select/ng-select/themes/default.theme.css";
 ```
 
@@ -90,7 +90,7 @@ style . CSS
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from "@angular/core";
 
 @Component({
@@ -117,7 +117,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>Multi-Select Dropdown using Angular 11/10</h1>
 
 <!-- Using Items Input -->
@@ -133,7 +133,7 @@ export class AppComponent {
 
 **运行应用程序:**这一步，我们准备运行应用程序。类似的输出如下所示。
 
-```
+```ts
 ng serve
 ```
 

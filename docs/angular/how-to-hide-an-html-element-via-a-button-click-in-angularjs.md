@@ -7,19 +7,19 @@
 **[ngif 指令](https://www.geeksforgeeks.org/angularjs-ng-if-directive/):**ngIf 是一个 Angular 结构指令，它根据表达式求值的值创建一个模板。表达式的值应该始终是*真*或*假*。当模板内的表达式评估为真时，渲染*和*块内的代码块，而当表达式评估为假时，渲染可选的*或*块。
 **语法:**
 
-```
+```ts
 <div *ngIf = "condition">Content to render when condition is true.</div>
 ```
 
 对于*app.component.html*文件，我们将使用这个 toggleData()函数来调用 Html 中的函数
 
-```
+```ts
 <button (click)="toggleData()">Toggle Data</button>
 ```
 
 对于 *app.component.ts* 文件，我们定义了一个切换按钮显示或隐藏内容的功能。
 
-```
+```ts
 export class AppComponent {
  toDisplay = true;
 
@@ -45,7 +45,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <div *ngIf="toDisplay">
   <p>Click the below button to display and hide the data</p>
 </div>
@@ -54,7 +54,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from "@angular/core";
 
 @Component({

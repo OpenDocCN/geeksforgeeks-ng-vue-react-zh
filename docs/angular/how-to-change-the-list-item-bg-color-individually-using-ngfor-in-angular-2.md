@@ -9,14 +9,14 @@
 
 *   使用*ngFor 指令遍历。html 文件。*   通过使用属性绑定，绑定列表中每个项目的背景颜色。*   默认情况下，在。ts 文件。*   使用单击事件处理程序切换列表中项目的背景色。*   Once the implementation is done then serve the project using below command.
 
-    ```
+    ```ts
     ng serve --open
     ```
 
     **通过代码实现:**
     **app . component . html:**
 
-    ```
+    ```ts
     <ul>                        
 
         <li  (click)="changeColor[i]=!changeColor[i]"  
@@ -32,7 +32,7 @@
 
     **app . component . ts:**T2】
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
 
     @Component({

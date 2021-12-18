@@ -6,13 +6,13 @@ AngularJS 中的 **ng-mousemove 指令**用于在特定的 HTML 元素上发生 
 
 **语法:**
 
-```
+```ts
 <element ng-mousemove="expression"> Contents... </element>
 ```
 
 **示例 1:** 本示例使用 ng-mousemove 指令更改 CSS 样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -60,7 +60,7 @@ AngularJS 中的 **ng-mousemove 指令**用于在特定的 HTML 元素上发生 
 
 **示例 2:** 本示例使用 ng-mousemove 指令显示警报消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

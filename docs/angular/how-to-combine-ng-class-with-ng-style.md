@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-style="object">..</element>
 ```
 
@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```ts
 
 <!DOCTYPE html>
 <html>
@@ -55,7 +55,7 @@
 
 **例 2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

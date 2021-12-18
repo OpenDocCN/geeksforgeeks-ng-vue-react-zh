@@ -10,7 +10,7 @@
 
 将 *@click="$emit('close')"* 属性添加到模式的关闭按钮。
 
-```
+```js
 <button type="button" class="close" 
     @click="$emit('close')"> X 
 </button>
@@ -20,7 +20,7 @@
 
 在使用模态的组件中，在数据中添加封闭模态和开放模态属性
 
-```
+```js
 data () {
      return {
        isModalVisible: false,
@@ -43,7 +43,7 @@ data () {
 
 ## java 描述语言
 
-```
+```js
 <!--Modal.vue-->
 
 <script>
@@ -142,7 +142,7 @@ data () {
 
 ## java 描述语言
 
-```
+```js
 <!--App.vue-->
 
 <script>

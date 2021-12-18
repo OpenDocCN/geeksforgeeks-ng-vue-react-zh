@@ -23,19 +23,19 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 *   **步骤 1:** 使用以下命令创建角度应用程序。
 
-    ```
+    ```ts
     ng new appname
     ```
 
 *   **步骤 2:** 创建项目文件夹即 appname 后，使用以下命令移动到该文件夹。
 
-    ```
+    ```ts
     cd appname
     ```
 
 *   **步骤 3:** 在给定的目录中安装 PrimeNG。
 
-    ```
+    ```ts
     npm install primeng --save
     npm install primeicons --save
     ```
@@ -48,7 +48,7 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 ## app.component.html
 
-```
+```ts
 <h2>GeeksforGeeks</h2>
 <h5>PrimeNG BlockUI Component</h5>
 <p-blockUI [blocked]="gfg"></p-blockUI>
@@ -64,7 +64,7 @@ Angular PrimeNG 是一个开源框架，具有一组丰富的本机 Angular UI �
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from "@angular/core";
 
 @Component({
@@ -85,7 +85,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
@@ -120,7 +120,7 @@ export class AppModule {}
 
 ## app.component.html
 
-```
+```ts
 <h2>GeeksforGeeks</h2>
 <h5>PrimeNG BlockUI Component</h5>
 
@@ -156,7 +156,7 @@ export class AppModule {}
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from "@angular/core";
 
 @Component({
@@ -170,7 +170,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";

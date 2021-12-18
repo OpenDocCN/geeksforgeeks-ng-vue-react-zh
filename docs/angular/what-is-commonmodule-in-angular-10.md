@@ -8,7 +8,7 @@ CommonModule 用于导出所有基本角度指令和管道。当我们将 Browse
 
 **语法:** CommonModule 在创建应用时由 BrowserModule 自动导入。
 
-```
+```ts
  import { BrowserModule } from '@angular/platform-browser';
 
  @NgModule({
@@ -62,7 +62,7 @@ export class AppModule { }
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 // BrowserModule automatically imports all CommonModule Dependencies
 
@@ -85,7 +85,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -100,7 +100,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- use of ngClass directive -->
 <h1 [ngClass] = "geek">
   GeeksforGeeks

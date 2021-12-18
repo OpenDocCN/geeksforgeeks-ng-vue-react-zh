@@ -7,14 +7,14 @@
 
 **语法:**
 
-```
+```ts
 <element ng-repeat="expression">Content..<element>
 
 ```
 
 **表中显示的数据。**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,7 +43,7 @@
 
 **以 CSS 样式显示**
 
-```
+```ts
 <style>
    table, th , td {
       border: 1px solid black;
@@ -66,7 +66,7 @@
 
 **带有上述代码的 AnhularJS ng-repeat 指令示例:**在这里，您将看到带有 AngularJS ng-repeat 指令的上述 html 和 css 的组合。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
    <head>

@@ -12,7 +12,7 @@ angular 可以是一个基于 TYPESCRIPT 的开源前端 web 应用程序阶段�
 
 ![ class=](img/eb0bc2a8048f284a8272e54f9382600a.png)
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -41,7 +41,7 @@ angular 可以是一个基于 TYPESCRIPT 的开源前端 web 应用程序阶段�
 **jquery:**
 jquery 可以是一个快速且功能丰富的 JavaScript 库，使用和学习都很简单。跨浏览器是一致的，最近的改编包括谷歌浏览器、火狐 Mozilla、网络先锋、苹果 Safari 和音乐剧。
 
-```
+```ts
 <!DOCTYPE html> 
 <html> 
 

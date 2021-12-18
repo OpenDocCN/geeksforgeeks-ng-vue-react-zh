@@ -8,7 +8,7 @@ NgFor 用作结构指令，为给定集合呈现每个元素，每个元素都�
 
 **语法:**
 
-```
+```ts
 <li *ngFor='condition'></li>
 ```
 
@@ -32,7 +32,7 @@ NgFor 用作结构指令，为给定集合呈现每个元素，每个元素都�
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -46,7 +46,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <ul>
   <li *ngFor='let i of a'> {{i}} </li>
 </ul>
@@ -60,7 +60,7 @@ export class AppComponent  {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -74,7 +74,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <ol>
     <li *ngFor='let i of a'> {{i}} </li>
 </ol>

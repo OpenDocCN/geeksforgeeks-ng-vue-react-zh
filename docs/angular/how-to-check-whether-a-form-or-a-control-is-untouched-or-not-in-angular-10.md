@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 form.untouched
 ```
 
@@ -29,7 +29,7 @@ form.untouched
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, FormArray, Validators } 
     from '@angular/forms'
@@ -59,7 +59,7 @@ onSubmit(): void {
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <input formControlName="name" placeholder="Name">

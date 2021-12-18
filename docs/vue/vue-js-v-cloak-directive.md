@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 <element v-cloak></element>
 
 ```
@@ -17,7 +17,7 @@
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

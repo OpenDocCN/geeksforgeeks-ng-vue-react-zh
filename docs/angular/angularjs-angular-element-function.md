@@ -6,7 +6,7 @@ AngularJS 中的 **angular.element()函数**用于*将 DOM 元素或 HTML 字符
 
 **语法:**
 
-```
+```ts
 angular.element(element)
 ```
 
@@ -14,7 +14,7 @@ angular.element(element)
 
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@ angular.element(element)
 
 **示例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

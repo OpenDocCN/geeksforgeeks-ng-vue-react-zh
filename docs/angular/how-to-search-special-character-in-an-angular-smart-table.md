@@ -43,7 +43,7 @@
 
 使用上述方法，让我们用搜索、排序和分页功能在智能表中呈现数据
 
-```
+```ts
 SampleApp = angular.module(
 'SampleApp', ['SampleApp.controllers', 'smart-table']);    
 
@@ -67,7 +67,7 @@ angular.module('SampleApp.controllers', []).controller(
 
 **HTML:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

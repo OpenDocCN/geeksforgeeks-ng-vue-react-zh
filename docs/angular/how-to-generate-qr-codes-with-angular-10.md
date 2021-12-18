@@ -15,14 +15,14 @@
 *   节点可从[https://nodejs.org/en/download/](https://nodejs.org/en/download/)安装
 *   一旦安装完毕，我们可以通过使用
 
-```
+```ts
 node --version
 ```
 
 *   npm 可以从[https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)安装
 *   一旦安装完毕，我们可以通过使用
 
-```
+```ts
 npm  --version
 ```
 
@@ -30,7 +30,7 @@ npm  --version
 
 在命令行提示符下，提供以下命令进行安装
 
-```
+```ts
  npm install -g @angular/cli
 ```
 
@@ -42,7 +42,7 @@ npm  --version
 
 我们可以使用 Visual Studio 代码编辑器甚至从命令行提示符，我们可以创建一个生成二维码的示例项目
 
-```
+```ts
 ng new <projectname>
 ```
 
@@ -64,19 +64,19 @@ ng new <projectname>
 
 **第三步:生成二维码，我们需要所需的依赖关系。可以使用**进行安装
 
-```
+```ts
  npm install @techiediaries/ngx-qrcode
 ```
 
 一旦安装完毕，在**src->app->qrcode app . module . ts**文件中，我们可以使用
 
-```
+```ts
 import { NgxQRCodeModule } from '@techiediaries/ngx-qrcode'; 
 ```
 
 在
 
-```
+```ts
 @NgModule({
 imports: [ NgxQRCodeModule ] Can be given
 ```
@@ -85,7 +85,7 @@ imports: [ NgxQRCodeModule ] Can be given
 
 ## qrcodeapp 模块. ts
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -115,7 +115,7 @@ export class QRCodeAppModule { }
 
 ## qrcodeapp.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 import { NgxQrcodeElementTypes, NgxQrcodeErrorCorrectionLevels } 
         from '@techiediaries/ngx-qrcode';
@@ -141,7 +141,7 @@ export class AppComponent {
 
 ## qrcodeapp.component.html
 
-```
+```ts
 <ngx-qrcode
   [elementType]="elementType"
   [errorCorrectionLevel]="correctionLevel"
@@ -153,7 +153,7 @@ export class AppComponent {
 
 ## style.css
 
-```
+```ts
 /* You can add global styles to this file, 
 and also import other style files */
 .qrcodeshadow {
@@ -180,13 +180,13 @@ textarea {
 
 构建项目的步骤
 
-```
+```ts
 ng build (at the location where your package.json present)
 ```
 
 **运行项目的步骤:**
 
-```
+```ts
 ng serve  (at the location where your package.json present)
 ```
 

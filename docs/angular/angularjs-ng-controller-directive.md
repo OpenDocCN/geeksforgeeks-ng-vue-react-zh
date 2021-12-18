@@ -6,7 +6,7 @@ AngularJS 中的 **ng-controller 指令**用于向应用程序添加控制器。
 
 **语法:**
 
-```
+```ts
 <element ng-controller="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-controller 指令**用于向应用程序添加控制器。
 
 **示例 1:** 本示例使用 ng-controller 指令显示输入元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -55,7 +55,7 @@ AngularJS 中的 **ng-controller 指令**用于向应用程序添加控制器。
 
 **示例 2:** 本示例使用 ng-controller Directive 在点击按钮后显示内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

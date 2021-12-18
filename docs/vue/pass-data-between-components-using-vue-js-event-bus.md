@@ -10,7 +10,7 @@
 
 事件总线没有特殊的语法，因为它只是 Vue 类的一个实例。
 
-```
+```js
 const EventBus = new Vue();
 ```
 
@@ -31,7 +31,7 @@ const EventBus = new Vue();
 
 ## App.js
 
-```
+```js
 <template>
 <div>
   <Component1></Component1>
@@ -54,7 +54,7 @@ const EventBus = new Vue();
 
 ## 组件 1 .视图
 
-```
+```js
 <template>
   <div class="component1">
     <h1>You have clicked {{ labeltext }} times</h1>
@@ -104,7 +104,7 @@ const EventBus = new Vue();
 
 ## 组件 2 .视图
 
-```
+```js
 <template>
   <div class="component2">
     <button @click="count">Click</button>
@@ -144,7 +144,7 @@ const EventBus = new Vue();
 
 ## 事件总线. js
 
-```
+```js
 import Vue from 'vue';
 
 // Create a new Vue instance and export it

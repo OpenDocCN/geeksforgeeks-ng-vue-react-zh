@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```ts
 <element ng-repeat="variable in expression"> Contents... </element>
 ```
 
 **示例:**这里我们有一个*计数器*变量，它保存 DOM 中当前存在的按钮的计数。每次按下主按钮(GFG)时，它都会增加 1。计数增加后，ng-repeat 会生成一个新按钮。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="myApp">
 

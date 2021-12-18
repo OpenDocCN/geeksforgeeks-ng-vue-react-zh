@@ -12,7 +12,7 @@ angular 中的组件类似于网站中的页面。组件是角度的关键特征
 
 **命令写为:**
 
-```
+```ts
 cd app
 ng generate component comp1
 
@@ -20,7 +20,7 @@ ng generate component comp1
 
 或
 
-```
+```ts
 cd app
 ng g c comp1
 

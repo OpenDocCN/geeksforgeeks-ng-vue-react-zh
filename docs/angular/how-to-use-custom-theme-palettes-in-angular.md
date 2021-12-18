@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```ts
 
 @import '~@angular/material/theming';
 @include mat-core();
@@ -31,7 +31,7 @@ $[variable_name]-app-theme: mat-dark-theme([primary color], [accent color], [war
 
 **示例:**
 
-```
+```ts
 @import '~@angular/material/theming';
 @include mat-core();
 
@@ -58,7 +58,7 @@ $my-custom-theme: mat-light-theme(
 
 在上面的例子中，我们使用了一个灯光主题，然后我们在**“角度-材质-主题”**中包含了特定的主题。
 
-```
+```ts
 <html>
 <mat-card class="my-alternate-theme">
    My Themes:

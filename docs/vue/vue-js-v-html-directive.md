@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-html="data"
 
 ```
@@ -16,7 +16,7 @@ v-html="data"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

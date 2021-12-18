@@ -26,7 +26,7 @@
 
 **语法:**
 
-```
+```ts
 fromEvent(target,eventName)
     .subscribe((res)=>{console.log(res)})
 ```
@@ -45,13 +45,13 @@ fromEvent(target,eventName)
 
 *   **HTML:**
 
-    ```
+    ```ts
     <button #addBtn>Add</button>
     ```
 
 *   **TypeScript:**
 
-    ```
+    ```ts
     @ViewChild(‘addBtn’, {static: true}) addBtn: ElementRef;
     ```
 
@@ -59,7 +59,7 @@ fromEvent(target,eventName)
 
     **JavaScript:**
 
-    ```
+    ```ts
     fromEvent(this.addBtn.nativeElement, 'click')
         .subscribe((res)=>{console.log(res)}
     ```
@@ -70,7 +70,7 @@ fromEvent(target,eventName)
 
 **JavaScript:**
 
-```
+```ts
 ngAfterViewInit() {
   fromEvent(this.addBtn.nativeElement, 'click')
     .subscribe((res) => {
@@ -89,13 +89,13 @@ ngAfterViewInit() {
 
 *   **步骤 1:创建一个新的角度项目**
 
-    ```
+    ```ts
     ng new observable-app
     ```
 
 *   **步骤 2:创建一个名为 FromEventComponent** 的组件
 
-    ```
+    ```ts
     ng g c from-event
     ```
 
@@ -107,7 +107,7 @@ ngAfterViewInit() {
 
 *   **步骤 3:创建服务打印服务**
 
-    ```
+    ```ts
     ng g s print-service
     ```
 
@@ -115,7 +115,7 @@ ngAfterViewInit() {
 
 ## from-event.component.html
 
-```
+```ts
 <!-- To display the data/stream on 
 UI we will keep on adding each stream
 as a list item in ul below -->
@@ -127,7 +127,7 @@ as a list item in ul below -->
 
 ## print-service.service.ts
 
-```
+```ts
 printStream(containerName, stream) {
   let element = document.createElement('li');
   element.innerText = stream;
@@ -139,7 +139,7 @@ printStream(containerName, stream) {
 
 ## from-event.component.ts
 
-```
+```ts
 ngAfterViewInit() {
   let count = 1;
   fromEvent(this.addBtn.nativeElement, "click")
@@ -156,7 +156,7 @@ ngAfterViewInit() {
 
 ## from-event.component.html
 
-```
+```ts
 <!-- To display the data/stream 
 on UI we will keep on adding 
 each stream as a list item in 
@@ -169,7 +169,7 @@ ul below -->
 
 ## from-event.component.ts
 
-```
+```ts
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { fromEvent } from "rxjs";
 import { PrintServiceService } from "../print-service.service";
@@ -196,7 +196,7 @@ export class FromEventComponent implements OnInit {
 
 ## print-service.service.ts
 
-```
+```ts
 import { Injectable } from "@angular/core";
 
 @Injectable({
@@ -219,7 +219,7 @@ export class PrintServiceService {
 
 ## app.component.html
 
-```
+```ts
 ...
 <app-from-event></app-from-event>
 ```

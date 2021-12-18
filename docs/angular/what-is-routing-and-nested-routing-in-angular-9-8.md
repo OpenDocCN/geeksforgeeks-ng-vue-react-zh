@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 ng new app_name
 ```
 
@@ -16,7 +16,7 @@ ng new app_name
 
     **语法:**
 
-    ```
+    ```ts
     ng g c component_name
     ```
 
@@ -26,13 +26,13 @@ ng new app_name
 
     **语法:**
 
-    ```
+    ```ts
     import { RouterModule, Routes } from '@angular/router';
     ```
 
 *   然后在的导入*app-routing . module . ts***中定义路径。
 
-    ```
+    ```ts
     const routes: Routes = [
      { path: '', component: HomeComponent },
      { path: 'aboutus', component: AboutUsComponent },
@@ -47,7 +47,7 @@ ng new app_name
 
 *   **将路由器链接的路径定义为 HTML 中*app.component.html*的组件名。
 
-    ```
+    ```ts
     <a class="active" href="#home" routerLink="/">Home</a>
     <a href="#contact" routerLink="/contactus">Contact</a>
     <a href="#about" routerLink="/aboutus">About</a>
@@ -55,7 +55,7 @@ ng new app_name
 
 *   **在*app.component.html*应用路由器插座。路由视图呈现在<路由器出口>中。
 
-    ```
+    ```ts
     <router-outlet></router-outlet>
     ```** 
 
@@ -72,7 +72,7 @@ ng new app_name
 
 ****步骤 1:** 创建简单角度应用。在这一步中，我们将使用命令行参数创建一个简单的 angular 应用程序作为示例。我们需要在命令提示符下运行以下命令:**
 
-```
+```ts
 ng new geeksforgeeks-routing
 ```
 
@@ -84,7 +84,7 @@ ng new geeksforgeeks-routing
 
 ## **app.component.html**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
   <head>
@@ -134,7 +134,7 @@ ng new geeksforgeeks-routing
 
 ****第三步:**在这一步中，我们将创建三个组件作为**主页**、**联系人-us** 、**T7】和**关于-us** 。为了创建这些组件，我们需要运行下面提到的两个命令:****
 
-```
+```ts
 ng g component home
 ng g component contactUs
 ng g component aboutUs
@@ -150,7 +150,7 @@ ng g component aboutUs
 
 ## **app.module.ts**
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -180,7 +180,7 @@ export class AppModule {}
 
 ## **app-routing.module.ts**
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AboutUsComponent } from "./about-us/about-us.component";
@@ -211,7 +211,7 @@ export class AppRoutingModule {}
 
 **现在，让我们使用下面的命令运行我们的 angular 应用程序:**
 
-```
+```ts
 ng serve
 ```
 
@@ -219,7 +219,7 @@ ng serve
 
 **在我们的应用程序中，我们还需要两个嵌套的路由。现在，我们需要为这个关于我们的组件再创建两个组件。要为“关于组件”创建子组件，我们需要运行以下命令:**
 
-```
+```ts
 ng g component about-us/ourCompany
 ng g component about-us/ourEmployees
 ```
@@ -234,7 +234,7 @@ ng g component about-us/ourEmployees
 
 ## **app-routing.module.ts**
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AboutUsComponent } from "./about-us/about-us.component";
@@ -284,7 +284,7 @@ export class AppRoutingModule {}
 
 ## **about-us.component.html**
 
-```
+```ts
 <p>about-us works!</p>
 
 <a class="btn btn-primary" routerLink="/aboutus/our_employees">Our Employees</a>
@@ -294,7 +294,7 @@ export class AppRoutingModule {}
 
 ## **our-company.component.html**
 
-```
+```ts
 <p>our-company works!</p>
 
 <a class="btn btn-primary" routerLink="/aboutus">Back</a>
@@ -302,7 +302,7 @@ export class AppRoutingModule {}
 
 ## **our-employees.component.html**
 
-```
+```ts
 <p>our-employees works!</p>
 
 <a class="btn btn-primary" routerLink="/aboutus">Back</a>
@@ -310,7 +310,7 @@ export class AppRoutingModule {}
 
 **现在，我们需要使用下面的命令运行这个角度应用程序:**
 
-```
+```ts
 ng serve
 ```
 

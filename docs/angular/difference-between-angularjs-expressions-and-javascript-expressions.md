@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```ts
    <div>
         3 +  3= {{3 + 3}} 
         3 - 3 = {{3 - 3}}
@@ -20,13 +20,13 @@
 
 *   **Assign a value to a variable:**
 
-    ```
+    ```ts
     x = 11
     ```
 
 *   **Simply put, there is a value:**
 
-    ```
+    ```ts
     22 + 11
     ```
 

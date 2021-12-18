@@ -11,7 +11,7 @@
 **步骤 1:** 将 JSON 转换为 CSV
 要将 JSON 数据转换为 CSV 格式，请使用以下方法。
 
-```
+```ts
 ConvertToCSV(objArray, headerList) {
     let array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
     let str = '';
@@ -38,7 +38,7 @@ ConvertToCSV(objArray, headerList) {
 **步骤 2:** 将 CSV 导出为可下载文件。
 用于将 CSV 数据导出为*。csv* 文件使用以下方法。
 
-```
+```ts
 downloadFile(data, filename = 'data') {
     let csvData = this.ConvertToCSV(data, [
       'name', 'age', 'average', 'approved', 'description']);
@@ -71,7 +71,7 @@ downloadFile(data, filename = 'data') {
 
 **app.service.ts:** 创建一个名为 *app.component.ts* 的新服务文件
 
-```
+```ts
 import {
     Injectable
 }
@@ -130,7 +130,7 @@ export class AppService {
 
 **app.module.ts:**
 
-```
+```ts
 import { AppService } from './app.service';
 @NgModule({
   providers: [AppService],

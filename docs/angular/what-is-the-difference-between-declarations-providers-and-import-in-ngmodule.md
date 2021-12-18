@@ -36,7 +36,7 @@
 
 本项目中使用的提供者是名为 **UserService 的定制服务。**
 
-```
+```ts
 ng g s User
 
 ```
@@ -45,7 +45,7 @@ ng g s User
 
 ## java 描述语言
 
-```
+```ts
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -63,7 +63,7 @@ export class UserService {
 
 ## java 描述语言
 
-```
+```ts
 // imports for the application
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -95,7 +95,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <ul>
     <li>imports in this app: BrowserModule,

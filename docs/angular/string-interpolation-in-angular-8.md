@@ -6,7 +6,7 @@ Angular 8 中的字符串插值是一种 **单向数据绑定** 技术用于将�
 
 **语法:**
 
-```
+```ts
 {{ component_property }}
 
 ```
@@ -22,7 +22,7 @@ Angular 8 中的字符串插值是一种 **单向数据绑定** 技术用于将�
 
     ## 超文本标记语言
 
-    ```
+    ```ts
     <h1>
       {{ title }}
     </h1>
@@ -32,7 +32,7 @@ Angular 8 中的字符串插值是一种 **单向数据绑定** 技术用于将�
 
     ## java 描述语言
 
-    ```
+    ```ts
     import { Component } from '@angular/core';    
     @Component({    
       selector: 'app-root',    
@@ -54,7 +54,7 @@ Angular 8 中的字符串插值是一种 **单向数据绑定** 技术用于将�
 
     ## 超文本标记语言
 
-    ```
+    ```ts
     <h1 [style.color] = "'green'" 
         [style.text-align] = "'center'" >
         {{ title }} : {{ about }}
@@ -65,7 +65,7 @@ Angular 8 中的字符串插值是一种 **单向数据绑定** 技术用于将�
 
     ## java 描述语言
 
-    ```
+    ```ts
     import { Component } from '@angular/core';    
     @Component({    
       selector: 'app-root',    

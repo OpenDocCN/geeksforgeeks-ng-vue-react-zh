@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-change="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@
 
 **示例 1:** 本示例使用 ng-change 指令使用复选框显示/隐藏一些内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -66,7 +66,7 @@
 
 **示例 2:** 本示例返回复选框状态更改的次数以及复选框的当前状态。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

@@ -12,13 +12,13 @@
 
 *   现在使用以下命令将**数学模块**导入到模块文件中:
 
-    ```
+    ```ts
     import {MatIconModule} from '@angular/material/icon';
     ```
 
 *   使用以下命令显示图标:
 
-    ```
+    ```ts
     <mat-icon>icon-name</mat-icon>
     ```
 
@@ -36,7 +36,7 @@
 
 在 index.html 文件中，加载字体库。
 
-```
+```ts
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -57,7 +57,7 @@
 
 现在使用 mat-icon 作为按钮。
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

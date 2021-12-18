@@ -23,25 +23,25 @@
 
 *   通过将过滤器应用于视图模板中的表达式:
 
-    ```
+    ```ts
     {{ expression | filter }} 
     ```
 
 *   过滤器可以应用于另一个过滤器的结果。这叫做“链接”:
 
-    ```
+    ```ts
     {{ expression | filter1 | filter2 | ... }}
     ```
 
 *   过滤器可能有参数:
 
-    ```
+    ```ts
     {{ expression | filter:argument1:argument2:... }}
     ```
 
 **程序:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +81,7 @@
 
 **程序:**
 
-```
+```ts
 <script>
 var listedItems = [
     { itemID: 001, itemName: "Laptop", stockLeft: 1 },
@@ -109,7 +109,7 @@ prompt("", "There are " + listedItems.length
 
 **语法:**
 
-*   ```
+*   ```ts
     $filter("filter")(array, expression, compare, propertyKey)
     function myCtrl($scope, $filter)
     {
@@ -121,7 +121,7 @@ prompt("", "There are " + listedItems.length
 
 *   AngularJS 有一些内置的过滤器，可以用来减少一个数组的执行或数组在某些时候根据某些条件。
 
-    ```
+    ```ts
     $scope.formatDate = $filter("date")($scope.date, "yyyy-MM-dd");
     $scope.finalResult = $filter('uppercase')($scope.name);
 
@@ -129,7 +129,7 @@ prompt("", "There are " + listedItems.length
 
 **程序:**过滤器被添加到指令中，就像 [ng-repeat](https://www.geeksforgeeks.org/angular-js-ng-repeat-directive/) 一样，通过使用**管道**符号或字符 **`|`** ，后面跟着一个过滤器标签。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

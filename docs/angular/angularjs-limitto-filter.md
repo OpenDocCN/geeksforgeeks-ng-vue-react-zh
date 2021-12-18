@@ -11,7 +11,7 @@ AngularJS 中的 **limitTo** 过滤器用于**返回** *一个包含指定数量
 
 **语法:**
 
-```
+```ts
 {{ object | limitTo : limit : begin }}
 ```
 
@@ -22,7 +22,7 @@ AngularJS 中的 **limitTo** 过滤器用于**返回** *一个包含指定数量
 
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -66,7 +66,7 @@ AngularJS 中的 **limitTo** 过滤器用于**返回** *一个包含指定数量
 让我们看另一个例子，让事情变得更清楚。
 **例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

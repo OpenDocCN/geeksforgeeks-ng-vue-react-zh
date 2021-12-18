@@ -8,7 +8,7 @@ getLocaleDateFormat 用于获取给定地区的本地化日期值格式。
 
 **语法:**
 
-```
+```ts
 getLocaleDateFormat(locale: string, width: FormatWidth): string
 ```
 
@@ -21,7 +21,7 @@ getLocaleDateFormat(locale: string, width: FormatWidth): string
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getLocaleDateFormat 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -43,7 +43,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule }
@@ -72,7 +72,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleDateFormat, 
         TranslationWidth, 
@@ -98,7 +98,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>
@@ -113,7 +113,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -142,7 +142,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
   getLocaleDateFormat, 
   TranslationWidth, 
@@ -168,7 +168,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>

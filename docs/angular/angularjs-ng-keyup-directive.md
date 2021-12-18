@@ -6,7 +6,7 @@ AngluarJS 中的 **ng-keyup 指令**用于对 keyup 事件应用自定义行为�
 
 **语法:**
 
-```
+```ts
 <element ng-keyup="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngluarJS 中的 **ng-keyup 指令**用于对 keyup 事件应用自定义行为�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

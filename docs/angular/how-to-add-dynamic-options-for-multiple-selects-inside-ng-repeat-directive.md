@@ -8,7 +8,7 @@
 
 **示例 1:** 在本例中，我们将添加多个选择并显示所选数据。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
 
@@ -88,7 +88,7 @@ T3】
 
 **示例 2:** 在本例中，我们预填充了模型数组。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
 

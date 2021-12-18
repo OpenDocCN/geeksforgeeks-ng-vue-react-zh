@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```ts
 <HTML element (event) > =  function name()>
 ```
 
@@ -28,14 +28,14 @@
 
     **app.component.html:**
 
-    ```
+    ```ts
     <input (change)="displayValue($event)">
     <p> Entered Data is : {{data}}</p>
     ```
 
     **app.component.ts:**
 
-    ```
+    ```ts
     import { Component } from '@angular/core';     
     @Component({     
       selector: 'app-root',     
@@ -53,7 +53,7 @@
 
     **app.module.ts:**
 
-    ```
+    ```ts
     import { NgModule } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
     import { FormsModule } from '@angular/forms';
@@ -78,7 +78,7 @@
 
     **app.component.html:**
 
-    ```
+    ```ts
     <div>
       <button (click)="handleClick()">
         Tap Here to Display and Hide the Company name
@@ -94,7 +94,7 @@
 
     **app.component.ts:**
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
 
     @Component({
@@ -118,7 +118,7 @@
 
     **app.module.ts:**
 
-    ```
+    ```ts
     import { NgModule } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
     import { FormsModule } from '@angular/forms';

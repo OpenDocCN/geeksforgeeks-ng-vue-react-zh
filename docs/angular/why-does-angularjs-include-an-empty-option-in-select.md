@@ -8,7 +8,7 @@ AngularJS 是一个包含几个内置功能的 Javascript 框架，旨在让开�
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -79,7 +79,7 @@ AngularJS 是一个包含几个内置功能的 Javascript 框架，旨在让开�
 **说明与更正:**一般情况下，选项列表会转移到 *ng-option* 。然后这些选项以*图形用户界面格式*显示给用户。但是，当 **ng-model** 引用的某个值在转移到 **ng-option** 的列表中不存在时，就会在 GUI 列表中创建一个空选项，如上图所示。纠正此错误最简单的方法是从 **ng 选项**列表中引用一个有效值。引用的值必须在列表中可用。
 我们可以用这个代码引用一个有效值。在这里， **i** 将是我们要引用的值的索引。
 
-```
+```ts
 $scope.form = {type : $scope.allNames[i].val}; 
 ```
 
@@ -87,7 +87,7 @@ $scope.form = {type : $scope.allNames[i].val}; 
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

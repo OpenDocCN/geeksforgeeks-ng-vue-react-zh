@@ -12,7 +12,7 @@
 
 ## 镖
 
-```
+```ts
 void main() {  
     var info = "article";  
     var publisher = "Geeks for Geeks";  
@@ -22,7 +22,7 @@ void main() {  
 
 **输出:**
 
-```
+```ts
 This article is published on Geeks for Geeks
 ```
 
@@ -67,7 +67,7 @@ This article is published on Geeks for Geeks
 
 ## 镖
 
-```
+```ts
 import 'dart:html';
 
 void main() {
@@ -78,7 +78,7 @@ void main() {
 
 ## 超文本标记语言
 
-```
+```ts
 <center>
   <h1 id="header"></h1>
   <h2>is best</h2>
@@ -87,7 +87,7 @@ void main() {
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```ts
 body {
   display: flex;
   flex-direction: column;

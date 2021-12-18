@@ -13,7 +13,7 @@
 
     *   **例:**
 
-        ```
+        ```ts
         <!DOCTYPE html>
         <html>
 
@@ -70,7 +70,7 @@
 
     *   **例:**
 
-        ```
+        ```ts
         <!DOCTYPE html>
         <html>
 

@@ -10,7 +10,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -96,7 +96,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -141,7 +141,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -182,7 +182,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -224,7 +224,7 @@ AngularJS 中的$location 基本上使用 window.location 服务。$location 用
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

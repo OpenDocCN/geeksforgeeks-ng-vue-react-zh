@@ -8,7 +8,7 @@ Angular Material 是一个 UI 组件库，由 Angular 团队开发，用于构�
 
 **安装语法:**
 
-```
+```ts
 ng add @angular/material
 ```
 
@@ -27,7 +27,7 @@ ng add @angular/material
 
 ## java 描述语言
 
-```
+```ts
 import { NgModule } from '@angular/core'; 
 import { BrowserModule } from '@angular/platform-browser'; 
 import { FormsModule } from '@angular/forms'; 
@@ -52,7 +52,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```ts
 <mat-slide-toggle color="primary">
   Slide me to get the primary theme!
 </mat-slide-toggle> <br />

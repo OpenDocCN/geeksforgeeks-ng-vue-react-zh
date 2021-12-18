@@ -13,7 +13,7 @@ Angular2 hashtag 是一种用于将 DOM 元素声明为变量的语法，这些�
 模板引用变量是一个小宝石，允许用 Angular 做很多好事。它依赖于一个简单的 hashtag 来创建对模板中元素的引用。
 **语法:**
 
-```
+```ts
 <input #searchBox keyword="search(searchBox.value)">
 ```
 
@@ -22,7 +22,7 @@ T3】例:
 
 ## java 描述语言
 
-```
+```ts
 import {Component} from 'angular2/core';
 
 @Component({
@@ -40,7 +40,7 @@ export class pvApp {}import {Component} from 'angular2/core';
 export class pvApp {}
 ```
 
-```
+```ts
 <input type="text" #pv>
  {{ pv.value }}
 ```

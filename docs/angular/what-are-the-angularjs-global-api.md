@@ -15,13 +15,13 @@ AngularJS 中的一些 API 函数如下所示:
 
     **语法:**
 
-    ```
+    ```ts
     angular.lowercase(string);
     ```
 
     **例 1:**
 
-    ```
+    ```ts
     <html>
     <script src=
     "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -47,7 +47,7 @@ AngularJS 中的一些 API 函数如下所示:
 
     **输出:**
 
-    ```
+    ```ts
     Before Conversion: GeeksforGeeks                   
     After Conversion: geeksforgeeks                   
 
@@ -57,13 +57,13 @@ AngularJS 中的一些 API 函数如下所示:
 
     **语法:**
 
-    ```
+    ```ts
     angular.uppercase(string);
     ```
 
     **例 2:**
 
-    ```
+    ```ts
     <html>
     <script src=
     "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -89,7 +89,7 @@ AngularJS 中的一些 API 函数如下所示:
 
     **输出:**
 
-    ```
+    ```ts
     Before Conversion: geeksforgeeks
     After Conversion: GEEKSFORGEEKS
 
@@ -99,13 +99,13 @@ AngularJS 中的一些 API 函数如下所示:
 
     **语法:**
 
-    ```
+    ```ts
     angular.isString(value);
     ```
 
     **例**
 
-    ```
+    ```ts
     <html>
     <script src=
     "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -131,7 +131,7 @@ AngularJS 中的一些 API 函数如下所示:
 
     **输出:**
 
-    ```
+    ```ts
     Value is: 15
     Value is String: false
 
@@ -141,13 +141,13 @@ AngularJS 中的一些 API 函数如下所示:
 
     **语法:**
 
-    ```
+    ```ts
     angular.isNumber(value);
     ```
 
     **例**
 
-    ```
+    ```ts
     <html>
     <script src=
     "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -173,7 +173,7 @@ AngularJS 中的一些 API 函数如下所示:
 
     **输出:**
 
-    ```
+    ```ts
     Value is: 15
     Value is Number: true
 

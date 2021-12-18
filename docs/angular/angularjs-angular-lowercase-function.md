@@ -5,13 +5,13 @@
 AngularJS 中的 **angular .小写()函数**用于将字符串转换为**小写**。当用户想要以小写而不是大写显示文本或者想要比较两个字符串时，可以使用它。
 **语法:**
 
-```
+```ts
 angular.lowercase(string)
 ```
 
 **示例:**在本例中，字符串被转换为小写。
 
-```
+```ts
 <html ng-app="app">
     <head>
     <script src=

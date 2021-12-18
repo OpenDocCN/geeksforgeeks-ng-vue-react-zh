@@ -6,7 +6,7 @@ AngularJS 中的 **angular.isDate()函数**用于确定日期值是否有效。�
 
 **语法:**
 
-```
+```ts
 angular.isDate( value )
 ```
 
@@ -16,7 +16,7 @@ angular.isDate( value )
 
 **示例:**本示例使用 angular.isDate()函数确定日期值是否有效。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

@@ -8,7 +8,7 @@
 
 **示例:** 本示例使用 ng-app 指令定义默认 AngularJS 应用程序。
 
-```
+```ts
 <html>        
 <head> 
     <title>AngularJS ng-app Directive</title> 

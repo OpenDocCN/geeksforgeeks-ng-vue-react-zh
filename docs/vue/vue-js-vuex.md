@@ -8,13 +8,13 @@ Vuex 是一个针对 Vue 应用程序的状态管理库。它在整个应用程�
 
 *   您应该在系统中安装 npm。然后，您需要使用以下命令安装 vue-cli:
 
-    ```
+    ```js
     npm install -g @vue/cli
     ```
 
 *   然后使用以下命令创建一个新项目“gfg_vue2”(或您选择的任何名称):
 
-    ```
+    ```js
     vue create gfg_vue2
     ```
 
@@ -28,13 +28,13 @@ Vuex 是一个针对 Vue 应用程序的状态管理库。它在整个应用程�
 
 *   将 Vuex 添加到 Vue 中。JS 项目您可以通过 CDN 链接来完成，也可以通过在项目目录的终端中运行以下命令来添加:
 
-    ```
+    ```js
     npm install vuex –save
     ```
 
 *   然后使用将它导入到所需的 JS 文件中
 
-    ```
+    ```js
     import Vuex from 'vuex'
     ```
 
@@ -46,7 +46,7 @@ Vuex 是一个针对 Vue 应用程序的状态管理库。它在整个应用程�
 
 **语法**
 
-```
+```js
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -71,7 +71,7 @@ export default new Vuex.Store({
 
 ## Store.js
 
-```
+```js
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -96,7 +96,7 @@ export default new Vuex.Store({
 
 ## App.js
 
-```
+```js
 <template>
 <div>
   <Component1></Component1>
@@ -123,7 +123,7 @@ export default {
 
 ## 组件 1 .视图
 
-```
+```js
 <template>
   <div class="component1">
     <h1>You have clicked {{ labeltext }} times</h1>
@@ -158,7 +158,7 @@ export default {
 
 ## 组件 2 .视图
 
-```
+```js
 <template>
   <div class="component2">
     <button @click="count">Click</button>

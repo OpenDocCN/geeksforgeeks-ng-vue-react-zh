@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <html ng-app="simpleapp">
 
 <body ng-controller="MainCtrl as mainctrl">
@@ -99,7 +99,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <html ng-app="multiformapp">
 
 <body ng-controller="MainCtrl as mainctrl">

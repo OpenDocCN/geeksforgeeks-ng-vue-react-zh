@@ -6,13 +6,13 @@ AngluarJS 中的 **ng-show 指令**用于显示或隐藏指定的 HTML 元素。
 
 **语法:**
 
-```
+```ts
 <element ng-show="expression"> Contents... </element> 
 ```
 
 **示例 1:** 本示例使用 ng-show 指令在选中复选框后显示 HTML 元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -61,7 +61,7 @@ AngluarJS 中的 **ng-show 指令**用于显示或隐藏指定的 HTML 元素。
 
 **示例 2:** 本示例使用 ng-show 指令显示输入的数字是否为 5 的倍数。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

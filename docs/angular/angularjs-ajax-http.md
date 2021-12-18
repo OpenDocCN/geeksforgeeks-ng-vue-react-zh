@@ -4,7 +4,7 @@ AngularJS 提供了一个名为 AJAX –$ http 的控制服务，它负责读取
 
 **语法:**
 
-```
+```ts
 function studentController($scope,$https:) {
    var url = "data.txt";
 
@@ -37,7 +37,7 @@ function studentController($scope,$https:) {
 
 *   **数据. txt** 文件:
 
-    ```
+    ```ts
     [
        {
           "Name" : "Ronaldo",
@@ -65,7 +65,7 @@ function studentController($scope,$https:) {
 
     *   **代号:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
 

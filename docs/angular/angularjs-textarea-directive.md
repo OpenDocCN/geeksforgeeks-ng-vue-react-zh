@@ -15,7 +15,7 @@ Textarea 元素提供验证和基本状态控制。属性 **ng-model** 参考**�
 
 **语法:**
 
-```
+```ts
 <textarea ng-model="name"></textarea>
 ```
 
@@ -35,7 +35,7 @@ Textarea 元素提供验证和基本状态控制。属性 **ng-model** 参考**�
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -80,7 +80,7 @@ Start typing.......</b></p>
 
 **例 2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

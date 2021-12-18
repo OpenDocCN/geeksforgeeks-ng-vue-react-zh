@@ -6,14 +6,14 @@ html 不支持在 html 中嵌入 HTML 页面，这就是我们使用 AngularJS I
 
 **语法:**
 
-```
+```ts
 <element ng-include=" ">content...<element>
 
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +40,7 @@ html 不支持在 html 中嵌入 HTML 页面，这就是我们使用 AngularJS I
 
 **GeeksforGeeks.html table:**
 
-```
+```ts
 <table>
   <tr ng-repeat="x in courses">
     <td>{{ x.Course }}</td>
@@ -51,7 +51,7 @@ html 不支持在 html 中嵌入 HTML 页面，这就是我们使用 AngularJS I
 
 **代码:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +81,7 @@ html 不支持在 html 中嵌入 HTML 页面，这就是我们使用 AngularJS I
 **包含跨域:**如果您想要包含来自另一个域的文件，那么您可以在应用程序的配置功能中添加合法文件或域的白名单。
 T3】样本代码:
 
-```
+```ts
 <!DOCTYPE html>
 <html>
   <script src=

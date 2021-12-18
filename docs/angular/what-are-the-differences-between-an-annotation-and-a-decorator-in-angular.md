@@ -8,7 +8,7 @@
 
 *   **例:**
 
-    ```
+    ```ts
     @ComponentAnnotation
     ```
 
@@ -22,7 +22,7 @@
 
 **例:**此处组件标注为**组件标注**进一步使用。
 
-```
+```ts
 import { 
   ComponentAnnotation as Component,
 } from '@angular/core';
@@ -52,7 +52,7 @@ export class ComponentAnnotation extends DirectiveMetadata {
 
 **例:**
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

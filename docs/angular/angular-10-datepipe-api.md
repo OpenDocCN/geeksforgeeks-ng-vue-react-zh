@@ -8,7 +8,7 @@ DatePipe 用于根据区域设置规则格式化日期值。
 
 **语法:**
 
-```
+```ts
 {{ value | date }}
 ```
 
@@ -30,7 +30,7 @@ DatePipe 用于根据区域设置规则格式化日期值。
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } 
 from '@angular/core';
 
@@ -45,7 +45,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <p>Date {{today | date}}</p>
 
 <p>Time {{today | date:'h:mm a z'}}</p>
@@ -59,7 +59,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -73,7 +73,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <p>Date {{today | date}}</p>
 
 <p>Time {{today | date:'h:m:s'}}</p>

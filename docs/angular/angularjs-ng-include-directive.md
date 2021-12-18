@@ -6,7 +6,7 @@ AngularJS 有一个内置指令，通过使用 ng-include 指令来包含来自�
 
 **语法:**
 
-```
+```ts
 <element ng-include="filename" onload="expression" autoscroll="expression" >
 Content...</element>
 
@@ -18,7 +18,7 @@ Content...</element>
 
 *   **外部 HTML 文件:**将此文件保存为**child.html**。
 
-    ```
+    ```ts
     <!-- child.html -->
     <p>Hello Geeks from include component.</hp>
     <!--I am a partial, i don't require head and body tags.-->
@@ -26,7 +26,7 @@ Content...</element>
 
     *   **代号:**
 
-    ```
+    ```ts
     <!DOCTYPE html> 
     <html> 
 
@@ -52,7 +52,7 @@ Content...</element>
     **Example 2:**
     *   **外部 HTML 文件:**将此文件保存为 table.html。
 
-        ```
+        ```ts
         <!-- table.html -->
         <table>
           <tr ng-repeat="Subject in tutorials">
@@ -64,7 +64,7 @@ Content...</element>
 
     *   **代号:**
 
-        ```
+        ```ts
         <!DOCTYPE html>
         <html lang="en">
         <head>

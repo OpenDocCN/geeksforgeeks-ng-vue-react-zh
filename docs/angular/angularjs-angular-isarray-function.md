@@ -5,7 +5,7 @@
 AngularJS 中的 **angular.isArray()函数**用于返回 **TRUE** 如果引用是数组，则返回 **FALSE** 如果不是数组。
 **语法:**
 
-```
+```ts
 angular.isArray(value)
 ```
 
@@ -13,7 +13,7 @@ angular.isArray(value)
 
 **例 1:**
 
-```
+```ts
 <html>
     <head>
         <title>angular.isArray()</title>
@@ -59,7 +59,7 @@ angular.isArray(value)
 
 **例 2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

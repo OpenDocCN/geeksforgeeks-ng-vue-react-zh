@@ -24,7 +24,7 @@ angular 中的加载策略决定了应用程序在浏览器中运行时如何加
 
 ## java 描述语言
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } 
             from '@angular/router';
@@ -64,7 +64,7 @@ export class AppRoutingModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -90,7 +90,7 @@ export class UserComponent implements OnInit, OnDestroy {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -121,7 +121,7 @@ export class OrderComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } 
         from '@angular/router';
@@ -159,7 +159,7 @@ export class AppRoutingModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -185,7 +185,7 @@ export class UserComponent implements OnInit, OnDestroy {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({

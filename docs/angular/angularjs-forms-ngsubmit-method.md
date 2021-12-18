@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <form (ngSubmit)='method($event)'></form>
 ```
 
@@ -27,7 +27,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { FormGroup, FormControl, FormArray, NgForm } from '@angular/forms'
 @Component({
@@ -44,7 +44,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <form #form="ngForm" (ngSubmit)="submit(form)" novalidate>
     <input name="first" ngModel required #first="ngModel">
     <input name="last" ngModel>

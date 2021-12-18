@@ -5,7 +5,7 @@
 AngluarJS 中的 **ng-dblclick 指令**用于在双击元素时应用自定义行为。它可以用来显示或隐藏一些元素，或者它可以弹出警告或改变文本的颜色，当它被点击两次。
 **语法:**
 
-```
+```ts
 <element ng-dblclick="expression"> Content... </element>
 ```
 
@@ -13,7 +13,7 @@ AngluarJS 中的 **ng-dblclick 指令**用于在双击元素时应用自定义�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -65,7 +65,7 @@ AngluarJS 中的 **ng-dblclick 指令**用于在双击元素时应用自定义�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

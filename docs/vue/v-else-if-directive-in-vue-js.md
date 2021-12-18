@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-else-if="data"
 ```
 
@@ -14,7 +14,7 @@ v-else-if="data"
 
 **示例 1:** 本示例使用 Vue.js 来显示带有 v-else-if 的元素，使用算术条件。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +76,7 @@ v-else-if="data"
 
 **示例 2:** 这个示例使用 Vue.js 来显示带有 v-else 的元素——如果使用 Booleans 的话。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
  <element ng-href="addr"> content ... </element> 
 ```
 
@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/

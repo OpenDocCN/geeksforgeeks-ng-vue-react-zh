@@ -6,13 +6,13 @@ AngularJS 中的 **ng-open 指令**用于指定指定 HTML 元素的 open 属性
 
 **语法:**
 
-```
+```ts
 <element ng-open="expression"> Contents... <element>
 ```
 
 **示例:**本示例使用 ng-open 指令打开元素的属性。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

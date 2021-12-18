@@ -18,7 +18,7 @@
 1) **输入字段:**
 语法:
 
-```
+```ts
 
 <input type="text" value="name" ng-model="name" placeholder="name">
 ```
@@ -29,13 +29,13 @@ holders 来预定义输入框，以方便用户，这样如果表单出现
 
 在**应用模块**中
 
-```
+```ts
 import { FormsModule } from '@angular/forms'; 
 ```
 
 并在下面添加 Formsmodule:
 
-```
+```ts
   imports: [
     BrowserModule,
     FormsModule,
@@ -47,7 +47,7 @@ import { FormsModule } from '@angular/forms';
 **例 1:**
 在**app.component.html**
 
-```
+```ts
 <form>
         <div class="form-group">
             <label for="firstName">Name</label>
@@ -93,7 +93,7 @@ import { FormsModule } from '@angular/forms';
 
 **例 2:**app.component.html**T2**
 
-```
+```ts
   <form>
     <input id="myVar" type="checkbox" ngModel name="myVar" #myVar="ngModel">
     <p>The checkbox is selected: {{myVar.value}}</p>
@@ -118,7 +118,7 @@ import { FormsModule } from '@angular/forms';
 
 **例 3(单选按钮):**app.component.html**T2**
 
-```
+```ts
 <form>
       <p>Select a radio button to know which Vowel it is associated to:</p>
     <input value="A" type="radio" ngModel name="myVar" #myVar="ngModel">

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 $rootScope.$broadcast(name, args)
 
 $scope.$on(name, listener);
@@ -24,7 +24,7 @@ $scope.$on(name, listener);
 
 **示例:**这个程序使用了$rootScope。$broadcast 使用上面讨论的方法引发事件。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

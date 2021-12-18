@@ -5,7 +5,7 @@
 在本文中，我们将看到什么是 Angular 10 中的 MaxLengthValidator，以及如何使用它。
 **最大长度验证器**用于将独立的表单控件实例与表单控件元素同步
 
-```
+```ts
 <input maxLength ="number">
 ```
 
@@ -30,7 +30,7 @@
 
 ## app.component.html
 
-```
+```ts
 <span>GeeksforGeeks</span>
 <input type="text" maxlength="12">
 <input maxlength="5">

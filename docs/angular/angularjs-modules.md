@@ -8,13 +8,13 @@ AngularJS 模块定义了应用于整个网页的应用程序的功能。它有�
 
 **如何创建模块:**
 
-```
+```ts
 var app = angular.module("Module-name", []);
 ```
 
 在这个[]中，我们可以添加所需组件的列表，但是在这个例子中，我们不包括任何组件。通过将这个创建的模块添加到模块列表中，它与 div、body 等任何标签绑定在一起。
 
-```
+```ts
 <div ng-app = "module-name">
     The code in which the module is required.
 </div>
@@ -22,7 +22,7 @@ var app = angular.module("Module-name", []);
 
 **添加控制器:**
 
-```
+```ts
 app.controller("Controller-name", function($scope) {
     $scope.variable-name= "";
 });
@@ -30,7 +30,7 @@ app.controller("Controller-name", function($scope) {
 
 在这里，我们可以在 controller 中添加任意数量的变量，并在 html 文件中使用它们，html 文件是标签的主体，在标签中，controller 通过编写:
 
-```
+```ts
 <body>
 <div ng-app="Module-name">
     <div ng-controller="Controller-name">
@@ -49,7 +49,7 @@ controller is included -->
 
 **示例:**
 
-*   **```
+*   **```ts
     // Here the Component name is DemoComponent
     // so saving the file as DemoComponent.js 
     app.controller('DemoController', function($scope) {
@@ -78,12 +78,12 @@ controller is included -->
 
 *   **像我们之前做的那样创建一个模块:
 
-    ```
+    ```ts
     var app = angular.module("DemoApp", []);
     ```** 
 *   **创建指令:
 
-    ```
+    ```ts
     app.directive("Directive-name", function() {
         return {
             template : "string or some code which is to be executed"
@@ -94,7 +94,7 @@ controller is included -->
 
 ****示例:****
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -127,7 +127,7 @@ controller is included -->
 
 ****输出:****
 
-```
+```ts
 Welcome to GeeksforGeeks!
 ```
 

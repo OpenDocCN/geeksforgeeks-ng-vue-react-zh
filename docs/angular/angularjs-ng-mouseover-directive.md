@@ -6,13 +6,13 @@ AngularJS 中的 **ng-mouseover 指令**用于在特定的 HTML 元素上发生�
 
 **语法:**
 
-```
+```ts
 <element ng-mouseover="expression"> Contents... </element>
 ```
 
 **示例 1:** 本示例使用 ng-mouseover Directive 在鼠标移动到元素上时显示内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ AngularJS 中的 **ng-mouseover 指令**用于在特定的 HTML 元素上发生�
 
 **示例 2:** 本示例使用 ng-mouseover Directive 在鼠标移动到元素上时显示警告消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

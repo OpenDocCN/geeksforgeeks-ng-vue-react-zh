@@ -18,7 +18,7 @@
 
 **第一步:初始化新的 Angular 项目:**现在，我们先从创建 angular app 开始。在这里，我们将创建一个简单的天气应用程序。为此，首先，创建一个新的 Angular App，并使用以下命令在项目目录中导航。
 
-```
+```ts
 ng new weather-app
 cd weather-app
 ```
@@ -31,7 +31,7 @@ cd weather-app
 
 **第 4 步:开发天气应用程序的用户界面:**通过运行以下命令创建名为**天气**的角度组件和名为**应用程序接口**的角度服务:
 
-```
+```ts
 ng generate component components/weather
 ng generate service services/API
 ```
@@ -40,7 +40,7 @@ ng generate service services/API
 
 ## 天气.组件. ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import { WeatherService }
      from 'src/app/services/weather.service';
@@ -81,7 +81,7 @@ export class WeatherComponent implements OnInit {
 
 ## weather.component.html
 
-```
+```ts
 <div class="container-fluid">
   <div class="input card">
     <div class="mb-4">
@@ -155,7 +155,7 @@ export class WeatherComponent implements OnInit {
 
 ## weather.component.css
 
-```
+```ts
 .col-md-3 {
   margin: 5px auto;
 }
@@ -251,7 +251,7 @@ input {
 
 ## 天气服务
 
-```
+```ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
@@ -273,7 +273,7 @@ export class WeatherService {
 
 现在给 app.component.html 的天气预报打电话
 
-```
+```ts
 <app-weather></app-weather>
 ```
 
@@ -283,7 +283,7 @@ export class WeatherService {
 
 **第五步:将 angular app 转换为 PWA:** 使用 Angular CLI 很容易将您的 Angular app 转换为 PWA。导航到项目的文件夹。现在，运行以下命令添加 PWA 功能。
 
-```
+```ts
 ng add @angular/pwa
 ```
 
@@ -302,7 +302,7 @@ ng add @angular/pwa
 
 ## java 描述语言
 
-```
+```ts
 {
   "name": "weather-app",
   "short_name": "weather-app",
@@ -368,7 +368,7 @@ ng add @angular/pwa
 
 ## java 描述语言
 
-```
+```ts
 {
  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
  "index": "/index.html",
@@ -403,19 +403,19 @@ ng add @angular/pwa
 
 **第 6 步:为生产环境构建我们的 Angular App:**
 
-```
+```ts
 ng build --prod
 ```
 
 运行上述命令后，我们的构建文件夹将在 dist/weather-app 中创建。现在，使用 cd dist/weather-app 移动到构建文件夹。
 
-```
+```ts
 cd dist/weather-app
 ```
 
 使用 NPM 全球安装 **http 服务器**包。
 
-```
+```ts
 npm install -g http-server
 ```
 

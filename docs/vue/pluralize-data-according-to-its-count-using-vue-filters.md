@@ -12,7 +12,7 @@ VUE 是用于构建用户界面的渐进式框架。 核心库仅关注于视图
 
 ## Index.html
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -50,7 +50,7 @@ VUE 是用于构建用户界面的渐进式框架。 核心库仅关注于视图
 
 ## App.js
 
-```
+```js
 const parent = new Vue({
   el: "#parent",
   data: {

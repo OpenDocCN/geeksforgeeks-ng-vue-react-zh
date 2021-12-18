@@ -6,14 +6,14 @@ AngularJS 中的 **ng-form 指令**用于创建嵌套表单，即一个表单位
 
 **语法:**
 
-```
+```ts
 <ng-form [name="string"]> Contents... </ng-form>
 
 ```
 
 **示例 1:** 本示例使用 ng-form Directive 隐藏输入文本字段并显示其内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -61,7 +61,7 @@ AngularJS 中的 **ng-form 指令**用于创建嵌套表单，即一个表单位
 
 **示例 2:** 本示例使用 ng-form Directive 验证电子邮件并保存。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

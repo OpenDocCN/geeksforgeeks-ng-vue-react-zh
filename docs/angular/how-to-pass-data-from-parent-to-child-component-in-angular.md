@@ -12,7 +12,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 import { AbstractControl, FormBuilder, 
         FormGroup } from '@angular/forms';
@@ -97,7 +97,7 @@ export class AppComponent {
 
 ## 超文本标记语言
 
-```
+```ts
 <div class="container">
     <div class="row">
         <div class="col-md-3"></div>
@@ -128,7 +128,7 @@ export class AppComponent {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -153,7 +153,7 @@ export class CdetailComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```ts
 <div class="container">
     <div class="row">
         <div class="col-md-4"></div>

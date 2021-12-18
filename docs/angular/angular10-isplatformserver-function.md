@@ -8,7 +8,7 @@ isPlatformServer 用于获取代表服务器平台的平台 id
 
 **语法:**
 
-```
+```ts
 isPlatformServer(platformId);
 ```
 
@@ -29,7 +29,7 @@ isPlatformServer(platformId);
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } 
 from '@angular/core';
 import { PLATFORM_ID } 
@@ -61,7 +61,7 @@ export class AppComponent  {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } 
 from '@angular/core';
 import { PLATFORM_ID } 
@@ -86,7 +86,7 @@ export class AppComponent  {
 
 ## " > app.component.html "
 
-```
+```ts
 <div *ngIf = 'isServer==false'>
   platform id does not represents a server platform.
 </div>

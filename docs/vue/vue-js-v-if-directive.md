@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-if="data"
 
 ```
@@ -16,7 +16,7 @@ v-if="data"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -70,7 +70,7 @@ v-if="data"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

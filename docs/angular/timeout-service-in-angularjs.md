@@ -11,7 +11,7 @@ AngularJS 的这个*“$ time out”*服务在功能上类似于普通 JavaScrip
 
 **例如:**假设开发者想在用户登录 2 秒后，在用户屏幕上显示一条警告消息。他可以使用 AngularJS 的$timeout 函数来创建这样的功能。
 
-```
+```ts
 var app = angular.module('timeoutApp', []);
 
 app.controller('timeoutCtrl', function ($scope, $timeout) {
@@ -28,7 +28,7 @@ $timeout(function () {
 在上面给出的示例代码中，很明显，警告消息在用户登录后 2000 毫秒显示。
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 
 <html>
@@ -88,7 +88,7 @@ $timeout(function () {
 
 ### 例 2:
 
-```
+```ts
 <!DOCTYPE html>
 
 <html>

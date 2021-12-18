@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```ts
 <element ng-click="expression"> Contents... </element>
 ```
 
 **示例 1:** 本示例调用一个函数，在点击按钮后更改字段值。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="example">
 
@@ -68,7 +68,7 @@
 
 **示例 2:** 本示例更改 ng-click 指令内部的变量名。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="example">
 
@@ -122,7 +122,7 @@
 
 **示例 3:** 本示例使用段落标记来更改标题内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="example">
 

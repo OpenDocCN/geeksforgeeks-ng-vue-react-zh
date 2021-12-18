@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```ts
 <!DOCTYPE html>
    <html>
      <head>
@@ -42,7 +42,7 @@ initial-scale=1.0 part 设置初始缩放级别(首次在浏览器中加载页�
 
 **语法:**
 
-```
+```ts
 * {
  box-sizing: border-box;
 } 
@@ -50,7 +50,7 @@ initial-scale=1.0 part 设置初始缩放级别(首次在浏览器中加载页�
 
 ![](img/2850091540ace1d2e4c7bbb729e3239f.png)
 
-```
+```ts
 .A{
 width: 20%;
 float: left;
@@ -63,7 +63,7 @@ float: left;
 
 **上下缩放的响应图像:-**
 
-```
+```ts
 image {
  width: 100%;
  height: auto;
@@ -74,7 +74,7 @@ image {
 
 图像将缩小，但不会放大到大于其原始大小:
 
-```
+```ts
 image {
 max-width: 100%;
 height: auto;
@@ -83,7 +83,7 @@ height: auto;
 
 **语法:**
 
-```
+```ts
 .video { 
 position: relative;
 padding-bottom: 56.25%;
@@ -104,7 +104,7 @@ height: 100%;
 
 **响应排版:**
 
-```
+```ts
 Along with images and videos, it is very necessary to make text also responsive. 
 The root element's font-size known as rem is used for this. 
 @media (min-width: 640px) { body {font-size:1rem;} } 
@@ -155,7 +155,7 @@ The root element's font-size known as rem is used for this. 
 
     **景观**
 
-    ```
+    ```ts
     @media screen
      and (device-width: 360px)
      and (device-height: 640px)
@@ -166,21 +166,21 @@ The root element's font-size known as rem is used for this. 
 
     **智能手机人像**
 
-    ```
+    ```ts
     @media only screen and (min-width: 300px) {
     }
     ```
 
     **智能手机领域**
 
-    ```
+    ```ts
     @media only screen and (min-width: 480px) {
     }
     ```
 
     **ipad(人像)**
 
-    ```
+    ```ts
      @media only screen and (min-device-width : 768px) 
        and 
     (max-device-width : 1024px) 
@@ -192,21 +192,21 @@ The root element's font-size known as rem is used for this. 
 
     **写字板人像**
 
-    ```
+    ```ts
     @media only screen and (min-width: 768px) {
     }
     ```
 
     **平板电脑风景/桌面**
 
-    ```
+    ```ts
     @media only screen and (min-width: 1024px) {
     }
     ```
 
     **平板电脑横向/桌面(1200 像素)**
 
-    ```
+    ```ts
      @media only screen and (min-width: 1200px) {
     ...
     }
@@ -214,7 +214,7 @@ The root element's font-size known as rem is used for this. 
 
     **示例:**
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -279,7 +279,7 @@ The root element's font-size known as rem is used for this. 
 
     *   **Based on the content.**
 
-    ```
+    ```ts
     @media only screen (min-width: 768px){
     ...
      }
@@ -318,7 +318,7 @@ The root element's font-size known as rem is used for this. 
 
     **例 1:** AngularJs
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <head>
@@ -356,7 +356,7 @@ The root element's font-size known as rem is used for this. 
     </html>
     ```
 
-    ```
+    ```ts
     function ClickToEditCtrl($scope) {
       $scope.title = "Welcome to GFG!";
     }
@@ -371,7 +371,7 @@ The root element's font-size known as rem is used for this. 
 
     响应图像:
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html>
     <head>

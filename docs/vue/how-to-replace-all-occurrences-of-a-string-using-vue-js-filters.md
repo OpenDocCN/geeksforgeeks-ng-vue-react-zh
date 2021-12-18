@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```js
 <html>
 <head>
   <script src=

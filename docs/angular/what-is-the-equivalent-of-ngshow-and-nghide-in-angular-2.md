@@ -6,7 +6,7 @@
 
 **ng-show 示例:**该示例演示了 ngShow 的工作原理。
 
-```
+```ts
 <html>
 <script src=
 "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -27,7 +27,7 @@
 
 **ng-hide 示例:**该示例演示了 nghide 的工作原理。
 
-```
+```ts
 <html>
 <script src=
 "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
@@ -54,13 +54,13 @@
 
     **语法:**
 
-    ```
+    ```ts
     <div [hidden]="boolean_var"></div>
     ```
 
     因为它不会对 DOM 造成任何阻碍，所以如果在 CSS 中使用显示属性，那么这将会失败。例如，对于上面的示例，如果按如下方式操作，[隐藏]将会失败。
 
-    ```
+    ```ts
     <div [hidden]="boolean_var" style="display:block; ></div>
     ```
 
@@ -70,7 +70,7 @@
 
     *   **模板文件**
 
-        ```
+        ```ts
         <div [hidden]="isHidden">
             This will be hidden..
         </div>
@@ -78,7 +78,7 @@
 
     *   **组件类**
 
-        ```
+        ```ts
         import {
             Component,
             OnInit
@@ -103,7 +103,7 @@
 
     **语法:**
 
-    ```
+    ```ts
     <div *ngIf="boolean_var"></div>
     ```
 
@@ -113,7 +113,7 @@
 
     *   **模板文件**
 
-        ```
+        ```ts
         <div *ngIf="isShown">
             This will be Shown..
         </div>
@@ -121,7 +121,7 @@
 
     *   **组件类:**
 
-        ```
+        ```ts
         import { Component, OnInit } from '@angular/core';
 
         @Component({
@@ -141,6 +141,6 @@
 
     *   **输出:**
 
-        ```
+        ```ts
         This will be Shown..
         ```

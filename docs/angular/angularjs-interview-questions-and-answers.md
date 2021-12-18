@@ -36,7 +36,7 @@
 9.  **With options on page load how you can initialize a select box?**
     YOu can initialize a select box using ng-init directive when options on page load.
 
-    ```
+    ```ts
     <div ng-controller = " apps/dashboard/account " ng-switch
     On = "! ! accounts" ng-init = " loadData ( ) ">
     ```

@@ -31,26 +31,26 @@
 
 *   安装 angular cli。以管理员身份运行或在出现权限错误时使用 sudo。
 
-```html
+```tshtml
 npm i -g @angular/cli
 ```
 
 *   安装 angular CLI 后，使用以下命令启动新项目:
 
-```html
+```tshtml
 ng new <project-name>
 ```
 
 *   现在使用以下方法进行测试:
 
-```html
+```tshtml
 ng serve -o
 ```
 
 *   如果可以在 http://localhost:4200 上访问角度着陆页面，则设置成功。在进一步行动之前，先弄清楚 app.component.html 的内容。
 *   之后生成两个新组件:
 
-```html
+```tshtml
 ng generate component search
 ng generate component table
 ```
@@ -61,7 +61,7 @@ ng generate component table
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <br><br>
 <div>
     <label for="search">Enter the text</label>
@@ -76,7 +76,7 @@ ng generate component table
 
 ## java 描述语言
 
-```html
+```tshtml
 import { Component, EventEmitter, OnInit, Output } 
         from '@angular/core';
 

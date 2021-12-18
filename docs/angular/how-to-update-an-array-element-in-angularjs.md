@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -58,7 +58,7 @@
 
 **例 2:**
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

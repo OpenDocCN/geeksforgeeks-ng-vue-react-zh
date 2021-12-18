@@ -6,13 +6,13 @@ AngularJS 中的**ng-不可绑定指令**用于指定 HTML 的特定内容不应
 
 **语法:**
 
-```
+```ts
 <element ng-non-bindable> Contents... </element> 
 ```
 
 **示例 1:** 本示例使用 ng-不可绑定指令忽略表达式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -43,7 +43,7 @@ AngularJS 中的**ng-不可绑定指令**用于指定 HTML 的特定内容不应
 
 **示例 2:** 本示例使用 ng-不可绑定指令忽略表达式。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

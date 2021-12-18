@@ -20,7 +20,7 @@
 
 **语法:**变量名前使用#标记。示例–#极客
 
-```
+```ts
 <input #geek placeholder="" />
 ```
 
@@ -28,7 +28,7 @@
 
 ## app.component.html
 
-```
+```ts
 <input #geek placeholder="" />
 <!-- geek refers to the input element; 
      pass it to an event handler -->
@@ -37,13 +37,13 @@
 
 在上面的 HTML 模板中，我们用模板引用变量“email”创建了一个输入元素，并创建了一个按钮。单击按钮，我们访问完整的输入元素及其所有属性。
 
-```
+```ts
 "#geek" is template reference variable on input field
 ```
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -71,7 +71,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>{{email_address}}</h1>
 <form #itemForm="ngForm" (ngSubmit)="onSubmit(itemForm)">
     <input ngModel #email="ngModel" type="email" 
@@ -85,7 +85,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

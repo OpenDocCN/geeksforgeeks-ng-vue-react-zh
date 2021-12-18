@@ -9,13 +9,13 @@
 
 **步骤 1:** 使用以下命令安装引导程序。为了使用引导程序，首先，我们需要使用下面的语法将其安装在我们的工作区中。节点包管理器方便我们安装项目中需要的各种包。
 
-```
+```ts
 npm install bootstrap
 ```
 
 **第二步:**在 styles.css 文件中包含下面一行。在我们的项目&中打开 src/style . CSS文件，通过添加下面一行代码，导入 bootstrap.css 文件 。这种添加引导的方法取代了我们在 Angular 6 中通常遵循的方法。所以，我们不需要将文件显式添加到 *样式的* 数组的 *角度的* 文件或者添加到*index.html*文件。
 
-```
+```ts
 @import '~bootstrap/dist/css/bootstrap.min.css';
 ```
 
@@ -23,7 +23,7 @@ npm install bootstrap
 
 ## app.component.html
 
-```
+```ts
 <h3>Please click on the below button open popup</h3>
 <hr />
 <button
@@ -61,7 +61,7 @@ npm install bootstrap
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -86,7 +86,7 @@ export class AppComponent implements OnInit {
 
 **步骤 5:现在运行下面的命令启动应用程序。**该命令将启动 transpile 项目&将显示以下输出。
 
-```
+```ts
 ng serve --open
 ```
 

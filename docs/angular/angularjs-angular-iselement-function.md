@@ -6,7 +6,7 @@ AngularJS 中的**angular . isElement()函数**用于判断 iseelement 函数中
 
 **语法:**
 
-```
+```ts
 angular.isElement(value)
 ```
 
@@ -14,7 +14,7 @@ angular.isElement(value)
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

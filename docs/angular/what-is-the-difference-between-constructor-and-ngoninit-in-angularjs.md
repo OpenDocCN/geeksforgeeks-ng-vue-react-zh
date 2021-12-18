@@ -4,13 +4,13 @@
 
 **Constructor:** Constructor 是类的默认方法，它是在安装类时创建的，并确保类及其子部分中角色的正确执行。Angular 最好是 Dependency Injector (DI)，它分析构建器的组件，并在通过调用新的 MyClass()创建新特性时，尝试查找与构建器参数类型匹配的供应商，解析它们并将它们传递给类似的组件。
 
-```
+```ts
 new MyClass(someArg);
 ```
 
 **示例:**
 
-```
+```ts
 var AddNumbers= (function () {
     function AddNumbers(x, y) {
         this.x = x;
@@ -29,7 +29,7 @@ console.log(additionOfNumbers);
 
 **输出:**
 
-```
+```ts
 6
 ```
 
@@ -37,7 +37,7 @@ console.log(additionOfNumbers);
 
 **语法:**
 
-```
+```ts
 import {Component, OnInit} from '@ angular / core';
 ```
 
@@ -45,7 +45,7 @@ import {Component, OnInit} from '@ angular / core';
 
 **示例:**
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -67,20 +67,20 @@ export class CheckboxComponent implements OnInit {
 
 **输出:**
 
-```
+```ts
 Called Constructor
 Called ngOnitit method
 ```
 
 **注:**类 app 销售
 
-```
+```ts
 constructor () {
 // First called before ngOnInit ()
 }
 ```
 
-```
+```ts
 Oninit () {
 // Named after the constructor and named after NgOnChanges()
 }

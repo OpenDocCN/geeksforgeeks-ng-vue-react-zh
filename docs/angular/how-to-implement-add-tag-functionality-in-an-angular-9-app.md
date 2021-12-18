@@ -21,7 +21,7 @@ Angular 使几乎所有功能的实现变得非常容易。在本文中，我们
 *   创建您的自定义添加和删除方法来添加和删除标签。
 *   组件的代码:
 
-```
+```ts
 import {Component} from '@angular/core';
 import {COMMA, ENTER} from '@angular/cdk/keycodes';
 import {MatChipInputEvent} from '@angular/material/chips';
@@ -98,7 +98,7 @@ export class addTags {
 *   要删除一个特定的标签，添加一个 matChipRemove 指令的 mat-icon。
 *   HTML 视图的代码:
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>
@@ -136,7 +136,7 @@ export class addTags {
 
 *   现在在主要组件中包括这个“添加标签”组件。
 
-```
+```ts
 import {Component} from '@angular/core';
 
 @Component({

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```tshtml
 const node = document.createElement('script');
 node.src = 'SCRIPT_FILE_OR_URL_HERE'
 node.type = 'text/javascript';
@@ -20,7 +20,7 @@ document.getElementsByTagName('head')[0].appendChild(node);
 
 ## app.component.html
 
-```html
+```tshtml
 <div style="text-align:center;">
     <h1 style="color: green;">
         GeeksForGeeks
@@ -30,7 +30,7 @@ document.getElementsByTagName('head')[0].appendChild(node);
 
 ## app.component.ts
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({
@@ -64,7 +64,7 @@ export class AppComponent {
 
 ## load.js
 
-```html
+```tshtml
 alert('load js has been loaded'); 
 ```
 
@@ -75,7 +75,7 @@ T3】
 
 ## app.component.html
 
-```html
+```tshtml
 <div style="text-align:center;">
     <h1 style="color: green;">
         GeeksForGeeks
@@ -88,7 +88,7 @@ T3】
 
 ## app.component.ts
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({
@@ -117,7 +117,7 @@ export class AppComponent {
 
 ## load.js
 
-```html
+```tshtml
 alert('load js has been loaded'); 
 ```
 

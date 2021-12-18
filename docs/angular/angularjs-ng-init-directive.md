@@ -7,7 +7,7 @@ ng-init 指令定义了 AngularJS 应用程序的初始值和变量。
 
 **语法:**
 
-```
+```ts
 <element ng-init = "expression">
    ...
 </element>
@@ -16,7 +16,7 @@ ng-init 指令定义了 AngularJS 应用程序的初始值和变量。
 
 **示例:**在本例中，我们初始化一个字符串数组。
 
-```
+```ts
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/
     angular.min.js"></script>

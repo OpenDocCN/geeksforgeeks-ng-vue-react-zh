@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 enum WeekDay {
   Sunday: 0
   Monday
@@ -34,7 +34,7 @@ enum WeekDay {
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { PLATFORM_ID } from '@angular/core';
 import { WeekDay } from '@angular/common';
@@ -59,7 +59,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <select>
   <option *ngFor="let day of weekDays" value="day">

@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```ts
 <a routerLink="/" routerLinkActive="active" >Home</a>
 ```
 
@@ -21,7 +21,7 @@
 
 ## header.component.html
 
-```
+```ts
 <span>
     <ul>
         <li><a routerLink="/" routerLinkActive="active">
@@ -45,7 +45,7 @@
 
 ## header.component.css
 
-```
+```ts
 .active{
     background: 'white'
 }
@@ -57,7 +57,7 @@
 
 ## header.component.htm
 
-```
+```ts
 <span>
     <ul>
         <li><a routerLink="/" routerLinkActive="active" 

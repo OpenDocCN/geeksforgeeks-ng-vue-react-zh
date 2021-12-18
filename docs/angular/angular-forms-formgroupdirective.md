@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <form [FormGroup] ="name">
 ```
 
@@ -31,7 +31,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
   import { FormGroup, FormControl, FormArray } from '@angular/forms'
   @Component({
@@ -57,7 +57,7 @@ import { Component, Inject } from '@angular/core';
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
   <input formControlName="name" placeholder="Name">

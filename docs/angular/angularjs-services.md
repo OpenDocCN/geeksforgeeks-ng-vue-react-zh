@@ -6,7 +6,7 @@
 
 *   **步骤#1:创建服务:-**
 
-    ```
+    ```ts
     ng g s service-name
     ```
 
@@ -20,7 +20,7 @@
 
 *   **STEP #4:** In **app.component.ts** make the following changes:
 
-    ```
+    ```ts
     import { Service-nameService } from './service-name.service';
     ```
 
@@ -28,11 +28,11 @@
 
     **type: newData** 
 
-    ```
+    ```ts
     constructor(private demoService: ServiceService) {}
     ```
 
-    ```
+    ```ts
         ngOnInit(): void {
         this.newData=this.demoService.Sailors;
 
@@ -40,7 +40,7 @@
 
 *   **STEP #5:** In **app.component.html** we will print the data stored in newData :
 
-    ```
+    ```ts
     {{newData}}
     ```
 
@@ -49,7 +49,7 @@
     **语法(示例# 1):**
     **serie . service . ts**
 
-    ```
+    ```ts
     import { Injectable } from '@angular/core';
 
     @Injectable({
@@ -93,7 +93,7 @@
 
     **app . component . ts**
 
-    ```
+    ```ts
     import { Component } from '@angular/core';
     import { ServiceService } from './service.service';
     @Component({
@@ -114,7 +114,7 @@
 
     **app.component.html**
 
-    ```
+    ```ts
     <b>Service Example</b>
     <h5>{{ message }}</h5>
     <p> ID Name Rating</p>

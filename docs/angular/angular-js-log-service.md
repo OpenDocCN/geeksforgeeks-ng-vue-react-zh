@@ -10,7 +10,7 @@ Angular.js 中的$log 服务只是用于浏览器控制台上的日志记录目�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +76,7 @@ Angular.js 中的$log 服务只是用于浏览器控制台上的日志记录目�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -141,7 +141,7 @@ Angular.js 中的$log 服务只是用于浏览器控制台上的日志记录目�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -207,7 +207,7 @@ Angular.js 中的$log 服务只是用于浏览器控制台上的日志记录目�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -272,7 +272,7 @@ Angular.js 中的$log 服务只是用于浏览器控制台上的日志记录目�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

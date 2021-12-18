@@ -18,13 +18,13 @@ Angular 是一个应用程序设计框架和开发平台，用于创建高效复
 
 *   在您的 angular 项目中，通过运行下面的命令在本地安装 hammerjs 包。
 
-    ```
+    ```ts
     npm install --save hammerjs
     ```
 
     *   现在，您需要在您的 <u>main.ts</u> 文件中导入**hammersjs**模块。如果不导入此内容，您将在控制台中得到一个错误。*错误:Hammer.js 未加载，无法绑定到 XYZ 事件。*
 
-    ```
+    ```ts
     import 'hammerjs';
     ```
 
@@ -34,7 +34,7 @@ Angular 是一个应用程序设计框架和开发平台，用于创建高效复
 
     **app.module.ts**
 
-    ```
+    ```ts
     // add this in your app.module.ts
     import { NgModule, Injectable } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
@@ -70,7 +70,7 @@ Angular 是一个应用程序设计框架和开发平台，用于创建高效复
     *   现在我们将为滑动手势创建一个简单的例子。对于**app.component.html**，可以添加以下代码。
     **【app.component.html】**
 
-    ```
+    ```ts
     <!--add this in your app.component.html -->
     <div class="swipe" (swipe)="onSwipe($event)">
       <h1>Swipe Gesture</h1>
@@ -83,7 +83,7 @@ Angular 是一个应用程序设计框架和开发平台，用于创建高效复
 
     **app.component.css**
 
-    ```
+    ```ts
     .swipe {
         background-color: #76b490;
         padding: 20px;
@@ -103,7 +103,7 @@ Angular 是一个应用程序设计框架和开发平台，用于创建高效复
 
     *   Lastly, add your typescript code in **app.component.ts** like this.
 
-    ```
+    ```ts
     // add this in your app.component.ts
     import { Component } from "@angular/core";
 

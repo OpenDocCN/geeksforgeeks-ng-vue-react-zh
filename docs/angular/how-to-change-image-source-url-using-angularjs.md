@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -56,7 +56,7 @@
 
 **例 2:** 在本例中，在输出中可以看到网址的变化。
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

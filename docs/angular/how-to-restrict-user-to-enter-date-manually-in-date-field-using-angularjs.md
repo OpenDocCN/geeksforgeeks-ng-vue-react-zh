@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <h1>
     Restricting the user to enter 
     date manually in date field
@@ -35,7 +35,7 @@
 
 ## java 描述语言
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 
 @Component({
@@ -56,7 +56,7 @@ export class AppComponent  {
 
 ## java 描述语言
 
-```html
+```tshtml
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';

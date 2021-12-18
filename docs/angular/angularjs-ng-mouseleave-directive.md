@@ -5,7 +5,7 @@
 AngularJS 中的 ng-mouseleave 指令用于在特定的 HTML 元素上发生鼠标离开事件时应用自定义行为。当鼠标离开 HTML 元素中的特定位置时，它可以用来显示弹出警告。所有 HTML 元素都支持它。
 **语法:**
 
-```
+```ts
  <element ng-mouseleave="expression"> content ... </element> 
 ```
 
@@ -13,7 +13,7 @@ AngularJS 中的 ng-mouseleave 指令用于在特定的 HTML 元素上发生鼠�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/
@@ -48,7 +48,7 @@ AngularJS 中的 ng-mouseleave 指令用于在特定的 HTML 元素上发生鼠�
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/

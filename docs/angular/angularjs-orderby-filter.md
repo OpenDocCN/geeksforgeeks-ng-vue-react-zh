@@ -8,7 +8,7 @@ order by 频道鼓励您对展品进行分类。
 
 **语法:**
 
-```
+```ts
 {{ orderBy_expression | orderBy : expression : reverse }} 
 
 ```
@@ -20,7 +20,7 @@ order by 频道鼓励您对展品进行分类。
 
 例子:当我们检查名字时，按大小写排序
 
-```
+```ts
 <!DOCTYPE html>  
 <html>  
 <script src=
@@ -57,7 +57,7 @@ app.controller('orderCtrl', function($scope) {  
 
 **例:当我们通过“-”和“+”Order by**查看 gdp 时，按案例排序
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <head>
@@ -121,7 +121,7 @@ app.controller('orderCtrl', function($scope) {  
 
 ![output example 2](img/7568fbd53554ec11d5442f273648f16b.png)
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

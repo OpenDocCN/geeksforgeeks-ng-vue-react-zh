@@ -6,14 +6,14 @@ AngularJS 中的 **ng-src 指令**用于指定< img >元素的 src 属性。它�
 
 **语法:**
 
-```
+```ts
 <img ng-src="url"> </img> 
 
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>

@@ -12,7 +12,7 @@ Observables 的一个特殊功能是，它只能由订阅它的消费者访问�
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import {Observable} from 'rxjs';
 
@@ -67,7 +67,7 @@ export class NextExampleComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -119,7 +119,7 @@ export class ErrorExampleComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -172,14 +172,14 @@ export class CompleteExampleComponent implements OnInit {
 
 **做一个可观测值:**在下面的例子中，我们将做一个简单的可观测值，得到一个 2 的表。这段代码写在 app.component.ts 文件中。在使用 Observables 之前，请通过编写以下代码从 rjs 库中导入 Observables。
 
-```
+```ts
 import {Observables} from 'rxjs'
 
 ```
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 import {Observable} from "rxjs";
 import { CompileTemplateMetadata } from '@angular/compiler';
@@ -229,7 +229,7 @@ function tableOfTwo(observer) {
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import {Observable} from 'rxjs';
 
@@ -346,7 +346,7 @@ Observables 产生异步值，因此 try/catch 不会捕获任何错误，因为
 
 **错误回调的语法**
 
-```
+```ts
 observable.subscribe({
     next(val) { console.log('Next: ' + val)},
     error(err) { console.log('Error: ' + err)}

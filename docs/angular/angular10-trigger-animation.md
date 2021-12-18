@@ -8,7 +8,7 @@ angular 10 中的 **触发器** 用于创建包含动画状态和过渡的动画
 
 **语法:**
 
-```
+```ts
 animate(name | definations)
 ```
 
@@ -38,7 +38,7 @@ animate(name | definations)
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
 from '@angular/core';
 
@@ -70,7 +70,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { 
   // Trigger is imported here
   trigger, 
@@ -112,7 +112,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <button (click)='anim()'>Animate</button>
 <br>

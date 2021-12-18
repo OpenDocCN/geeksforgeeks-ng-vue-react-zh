@@ -14,13 +14,13 @@
 
 **对于 npm:**
 
-```
+```ts
 npm install ngx-google-places-autocomplete
 ```
 
 **纱线:**
 
-```
+```ts
 yarn add ngx-google-places-autocomplete
 ```
 
@@ -33,7 +33,7 @@ yarn add ngx-google-places-autocomplete
     *   确保您的应用编程接口已启用，要启用您的应用编程接口，请按照此链接[https://support.google.com/googleapi/answer/6158841?hl=en](https://support.google.com/googleapi/answer/6158841?hl=en)中的步骤操作。
 *   在 app.module.ts 中进行必要的 GooglePlaceModule 导入。
 
-```
+```ts
 import { GooglePlaceModule } from "ngx-google-places-autocomplete";
 
 @NgModule({
@@ -54,7 +54,7 @@ import { GooglePlaceModule } from "ngx-google-places-autocomplete";
 
 ## java 描述语言
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -82,7 +82,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```ts
 <div class="container">
     <h1>GeeksforGeeks</h1>
     <h2>Google Places Autocomplete</h2>
@@ -96,7 +96,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

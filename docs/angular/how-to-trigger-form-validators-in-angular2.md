@@ -27,7 +27,7 @@
 
 使用 npm 安装后，我们可以从角度材料导入。导入它的命令如下:
 
-```
+```ts
 ng add @angular/material
 ```
 
@@ -37,7 +37,7 @@ ng add @angular/material
 
 ## java 描述语言
 
-```
+```ts
 import { BrowserModule } from 
         '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -78,7 +78,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```ts
 import { Component, OnInit } 
         from '@angular/core';
 
@@ -120,7 +120,7 @@ export class AppComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```ts
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-sm-6 

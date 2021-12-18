@@ -6,7 +6,7 @@
 
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@
 ![](img/1df9864e84b91c5c30d27b57abd59ace.png)
 **例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -118,7 +118,7 @@
 
 **示例-3:**
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 

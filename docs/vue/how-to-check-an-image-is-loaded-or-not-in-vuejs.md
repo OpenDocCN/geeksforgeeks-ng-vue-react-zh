@@ -15,7 +15,7 @@
 
 **步骤 1:** 在命令行中使用以下命令创建 Vue 项目:
 
-```
+```js
 vue create image-load
 ```
 
@@ -43,7 +43,7 @@ vue create image-load
 
 ## **应用程序视图**
 
-```
+```js
 <template>
     <div>
         <h1>{{description}}</h1>
@@ -87,7 +87,7 @@ vue create image-load
 
 ****运行应用程序:**在命令行中，输入以下命令:**
 
-```
+```js
 npm run serve
 ```
 

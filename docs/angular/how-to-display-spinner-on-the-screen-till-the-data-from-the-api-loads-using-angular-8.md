@@ -14,7 +14,7 @@
 
 *   创建所需的角度应用和组件。
 
-    ```
+    ```ts
     ng new app_name
     ng g c component_name
     ```
@@ -23,7 +23,7 @@
 
     这里微调器定义为:
 
-    ```
+    ```ts
     <div class="d-flex justify-content-center">
       <div class="spinner-border" role="status" >
         <span class="sr-only" id="loading"></span>
@@ -38,7 +38,7 @@
 
         这里微调器的样式为:
 
-        ```
+        ```ts
         #loading{
           position: absolute;
           left: 50%;
@@ -68,7 +68,7 @@
     *   如果响应来了，那么有一个函数 **hideloader()被调用。**
     *   在使用 DOM 操作的**隐藏加载器()**功能中，我们**将加载元素的显示设置为无。**
 
-        ```
+        ```ts
         document.getElementById('loading').style.display = 'none';
         ```
 
@@ -78,7 +78,7 @@
 
     *   **app.module.ts**
 
-        ```
+        ```ts
         import { BrowserModule } from 
             '@angular/platform-browser';
 
@@ -119,7 +119,7 @@
 
     *   **show-api.component.html**
 
-        ```
+        ```ts
         <h1>GeeksforGeeks</h1>
 
         <!-- spinnner element is 
@@ -136,7 +136,7 @@
 
     *   **show-api.component.css**
 
-        ```
+        ```ts
         #loading{
           position: absolute;
           left: 50%;
@@ -161,7 +161,7 @@
 
     *   **show-api.component.ts**
 
-        ```
+        ```ts
         import { Component, OnInit } from '@angular/core';
         import { HttpClient } from '@angular/common/http';
         @Component({

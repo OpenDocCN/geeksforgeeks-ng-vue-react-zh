@@ -6,7 +6,7 @@ Angular Material 是一个 UI 组件库，由 Angular 团队开发，用于构�
 
 **安装:**
 
-```
+```ts
 ng add @angular/material
 ```
 
@@ -22,7 +22,7 @@ ng add @angular/material
 
 **示例:**
 
-```
+```ts
 import { NgModule } from '@angular/core'; 
 import { BrowserModule } from '@angular/platform-browser'; 
 import { FormsModule } from '@angular/forms'; 

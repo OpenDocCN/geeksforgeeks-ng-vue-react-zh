@@ -10,7 +10,7 @@
 *   现在在组件中，我们可以使用**视图子**指令从 HTML 视图中读取输入的值。
 *   为此，请从@angular/core 导入 ViewChild。
 
-```
+```ts
 import { ViewChild } from '@angular/core';
 ```
 
@@ -23,7 +23,7 @@ import { ViewChild } from '@angular/core';
 
 ## java 描述语言
 
-```
+```ts
 import { Component,ViewChild,ElementRef } from '@angular/core';
 
 @Component({

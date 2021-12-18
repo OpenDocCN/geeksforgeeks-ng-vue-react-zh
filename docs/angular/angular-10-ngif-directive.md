@@ -8,7 +8,7 @@ angular 10 中的 **ngIf 指令** 用于根据表达式移除或重新创建 HTM
 
 **语法:**
 
-```
+```ts
 <li *ngIf='condition'></li>
 ```
 
@@ -30,7 +30,7 @@ angular 10 中的 **ngIf 指令** 用于根据表达式移除或重新创建 HTM
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformWorkerApp } from '@angular/common';
@@ -48,7 +48,7 @@ import { isPlatformWorkerApp } from '@angular/common';
 
 ## app.component.html
 
-```
+```ts
 <div *ngIf = 'myBool'>Boolean is set to true</div>
 ```
 
@@ -60,7 +60,7 @@ import { isPlatformWorkerApp } from '@angular/common';
 
 ## java 描述语言
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformWorkerApp } from '@angular/common';
@@ -77,7 +77,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <div *ngIf = 'variab==1; else multi'>{{variab}}</div>
 
 <ng-template #multi>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 getCurrencySymbol(code, locale, format)
 ```
 
@@ -29,7 +29,7 @@ getCurrencySymbol(code, locale, format)
 *   创建要使用的角度应用程序。
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要为使用 getCurrencySymbol 导入 LOCALE。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -42,7 +42,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.component.ts
 
-```
+```ts
 import {
   getCurrencySymbol
  }
@@ -62,7 +62,7 @@ curr = getCurrencySymbol("USD", "wide");
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -78,7 +78,7 @@ curr = getCurrencySymbol("USD", "wide");
 
 ## app.component.ts
 
-```
+```ts
 import {
   getCurrencySymbol
  }
@@ -98,7 +98,7 @@ curr = getCurrencySymbol("INR", "narrow");
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>

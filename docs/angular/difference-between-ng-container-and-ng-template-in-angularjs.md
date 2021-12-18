@@ -14,7 +14,7 @@ ng-container 和 ng-template 都在隐藏自己的同时呈现包装好的元素
 
 **ng-template:** 我们来试试一个例子:
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -45,7 +45,7 @@ export class AppComponent {
 
 让我们试试另一个例子:
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -81,7 +81,7 @@ export class AppComponent {
 
 让我们看一个例子:
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -112,7 +112,7 @@ export class AppComponent {
 
 让我们看看如果我们将一个 ng 模板包装在一个 ng 容器中会发生什么:
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({

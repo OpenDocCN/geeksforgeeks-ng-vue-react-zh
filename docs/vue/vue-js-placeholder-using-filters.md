@@ -8,7 +8,7 @@
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +32,7 @@
 
 ## app . js
 
-```
+```js
 const parent = new Vue({
     el: '#parent',
     data: {

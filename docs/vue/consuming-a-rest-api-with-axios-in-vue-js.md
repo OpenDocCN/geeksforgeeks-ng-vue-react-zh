@@ -10,13 +10,13 @@ Axios 是一个很棒的 HTTP 客户端库。类似于 JavaScript 获取 API，�
 
 *   **步骤 1:** 使用以下命令创建一个 Vue 应用程序。
 
-    ```html
+    ```jshtml
     vue create vue-app
     ```
 
 *   **步骤 2:** 使用以下命令安装 Axios 模块。
 
-    ```html
+    ```jshtml
     npm install axios 
     ```
 
@@ -30,7 +30,7 @@ Axios 是一个很棒的 HTTP 客户端库。类似于 JavaScript 获取 API，�
 
 ## index.html
 
-```html
+```jshtml
 <!DOCTYPE html>
 <html>
 
@@ -108,7 +108,7 @@ Axios 是一个很棒的 HTTP 客户端库。类似于 JavaScript 获取 API，�
 
 ## style.css
 
-```html
+```jshtml
 #app-vue {
     display: flex;
     justify-content: center;
@@ -129,7 +129,7 @@ Axios 是一个很棒的 HTTP 客户端库。类似于 JavaScript 获取 API，�
 
 **运行应用程序的步骤:**如果已经安装了 Vue 应用程序，可以使用此命令运行应用程序。
 
-```html
+```jshtml
 npm run serve 
 ```
 

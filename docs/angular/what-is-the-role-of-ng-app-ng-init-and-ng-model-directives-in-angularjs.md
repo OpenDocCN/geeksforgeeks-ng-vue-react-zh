@@ -10,7 +10,7 @@ AngularJS 指令是一个赋予 HTML 文档新功能的命令。当我们使用 
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -38,7 +38,7 @@ AngularJS 指令是一个赋予 HTML 文档新功能的命令。当我们使用 
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -66,7 +66,7 @@ AngularJS 指令是一个赋予 HTML 文档新功能的命令。当我们使用 
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

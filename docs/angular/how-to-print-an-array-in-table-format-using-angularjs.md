@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -107,7 +107,7 @@
 
 ****ng-repeat 的基本语法是:****
 
-```
+```ts
 <div ng-repeat="x in list">
       {{x}}
 </div>
@@ -119,7 +119,7 @@
 
 *****例 2:*****
 
-```
+```ts
 *<!DOCTYPE html>
 <html>
 <script src=

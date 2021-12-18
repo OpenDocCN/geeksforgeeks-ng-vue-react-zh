@@ -6,13 +6,13 @@ AngularJS 中的 **ng-mouseup 指令**用于在特定的 HTML 元素上发生 mo
 
 **语法:**
 
-```
+```ts
  <element ng-mouseup="expression"> Contents... </element> 
 ```
 
 **示例 1:** 本示例使用 ng-mouseup 指令更改文本效果。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@ AngularJS 中的 **ng-mouseup 指令**用于在特定的 HTML 元素上发生 mo
 
 **示例 2:** 本示例使用 ng-mouseup 指令显示数组元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

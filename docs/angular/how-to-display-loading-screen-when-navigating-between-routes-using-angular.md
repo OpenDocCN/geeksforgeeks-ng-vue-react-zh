@@ -8,7 +8,7 @@
 
 **环境设置:**我们将创建一个简单的应用程序，它将在导航时模拟一些延迟，并在导航路线时显示一个装载微调器。让我们快速设置环境:
 
-```
+```ts
 npm install -g @angular/cli
 ng new <project-name>
 ```
@@ -21,7 +21,7 @@ ng new <project-name>
 
 **现在执行这些命令:**
 
-```
+```ts
 cd <project-name>
 ng serve -o
 ```
@@ -34,7 +34,7 @@ ng serve -o
 
     **data.json:**
 
-    ```
+    ```ts
     {
         "K.S. Williamson": 0,
         "S.P.D. Smith": 0,
@@ -62,7 +62,7 @@ ng serve -o
 
     ## app.module.ts
 
-    ```
+    ```ts
     import { NgModule } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
 
@@ -87,7 +87,7 @@ ng serve -o
 
 *   **步骤 3:** 现在创建两个新组件。我们将在这两者之间导航。
 
-    ```
+    ```ts
     ng generate component batsman
     ng generate component umpire
     ```
@@ -96,7 +96,7 @@ ng serve -o
 
     ## 击球手.组件. ts
 
-    ```
+    ```ts
     import { HttpClient } from '@angular/common/http';
     import { Component, OnInit } from '@angular/core';
 
@@ -130,7 +130,7 @@ ng serve -o
 
     ## batsman.component.html
 
-    ```
+    ```ts
     <div *ngIf="!batsman.length">
         <div class="spinner-border m-5" role="status">
             <span class="sr-only"></span>
@@ -150,7 +150,7 @@ ng serve -o
 
     ## index.html
 
-    ```
+    ```ts
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -192,7 +192,7 @@ ng serve -o
 
     ## 裁判.组件. ts
 
-    ```
+    ```ts
     import { HttpClient } from '@angular/common/http';
     import { Component, OnInit } from '@angular/core';
     import { CricketService } from '../cricket.service';
@@ -226,7 +226,7 @@ ng serve -o
 
     ## umpires.component.html
 
-    ```
+    ```ts
     <div *ngIf="!umpires.length">
         <div class="spinner-border m-5" role="status">
             <span class="sr-only"></span>
@@ -246,7 +246,7 @@ ng serve -o
 
     ## app-routing.module.ts
 
-    ```
+    ```ts
     import { NgModule } from '@angular/core';
     import { RouterModule, Routes } from '@angular/router';
     import { BatsmanComponent } from './batsman/batsman.component';
@@ -268,7 +268,7 @@ ng serve -o
 
     ## app.component.html
 
-    ```
+    ```ts
     <div>
       <a [routerLink]="['batsman']">Batsman</a> ||
       <a [routerLink]="['umpires']">Umpires</a>
@@ -280,7 +280,7 @@ ng serve -o
 
 **运行以下命令:**
 
-```
+```ts
 ng serve -o
 ```
 

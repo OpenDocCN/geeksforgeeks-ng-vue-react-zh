@@ -5,7 +5,7 @@
 angularJS 中的 **angular.bootstrap()函数**是 Core ng 模块中的一个功能组件，用于手动启动 Angular 应用程序，它提供了对应用程序初始化的更多控制。
 **语法:**
 
-```
+```ts
 angular.bootstrap(element, [modules], [config])
 ```
 
@@ -17,7 +17,7 @@ angular.bootstrap(element, [modules], [config])
 
 **例 1:**
 
-```
+```ts
 <html>
     <head>
         <title>angular.bootstrap()</title>
@@ -54,7 +54,7 @@ angular.bootstrap(element, [modules], [config])
 
 **例 2:**
 
-```
+```ts
 </div>
 
 <html>

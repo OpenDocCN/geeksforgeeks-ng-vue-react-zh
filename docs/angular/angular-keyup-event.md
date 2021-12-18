@@ -11,7 +11,7 @@
 
 ****基本语法**(键盘输入)**
 
-```
+```ts
 <input (keyup)="function(parameter)">
 ```
 
@@ -19,7 +19,7 @@
 
 **对于传递事件**语法**将是:**
 
-```
+```ts
 <input (keyup)="keyFunc($event)">
 ```
 
@@ -36,7 +36,7 @@
 **在这个实现中， **$event** 被传递给 typescript 文件中的用户定义函数 onKeyUp()。该功能将每次击键后输入的每个值添加到定义的**文本**变量中，然后显示文本变量。
 T5】component.html 文件**
 
-```
+```ts
 <!-- event is passed to function -->
 <input (keyup)="onKeyUp($event)"> 
 <!-- text variable is displayed -->
@@ -45,7 +45,7 @@ T5】component.html 文件**
 
 ****组件. ts 文件:****
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -78,7 +78,7 @@ export class TxtchkComponent implements OnInit {
     **示例实现**
     **component.html 文件**
 
-    ```
+    ```ts
     <!-- after space is pressed event is passed to function -->
     <input (keyup.Space)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -86,7 +86,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -117,7 +117,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after enter is pressed event is passed to function -->
     <input (keyup.enter)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -125,7 +125,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -157,7 +157,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after z is pressed event is passed to function -->
     <input (keyup.z)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -165,7 +165,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -196,7 +196,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.esc)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -204,7 +204,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -236,7 +236,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.shift)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -244,7 +244,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -273,7 +273,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.control)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -281,7 +281,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -310,7 +310,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.alt)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -318,7 +318,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -347,7 +347,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.backspace)="onKeyUp($event)"> 
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -355,7 +355,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({
@@ -384,7 +384,7 @@ export class TxtchkComponent implements OnInit {
 
     **component.html 文件**
 
-    ```
+    ```ts
     <!--after esc is pressed event is passed to function -->
     <input (keyup.arrowup)="onKeyUp($event)">
     <p>{{text}}</p> <!-- text variable is displayed -->
@@ -392,7 +392,7 @@ export class TxtchkComponent implements OnInit {
 
     **组件文件**
 
-    ```
+    ```ts
     import { Component, OnInit } from '@angular/core';
 
     @Component({

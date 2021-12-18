@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-model-options="option"> </element>
 ```
 

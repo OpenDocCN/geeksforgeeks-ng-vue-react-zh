@@ -7,7 +7,7 @@ Angular Material 是 Angular 团队开发的 UI 组件库，用于构建桌面�
 
 **安装语法:**
 
-```
+```ts
 ng add @angular/material
 ```
 
@@ -22,7 +22,7 @@ ng add @angular/material
 
 **实现代码:** **app.component.html:**
 
-```
+```ts
 <button mat-raised-button (click)="openDialog()">
     Pick one
 </button>
@@ -35,7 +35,7 @@ ng add @angular/material
 
 **app.component.ts:**
 
-```
+```ts
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material';
 
@@ -68,7 +68,7 @@ export class AppComponent {
 
 **app.module.ts:**
 
-```
+```ts
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -100,7 +100,7 @@ export class AppModule {}
 
 **示例-dialog.component.html:**
 
-```
+```ts
 <h1 mat-dialog-title>Welcome user</h1>
 <div mat-dialog-content>
   <p>What's your favorite animal?</p>
@@ -117,7 +117,7 @@ export class AppModule {}
 
 **示例-dialog.component.ts:**
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
@@ -140,7 +140,7 @@ export class ExampleDialogComponent {
 
 **示例-dialog.module.ts:**
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {

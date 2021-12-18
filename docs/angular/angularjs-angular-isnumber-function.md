@@ -6,7 +6,7 @@ AngularJS 中的 **angular.isNumber()函数**用于确定 isNumber 函数中的�
 
 **语法:**
 
-```
+```ts
 angular.isNumber( value )
 ```
 
@@ -14,7 +14,7 @@ angular.isNumber( value )
 
 **示例:**本示例使用 angular.isNumber()函数确定给定输入是否为数字。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

@@ -8,7 +8,7 @@
 
 **属性绑定:**这是一个概念，我们使用方括号符号将数据绑定到超文本标记语言(HTML)元素的文档对象模型(DOM)属性。
 
-```
+```ts
 import {Component, OnInit} from '@angular/core'
 
 @Component({
@@ -39,7 +39,7 @@ title='Property Binding example in GeeksforGeeks';
 
 **语法为*。html* 文件:**
 
-```
+```ts
 <a [routerLink]="[/path]" >
    State Details 
 </a>
@@ -55,7 +55,7 @@ title='Property Binding example in GeeksforGeeks';
     **通过代码实现:**
     **app.module.ts:**
 
-    ```
+    ```ts
     import { NgModule } from "@angular/core";
     import { BrowserModule } from "@angular/platform-browser";
     import { RouterModule, Routes } from "@angular/router";
@@ -76,7 +76,7 @@ title='Property Binding example in GeeksforGeeks';
 
     **app.component.html:**
 
-    ```
+    ```ts
     <a [routerLink]="['/punjab']">
        State Details 
     </a>
@@ -104,7 +104,7 @@ title='Property Binding example in GeeksforGeeks';
 **按代码实现:**
 **app.module.ts:**
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
@@ -126,7 +126,7 @@ export class AppModule { }
 
 **app.component.ts:**
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
@@ -148,7 +148,7 @@ export class HomeComponent implements OnInit {
 
 **app.component.html:**
 
-```
+```ts
 <a (click)="onSelect()">
    State Details 
 </a>

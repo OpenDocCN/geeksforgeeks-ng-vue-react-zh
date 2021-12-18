@@ -8,7 +8,7 @@ angular 10 中的 **NgPluralCase** 用于 c 创建一个视图，当给定表达
 
 **语法:**
 
-```
+```ts
 <li *NgPluralCase='condition'></li>
 ```
 
@@ -32,7 +32,7 @@ angular 10 中的 **NgPluralCase** 用于 c 创建一个视图，当给定表达
 
 ## app . component . ts
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
@@ -46,7 +46,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <some-element [ngPlural]="val">
     <ng-template ngPluralCase="=1">Geek</ng-template>
     <ng-template ngPluralCase="=2">Geeks</ng-template>
@@ -55,7 +55,7 @@ export class AppComponent {
 
 **输出:**
 
-```
+```ts
 Geek
 ```
 
@@ -63,7 +63,7 @@ Geek
 
 ## app . component . ts
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
@@ -77,7 +77,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <some-element [ngPlural]="valcar">
     <ng-template ngPluralCase="=1">{{valcar}} Car</ng-template>
     <ng-template ngPluralCase="=5">{{valcar}} Cars</ng-template>
@@ -86,7 +86,7 @@ export class AppComponent {
 
 **输出:**
 
-```
+```ts
 5 Cars
 ```
 

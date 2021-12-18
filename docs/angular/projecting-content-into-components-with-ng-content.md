@@ -6,14 +6,14 @@
 
 **示例:**
 
-```html
+```tshtml
 serverElement : 
 {type:'server', name:'some-name', content:'some-value'}
 ```
 
 **app-component.html**
 
-```html
+```tshtml
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-6 col-sm-1">
@@ -34,7 +34,7 @@ serverElement :
 在 server-component.html 模板中需要添加一个特殊的指令(`‹ng-content›‹∕ng-content›`)，在我们想要渲染内容的地方。它充当您放置在组件中的钩子，用于标记组件应该在开始和结束标记之间添加任何内容的位置。
 T5】server-component.html
 
-```html
+```tshtml
 <div class="card">
     <div class="card-body"> 
         <h5 class="card-header text-uppercase">
@@ -47,13 +47,13 @@ T5】server-component.html
 
 **服务器元素:**
 
-```html
+```tshtml
 {type:'server', name:'some-name', content:'some-value'}
 ```
 
 **app-component.ts**
 
-```html
+```tshtml
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -76,7 +76,7 @@ onAddedServer(data: {servername: string, 
 
 **输出:**
 
-```html
+```tshtml
 Element name rendered is "some-name"
 Element content rendered is "some-value"
 ```

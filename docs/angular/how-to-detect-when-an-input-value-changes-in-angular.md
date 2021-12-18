@@ -11,14 +11,14 @@
         Two-way binding combines input and output in a single notation using ngModel directive. The notation for two-way binding is [()].
         Here is how we will implement two-way binding. We have a component FormComponent (parent) and ChildComponent (child). When the user enters anything in the text input field of the parent component, the child component detects it.
 
-        ```
+        ```ts
         Implementation of Two-way binding:
         ```
 
         在这里，我们创建一个父组件，并向其中添加子组件。
         *form.component.html*
 
-        ```
+        ```ts
         <div style="border: 1px solid rgb(46, 93, 194); 
                     height: 25vh; 
                     width: 35vw; 
@@ -34,7 +34,7 @@
 
         *表单组件*
 
-        ```
+        ```ts
         import { Component, OnInit } from '@angular/core';
 
         @Component({
@@ -55,7 +55,7 @@
         这种变化将反映在子组件中。“消息”将在此显示。这是代码:
         *child.component.html*
 
-        ```
+        ```ts
         <div style="border:1px solid rgb(53, 71, 131);
                     width:30vw; 
                     height: 12vh;
@@ -69,7 +69,7 @@
 
         *子组件*
 
-        ```
+        ```ts
         import { Component, OnInit, Input } from '@angular/core';
 
         @Component({
@@ -87,14 +87,14 @@
 
         这都是关于双向绑定的。现在让我们看看如何使用单向绑定。
 
-    *   ```
+    *   ```ts
         Implementation of One-way binding with ngOnChange() and @Input():
         ```
 
         下面是我们将如何使用 ngOnChange()来绑定输入。childComponent 的代码将与双向绑定的情况相同。但是，窗体组件将调用 onChange()方法。这是它的代码。
         *form.component.html*
 
-        ```
+        ```ts
         <div style="border: 1px solid rgb(46, 93, 194);
                     height: 25vh; 
                     width: 35vw; 
@@ -113,7 +113,7 @@
 
         *表单组件*
 
-        ```
+        ```ts
         import { Component, OnInit } from '@angular/core';
 
         @Component({

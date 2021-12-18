@@ -6,7 +6,7 @@ AngularJS 中的 **ng-checked 指令**用于将复选框或单选按钮的选中
 
 **语法:**
 
-```
+```ts
 <input type="checkbox|radio" ng-checked="expression"> Contents... </input>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-checked 指令**用于将复选框或单选按钮的选中
 
 **示例:**本示例使用 ng-checked 指令选择复选框并返回所有选中的复选框值。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

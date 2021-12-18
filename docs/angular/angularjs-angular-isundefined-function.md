@@ -6,7 +6,7 @@ AngularJS 中的 **angular.isUndefined()函数**用于确定 isUndefined 函数�
 
 **语法:**
 
-```
+```ts
 angular.isUndefined( value )
 ```
 
@@ -14,7 +14,7 @@ angular.isUndefined( value )
 
 **示例:**本示例使用 angular.isUndefined()函数来确定 isUndefined 函数内部的值是否未定义。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

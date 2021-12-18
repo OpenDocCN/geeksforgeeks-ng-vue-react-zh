@@ -6,14 +6,14 @@ AngularJS 中的 **ng-options 指令**用于构建带有选项的 HTML 元素并
 
 **语法:**
 
-```
+```ts
 <element ng-options="expression"> Content ... </element> 
 
 ```
 
 **示例 1:** 本示例使用 ng-options direction 显示选项元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@ AngularJS 中的 **ng-options 指令**用于构建带有选项的 HTML 元素并
 
 **示例 2:** 本示例使用 ng-options 指令隐藏或显示元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

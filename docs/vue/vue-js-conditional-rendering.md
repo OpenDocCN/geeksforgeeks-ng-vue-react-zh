@@ -16,7 +16,7 @@ Vue 中的条件渲染使得基于特定条件切换 DOM 中任何元素的存�
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -41,7 +41,7 @@ Vue 中的条件渲染使得基于特定条件切换 DOM 中任何元素的存�
 
 ## java 描述语言
 
-```
+```js
 const parent = new Vue({
   el : '#parent',
   data : 
@@ -63,7 +63,7 @@ const parent = new Vue({
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 <head>
   <script src=
@@ -95,7 +95,7 @@ const parent = new Vue({
 
 ## java 描述语言
 
-```
+```js
 const parent = new Vue({
   el : '#parent',
   data : {

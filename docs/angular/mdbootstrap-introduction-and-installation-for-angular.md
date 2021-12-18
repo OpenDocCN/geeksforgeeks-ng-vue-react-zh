@@ -31,7 +31,7 @@
 
 *   Install **“@angular/cdk”** package (required if MDBootstrap Angular version is greater than or equal to 9.0.0)
 
-    ```html
+    ```tshtml
     npm install @angular/cdk --save
     ```
 
@@ -39,7 +39,7 @@
 
 *   Install **“angular-bootstrap-md”** package
 
-    ```html
+    ```tshtml
     npm install angular-bootstrap-md --save
     ```
 
@@ -47,7 +47,7 @@
 
 *   在**【app . module . ts】中，**导入**【mdbbootstrapmmodule】**如下所示:
 
-    ```html
+    ```tshtml
     import { BrowserModule } from '@angular/platform-browser';
     import { NgModule } from '@angular/core';
 
@@ -77,7 +77,7 @@
 
 *   通过导入更新**“angular . JSON”**文件。css 和。来自 node_modules 的样式和脚本数组中的 js 文件如下所示:
 
-    ```html
+    ```tshtml
     {
       "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
       "version": 1,
@@ -220,7 +220,7 @@
 
 *   在**【app . component . html】**中添加如下代码，使用如下所示的带 Angular 的 MDBootstrap 组件:
 
-    ```html
+    ```tshtml
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-4">
@@ -244,7 +244,7 @@
 
 *   然后使用以下命令保存后运行应用程序:
 
-    ```html
+    ```tshtml
     ng serve -o
     ```
 

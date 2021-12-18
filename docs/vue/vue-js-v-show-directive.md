@@ -5,7 +5,7 @@
 **v-show** 指令是一个 [**Vue.js**](https://www.geeksforgeeks.org/vue-js-introduction-installation/) 指令，用于用我们的数据切换元素的显示 CSS 属性。如果数据是真的，它将使它可见，否则它将使它不可见。首先，我们将创建一个 id 为 *app* 的 div 元素，让我们将 *v-show* 指令应用于该元素，并将数据作为消息。现在，我们将通过用包含真或假的数据属性初始化 Vue 实例来创建这条消息。
 **语法:**
 
-```
+```js
 v-show="data"
 ```
 
@@ -14,7 +14,7 @@ v-show="data"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
     <head>
@@ -65,7 +65,7 @@ v-show="data"
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

@@ -5,7 +5,7 @@
 AngularJS 中的 **ng-if 指令**用于根据表达式移除或重新创建 HTML 元素的一部分。ng-if 不同于 ng-hide，因为它完全移除了 DOM 中的元素，而不仅仅是隐藏元素的显示。如果其中的表达式为假，则删除该元素，如果为真，则将该元素添加到 DOM 中。
 **语法:**
 
-```
+```ts
 <element ng-if="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-if 指令**用于根据表达式移除或重新创建 HTML
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -82,7 +82,7 @@ AngularJS 中的 **ng-if 指令**用于根据表达式移除或重新创建 HTML
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

@@ -6,13 +6,13 @@ AngularJS 中的 **ng-selected 指令**用于指定 HTML 元素的选定属性�
 
 **语法:**
 
-```
+```ts
 <element ng-selected="expression"> Contents... </element> 
 ```
 
 **示例:**本示例使用 ng-selected direction 显示所选元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

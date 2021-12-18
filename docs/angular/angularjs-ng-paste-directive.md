@@ -5,7 +5,7 @@
 AngularJS 中的 **ng-paste 指令**用于在将输入字段中的文本粘贴到 HTML 元素中时指定自定义行为函数。它可以用来调用一个函数，当文本粘贴到输入字段时，该函数将被触发。通过<输入>、<选择>和<文本区>支持。
 **语法:**
 
-```
+```ts
  <element ng-paste="expression"> Content ... </element> 
 
 ```
@@ -13,7 +13,7 @@ AngularJS 中的 **ng-paste 指令**用于在将输入字段中的文本粘贴�
 其中**表达式**告诉当输入被粘贴到一个 HTML 元素中时要做什么。
 T3】例:
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

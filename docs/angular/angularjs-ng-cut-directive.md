@@ -6,7 +6,7 @@ AngularJS 中的 **ng-cut 指令**用于指定输入字段中的文本被剪切�
 
 **语法:**
 
-```
+```ts
 <element ng-cut="expression"> Contents... </element>
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-cut 指令**用于指定输入字段中的文本被剪切�
 
 **示例:**本示例使用 ng-cut Directive 在剪切输入文本元素时显示消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

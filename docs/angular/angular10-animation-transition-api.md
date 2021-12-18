@@ -8,7 +8,7 @@ angular 10 中的 **过渡** 用于为动画创建一个过渡，其中一个元
 
 **语法:**
 
-```
+```ts
 transition (stateChangeExpr, steps, options)
 ```
 
@@ -39,7 +39,7 @@ transition (stateChangeExpr, steps, options)
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule }
 from '@angular/core';
 import { BrowserModule } 
@@ -70,7 +70,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { 
   // Transition is imported here
   trigger, 
@@ -112,7 +112,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <button (click)='anim()'>Animate</button>
 <br>

@@ -7,7 +7,7 @@ Angular ng bootstrap 是一个 bootstrap 框架，与 Angular 一起使用来创
 
 **安装语法:**
 
-```
+```ts
 ng add @ng-bootstrap/ng-bootstrap
 ```
 
@@ -21,7 +21,7 @@ ng add @ng-bootstrap/ng-bootstrap
     添加以下脚本
 *   在模块中导入引导模块
 
-    ```
+    ```ts
     import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     imports: [ 
         NgbModule
@@ -36,7 +36,7 @@ ng add @ng-bootstrap/ng-bootstrap
 
 ## app.component.html
 
-```
+```ts
 <ngb-toast [autohide]="false" id='gfg'>
     GeeksforGeeks Angular ng bootstrap
 </ngb-toast>
@@ -44,7 +44,7 @@ ng add @ng-bootstrap/ng-bootstrap
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -79,7 +79,7 @@ export class AppModule { }
 
 ## app.component.css
 
-```
+```ts
 #gfg {
     margin:40px
 }
@@ -93,7 +93,7 @@ export class AppModule { }
 
 ## app.component.html
 
-```
+```ts
 <ngb-toast [autohide]="false" id='gfg' header='GeeksforGeeks'>
     Angular ng bootstrap
 </ngb-toast>
@@ -101,7 +101,7 @@ export class AppModule { }
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 
 // Importing forms module
@@ -136,7 +136,7 @@ export class AppModule { }
 
 ## app.component.css
 
-```
+```ts
 #gfg {
     margin:40px
 }

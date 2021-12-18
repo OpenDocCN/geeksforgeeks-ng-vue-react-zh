@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```ts
 {{expression|lowercase}}
 ```
 
 **示例-1:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -55,7 +55,7 @@
 
 **示例-2:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

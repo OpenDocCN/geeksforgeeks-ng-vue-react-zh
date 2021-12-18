@@ -8,7 +8,7 @@
 
 **例:**名
 
-```
+```ts
 <label for="fname">First Name </label>
 <input type="text" id="fname" name="fname" disabled >
 ```
@@ -21,14 +21,14 @@
 
 **示例:**
 
-```
+```ts
 <h2 [textContent]="title"></h1>
 ```
 
 解决方案:
 为了将它们用于属性绑定，您需要使用以下语法“[attr.colspan]”。
 
-```
+```ts
 import {Component} from '@angular/core';
 
 @Component({

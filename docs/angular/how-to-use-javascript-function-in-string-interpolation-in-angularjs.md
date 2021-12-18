@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```ts
 <h4>Book Price : {{ 'SHOULD BE LOWER CASE'.toLowerCase() }}</h4>
 ```
 
@@ -22,7 +22,7 @@
 
 ## example.component.html
 
-```
+```ts
 <h4>Book Price : {{ 'SHOULD BE LOWER CASE'.toLowerCase() }}</h4>
 <hr/>
 ```
@@ -35,7 +35,7 @@
 
 ## demo.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -68,7 +68,7 @@ export class DemoComponent{
 
 ## demo.component.html
 
-```
+```ts
 <div style="margin-left:100px" *ngFor="let book of Books">
   <hr>
   <h4>Book Name : {{ printBookName(book) }}</h4>

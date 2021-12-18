@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <Input [(NgModel)= 'name']>
 ```
 
@@ -29,7 +29,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
   import { PLATFORM_ID } from '@angular/core';
   import { isPlatformWorkerApp } from '@angular/common';
@@ -50,7 +50,7 @@ import { Component, Inject } from '@angular/core';
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 
 <input [(ngModel)]="gfg" #ctrl="ngModel" required>

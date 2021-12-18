@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 formatCurrency(value, locale, currency, currencyCode, digitsInfo)
 ```
 
@@ -31,7 +31,7 @@ formatCurrency(value, locale, currency, currencyCode, digitsInfo)
 *   创建要使用的角度应用程序。
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要为使用 get formatCurrency 导入 LOCALE。
 
-    ```
+    ```ts
     import { LOCALE_ID, NgModule } from '@angular/core';
     ```
 
@@ -44,7 +44,7 @@ formatCurrency(value, locale, currency, currencyCode, digitsInfo)
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatCurrency
  }
@@ -69,7 +69,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -85,7 +85,7 @@ constructor(
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatCurrency
  }
@@ -110,7 +110,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>

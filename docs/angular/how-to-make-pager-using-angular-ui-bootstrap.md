@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```ts
 <div uib-pager></div>
 ```
 
 **从链接下载安古拉瑞:**
 
-```
+```ts
 https://angular-ui.github.io/bootstrap
 ```
 
@@ -29,7 +29,7 @@ https://angular-ui.github.io/bootstrap
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
 

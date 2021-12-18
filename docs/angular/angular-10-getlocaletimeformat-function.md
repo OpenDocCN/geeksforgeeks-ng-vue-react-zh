@@ -6,7 +6,7 @@ getLocaleTimeFormat 用于获取给定区域设置的本地化时间值格式。
 
 **语法:**
 
-```
+```ts
 getLocaleTimeFormat(locale: string, width: FormatWidth): string
 ```
 
@@ -19,7 +19,7 @@ getLocaleTimeFormat(locale: string, width: FormatWidth): string
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getLocaleTimeFormat 导入区域设置。
 
-    ```
+    ```ts
     import { LOCALE_ID, NgModule } from '@angular/core';
     ```
 
@@ -41,7 +41,7 @@ getLocaleTimeFormat(locale: string, width: FormatWidth): string
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -66,7 +66,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleTimeFormat, TranslationWidth, 
         FormatWidth} from '@angular/common';
@@ -86,7 +86,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
  </h1>
@@ -102,7 +102,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -127,7 +127,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleTimeFormat, TranslationWidth, 
         FormatWidth} from '@angular/common';
@@ -147,7 +147,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
  </h1>

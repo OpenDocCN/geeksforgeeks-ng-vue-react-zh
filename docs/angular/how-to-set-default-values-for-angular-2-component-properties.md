@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 @Input() PropertyName = Default Value  /* @Input country = 'India' */
 ```
 
@@ -20,21 +20,21 @@
 
 **导入语法:**
 
-```
+```ts
 import { Input } from '@angular/core';
 ```
 
 **通过代码实现:**
 **app . component . html:**
 
-```
+```ts
 <p>Welcome to GeeksforGeeks </p>
 <app-child [country] = "countryName"></app-child>
 ```
 
 **app . component . ts:**T2】
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -51,7 +51,7 @@ export class AppComponent  {
 
 **child.component.ts:**
 
-```
+```ts
 import { Component, Input, OnInit} from '@angular/core';
 
 @Component({
@@ -70,7 +70,7 @@ export class ChildComponent implements OnInit {
 
 **child.component.html:**
 
-```
+```ts
 <p> Country is : {{country}} </p>
 <p> Capital is : {{capital}} </p>
 ```

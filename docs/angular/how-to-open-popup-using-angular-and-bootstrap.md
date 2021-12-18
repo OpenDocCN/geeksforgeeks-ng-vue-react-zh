@@ -4,7 +4,7 @@
 
 向您的 Angular 应用程序添加 Bootstrap 是一个简单的过程。只需在您的 Angular CLI 中编写以下命令。它会将引导添加到您的 node_modules 文件夹中。
 
-```
+```ts
 ng add @ng-bootstrap/ng-bootstrap
 
 ```
@@ -15,14 +15,14 @@ ng add @ng-bootstrap/ng-bootstrap
 
 *   **在打字稿文件中:**
 
-    ```
+    ```ts
     import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
     ```
 
 *   **在 html 文件中:**
 
-    ```
+    ```ts
     <ng-template #content let-modal>
       ...
     </ng-template>
@@ -31,7 +31,7 @@ ng add @ng-bootstrap/ng-bootstrap
 
 **示例:**模态-基本. ts
 
-```
+```ts
 import {Component} from '@angular/core';
 
 import {NgbModal, ModalDismissReasons} 
@@ -73,7 +73,7 @@ export class NgbdModalBasic {
 
 **例:**T2】modal-basic.html
 
-```
+```ts
 <ng-template #content let-modal>
     <div class="modal-header">
         <h4 class="modal-title" 

@@ -14,7 +14,7 @@ Vue 中的声明性呈现使我们能够使用简单的模板语法将数据呈�
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 <head>
     <script src=
@@ -37,7 +37,7 @@ Vue 中的声明性呈现使我们能够使用简单的模板语法将数据呈�
 
 ## java 描述语言
 
-```
+```js
 const parent = new Vue({
     el : '#parent',
     data : {
@@ -61,7 +61,7 @@ const parent = new Vue({
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 <head>
     <script src=
@@ -98,7 +98,7 @@ const parent = new Vue({
 
 ## java 描述语言
 
-```
+```js
 const parent = new Vue({
     el : '#parent',
     data : {

@@ -8,7 +8,7 @@ getNumberOfCurrencyDigits 是 用于获取给定货币的小数位数。
 
 **语法:**
 
-```
+```ts
 getNumberOfCurrencyDigits(code: string): number
 ```
 
@@ -21,7 +21,7 @@ getNumberOfCurrencyDigits(code: string): number
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 getNumberOfCurrencyDigits 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -42,7 +42,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -71,7 +71,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getNumberOfCurrencyDigits, 
         TranslationWidth} 
@@ -95,7 +95,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>

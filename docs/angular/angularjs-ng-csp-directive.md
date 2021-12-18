@@ -8,7 +8,7 @@ ng-CSP 指令用于更改 AngularJS 的安全策略，并在需要时打破 CSP(
 
 **语法:**
 
-```
+```ts
 <element ng-csp="no-inline-style | no-unsafe-eval"> </element>
 ```
 
@@ -20,7 +20,7 @@ ng-CSP 指令用于更改 AngularJS 的安全策略，并在需要时打破 CSP(
 
 **示例:**此示例显示了 ng-csp 指令的用法。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

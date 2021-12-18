@@ -6,7 +6,7 @@ AngularJS 中的 **ng-minlength 指令**用于设置输入字段的最小长度�
 
 **语法:**
 
-```
+```ts
 <element ng-minlength="expression"> content ... </element> 
 ```
 
@@ -14,7 +14,7 @@ AngularJS 中的 **ng-minlength 指令**用于设置输入字段的最小长度�
 
 **示例:**本示例使用 ng-minlength 指令设置字符串的最小长度。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

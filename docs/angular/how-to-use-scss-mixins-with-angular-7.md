@@ -10,7 +10,7 @@
 
 使用 Sass 创建一个新项目，如下所示:
 
-```
+```ts
 ng new my-sassy-app --style=scss
 ```
 
@@ -18,7 +18,7 @@ ng new my-sassy-app --style=scss
 
 如果你已经用默认的`.css files`创建了你的 Angular CLI 应用程序，转换它需要更多的工作。您可以使用以下命令告诉 Angular 开始处理 Sass 文件:
 
-```
+```ts
 ng set defaults.styleExt scss
 ```
 
@@ -26,7 +26,7 @@ ng set defaults.styleExt scss
 
 您将在文件的底部找到新的配置行:
 
-```
+```ts
 "defaults": {
   "styleExt": "scss",
   "component": {
@@ -44,13 +44,13 @@ Angular CLI 现在将开始处理 Sass 文件。然而，它没有经历转换�
 
 例如，让我们创建一个全新的命令行界面应用程序:
 
-```
+```ts
 ng new my-sassy-app --style=scss
 ```
 
 接下来，创建以下文件:
 
-```
+```ts
 |- src/
     |- sass/
         |- _variables.scss
@@ -61,7 +61,7 @@ ng new my-sassy-app --style=scss
 
 为了开始使用这些新的 Sass 文件，我们将把**_ variables . SCS**和**_ mixins . SCS**导入到主 style . SCS .
 
-```
+```ts
 @import './variables';
 @import './mixins';
 ```
@@ -70,7 +70,7 @@ ng new my-sassy-app --style=scss
 
 最后一步就是更新我们的**。angular-cli.json** 配置使用这个新的 src/sass/style . SCS，而不是我们的**中的 src/style . SCS。angular-cli.json** 文件，只需将下面一行改为指向右侧**style . scss**。
 
-```
+```ts
 "styles": [
   "sass/styles.scss"
 ],
@@ -91,7 +91,7 @@ ng new my-sassy-app --style=scss
 
 无论我们在哪个组件 Sass 文件中，我们都可以这样进行导入:
 
-```
+```ts
 // src/app/app.component.scss
 
 @import '~sass/variables';
@@ -106,7 +106,7 @@ ng new my-sassy-app --style=scss
 
 除了使用~，在使用命令行界面时，我们还可以指定 includePaths 配置。要告诉 Sass 查看某些文件夹，请将配置行添加到。angular-cli.json 就像在 app 对象旁边的样式设置一样。
 
-```
+```ts
 "styles": [
   "styles.scss"
 ],
@@ -126,7 +126,7 @@ ng new my-sassy-app --style=scss
 
 让我们开始，安装引导程序:
 
-```
+```ts
 npm install --save bootstrap
 ```
 
@@ -134,7 +134,7 @@ npm install --save bootstrap
 
 现在我们有了 Bootstrap，让我们看看如何包含基本的 CSS 文件。通过将 bootstrap.css 文件添加到我们的。angular-cli.json 配置:
 
-```
+```ts
 "styles": [
   "../node_modules/bootstrap/dist/css/bootstrap.css",
   "sass/styles.scss"
@@ -150,7 +150,7 @@ npm install --save bootstrap
 
 **添加引导文件**
 
-```
+```ts
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -194,7 +194,7 @@ npm install --save bootstrap
 
 虽然我们可以使用颚化符，因为我们已经在的 stylePreprocessorOptions 部分的 include _ paths 中添加了 Bootstrap。angular-cli.json:
 
-```
+```ts
 "styles": [
   "styles.scss"
 ],
@@ -208,7 +208,7 @@ npm install --save bootstrap
 
 我们可以执行以下操作来仅获取引导库工具:
 
-```
+```ts
 @import 
   'functions',
   'variables',

@@ -6,7 +6,7 @@ AngularJS 中的 **angular.isString()函数**用于确定 isString 函数内部�
 
 **语法:**
 
-```
+```ts
 angular.isString( value )
 ```
 
@@ -14,7 +14,7 @@ angular.isString( value )
 
 **示例:**本示例使用 angular.isString()函数来确定 isString 函数内部的参数是否为字符串。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
     <head>

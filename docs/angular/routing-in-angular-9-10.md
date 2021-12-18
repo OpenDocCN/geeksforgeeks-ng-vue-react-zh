@@ -14,20 +14,20 @@
 
 *   **HTML:**
 
-```
+```ts
 <li><a routerLink="/about" >About Us</a></li>
 <router-outlet></router-outlet>
 ```
 
 *   ts:
 
-```
+```ts
  { path: 'about', component: AboutComponent }
 ```
 
 **示例:**我们将创建一个使用角度路由的简单角度应用程序。首先，我们通过在命令行界面中运行下面的命令来创建一个 Angular 应用程序。
 
-```
+```ts
 ng new learn-routing
 ```
 
@@ -35,7 +35,7 @@ ng new learn-routing
 
 ## app.component.html
 
-```
+```ts
 <span>
     <ul>
         <li><a routerLink="/" >Home</a></li>
@@ -53,7 +53,7 @@ ng new learn-routing
 
 ## app-routing.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component'
@@ -80,7 +80,7 @@ export class AppRoutingModule { }
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './home.component'
 import { ProductComponent } from './product.component'

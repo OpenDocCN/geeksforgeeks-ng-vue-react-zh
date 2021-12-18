@@ -13,7 +13,7 @@ AngularJS 中的应用程序支持实时应用程序的创建。在 AngularJS �
 
 **第一步:**首先，选择您想要创建的列表。然后使用，controller 和 ng-repeat 指令将数组的元素显示为列表。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -45,7 +45,7 @@ app.controller("my_Ctrl", function($scope) {
 
 **步骤 2:** 在您的应用程序中，借助于 *ng-model* 指令使用文本字段。在控制器中，创建一个名为 addNewSubject 的函数，并使用 addSubject 输入字段的值向“名称”数组添加一个主题。添加按钮，使用 ng-click 指令添加新主题。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -85,7 +85,7 @@ app.controller("my_Ctrl", function($scope) {
 
 **第三步:**要删除一个主题，用索引作为参数，做一个删除函数。对于每个主题，制作一个 span 项，并给它们一个 ng-click 指令来调用 remove 函数。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=
@@ -128,7 +128,7 @@ app.controller("my_Ctrl", function($scope) {
 **第四步:**错误需要谨慎处理。
 **例如:**同一主题在列表中添加两次，会显示错误信息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

@@ -8,7 +8,7 @@ getLocaleMonthNames 用于获取给定地区的月份。
 
 **语法:**
 
-```
+```ts
 getLocaleMonthNames(locale: string, formStyle: FormStyle, 
                          width: TranslationWidth):
                          ReadonlyArray<string>
@@ -23,7 +23,7 @@ getLocaleMonthNames(locale: string, formStyle: FormStyle,
 *   创建要使用的角度应用程序
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要为使用 getLocaleMonthNames 导入区域设置。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -46,7 +46,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -75,7 +75,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleMonthNames, 
         TranslationWidth} 
@@ -101,7 +101,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
    GeeksforGeeks
 </h1>
@@ -116,7 +116,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
         from '@angular/core';
 import { BrowserModule } 
@@ -145,7 +145,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {FormStyle,
         getLocaleMonthNames, 
         TranslationWidth } 

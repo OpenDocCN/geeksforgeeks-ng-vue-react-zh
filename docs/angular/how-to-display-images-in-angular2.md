@@ -8,7 +8,7 @@
 **示例**
 **演示。组件**
 
-```html
+```tshtml
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -34,7 +34,7 @@ export class DemoComponent implements OnInit {
 现在修改组件的模板文件以获取图像。
 **Demo.Component.html**
 
-```html
+```tshtml
 <!--...header and body content-->
 
 <mat-card class="example-card" >
@@ -58,7 +58,7 @@ export class DemoComponent implements OnInit {
 **注意:**
 在 angular2 中，默认情况下，图像和其他媒体是从项目文件夹中的资产目录中获取的(默认情况下，项目的所有其他目录对组件都不是公共的)这可以通过修改 **angular-cli.json** 来更改。在这个 JSON 文件中，通过将其添加到**资产**对象属性中来添加您的媒体目录。
 
-```html
+```tshtml
 //add a new directory or image to start fetching from that location
 
 "assets": [

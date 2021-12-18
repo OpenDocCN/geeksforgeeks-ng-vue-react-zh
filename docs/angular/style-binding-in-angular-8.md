@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <element [style.style-property] = "'style-value'">
 
 ```
@@ -17,7 +17,7 @@
 
 ## HTML
 
-```
+```ts
 <h1 [style.color] = "'green'" 
     [style.text-align] = "'center'" >
   GeeksforGeeks

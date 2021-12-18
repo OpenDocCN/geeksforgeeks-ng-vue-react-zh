@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 {{ value |  i18nPlural : map [ : rule]}}
 ```
 
@@ -35,7 +35,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -59,7 +59,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- In Below Code I18nPluralPipe is used -->
 <div>there are: {{ colors.length | i18nPlural: gfg }}</div>
 ```
@@ -72,7 +72,7 @@ export class AppComponent {
 
 ## app.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -97,7 +97,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <!-- In Below Code I18nPluralPipe is used -->
 <div>there are: {{ language.length | i18nPlural: gfg }}</div>
 ```

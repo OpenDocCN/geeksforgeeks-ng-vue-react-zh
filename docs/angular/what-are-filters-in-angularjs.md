@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论 AngularJS 中的过滤器。可以在 AngularJS 中添加过滤器，在不改变原始格式的情况下格式化数据以在用户界面上显示。可以使用管道|符号将过滤器添加到表达式或指令中。
 
-```
+```ts
 {{expression | filterName:parameter }}
 ```
 
@@ -30,7 +30,7 @@
 
 **语法:**
 
-```
+```ts
 {{ currency_expression | currency : symbol : fractionSize}}
 ```
 
@@ -38,7 +38,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@
 
 **语法:**
 
-```
+```ts
 {{ date | date : format : timezone }}
 ```
 
@@ -88,7 +88,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -122,7 +122,7 @@
 
 **语法:**
 
-```
+```ts
 {{ expression | filter : filter_criteria }}
 ```
 
@@ -130,7 +130,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -184,7 +184,7 @@
 
 **语法:**
 
-```
+```ts
  {{ object | json : spacing }}
 ```
 
@@ -192,7 +192,7 @@
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -236,7 +236,7 @@ json 过滤器。
 
 **语法:**
 
-```
+```ts
 {{ object | limitTo : limit : begin }}
 ```
 
@@ -250,7 +250,7 @@ json 过滤器。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -304,7 +304,7 @@ json 过滤器。
 
 **语法:**
 
-```
+```ts
 {{expression|lowercase}}
 ```
 
@@ -312,7 +312,7 @@ json 过滤器。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -353,7 +353,7 @@ json 过滤器。
 
 **语法:**
 
-```
+```ts
 {{ string | uppercase}}
 ```
 
@@ -361,7 +361,7 @@ json 过滤器。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -401,7 +401,7 @@ json 过滤器。
 
 **语法:**
 
-```
+```ts
 {{ string| number : fractionSize}}
 ```
 
@@ -409,7 +409,7 @@ json 过滤器。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -448,7 +448,7 @@ json 过滤器。
 
 **语法:**
 
-```
+```ts
 {{ orderBy_expression | orderBy : expression : reverse }}  
 ```
 
@@ -456,7 +456,7 @@ json 过滤器。
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

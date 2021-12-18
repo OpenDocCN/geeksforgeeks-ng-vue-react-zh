@@ -8,7 +8,7 @@ SlicePipe 用于创建包含元素切片的数组。
 
 **语法:**
 
-```
+```ts
 {{ value | SlicePipe }}
 ```
 
@@ -35,7 +35,7 @@ SlicePipe 用于创建包含元素切片的数组。
 
 **例 1:**
 
- <gfg-tab role="tab" slot="tab" id="gfg-tab-0"><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```
+ <gfg-tab role="tab" slot="tab" id="gfg-tab-0"><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```ts
 import { Component } from '@angular/core';
 
 @Component({

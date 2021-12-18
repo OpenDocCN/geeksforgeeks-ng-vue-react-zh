@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```ts
 <element ng-repeat="expression | filter: search as result"> Content... </element>
 <p> {{ result.length }} <p>
 
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

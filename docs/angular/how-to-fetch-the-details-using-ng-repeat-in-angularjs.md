@@ -8,14 +8,14 @@ AngularJS 由各种类型的预定义指令组成。大多数指令以 ng 开头
 ng-repeat 指令用于迭代对象的属性。一旦集合中的项实例化了模板。每个模板都有自己的作用域，其中循环变量被设置为当前集合项，而$index 被设置为该项的键或索引。
 **语法**
 
-```
+```ts
 <element ng-repeat="(key, value) in Obj"></element>
 ```
 
 其中键和值可以用作表达式中的用户定义标识符。
 示例:-该示例显示了 ng-repeat 指令的用法。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 <script src=

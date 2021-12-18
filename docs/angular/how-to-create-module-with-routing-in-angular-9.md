@@ -10,13 +10,13 @@ Angular 应用是模块化的，NgModules 是 Angular 自己的模块化架构�
 
 *   **创建新的角度应用程序:**使用以下命令，我们可以快速创建角度应用程序:
 
-    ```
+    ```ts
     ng new geeksforgeeks-solution
     ```
 
 *   **创建主模块:**进入我们的项目文件夹。我们希望在正确创建应用程序后，使用 Angular CLI 命令创建一个模块。在 angular 应用程序中，angular 给出一个命令来构造一个带有路由的模块。因此，要创建*主模块*，运行以下命令:
 
-    ```
+    ```ts
     ng g module main --routing
     ```
 
@@ -40,7 +40,7 @@ Angular 应用是模块化的，NgModules 是 Angular 自己的模块化架构�
 
 ## app.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -59,7 +59,7 @@ export class AppModule {}
 
 **为** **主模块创建组件:**我们现在使用以下命令为我们的*主模块*添加一个新组件，所以让我们为主模块创建*主页，关于我们*，以及*联系我们*组件:
 
-```
+```ts
 ng g component main/home
 ng g component main/aboutus
 ng g component main/contactus
@@ -73,7 +73,7 @@ ng g component main/contactus
 
 ## main-routing.module.ts
 
-```
+```ts
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AboutUsComponent } from "./about-us/about-us.component";
@@ -97,7 +97,7 @@ export class MainRoutingModule {}
 
 ## app.component.html
 
-```
+```ts
 <!DOCTYPE html>
 <html>
   <head>
@@ -147,7 +147,7 @@ export class MainRoutingModule {}
 
 现在，我们可以使用下面的命令运行示例应用程序:
 
-```
+```ts
 ng serve
 ```
 

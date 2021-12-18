@@ -21,7 +21,7 @@
 
 ## 镖
 
-```
+```ts
 import 'package:flutter/material.dart';
 
 void main() {
@@ -85,7 +85,7 @@ class GeeksForGeeks extends StatelessWidget {
 
 ## 超文本标记语言
 
-```
+```ts
 <html>
   <head>
     <title>AngularJS ng-app Directive</title>

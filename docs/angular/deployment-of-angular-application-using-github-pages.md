@@ -11,7 +11,7 @@
 *   [安装 Angular–CLI](https://www.geeksforgeeks.org/angular-7-installation/)
 *   [使用 Angular CLI 创建新项目:](https://www.geeksforgeeks.org/angular-cli-angular-project-setup/)
 
-```
+```ts
 ng new gfg-example
 ```
 
@@ -21,7 +21,7 @@ ng new gfg-example
 
 *   创建项目后，使用以下命令转到项目目录:
 
-```
+```ts
 cd gfg-example
 ```
 
@@ -31,7 +31,7 @@ cd gfg-example
 
 *   转到 src/app/app.component.html，删除所有代码并添加以下代码:
 
-```
+```ts
 <h2 [ngStyle]="{'color':'#00FF00'}">
   Geeks For Geeks Example 
 </h2>
@@ -43,7 +43,7 @@ cd gfg-example
 
 *   现在使用以下方式在本地运行 Angular 应用程序:
 
-```
+```ts
 npm start
 ```
 
@@ -56,7 +56,7 @@ npm start
 *   创建 Github Repo 后，转到项目目录并打开命令行
 *   使用以下命令将代码推送到 Git:
 
-```
+```ts
 git init
 git add .
 git commit -m "Initial Commit"
@@ -68,27 +68,27 @@ git push -u origin master
 *   现在，转到 github repo，您的代码应该上传到 github 上的主分支
 *   接下来，使用 npm 安装角形页面:
 
-```
+```ts
 npm install -g angular-cli-ghpages
 
 ```
 
 *   现在，生产使用以下方式构建应用程序:
 
-```
+```ts
 ng build --prod --base-href "https://<username>.github.io/<reponame>/"
 
 ```
 
 *   最后，创建 gh-pages 分支，并使用以下命令将构建和捆绑代码上传到该分支:
 
-```
+```ts
 ngh --dir dist/gfg-example
 ```
 
 *   请记住，我们从开始使用的项目名称是 gfg-例如，如果您有不同的项目名称，则使用以下命令代替最后一个命令:
 
-```
+```ts
 ngh --dir dist/<project-name>
 ```
 

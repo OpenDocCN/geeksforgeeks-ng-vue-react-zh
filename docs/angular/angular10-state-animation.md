@@ -8,7 +8,7 @@ angular 10 中的 **状态** 用于创建包含动画状态和过渡的动画触
 
 **语法:**
 
-```
+```ts
 State(name, style, options)
 ```
 
@@ -39,7 +39,7 @@ State(name, style, options)
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } 
 from '@angular/core';
 import { BrowserModule } 
@@ -70,7 +70,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import { 
   // State is imported here
   trigger, 
@@ -115,7 +115,7 @@ export class AppComponent  {
 
 ## app.component.html
 
-```
+```ts
 <h1>GeeksforGeeks</h1>
 <button (click)='anim()'>Animate</button>
 <br>

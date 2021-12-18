@@ -6,11 +6,11 @@
 
 **语法:**
 
-```
+```ts
 ngIf with an "else" block
 ```
 
-```
+```ts
 <div *ngIf="condition; else elseStatement">
     when condition is true.
 </div>
@@ -28,7 +28,7 @@ ngIf with an "else" block
 
 1.  正如我们所知，ngIf else 语句适用于布尔类型的变量。创建一个角度应用程序，并移动到**src/应用程序**。首先，我们需要在 **app.component.ts** 中定义一个变量“check”，值为 true 或 false。
 
-    ```
+    ```ts
     <!-- Define a variable say "check" with
          value true/false in app.component.ts -->
     import { Component } from '@angular/core';
@@ -46,7 +46,7 @@ ngIf with an "else" block
 
 2.  定义一个变量后，移动到**app.component.html**并使用引导类创建两个分区。进入 angular app，编写命令 **npm 安装引导**。第一部分是“真”条件，第二部分是“假”条件。我们已经宣布检查为真，所以我们得到一个绿色部门说条件为真。如果检查结果为假，则会显示一个红色分区，表示条件为假。
 
-    ```
+    ```ts
     <!-- *ngIf else -->
     <div class="container-fluid">
         <div class="row bg-success 
@@ -77,7 +77,7 @@ ngIf with an "else" block
 *   编程语言的`"if"`块支持逻辑运算符，因此也支持`"ngIf"`。它支持所有逻辑运算符，如与、或、非等。
 *   ngIf helps to avoid can’t read property error of undefined. Suppose there is a bound property called “student”. We are trying to access the “name” sub-property of the student which has value “Santosh”. If the student is null, it will return error undefined. So if we check for null before accessing sub-property, we will prevent error using *ngIf.
 
-    ```
+    ```ts
     <!--This may error-->
     <div>
       {{student.name}}
@@ -91,13 +91,13 @@ ngIf with an "else" block
 
     **输出:**
 
-    ```
+    ```ts
     Santosh
     ```
 
 *   **ngIf vs Hidden:** You might wonder why do we have to use ngIf when we have hidden attribute in HTML5\. Yes, they do the same work but there is still a difference. The hidden attribute hides the selected element from the DOM but the element still exists in the DOM. Whereas ngIf gets rid of the selected part from the DOM. It doesn’t intervene with CSS.
 
-    ```
+    ```ts
     <!--check is defined in component.ts 
         with value true (boolean)-->
     <div [hidden]="!check">
@@ -107,6 +107,6 @@ ngIf with an "else" block
 
     **输出:**
 
-    ```
+    ```ts
     Show this only if "check" is true
     ```

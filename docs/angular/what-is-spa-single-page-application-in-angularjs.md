@@ -32,7 +32,7 @@
 **什么时候用 SPA**
 数据量小，网站需要动态平台的时候 SPA 就好。对于移动应用来说，这也是一个不错的选择。但主要依赖电子商务应用等搜索引擎优化的企业必须避免单页应用，选择 MPAs。
 
-```
+```ts
 <!DOCTYPE html>
 <!--ng-app directive tells AngularJS that myApp
     is the root element of the application -->

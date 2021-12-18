@@ -6,13 +6,13 @@ Angular 中的 let 关键字声明了模板中引用的模板输入变量。在 
 
 **语法:**
 
-```
+```ts
 let-variable_name = "Exported_var"
 ```
 
 或者
 
-```
+```ts
 let-variable_name
 ```
 
@@ -24,7 +24,7 @@ let-variable_name
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,7 +54,7 @@ let-variable_name
 
 **输出:**在本例中，模板引用是由**# GeekTemplate**创建的，它在下一个 ng-template 标签中位于**【ngTemplateoutletcontext】**属性下。变量 GFG 是由 let 关键字定义的变量，该关键字有一个字符串作为导出变量，模板中的**【ngtemplateoletcontext】**属性为该变量分配了一个新值。对于变量 Geek，不提供值，因此它采用赋予**$隐式**的隐含值，即默认值。
 
-```
+```ts
 This is GeeksForGeeks
 ```
 
@@ -64,7 +64,7 @@ This is GeeksForGeeks
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,7 +93,7 @@ This is GeeksForGeeks
 
 ## java 描述语言
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -120,7 +120,7 @@ export class AppComponent {
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html lang="en">
 
@@ -150,7 +150,7 @@ export class AppComponent {
 
 **输出:**
 
-```
+```ts
 This is GeeksForGeeks
 Default Value
 ```

@@ -21,7 +21,7 @@
 *   [创建角度命令行界面项目](https://www.geeksforgeeks.org/angular-cli-angular-project-setup/)
 *   安装 Angular Material npm 包，并添加相应的 angular/cdk，因为 Angular Material 使用它并依赖它:
 
-```
+```ts
 npm install --save angular-material
 npm install --save @angular/cdk
 ```
@@ -29,7 +29,7 @@ npm install --save @angular/cdk
 *   该命令会将最新的 Angular Material Version 包添加到项目中，并且‘–save’会将依赖项添加到 package.json 文件中
     注意如果您想向 Angular 用户添加任何特定版本，请使用以下命令:
 
-```
+```ts
 npm install --save angular-material@version
 npm install --save @angular/cdk@version
 ```
@@ -41,7 +41,7 @@ npm install --save @angular/cdk@version
     转到 app.component.html 文件或要在其中添加材料组件的组件的另一个模板，向其中写入选择器代码。
 *   保存所有文件，然后使用以下命令启动应用程序:
 
-```
+```ts
 ng serve
 ```
 
@@ -52,7 +52,7 @@ ng serve
 *   安装角度
 *   使用以下命令创建新的角度项目:
 
-```
+```ts
 ng new GfGMaterialCardExample
 ```
 
@@ -61,13 +61,13 @@ ng new GfGMaterialCardExample
     2.  您希望使用哪种样式表格式？(使用箭头键)
 *   更改目录级别，转到项目文件夹。
 
-```
+```ts
 cd GfGMaterialCardExample
 ```
 
 *   安装 Angular Material npm 软件包(@8.0.0 与 Angular 8 兼容，根据您使用的 Angular 版本添加 Angular 组件)，同时安装 Angular CDK:
 
-```
+```ts
 npm install --save angular-material@8.0.0
 npm install --save @angular/cdk@^8.2.3
 ```
@@ -80,13 +80,13 @@ npm install --save @angular/cdk@^8.2.3
 
 *   删除 app.component.html 文件中的所有样板代码，并添加以下代码:
 
-```
+```ts
  Geeks For Geeks - Angular Material Card Example 
 ```
 
 *   在 app.component.css 文件中添加要应用的 CSS 代码:
 
-```
+```ts
 mat-card {
     color: green;
     border:1px solid black;

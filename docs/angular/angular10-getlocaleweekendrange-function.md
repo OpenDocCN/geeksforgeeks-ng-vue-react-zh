@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 getLocaleWeekEndRange(locale : string): [WeakDay, WeakDay]
 
 ```
@@ -20,7 +20,7 @@ getLocaleWeekEndRange(locale : string): [WeakDay, WeakDay]
 *   创建一个角度应用。
 *   在 app.module.ts 中，导入 LOCALE_ID，因为我们需要为使用 getLocaleWeekEndRange 导入 LOCALE。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -41,7 +41,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -66,7 +66,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {getLocaleWeekEndRange } from '@angular/common';
 
 import { Component, Inject,OnInit, LOCALE_ID } from '@angular/core';
@@ -84,7 +84,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -100,7 +100,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -125,7 +125,7 @@ export class AppModule { }
 
 ## app.component.ts
 
-```
+```ts
 import {getLocaleWeekEndRange } from '@angular/common';
 
 import { Component, Inject, LOCALE_ID } from '@angular/core';
@@ -150,7 +150,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>

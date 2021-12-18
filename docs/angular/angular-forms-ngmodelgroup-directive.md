@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 <div ngModelGroup="name"></div>
 ```
 
@@ -29,7 +29,7 @@
 
 ## app.component.ts
 
-```
+```ts
 import { Component, Inject } from '@angular/core';
 
   @Component({
@@ -48,7 +48,7 @@ import { Component, Inject } from '@angular/core';
 
 ## app.component.html
 
-```
+```ts
 <br>
 <form #f="ngForm">
   <div ngModelGroup="gfg" #nameCtrl="ngModelGroup">

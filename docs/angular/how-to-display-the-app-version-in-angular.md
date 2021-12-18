@@ -18,7 +18,7 @@ Angular 是谷歌基于客户端 TypeScript 的前端网络框架。Angular 8 �
 
     ## java 描述语言
 
-    ```
+    ```ts
     import { Component, VERSION } from '@angular/core';
 
     @Component({

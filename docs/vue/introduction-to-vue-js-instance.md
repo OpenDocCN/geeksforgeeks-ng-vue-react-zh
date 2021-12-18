@@ -10,7 +10,7 @@ VueJS 在运行时没有 HTML 代码，取而代之的是 VueJS 基于我们的 
 
 ## Javascript
 
-```
+```js
 <div id="app"></div>
 
 <script>

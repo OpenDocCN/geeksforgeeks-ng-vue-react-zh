@@ -6,13 +6,13 @@ AngularJS 中的 **angular.toJson()函数**用于*将 javascript 对象序列化
 
 **语法:**
 
-```
+```ts
 angular.toJson(object)
 ```
 
 **示例:**
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

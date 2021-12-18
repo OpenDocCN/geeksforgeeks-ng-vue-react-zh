@@ -6,13 +6,13 @@ AngluarJS 中的 **ng-click 指令**用于在单击元素时应用自定义行�
 
 **语法:**
 
-```
+```ts
 <element ng-click="expression"> Contents... </element>
 ```
 
 **示例 1:** 本示例使用 ng-click 指令在单击元素后显示警告消息。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@ AngluarJS 中的 **ng-click 指令**用于在单击元素时应用自定义行�
 
 **示例 2:** 本示例使用 ng-click Directive 在单击元素后显示一些内容。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

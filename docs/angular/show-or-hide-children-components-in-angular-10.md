@@ -10,26 +10,26 @@
 
 *   Let's start by creating a new project. Create a new folder and initialize a new angle project. Run the project to verify that it is working properly.
 
-```
+```ts
 ng new myProject
 ng serve -o  
 ```
 
 *   This will create a new project in the current directory. Now, we can clear the app.component.html file and create a subcomponent to show how to show or hide it.
 
-```
+```ts
 ng generate component comp1  
 ```
 
 *   Now the setup section ends. Let's add this component to our app.component.html file:
 
-```
+```ts
 <app-comp1></app-comp1>  
 ```
 
 *   We will create a button to show and hide components. Let's add the button code to the app.component.html file.
 
-```
+```ts
 <button type="button" (click)="showhideUtility()">
     {{buttonTitle}}
 </button>  
@@ -39,7 +39,7 @@ ng generate component comp1
 
 ## app . component . ts
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
@@ -58,7 +58,7 @@ import { Component } from '@angular/core';
 
 ## 
 
-```
+```ts
 <div>
    This is the Child Component
 </div>
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
 
 *   And add some css in comp1.component.css to get a beautiful view:
 
-```
+```ts
 div{
 height:200px;
 width: 200px;
@@ -80,7 +80,7 @@ background-color: lightgreen;
 
 ## app . component . ts
 
-```
+```ts
 import { Component } from '@angular/core';
 @Component({
  selector: 'app-root',

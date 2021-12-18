@@ -14,7 +14,7 @@
 
 在模板驱动的方法中，我们需要从“@angular/forms”中导入一个表单，并使用[(ngModel)]指令进行双向数据绑定，我们还应该从`app.module.ts`文件中的“**@ angular/forms”**中导入 **FormsModule** 。在下面一行中显示了输入格式。除此之外，当我们提到 ngModel 指令时，我们需要向输入类型添加 name 属性。
 
-```
+```ts
 import { FormsModule } from '@angular/forms';
 ```
 
@@ -24,7 +24,7 @@ import { FormsModule } from '@angular/forms';
 
 **示例:** `.html`文件
 
-```
+```ts
 // In .html file
 <form #login="ngForm" (ngSubmit)="completeLogin(login)">
     <h3>Login Form</h3>
@@ -44,7 +44,7 @@ import { FormsModule } from '@angular/forms';
 
 **示例:** `.ts`文件
 
-```
+```ts
 import {NgForm} from '@angular/forms'
 import { Component, OnInit } from '@angular/core';
 
@@ -79,7 +79,7 @@ login.reset() 
 
 **示例:** `.html`文件
 
-```
+```ts
 <form [formGroup]="login" (ngSubmit)="completeLogin()">
      // In.html file
   <h3>Login Form</h3>
@@ -97,7 +97,7 @@ login.reset() 
 
 **示例:** `.ts`文件
 
-```
+```ts
 import {FormGroup, FormControl} from '@angular/forms' 
 import { Component, OnInit } from '@angular/core';
 

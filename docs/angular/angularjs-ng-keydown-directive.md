@@ -6,13 +6,13 @@ AngluarJS 中的**ng-keything 指令**用于对按键事件应用自定义行为
 
 **语法:**
 
-```
+```ts
  <element ng-keydown="expression"> Contents... </element>
 ```
 
 **示例:**本示例使用 ng-keything direction 在按下按钮后更改背景颜色。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

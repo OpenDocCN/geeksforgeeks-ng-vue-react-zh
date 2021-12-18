@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```ts
 <footer ng-style="jsObject">...</footer>
 ```
 
 运筹学
 
-```
+```ts
 <footer ng-class="jsObject/Array/String">...</footer>
 ```
 
@@ -21,7 +21,7 @@
 
 **示例 1:** 在本例中，我们使用 *ng-style* 指令向页脚元素追加样式。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="myApp">
 
@@ -79,7 +79,7 @@
 
 **示例 2:** 在本例中，我们使用带有对象的 *ng 类*指令将样式附加到页脚元素。
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="myApp">
 

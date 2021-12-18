@@ -23,7 +23,7 @@ JavaScript 已经被重命名了很多次，就像在早期版本中它被称为
 
 ## main.js
 
-```
+```js
 <script>
     let name = 'Geeks';
 </script>
@@ -33,7 +33,7 @@ JavaScript 已经被重命名了很多次，就像在早期版本中它被称为
 
 **输出:**
 
-```
+```js
 Hello Geeks
 ```
 
@@ -51,7 +51,7 @@ Hello Geeks
 
 ## 应用..射流研究…
 
-```
+```js
 ReactDOM.render(
   <h1>Hello, Geeks!</h1>,
   document.getElementById('root')
@@ -60,7 +60,7 @@ ReactDOM.render(
 
 **输出:**
 
-```
+```js
 Hello, Geeks!
 ```
 
@@ -78,7 +78,7 @@ Hello, Geeks!
 
 ## 索引. ts
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -103,7 +103,7 @@ Hello, Geeks!
 
 **输出:**
 
-```
+```js
 Hello Geeks
 ```
 
@@ -121,7 +121,7 @@ Hello Geeks
 
 ## index.html
 
-```
+```js
 <div id="app">
   {{ message }}
 </div>
@@ -129,7 +129,7 @@ Hello Geeks
 
 ## app.js
 
-```
+```js
 var app = new Vue({
   el: '#app',
   data: {
@@ -140,6 +140,6 @@ var app = new Vue({
 
 **输出:**
 
-```
+```js
 Hello Geeks!
 ```

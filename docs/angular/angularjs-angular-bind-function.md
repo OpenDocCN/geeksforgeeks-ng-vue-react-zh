@@ -5,7 +5,7 @@
 AngularJS 中的 **angular.bind()函数**用于将当前上下文绑定到一个函数，但实际上是在以后执行它。也可用于**部分应用**。部分应用程序是当你想要创建一个函数，但是一些参数已经被传递了。
 **语法:**
 
-```
+```ts
 angular.bind(self, function, args);
 ```
 
@@ -19,7 +19,7 @@ angular.bind(self, function, args);
 
 ## 超文本标记语言
 
-```
+```ts
 <html>
    <head>
       <title>angular.bind()</title>
@@ -70,7 +70,7 @@ angular.bind(self, function, args);
 
 ## 超文本标记语言
 
-```
+```ts
 <html>
    <head>
       <title>angular.bind()</title>

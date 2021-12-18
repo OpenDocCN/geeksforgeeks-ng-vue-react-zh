@@ -8,13 +8,13 @@ Angular UI Bootstrap 是 Angular UI 开发人员创建的一个 Angular JS 框�
 
 **语法:**
 
-```
+```ts
 <div uib-popover></div>
 ```
 
 **从链接下载安古拉瑞:**
 
-```
+```ts
 https://angular-ui.github.io/bootstrap
 ```
 
@@ -33,7 +33,7 @@ https://angular-ui.github.io/bootstrap
 
 ## 超文本标记语言
 
-```
+```ts
 <!DOCTYPE html>
 <html ng-app="gfg">
   <head>

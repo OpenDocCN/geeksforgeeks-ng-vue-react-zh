@@ -6,7 +6,7 @@ Vue **方法**是与 Vue 实例相关联的对象。功能在**方法**对象中
 
 **语法:**
 
-```
+```js
 methods : {
   // We can add our functions here
 }
@@ -14,7 +14,7 @@ methods : {
 
 **单文件组件语法:**
 
-```
+```js
 export default {
   methods: {
     // We can add our functions here
@@ -28,7 +28,7 @@ export default {
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -91,7 +91,7 @@ App 视图
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

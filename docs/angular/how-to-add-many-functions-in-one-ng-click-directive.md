@@ -7,7 +7,7 @@ AngluarJS 中的 **ng-click Directiv** e 用于在单击元素时应用自定义
 
 **语法:**
 
-```
+```ts
 <element ng-click="expression1(), expression2(), expression3()"> </element>
 ```
 
@@ -15,7 +15,7 @@ AngluarJS 中的 **ng-click Directiv** e 用于在单击元素时应用自定义
 
 **示例:**本示例展示了如何在一次 ng 点击中添加多个功能。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 

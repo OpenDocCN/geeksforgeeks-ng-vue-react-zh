@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v-on:click.alt = "function"
 ```
 
@@ -14,7 +14,7 @@ v-on:click.alt = "function"
 
 **示例:**下面的示例显示了使用 v-on:click.alt 切换元素可见性的 Vue.js。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

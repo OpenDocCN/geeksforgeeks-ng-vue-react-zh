@@ -16,7 +16,7 @@ Angular 是一个使用 HTML 和 TypeScript 构建单页客户端应用程序的
 
 *   Open CMD (window) or terminal (Linux) and write the command.
 
-```
+```ts
 ng new project-name
 ```
 
@@ -27,7 +27,7 @@ ng new project-name
 
 *   Once the process is completed, there is a project folder. Use CMD or terminal change directory command to enter the folder and run the following command.
 
-```
+```ts
 ng serve --open
 ```
 
@@ -56,7 +56,7 @@ ng serve --open
 
 *   Open the project directory in cmd or terminal and run the following command.
 
-```
+```ts
 npm install tailwindcss postcss autoprefixer
 ```
 
@@ -64,7 +64,7 @@ npm install tailwindcss postcss autoprefixer
 
 *T2T4*
 
-```
+```ts
 *module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
@@ -80,7 +80,7 @@ npm install tailwindcss postcss autoprefixer
 
 ***postscript . config . js***
 
-```
+```ts
 module.exports = {
     plugins: {
         tailwindcss: {},

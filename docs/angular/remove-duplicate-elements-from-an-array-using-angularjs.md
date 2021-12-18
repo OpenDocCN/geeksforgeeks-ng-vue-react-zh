@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 
@@ -73,7 +73,7 @@
 
 ## 超文本标记语言
 
-```html
+```tshtml
 <!DOCTYPE HTML>
 <html>
 

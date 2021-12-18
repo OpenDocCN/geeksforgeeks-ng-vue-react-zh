@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```ts
 formatDate(value, locale, format, timezone)
 ```
 
@@ -30,7 +30,7 @@ formatDate(value, locale, format, timezone)
 *   创建要使用的角度应用程序。
 *   在 app.module.ts 中导入 LOCALE_ID，因为我们需要使用 get formatDate 导入 LOCALE。
 
-```
+```ts
 import { LOCALE_ID, NgModule } from '@angular/core';
 ```
 
@@ -43,7 +43,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatDate
  }
@@ -67,7 +67,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>
@@ -83,7 +83,7 @@ constructor(
 
 ## app.component.ts
 
-```
+```ts
 import {
   formatDate
  }
@@ -107,7 +107,7 @@ constructor(
 
 ## app.component.html
 
-```
+```ts
 <h1>
   GeeksforGeeks
 </h1>

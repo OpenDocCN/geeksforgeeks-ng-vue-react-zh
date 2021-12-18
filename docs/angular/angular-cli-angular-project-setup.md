@@ -7,7 +7,7 @@
 
 **注意:**请确保您的系统中已经安装了节点和 npm。您可以使用以下命令检查您的节点版本和 npm 版本:
 
-```
+```ts
 node --version
 npm --version
 
@@ -19,7 +19,7 @@ npm --version
 
 *   **Step-1: Install angular cli**
 
-    ```
+    ```ts
     npm install - g @angular/cli
     ```
 
@@ -28,7 +28,7 @@ npm --version
 *   **步骤 2:通过此命令**
     创建新项目选择是作为路由选项，选择 CSS 或 SCSS。
 
-```
+```ts
 ng new myNewApp
 ```
 
@@ -37,7 +37,7 @@ ng new myNewApp
 
 *   **Step-3: Go to your project directory**
 
-    ```
+    ```ts
     cd myNewApp
     ```
 
@@ -45,7 +45,7 @@ ng new myNewApp
 
     *   **Step-4: Run server and see your application in action**
 
-    ```
+    ```ts
     ng serve -o --poll=2000
     ```
 
@@ -67,7 +67,7 @@ ng new myNewApp
 
 *   **index.html**这是应用程序的入口点， **app-root** 标签是应用程序在这个单页应用程序上的入口点，在这个页面上 angular 会在 DOM 中添加或删除内容或将新内容添加到 DOM 中。基座**对于布线很重要。
 
-    ```
+    ```ts
     <!DOCTYPE HTML>
     <html lang="en">
         <head>
@@ -95,7 +95,7 @@ ng new myNewApp
     *   **引导**这里引用了创建的默认组件，即 AppComponent
 *   **app.component.html**编辑此文件以更改页面。您可以将此文件编辑为 HTML 文件。直接使用 div 或身体标签中使用的任何其他标签，这些是组件，不添加 **html 头部身体**标签。
 
-    ```
+    ```ts
     <h1>
         Hello world
     </h1>
@@ -113,7 +113,7 @@ ng new myNewApp
 
 **在进行项目时需要的更多命令:**
 
-```
+```ts
 ng generate component component_name
 ng generate service service_name
 ng generate directive directive_name

@@ -6,13 +6,13 @@ AngularJS 中的 **ng 类偶指令**用于在 HTML 元素的每个偶外观上�
 
 **语法:**
 
-```
+```ts
 <element ng-class-even="expression"> Contents... </element>
 ```
 
 **示例:**本示例使用 ng-class-even Directive 选择偶数元素并应用 CSS 属性。
 
-```
+```ts
 <!DOCTYPE html>
 <html>
 
